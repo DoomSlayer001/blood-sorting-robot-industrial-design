@@ -1,0 +1,4 @@
+part_id,part_name_cn,material,manufacturing_method,quantity,related_assembly,drawing_required,tolerance_level,surface_treatment,note
+CP-001,底板,6061-T6 aluminum,CNC machining,1,Base assembly,yes,medium,Anodized,
+CP-002,试管架,POM or PC,CNC machining,2,Rack assembly,yes,medium,Deburred,
+CP-003,防护罩,Transparent PC,Sheet cutting and bending,1,Safety enclosure,yes,medium,Clear finish,

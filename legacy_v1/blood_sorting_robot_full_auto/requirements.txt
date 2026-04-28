@@ -1,0 +1,6 @@
+cadquery>=2.7.0
+numpy
+matplotlib
+pandas
+imageio
+pillow

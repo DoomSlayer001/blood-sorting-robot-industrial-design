@@ -1,0 +1,4 @@
+part_id,part_name_cn,part_name_en,recommended_spec,quantity,supplier,cad_source,cad_format,material,function,status,note
+SP-001,X轴同步带直线模组,X-axis belt linear module,Travel 420 mm,1,TBD,TBD,STEP,TBD,X-axis motion,planned,
+SP-002,Y轴同步带直线模组,Y-axis belt linear module,Travel 260 mm,1,TBD,TBD,STEP,TBD,Y-axis gantry motion,planned,
+SP-003,Z轴丝杆升降模组,Z-axis lead screw module,Travel 120 mm,1,TBD,TBD,STEP,TBD,Z-axis lifting,planned,

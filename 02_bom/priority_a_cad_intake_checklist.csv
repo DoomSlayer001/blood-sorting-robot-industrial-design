@@ -1,14 +1,16 @@
 intake_id,part_id,part_name_en,required,target_folder,file_received,file_name_valid,no_chinese,no_spaces,extension_allowed,file_size_gt_zero,supplier_recorded,model_recorded,source_url_recorded,download_date_recorded,manual_download_flag_recorded,bom_status_updated,cad_status_updated,notes
-INTAKE-A-001,SP-001,X-axis belt driven linear module,yes,03_cad/standard_parts/downloaded/x_axis_module/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
-INTAKE-A-002,SP-002,Y-axis belt driven linear module or dual-rail belt assembly,yes,03_cad/standard_parts/downloaded/y_axis_module/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
-INTAKE-A-003,SP-003,Z-axis lead screw lifting module,yes,03_cad/standard_parts/downloaded/z_axis_module/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
-INTAKE-A-004,SP-013,Electric two-finger parallel gripper,yes,03_cad/standard_parts/downloaded/gripper/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
-INTAKE-A-005,SP-004;SP-005;SP-006,X/Y/Z motors,yes,03_cad/standard_parts/downloaded/motors/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
-INTAKE-A-006,SP-007,X/Y/Z linear guides and carriage blocks,yes,03_cad/standard_parts/downloaded/linear_guides/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
-INTAKE-A-007,SP-008,Timing belt,yes,03_cad/standard_parts/downloaded/belts_pulleys/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD or catalog dimensions
-INTAKE-A-008,SP-009,Timing belt pulley,yes,03_cad/standard_parts/downloaded/belts_pulleys/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
-INTAKE-A-009,SP-010,Lead screw,yes,03_cad/standard_parts/downloaded/lead_screws/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
-INTAKE-A-010,SP-011,Shaft coupling,yes,03_cad/standard_parts/downloaded/couplings_bearings/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
-INTAKE-A-011,SP-012,Bearing block,yes,03_cad/standard_parts/downloaded/couplings_bearings/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
-INTAKE-A-012,SP-016,Limit switch,yes,03_cad/standard_parts/downloaded/safety/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
-INTAKE-A-013,SP-019,Emergency stop button,yes,03_cad/standard_parts/downloaded/safety/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
+INTAKE-A-001,SP-002,left_y_axis_module,yes,03_cad/standard_parts/downloaded/y_axis_module/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD for left Y datum and drive/support side
+INTAKE-A-002,SP-025,right_y_axis_module,yes,03_cad/standard_parts/downloaded/y_axis_module/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD matched to left Y side
+INTAKE-A-003,SP-026,y_axis_sync_mechanism,yes,03_cad/standard_parts/downloaded/belts_pulleys/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual CAD/catalog data for synchronization shaft belt pulley bearing and coupling set
+INTAKE-A-004,SP-001,x_axis_module_on_gantry,yes,03_cad/standard_parts/downloaded/x_axis_module/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD for X module mounted on gantry
+INTAKE-A-005,SP-003,z_axis_screw_module,yes,03_cad/standard_parts/downloaded/z_axis_module/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
+INTAKE-A-006,SP-013,electric_parallel_gripper,yes,03_cad/standard_parts/downloaded/gripper/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
+INTAKE-A-007,SP-004;SP-005;SP-006,motors,yes,03_cad/standard_parts/downloaded/motors/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD and torque-speed references
+INTAKE-A-008,SP-007,xyz_linear_guides_and_carriage_blocks,yes,03_cad/standard_parts/downloaded/linear_guides/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD if guides are not integrated into modules
+INTAKE-A-009,SP-008,timing_belt,yes,03_cad/standard_parts/downloaded/belts_pulleys/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD or catalog dimensions
+INTAKE-A-010,SP-009,timing_belt_pulley,yes,03_cad/standard_parts/downloaded/belts_pulleys/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
+INTAKE-A-011,SP-010,lead_screw,yes,03_cad/standard_parts/downloaded/lead_screws/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
+INTAKE-A-012,SP-011,coupling,yes,03_cad/standard_parts/downloaded/couplings_bearings/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
+INTAKE-A-013,SP-012,bearing_block,yes,03_cad/standard_parts/downloaded/couplings_bearings/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
+INTAKE-A-014,SP-016,limit_switches,yes,03_cad/standard_parts/downloaded/safety/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD
+INTAKE-A-015,SP-019,emergency_stop,yes,03_cad/standard_parts/downloaded/safety/,no,TBD,TBD,TBD,TBD,TBD,no,no,no,no,no,no,no,Awaiting manual supplier CAD

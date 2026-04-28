@@ -2,26 +2,51 @@
 
 ## Axis Definition
 
-- X axis: horizontal bridge axis, left-right motion across the tube rack area.
-- Y axis: gantry depth axis, front-back motion of the bridge.
-- Z axis: vertical lifting axis for pick and place.
+- Y axis: dual-side gantry base axis. Left and right Y-axis support/guide structures move the gantry beam forward and backward.
+- X axis: transverse axis mounted on the gantry beam. It moves the Z-axis module and gripper left and right.
+- Z axis: end-effector lifting axis mounted on the X-axis carriage. It performs vertical pick/place motion.
 
 ## Travel
 
-- X travel: 420 mm.
-- Y travel: 260 mm.
+- X travel: 450-500 mm.
+- Y travel: 260-300 mm.
 - Z travel: 120 mm.
+
+## Y-Axis Synchronization
+
+The mechanical Y axis has two sides:
+
+```text
+Y_left = Y_right = y
+```
+
+The preferred implementation is a mechanically synchronized gantry using one motor plus a synchronization shaft or synchronization belt linkage. Independent dual Y motors are not the default design route.
+
+If a dual-motor Y-axis design is introduced later, the project must add synchronization control, skew detection, and anti-jamming risk analysis before design freeze.
 
 ## Drive Method
 
-- X axis: timing-belt linear module for high-speed horizontal motion.
-- Y axis: timing-belt linear module, preferably dual-side synchronized drive or mechanically constrained dual guide support.
+- Left/right Y axis: dual-side support/guide structure with mechanical synchronization preferred.
+- X axis: belt-driven linear module mounted on the gantry beam.
 - Z axis: lead-screw lifting module for vertical load holding and controlled descent.
 
 ## Motion Direction
 
 The base coordinate system uses the base plate as the primary datum. X is aligned with the long side of the base plate, Y is aligned with the short side, and Z is positive upward.
 
-## Layout Notes
+## SolidWorks Assembly Requirements
 
-The input and output racks should be placed within the reachable X/Y work envelope while leaving clearance for the gripper, tube cap, rack walls, protective cover, cable chain, and limit switch hardware.
+SolidWorks must include:
+
+- Left Y-axis guide/support and carriage.
+- Right Y-axis guide/support and carriage.
+- Gantry beam connected to both Y carriages.
+- X-axis module mounted to the gantry beam.
+- Z-axis module mounted to the X carriage.
+- Gripper centerline aligned to rack hole coordinates.
+
+The left and right Y sliders and the gantry beam must be constrained so the beam remains square to the Y-axis travel direction.
+
+## MATLAB/Simulink Mapping
+
+MATLAB/Simulink continues to use one virtual `y(t)` command for Y-axis motion. The equivalent Y moving mass must later include the gantry beam, X module, Z module, gripper, tube, cable chain moving segment, sensors, and brackets.

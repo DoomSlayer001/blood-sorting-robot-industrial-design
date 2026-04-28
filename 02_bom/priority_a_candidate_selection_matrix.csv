@@ -1,0 +1,15 @@
+part_id,part_name_en,candidate_supplier,candidate_series_or_model,meets_travel_or_size,meets_load_or_force,has_supplier_cad,cad_access_method,manual_download_required,preferred_format,interface_risk,selection_status,notes
+SP-001,X-axis belt driven linear module,MISUMI,TBD belt-driven actuator series,TBD,TBD,TBD,Configurator or supplier CAD portal,yes,SLDASM/STEP,High,not_selected,Do not freeze until stroke carriage and motor mount are selected
+SP-001,X-axis belt driven linear module,THK,TBD actuator or guide-based assembly,TBD,TBD,TBD,Supplier CAD portal,yes,SLDASM/STEP,High,not_selected,Alternative if MISUMI module packaging is unsuitable
+SP-002,Y-axis belt driven linear module or dual-rail belt assembly,MISUMI,TBD belt-driven actuator or guide/belt assembly,TBD,TBD,TBD,Configurator or supplier CAD portal,yes,SLDASM/STEP,High,not_selected,Check gantry racking and dual-side support
+SP-002,Y-axis belt driven linear module or dual-rail belt assembly,HIWIN-equivalent,TBD linear guide plus belt drive,TBD,TBD,TBD,Supplier CAD portal,yes,STEP,High,not_selected,May require custom synchronization design
+SP-003,Z-axis lead screw lifting module,MISUMI,TBD lead-screw actuator,TBD,TBD,TBD,Configurator or supplier CAD portal,yes,SLDASM/STEP,High,not_selected,Lead and holding behavior must be reviewed
+SP-003,Z-axis lead screw lifting module,THK,TBD compact actuator,TBD,TBD,TBD,Supplier CAD portal,yes,SLDASM/STEP,High,not_selected,Alternative if compact vertical packaging is better
+SP-004;SP-005;SP-006,X/Y/Z motors,Oriental Motor,TBD closed-loop stepper or servo,TBD,TBD,TBD,Supplier CAD portal,yes,SLDPRT/STEP,High,not_selected,Torque-speed curve required
+SP-004;SP-005;SP-006,X/Y/Z motors,Leadshine or Delta,TBD closed-loop stepper or compact servo,TBD,TBD,TBD,Supplier CAD or distributor,TBD,STEP,High,not_selected,Check shaft and flange drawings
+SP-007,X/Y/Z linear guides and carriage blocks,THK,TBD LM guide series,TBD,TBD,TBD,THK CAD portal,yes,STEP/X_T,High,not_selected,Use only if not integrated into actuator CAD
+SP-007,X/Y/Z linear guides and carriage blocks,HIWIN,TBD compact linear guide series,TBD,TBD,TBD,Supplier CAD portal,yes,STEP,High,not_selected,Verify rail hole pitch and block height
+SP-013,Electric two-finger parallel gripper,SMC,TBD LEH/LEHF class,TBD,TBD,TBD,SMC CAD portal,yes,SLDASM/STEP,High,not_selected,Tube grip force and stroke must be checked
+SP-013,Electric two-finger parallel gripper,Festo,TBD EHPS class,TBD,TBD,TBD,Festo CAD portal or supplier page,yes,SLDASM/STEP,High,not_selected,Check flange and finger geometry
+SP-016,Limit switch,Omron,TBD compact limit switch,TBD,TBD,TBD,Supplier CAD or TraceParts,yes,STEP,Medium,not_selected,Homing repeatability and actuator direction matter
+SP-019,Emergency stop button,Schneider or Siemens,TBD 22 mm panel E-stop,TBD,TBD,TBD,Supplier CAD or TraceParts,yes,STEP,Medium,not_selected,Panel cutout and contact depth required

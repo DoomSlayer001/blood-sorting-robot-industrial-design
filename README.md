@@ -38,6 +38,7 @@ legacy_v1/                    Archived v1 concept model
 - Stage 1: industrial standard-parts selection plan, completed.
 - Stage 2: real CAD download workflow and custom-part interface definition, completed.
 - Stage 3A: Priority A real CAD download and intake preparation, completed.
+- Stage 3A-2: Priority A CAD automatic-download feasibility assessment, completed.
 
 The current repository still does not generate new CAD models, does not run simulations, and does not modify `legacy_v1`. Supplier CAD is not marked as downloaded unless a real file exists in the standard-parts CAD workspace.
 
@@ -60,8 +61,9 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 ## Next Stage Plan
 
 1. Manually download or import Priority A real standard-part CAD where permitted.
-2. Run `python tools/check_standard_cad_files.py` after CAD files are placed in `03_cad/standard_parts/downloaded/`.
-3. Record each verified CAD file in `03_cad/standard_parts/CAD_download_status_v2.md`.
-4. Define SolidWorks assembly skeleton, datums, axes, and interface envelopes using real standard-part interfaces.
-5. Freeze custom-part interface boundaries before detailed self-made part modeling.
-6. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.
+2. Use `02_bom/priority_a_auto_download_feasibility.csv` and `02_bom/priority_a_manual_download_queue.md` to track which sources require manual download.
+3. Run `python tools/check_standard_cad_files.py` after CAD files are placed in `03_cad/standard_parts/downloaded/`.
+4. Record each verified CAD file in `03_cad/standard_parts/CAD_download_status_v2.md`.
+5. Define SolidWorks assembly skeleton, datums, axes, and interface envelopes using real standard-part interfaces.
+6. Freeze custom-part interface boundaries before detailed self-made part modeling.
+7. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.

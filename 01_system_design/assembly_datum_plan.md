@@ -4,13 +4,27 @@
 
 The world coordinate system is the master reference for CAD, controls, and documentation. Units are millimeters.
 
-- X: left-right direction along the 600 mm base length.
-- Y: front-back direction along the 400 mm base width.
+- X: left-right direction along the 800 mm base length.
+- Y: front-back direction along the 500 mm base width.
 - Z: upward vertical direction.
 
 ## Base Plate Coordinate System
 
-The base plate lower-left-front corner is the nominal base origin. The top surface of the base plate is the primary mounting datum for racks, axis supports, and enclosure brackets.
+The base plate lower-left-front corner is the nominal base origin. The top surface of the base plate is the primary mounting datum for racks, left/right Y axes, safety cover brackets, and control box mounting.
+
+## Dual Y-Axis Datums
+
+- `left_y_axis_datum`: centerline and mounting datum of the left Y guide/module.
+- `right_y_axis_datum`: centerline and mounting datum of the right Y guide/module.
+- The two Y datums must be parallel and coplanar within the tolerance later defined by the SolidWorks drawings.
+- The Y-axis synchronization mechanism must reference both Y datums.
+
+## Gantry And X-Axis Datums
+
+- `gantry_beam_datum`: datum plane and centerline for the cross beam connecting left and right Y carriages.
+- `x_axis_on_gantry_datum`: X-axis module datum mounted on the gantry beam.
+- `z_axis_centerline`: vertical datum through the Z module carriage and gripper adapter.
+- `gripper_centerline`: midpoint line between gripper fingers, aligned to target tube hole centers.
 
 ## Input Rack Coordinate System
 
@@ -20,23 +34,23 @@ The input rack uses its first tube hole center as local rack origin. The local r
 
 The output rack follows the same local convention as the input rack. It is placed on the opposite side of the work envelope while preserving a clear gripper approach path.
 
+## Reachability Relationship
+
+The X-axis travel on the gantry beam and the Y-axis gantry travel must cover both rack coordinate systems. The gripper centerline must reach every input and output hole center without violating safe height, cover clearance, or axis travel limits.
+
 ## Axis Directions
 
 - X positive: from left side toward right side of the base.
 - Y positive: from front toward rear of the base.
 - Z positive: upward away from the base.
 
-## Gripper Centerline
-
-The gripper centerline is the line midway between the two gripper fingers. It must align with the target tube hole center during pick/place.
-
 ## Home Position
 
-The home position is the machine reference after limit/home switch calibration. It should place the end effector at a safe, non-interfering location outside tube pickup height.
+The home position is the machine reference after limit/home switch calibration. It should place the gantry, X carriage, Z module, and gripper at a safe, non-interfering location outside tube pickup height.
 
 ## Safe Height
 
-Safe height is the Z coordinate where the gripper and held tube clear tube caps, rack walls, sensors, and guard features before X/Y motion.
+Safe height is the Z coordinate where the gripper and held tube clear tube caps, rack walls, sensors, gantry beam features, and guard features before X/Y motion.
 
 ## SolidWorks Datum Naming
 
@@ -46,9 +60,11 @@ Use clear datum names:
 - `DATUM_BASE_TOP`
 - `DATUM_BASE_FRONT`
 - `DATUM_BASE_LEFT`
-- `DATUM_X_AXIS_CENTERLINE`
-- `DATUM_Y_AXIS_CENTERLINE_LEFT`
-- `DATUM_Y_AXIS_CENTERLINE_RIGHT`
+- `DATUM_LEFT_Y_AXIS`
+- `DATUM_RIGHT_Y_AXIS`
+- `DATUM_Y_PARALLELISM_REFERENCE`
+- `DATUM_GANTRY_BEAM`
+- `DATUM_X_AXIS_ON_GANTRY`
 - `DATUM_Z_AXIS_CENTERLINE`
 - `DATUM_GRIPPER_CENTERLINE`
 - `DATUM_INPUT_RACK_ORIGIN`
@@ -56,4 +72,10 @@ Use clear datum names:
 
 ## MATLAB/Simulink Mapping
 
-MATLAB/Simulink uses the same X/Y/Z convention as SolidWorks. Rack coordinates, safe height, pick height, and place height must be exported using the same base coordinate system so that planned trajectories map directly to SolidWorks assembly positions.
+MATLAB/Simulink uses the same X/Y/Z convention as SolidWorks. The mechanical dual-side Y-axis structure maps to one virtual Y command:
+
+```text
+Y_left = Y_right = y
+```
+
+Rack coordinates, safe height, pick height, and place height must be exported using the same base coordinate system so that planned trajectories map directly to SolidWorks assembly positions.

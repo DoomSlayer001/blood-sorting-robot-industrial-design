@@ -1,26 +1,53 @@
 # Mechanical Interface Definition
 
-## X-Axis Module Interfaces
+## Left Y-Axis Interfaces
 
-- Mounting face: the lower datum face of the X-axis belt module or rail base.
-- Mounting hole positions: supplier CAD hole pattern must drive X bridge adapter and carriage plate design.
-- Effective travel: at least 420 mm usable travel after end clearances and limit zones.
-- Slider mounting face: top face of X carriage for Z module connection.
-- Motor mounting direction: must be recorded as left/right/rear orientation in the SolidWorks assembly.
-- Drag-chain fixed point: define fixed end on bridge or rear frame and moving end on X carriage.
+- Mounting face: base plate or support rail datum for the left Y module/guide.
+- Mounting holes: supplier CAD hole pattern drives the base plate and left support plate.
+- Carriage interface: left Y carriage top face connects to the gantry beam.
+- Drive side: preferred location for the single Y motor or synchronization input.
+- Limit switch targets: home and end-limit switch brackets must reference the left Y travel.
 
-## Y-Axis Module Interfaces
+## Right Y-Axis Interfaces
 
-- Left/right guide mounting datums: base plate datum surfaces and rail centerlines must be parallel.
-- Bridge connection position: Y carriage top faces define X bridge mounting height and hole pattern.
-- Belt or drive side position: drive side must leave clearance for motor, pulley, bearing block and guard cover.
-- Motion parallelism: left/right Y guides must be constrained by common base datums and bridge connection references.
+- Mounting face: base plate or support rail datum for the right Y module/guide.
+- Mounting holes: supplier CAD hole pattern drives the base plate and right support plate.
+- Carriage interface: right Y carriage top face connects to the gantry beam.
+- Guide side: may be driven through the synchronization mechanism or act as the synchronized guide side.
+- Parallelism: right Y datum must remain parallel to left Y datum.
+
+## Gantry Beam To Y-Carriage Interfaces
+
+- Left/right carriage connection holes must come from real Y-axis carriage CAD.
+- The gantry beam connection must resist yaw, pitch, and roll caused by acceleration and gripper loads.
+- Adjustment slots may be used for initial squaring, but final datums must be locked by pins or controlled hole fits.
+- Beam end plates must align left and right Y carriage top planes.
+
+## X-Axis Module On Gantry Interfaces
+
+- X module base mounting face attaches to the gantry beam front or top mounting surface.
+- X module mounting holes must come from real supplier CAD.
+- X carriage top/front face defines the Z module connection.
+- X motor side and cable exit must be coordinated with drag-chain routing.
+
+## Gantry Beam Deflection And Parallelism
+
+- The gantry beam must be checked for deflection under the X module, Z module, gripper, tube, cable chain, and acceleration loads.
+- Y-axis left/right parallelism must be defined from base datums and verified in SolidWorks.
+- X-axis straightness depends on gantry beam stiffness and mounting flatness.
+
+## Y-Axis Synchronization Mechanism Interfaces
+
+- Preferred architecture: single motor plus synchronization shaft or synchronization belt linkage.
+- Synchronization mechanism must define shaft/pulley/bearing support positions.
+- Couplings, pulleys, and bearing blocks require real CAD before bracket holes are frozen.
+- Belt tension or shaft alignment features must be accessible for assembly and maintenance.
 
 ## Z-Axis Module Interfaces
 
 - X carriage connection face: Z module rear or base face mounts to X slider adapter plate.
 - Z slider mounting face: front carriage face defines gripper adapter location.
-- Screw/motor space: reserve vertical and rear clearance for motor, screw, coupling and cable exit.
+- Screw/motor space: reserve vertical and rear clearance for motor, screw, coupling, and cable exit.
 - Gripper adapter holes: supplier gripper flange and Z carriage hole pattern define adapter plate holes.
 
 ## Gripper Interfaces
@@ -36,6 +63,13 @@
 - Locating pins: recommended for input/output rack repeatability.
 - Hole array origin: define first hole center as local rack origin reference.
 - Input/output coordinate systems: each rack has a local coordinate system mapped into the base/world coordinate system.
+
+## Cable Chain And Wiring Interfaces
+
+- Fixed drag-chain end should mount to the rear frame or base support.
+- Moving drag-chain end should mount to the gantry beam or X carriage depending on cable route.
+- X/Z/gripper cable exit must not collide with tube racks or protective cover.
+- Cable service loops must not enter the gripper pick/place envelope.
 
 ## Rule
 

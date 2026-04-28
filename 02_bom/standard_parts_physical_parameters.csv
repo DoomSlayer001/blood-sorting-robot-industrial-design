@@ -1,25 +1,28 @@
 part_id,part_name_cn,model_or_series,supplier,overall_length_mm,overall_width_mm,overall_height_mm,travel_mm,mounting_hole_pattern,mounting_hole_diameter,moving_mass_kg,rated_load_N,max_speed_mm_s,lead_or_pitch_mm,motor_interface,cad_file_path,data_source,verified,note
-SP-001,X轴同步带直线模组,TBD,TBD,TBD,TBD,TBD,420,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting real supplier CAD/specification
-SP-002,Y轴同步带直线模组或双导轨同步带组件,TBD,TBD,TBD,TBD,TBD,260,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting real supplier CAD/specification
-SP-003,Z轴丝杆升降模组,TBD,TBD,TBD,TBD,TBD,120,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting real supplier CAD/specification
-SP-004,X轴电机,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting torque-speed and CAD data
-SP-005,Y轴电机,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting torque-speed and CAD data
-SP-006,Z轴电机,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting torque-speed and CAD data
-SP-007,X/Y/Z直线导轨与滑块,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting rail/block CAD or integrated module CAD
-SP-008,同步带,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting belt pitch width and length
-SP-009,同步带轮,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting pulley tooth count bore and pitch diameter
-SP-010,丝杆,TBD,TBD,TBD,TBD,TBD,120,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting screw lead diameter nut style
-SP-011,联轴器,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting motor and shaft bore sizes
-SP-012,轴承座,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting shaft layout and bearing support style
-SP-013,电动两指平行夹爪,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting gripper stroke force mass and flange CAD
-SP-014,夹爪软垫,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,May become custom pad after gripper selection
-SP-015,拖链,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting cable bundle and bend radius
-SP-016,限位开关,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting switch CAD and actuation direction
-SP-017,光电传感器,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting sensor CAD and sensing distance
-SP-018,扫码模块外形件,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting scanner envelope and interface
-SP-019,急停按钮,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting panel cutout and contact block CAD
-SP-020,控制盒,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting electronics volume and enclosure choice
-SP-021,铝型材或支撑框架件,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting profile family and slot standard
-SP-022,角码,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting matching extrusion family
-SP-023,紧固件,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting drawing hole standards
-SP-024,透明PC防护罩相关标准件,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting guard concept and hardware choices
+SP-001,x_axis_module_on_gantry,TBD,TBD,TBD,TBD,TBD,450-500,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting real X-axis module CAD and specification
+SP-002,left_y_axis_module,TBD,TBD,TBD,TBD,TBD,260-300,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting real left-side Y module CAD and specification
+SP-003,z_axis_screw_module,TBD,TBD,TBD,TBD,TBD,120,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting real Z screw module CAD and specification
+SP-004,x_axis_motor,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting torque-speed and CAD data
+SP-005,y_axis_motor,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting torque-speed and CAD data for mechanically synchronized Y drive
+SP-006,z_axis_motor,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting torque-speed and CAD data
+SP-007,xyz_linear_guides_and_sliders,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting rail/block CAD or integrated module CAD
+SP-008,timing_belt,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting belt pitch width and length
+SP-009,timing_belt_pulley,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting pulley tooth count bore and pitch diameter
+SP-010,lead_screw,TBD,TBD,TBD,TBD,TBD,120,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting screw lead diameter nut style
+SP-011,coupling,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting motor and shaft bore sizes
+SP-012,bearing_block,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting shaft layout and bearing support style
+SP-013,electric_parallel_gripper,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting gripper stroke force mass and flange CAD
+SP-014,gripper_soft_pad,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,May become custom silicone or TPU pad after gripper selection
+SP-015,cable_chain,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting cable bundle and bend radius
+SP-016,limit_switch,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting switch CAD and actuation direction
+SP-017,photoelectric_sensor,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting sensor CAD and sensing distance
+SP-018,barcode_scanner_envelope,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting scanner envelope and interface
+SP-019,emergency_stop_button,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting panel cutout and contact block CAD
+SP-020,control_box,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting electronics volume and enclosure choice
+SP-021,aluminum_profile_or_frame_part,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting profile family and slot standard
+SP-022,corner_bracket,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting matching extrusion family
+SP-023,fasteners,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting drawing hole standards
+SP-024,transparent_pc_guard_standard_hardware,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting guard concept and hardware choices
+SP-025,right_y_axis_module,TBD,TBD,TBD,TBD,TBD,260-300,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting real right-side Y module CAD matched to left-side module
+SP-026,y_axis_sync_mechanism,TBD,TBD,TBD,TBD,TBD,260-300,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting timing shaft belt pulley bearing and tensioning data for mechanical Y synchronization
+SP-027,gantry_beam_related_mounting_hardware,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting beam fastening and alignment hardware data

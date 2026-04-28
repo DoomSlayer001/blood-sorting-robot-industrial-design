@@ -1,0 +1,59 @@
+Project build started.
+$ C:\Users\29868\AppData\Local\Programs\Python\Python313\python.exe C:\Users\29868\Desktop\作业\医用机器人\blood_sorting_robot_full_auto\cad\scripts\generate_custom_parts.py
+C:\Users\29868\AppData\Local\Programs\Python\Python313\Lib\site-packages\cadquery\utils.py:82: FutureWarning: save will be removed in the next release.
+  warn(f"{f.__name__} will be removed in the next release.", FutureWarning)
+Generated custom STEP parts in C:\Users\29868\Desktop\作业\医用机器人\blood_sorting_robot_full_auto\cad\custom_parts\step
+
+$ C:\Users\29868\AppData\Local\Programs\Python\Python313\python.exe C:\Users\29868\Desktop\作业\医用机器人\blood_sorting_robot_full_auto\cad\scripts\generate_fallback_standard_parts.py
+C:\Users\29868\AppData\Local\Programs\Python\Python313\Lib\site-packages\cadquery\utils.py:82: FutureWarning: save will be removed in the next release.
+  warn(f"{f.__name__} will be removed in the next release.", FutureWarning)
+Generated fallback standard STEP parts in C:\Users\29868\Desktop\作业\医用机器人\blood_sorting_robot_full_auto\cad\standard_parts\fallback_generated
+
+$ C:\Users\29868\AppData\Local\Programs\Python\Python313\python.exe C:\Users\29868\Desktop\作业\医用机器人\blood_sorting_robot_full_auto\cad\scripts\build_step_assembly.py
+C:\Users\29868\AppData\Local\Programs\Python\Python313\Lib\site-packages\cadquery\utils.py:82: FutureWarning: save will be removed in the next release.
+  warn(f"{f.__name__} will be removed in the next release.", FutureWarning)
+Generated assembly STEP: C:\Users\29868\Desktop\作业\医用机器人\blood_sorting_robot_full_auto\cad\assembly\blood_sorting_robot_assembly.step
+
+$ C:\Users\29868\AppData\Local\Programs\Python\Python313\python.exe C:\Users\29868\Desktop\作业\医用机器人\blood_sorting_robot_full_auto\simulation\python\simulate_pid_robot.py
+Python PID simulation complete.
+{
+  "x": {
+    "max_abs_error_mm": 13.880102553136396,
+    "mean_abs_error_mm": 3.8118410334240695,
+    "rmse_mm": 6.293055965101296
+  },
+  "y": {
+    "max_abs_error_mm": 1.8942310769035942,
+    "mean_abs_error_mm": 0.2897742628293865,
+    "rmse_mm": 0.5957040303827574
+  },
+  "z": {
+    "max_abs_error_mm": 9.32711623673633,
+    "mean_abs_error_mm": 2.265761432028133,
+    "rmse_mm": 3.8789669568480147
+  },
+  "combined_rmse_mm": 4.281892156668981
+}
+
+$ C:\Users\29868\AppData\Local\Programs\Python\Python313\python.exe C:\Users\29868\Desktop\作业\医用机器人\blood_sorting_robot_full_auto\cad\scripts\check_cad_outputs.py
+Python PID simulation complete.
+{
+  "x": {
+    "max_abs_error_mm": 13.880102553136396,
+    "mean_abs_error_mm": 3.8118410334240695,
+    "rmse_mm": 6.293055965101296
+  },
+  "y": {
+    "max_abs_error_mm": 1.8942310769035942,
+    "mean_abs_error_mm": 0.2897742628293865,
+    "rmse_mm": 0.5957040303827574
+  },
+  "z": {
+    "max_abs_error_mm": 9.32711623673633,
+    "mean_abs_error_mm": 2.265761432028133,
+    "rmse_mm": 3.8789669568480147
+  },
+  "combined_rmse_mm": 4.281892156668981
+}
+Quality check passed. Log: C:\Users\29868\Desktop\作业\医用机器人\blood_sorting_robot_full_auto\results\logs\project_build_log.txt
+

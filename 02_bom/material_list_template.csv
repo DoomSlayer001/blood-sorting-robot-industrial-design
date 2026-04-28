@@ -1,0 +1,6 @@
+material_id,material_name,used_for,property_reason,surface_treatment,note
+MAT-001,6061-T6 aluminum alloy,Base plate and mounting plates,Strength machinability and dimensional stability,Anodized,
+MAT-002,POM,Tube rack,Wear resistance and machinability,Deburred,
+MAT-003,Transparent PC,Protective cover,Impact resistance and visibility,Clear finish,
+MAT-004,Silicone or TPU,Gripper soft pads,Tube protection and friction,None,
+MAT-005,304 stainless steel,Fasteners,Corrosion resistance,None,

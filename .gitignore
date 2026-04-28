@@ -1,0 +1,51 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# MATLAB/Simulink generated files
+*.asv
+*.m~
+slprj/
+sccprj/
+*.slxc
+*.autosave
+
+# SolidWorks temporary and lock files
+~$*
+*.sldprt.tmp
+*.sldasm.tmp
+*.slddrw.tmp
+
+# Isaac Sim / Omniverse caches
+.cache/
+cache/
+_build/
+kit/logs/
+ov/
+
+# Logs and temporary build output
+*.log
+*.tmp
+*.bak
+06_results/logs/*.tmp
+
+# Local environment
+.env
+.env.*

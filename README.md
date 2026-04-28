@@ -34,7 +34,11 @@ legacy_v1/                    Archived v1 concept model
 
 ## Current Stage
 
-The current stage initializes the repository structure and writes requirement/specification documents only. It does not generate new CAD models and does not rerun simulations.
+- Stage 0: requirements freeze, completed.
+- Stage 1: industrial standard-parts selection plan, completed.
+- Stage 2: real CAD download workflow and custom-part interface definition, completed.
+
+The current repository still does not generate new CAD models and does not run simulations. Supplier CAD is not marked as downloaded unless a real file exists in the standard-parts CAD workspace.
 
 ## Git LFS Usage
 
@@ -54,9 +58,9 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 
 ## Next Stage Plan
 
-1. Convert requirements into detailed subsystem specifications.
-2. Build an industrial standard-parts BOM with vendor CAD download status.
-3. Define SolidWorks assembly skeleton, datums, axes, and interface envelopes.
-4. Create MATLAB/Simulink baseline trajectory and PID models aligned with mechanical masses and travel ranges.
-5. Prepare Isaac Sim asset import and visualization conventions.
-6. Start manufacturing package definitions after mechanical design review.
+1. Download or manually collect real Priority A supplier CAD where permitted.
+2. Record each CAD file in `03_cad/standard_parts/CAD_download_status_v2.md`.
+3. Define SolidWorks assembly skeleton, datums, axes, and interface envelopes using real standard-part interfaces.
+4. Freeze custom-part interface boundaries before detailed self-made part modeling.
+5. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.
+6. Prepare Isaac Sim asset import and visualization conventions after SolidWorks assembly structure is stable.

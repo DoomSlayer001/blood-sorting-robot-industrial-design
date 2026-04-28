@@ -21,3 +21,24 @@ Stage 3A prepares the manual download queue only. No CAD is downloaded in this s
 ## Manual Download Rule
 
 Keep `manual_download_required` whenever a supplier portal requires login, registration, captcha, configurator selection, license acceptance, or manual CAD format selection.
+
+## Manual Download Steps
+
+Use these steps for each Priority A item:
+
+1. Open the supplier or trusted CAD source page listed in `priority_a_auto_download_feasibility.csv`.
+2. Select the exact series, model, travel, stroke, rail length, motor flange, bore, lead, tooth count, or safety component variant required by the design.
+3. If the site requires login, registration, captcha, license acceptance, or CAD format selection, complete that manually; do not automate or bypass it.
+4. Prefer `SLDPRT/SLDASM`, then `STEP/STP`, then `X_T`, then `IGES`.
+5. Rename the downloaded file using `standard_parts_file_naming_rule.md`.
+6. Place the file in the matching `03_cad/standard_parts/downloaded/<category>/` folder.
+7. Run `python tools/check_standard_cad_files.py`.
+8. Only after the file exists and passes intake checks, update `CAD_download_status_v2.md` and `standard_parts_bom_v1.csv`.
+9. Record supplier, model, source URL, download date, format, and manual download requirement.
+
+## Stage 3A-2 Accessibility Notes
+
+- THK, MISUMI, igus, TraceParts, and McMaster entry pages were reachable.
+- SMCWorld showed access-limited behavior in this environment.
+- 3DContentCentral timed out in this environment.
+- No direct public CAD file link was verified, so no automatic CAD download was performed.

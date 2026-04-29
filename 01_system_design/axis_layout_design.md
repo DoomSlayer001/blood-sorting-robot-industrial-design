@@ -26,6 +26,8 @@ The base plate recommendation is now 1100 mm x 900 mm x 15 mm. X is the left-rig
 
 The X/Y reachable workspace must cover every input hole, the scanning station, every category output-bin slot, and every manual-review slot. Z safe height must clear the tallest expected mixed tube, cap features, rack walls, sensor brackets, barcode reader bracket, and neighboring bins.
 
+Initial planning coordinates use the base top-center origin defined in `01_system_design/reachability_and_workspace_plan.md` and `03_cad/solidworks/initial_workspace_layout_table.csv`. These coordinates are pre-assembly planning values, not final hole positions.
+
 ## Y-Axis Synchronization
 
 The mechanical Y axis has two sides:
@@ -66,3 +68,5 @@ The left and right Y sliders and the gantry beam must be constrained so the beam
 MATLAB/Simulink continues to use one virtual `y(t)` command for Y-axis motion. The equivalent Y moving mass must later include the gantry beam, X module, Z module, gripper, tube, cable chain moving segment, sensors, and brackets.
 
 For classification simulation, trajectory generation should include an intermediate scanning waypoint between input pickup and category placement. Target selection is not a fixed input-to-output index pair; it is computed from `sample_manifest.csv` category data and available category-bin slots. Unknown, failed, full-bin, or abnormal reads route to `manual_review_bin`.
+
+Z pick/place coordinates must later use `height_mm` from `sample_manifest.csv` so 75 mm and 100 mm tubes can be handled without collisions. X/Y transfer should use one safe height above the tallest tube and all rack/scanner features.

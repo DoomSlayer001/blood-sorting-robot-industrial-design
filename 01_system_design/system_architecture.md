@@ -46,6 +46,8 @@ Requirements define travel, accuracy, speed, material, synchronization, recognit
 
 The Panasonic CX-421-J photoelectric sensor confirms tube presence before barcode capture. Once presence is confirmed, the Cognex DataMan 80 USB fixed-mount image-based barcode reader reads the tube label. The barcode result is used to query the sample category. If barcode reading fails, the category is unknown, or the selected category output area is full, the sample enters an exception review area / manual review station and should not be logged as a completed normal sort.
 
+The current mainline does not include tube rotation for barcode alignment. The tube label is assumed to face the scanner-visible side through manual loading or fixture orientation. Future upgrades may add rotation, multi-angle scanning, or label-pose vision.
+
 ## Classification Sorting Logic
 
 - Input: 4 x 6 rack with randomly mixed blood collection tube categories.
@@ -78,3 +80,14 @@ tube_id, barcode, cap_color, height_mm, category, input_row, input_col, target_b
 - Front corner or output edge: 2 x 3 `manual_review_bin`.
 - Equipment edge: emergency stop and control box for operator access.
 - Motion planning and SolidWorks layout must avoid collisions among output bins, scanning hardware, tube racks, and gripper-held tubes.
+
+## Stage 3D Pre-Assembly Freeze
+
+Before SolidWorks total assembly, the project freezes:
+
+- output bin capacity: six tubes per category bin.
+- exception rule: full category bin, scan failure, unknown category, or abnormal sample routes to `manual_review_bin`.
+- pause rule: full `manual_review_bin`, limit trigger, or unrecoverable pick/place failure pauses the system and alarms.
+- tube height rule: 75 mm and 100 mm tubes require height-aware Z pick/place values and a unified safe transfer height.
+- gripper rule: grip the 13 mm tube body about 15-25 mm below cap using TPU/silicone soft pads and low gripping force.
+- workspace plan: initial area coordinates are listed in `03_cad/solidworks/initial_workspace_layout_table.csv`.

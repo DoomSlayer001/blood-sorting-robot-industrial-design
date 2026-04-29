@@ -94,6 +94,7 @@ MATLAB/Simulink may continue to use a single `y(t)` command for the Y axis, whil
 - Cognex DataMan 80 USB fixed-mount image-based barcode reader: reads 1D/2D barcode or QR code labels on blood tubes after tube presence is confirmed.
 - Barcode recognition result: used to query the sample category before the robot selects the output target slot.
 - Exception handling: if barcode reading fails, the category is unknown, or the target category area is full, the sample is routed to an exception review area / manual review station instead of being treated as successfully sorted.
+- Scanning assumption: the current mainline does not include a tube rotation/alignment mechanism; tube labels are assumed to face the scanner-visible side through manual loading or fixture orientation.
 
 ## 10.2 Classification Sorting Workflow
 
@@ -112,6 +113,18 @@ Output classification is frozen as:
 
 The `manual_review_bin` is a 2 x 3 bin for barcode failure, unknown category, full category output bin, or other abnormal samples.
 
+Capacity and pause rules:
+
+- each category output bin capacity is six tubes.
+- if the target category bin is full, the sample enters `manual_review_bin`.
+- if `manual_review_bin` is full, the system pauses and alarms.
+
+Height handling:
+
+- `sample_manifest.csv` records `height_mm`.
+- Z-axis pick/place height is adjusted for 75 mm and 100 mm tubes.
+- X/Y transfer uses a unified safe height above the tallest tube and all rack/scanner features.
+
 ## 10.3 Sample Manifest Data
 
 Later software simulation should use `sample_manifest.csv` to describe the mixed input tubes and target classification result.
@@ -122,11 +135,28 @@ Recommended fields:
 tube_id, barcode, cap_color, height_mm, category, input_row, input_col, target_rack, target_slot
 ```
 
-The frozen schema for later `sample_manifest.csv` is defined in `04_simulation/sample_data/sample_manifest_schema.md`. The actual CSV data file is not generated in this stage.
+The frozen schema is defined in `04_simulation/sample_data/sample_manifest_schema.md`, and the Stage 3C sample table is available at `04_simulation/sample_data/sample_manifest.csv`.
 
 ## 10.4 Modeling Impact
 
 Future CAD and visualization stages need mixed blood collection tube models with varied cap colors, labels, barcode/QR label areas, and possible height variants. The mechanical layout must include the mixed input tube rack, four separate category output bins, `manual_review_bin`, and fixed scanning station. Robot motion must avoid interference between output bins, scanner/sensor brackets, racks, and gripper-held tubes.
+
+## 10.5 Stage 3D Pre-Assembly Freeze
+
+Stage 3D freezes the pre-assembly assumptions and initial workspace planning before SolidWorks assembly:
+
+- scanning label-facing assumption and no tube rotation mechanism.
+- output bin and manual review capacity rules.
+- gripper strategy for 13 mm tube body gripping with TPU/silicone pads.
+- initial base coordinate system and workspace area placement.
+- exception handling and system pause rules.
+
+The detailed documents are:
+
+- `01_system_design/pre_assembly_requirement_freeze.md`
+- `01_system_design/scan_station_definition.md`
+- `01_system_design/failure_handling_logic.md`
+- `01_system_design/reachability_and_workspace_plan.md`
 
 ## 11. Materials
 

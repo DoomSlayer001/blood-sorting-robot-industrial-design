@@ -515,3 +515,92 @@ The following entries were updated locally as a visual placeholder only:
 - `SP-019` emergency_stop official CAD replacement.
 - `SP-026` y_axis_sync_mechanism.
 - `SP-027` gantry_beam_related_mounting_hardware.
+
+## MISUMI MHPKS Cable Carrier Intake Update
+
+### Check Metadata
+
+- Check time: 2026-04-29 21:28:27 +08:00
+- Check directory: `03_cad/standard_parts/downloaded/cable_chain/`
+- Intake target: MISUMI MHPKS compact cable carrier CAD
+- Configuration: `MHPKS204-38-18-A`
+- Usage: cable management for moving X/Z axis motor cables, gripper cable, limit switch wires, and future sensor/barcode scanner cables
+- Commit/push status: local commit requested after this intake; no push performed
+
+### Original Files Found
+
+| file | size_bytes | note |
+|---|---:|---|
+| `03_cad/standard_parts/downloaded/cable_chain/MHPKS204-38-18-A_STEP_AP214_20260429.zip` | 37736 | User-provided original MISUMI ZIP package; retained without deletion |
+| `03_cad/standard_parts/downloaded/cable_chain/extracted/MHPKS204-38-18-A_STEP_AP214_20260429/MHPKS204-38-18-A.stp` | 217055 | Extracted supplier STP file retained in extracted package folder |
+| `03_cad/standard_parts/downloaded/cable_chain/extracted/MHPKS204-38-18-A_STEP_AP214_20260429/readme-and-terms-of-use-3d-cad-models.txt` | 2688 | Supplier text/terms file; retained but not treated as CAD |
+
+### ZIP Check
+
+- ZIP files found: one.
+- Extraction performed: yes, into `03_cad/standard_parts/downloaded/cable_chain/extracted/MHPKS204-38-18-A_STEP_AP214_20260429/`.
+- Extracted CAD files: `MHPKS204-38-18-A.stp`.
+- Original ZIP retained: yes.
+
+### Normalized File
+
+- Normalized file name: `MISUMI_MHPKS204_cable_carrier_R38_18links_v1.step`
+- Normalized file path: `03_cad/standard_parts/downloaded/cable_chain/MISUMI_MHPKS204_cable_carrier_R38_18links_v1.step`
+- File size: 217055 bytes.
+- Naming check:
+  - Contains Chinese characters: no.
+  - Contains spaces: no.
+  - Extension allowed: yes, `.step`.
+  - File size greater than zero: yes.
+
+### Recorded Parameters
+
+| parameter | value |
+|---|---|
+| supplier | MISUMI |
+| series | MHPKS |
+| model | MHPKS204-38-18-A |
+| type | compact cable carrier |
+| inner_height_mm | 16 |
+| inner_width_mm | 29 |
+| bending_radius_mm | 38 |
+| link_pitch_mm | 32 |
+| number_of_links | 18 |
+| mounting_direction | A |
+| material | Nylon 6 + Glass 20% |
+
+Unconfirmed bracket/interface and cable fill parameters remain `TBD`.
+
+### CAD File Check Result
+
+- Script: `python tools/check_standard_cad_files.py`
+- Report: `reports/cad_file_check_report.md`
+- Supported CAD file count: 14
+- Valid CAD file count: 14
+- Supplementary vendor document count: 8
+- Invalid / unsupported CAD candidate count: 0
+- Note: the supplier ZIP package and readme/terms file are reported as supplementary vendor documents and are not counted as invalid CAD.
+
+### Local Status Updates
+
+The following entries were updated locally because a real cable carrier CAD file exists and passed the CAD file check:
+
+| file | entries updated |
+|---|---|
+| `03_cad/standard_parts/CAD_download_status_v2.md` | `SP-015 cable_chain` set to `downloaded` |
+| `02_bom/standard_parts_bom_v1.csv` | `SP-015` set to `downloaded`; supplier set to MISUMI; series/model set to MHPKS / MHPKS204-38-18-A |
+| `02_bom/standard_parts_physical_parameters.csv` | `SP-015` inner dimensions, bending radius, link pitch, number of links, material notes, and CAD path recorded |
+
+The normalized cable carrier CAD will be used first for X/Z moving cable management. It may later be copied as additional SolidWorks instances for Y-axis or other moving cable routes.
+
+### Priority Items Still Not Downloaded After Cable Carrier Intake
+
+- `SP-007` xyz_linear_guides_and_carriage_blocks, if separate guides are still needed.
+- `SP-008` timing_belt.
+- `SP-009` timing_belt_pulley.
+- `SP-010` lead_screw, if not fully covered by integrated LS10 data for release documentation.
+- `SP-011` coupling.
+- `SP-012` bearing_block.
+- `SP-019` emergency_stop official CAD replacement.
+- `SP-026` y_axis_sync_mechanism.
+- `SP-027` gantry_beam_related_mounting_hardware.

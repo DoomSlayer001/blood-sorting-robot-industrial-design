@@ -1,11 +1,11 @@
 # CAD File Check Report
 
-- Generated at: 2026-04-29T21:28:03
+- Generated at: 2026-04-29T21:46:49
 - Scan directory: `03_cad/standard_parts/downloaded`
-- File count scanned: 22
-- Supported CAD file count: 14
-- Valid CAD file count: 14
-- Supplementary vendor document count: 8
+- File count scanned: 25
+- Supported CAD file count: 16
+- Valid CAD file count: 16
+- Supplementary vendor document count: 9
 - Invalid / unsupported CAD candidate count: 0
 
 ## CAD File Results
@@ -20,7 +20,9 @@
 | `03_cad/standard_parts/downloaded/motors/OrientalMotor_AZM46AK_NEMA17_42mm_absolute_encoder_stepper_v1.step` | 900249 | OK |
 | `03_cad/standard_parts/downloaded/safety/extracted/User Library-K16-811-N/User_Library-K16-811-N.sldprt` | 2281079 | OK |
 | `03_cad/standard_parts/downloaded/sensors/D4N-1A20_214.STEP` | 491902 | OK |
+| `03_cad/standard_parts/downloaded/sensors/extracted/cx-42_48_49-j_st/cx-421-j.STEP` | 205238 | OK |
 | `03_cad/standard_parts/downloaded/sensors/OMRON_D4N_roller_lever_limit_switch_v1.step` | 491902 | OK |
+| `03_cad/standard_parts/downloaded/sensors/Panasonic_CX421J_diffuse_photoelectric_sensor_v1.step` | 205238 | OK |
 | `03_cad/standard_parts/downloaded/x_axis_module/MISUMI_MSA628_X_axis_L750_double_shaft_B1_v1.step` | 5514777 | OK |
 | `03_cad/standard_parts/downloaded/y_axis_module/MISUMI_MSA628_Y_axis_L750_double_shaft_B1_v1.step` | 5514777 | OK |
 | `03_cad/standard_parts/downloaded/y_axis_module/MSA-628-B-AB-B1-0750.STEP` | 5514777 | OK |
@@ -38,6 +40,7 @@
 | `03_cad/standard_parts/downloaded/motors/182509157-19-azm46ak.zip` | 126860 | supplementary vendor document |
 | `03_cad/standard_parts/downloaded/motors/extracted/182509157-19-azm46ak/azm46ak.txt` | 3303 | supplementary vendor document |
 | `03_cad/standard_parts/downloaded/safety/User Library-K16-811-N.zip` | 2240997 | supplementary vendor document |
+| `03_cad/standard_parts/downloaded/sensors/cx-42_48_49-j_st.zip` | 30373 | supplementary vendor document |
 | `03_cad/standard_parts/downloaded/z_axis_module/LS1004-140-T42_STEP_AP214_20260429/readme-and-terms-of-use-3d-cad-models.txt` | 2684 | supplementary vendor document |
 
 ## Rules

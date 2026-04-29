@@ -65,6 +65,9 @@ MISUMI MSA-M6S was considered as a higher-rigidity candidate. Because its larger
 - Finger opening range: must clear 13 mm tube diameter plus tolerance and soft-pad thickness.
 - Gripping centerline: centerline must align with tube rack hole center coordinates.
 - Tube gripping height: soft pads should grip below cap and above rack top surface, with clearance for 75 mm tube height.
+- Frozen gripping assumption: grip the 13 mm tube body about 15-25 mm below the cap.
+- Pad material: TPU or silicone soft pads.
+- Force strategy: use low-force gripping below the SMC LEHF20 maximum 28 N value; final force requires tube and pad validation.
 
 ## Tube Rack Interfaces
 
@@ -87,6 +90,7 @@ MISUMI MSA-M6S was considered as a higher-rigidity candidate. Because its larger
 - Bracket adjustment: sensor and scanner brackets should include adjustment slots or datum features for focus distance, reading angle, and tube-to-reader alignment.
 - Exception routing: failed read, unknown category, full target category bin, or abnormal sample sends the tube to the `manual_review_bin`.
 - Interference rule: scanner, sensor, racks, output bins, and gripper-held tubes must be checked for clearance before final bracket and bin positions are frozen.
+- Scanning assumption: no tube rotation mechanism is included in the current layout; the label is assumed to face the scanner-visible side.
 
 ## Cable Chain And Wiring Interfaces
 

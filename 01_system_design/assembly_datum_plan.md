@@ -10,7 +10,9 @@ The world coordinate system is the master reference for CAD, controls, and docum
 
 ## Base Plate Coordinate System
 
-The recommended base plate size is 1100 mm x 900 mm x 15 mm. The base plate lower-left-front corner is the nominal base origin. The top surface of the base plate is the primary mounting datum for racks, left/right Y axes, safety cover brackets, and control box mounting.
+The recommended base plate size is 1100 mm x 900 mm x 15 mm. For Stage 3D workspace planning, the origin is defined at the center of the base top surface. X range is -550 mm to +550 mm, Y range is -450 mm to +450 mm, and Z is positive upward. The top surface of the base plate is the primary mounting datum for racks, left/right Y axes, safety cover brackets, and control box mounting.
+
+Earlier corner-origin references are superseded by the center-origin planning convention for SolidWorks layout.
 
 ## Dual Y-Axis Datums
 
@@ -57,6 +59,8 @@ The scanning station has a fixed datum in the base coordinate system:
 - `DATUM_BARCODE_READER_AXIS`: Cognex DataMan 80 USB optical axis for label reading.
 
 The scanning datum must be reachable from the input rack and must allow the gripper to present the tube label toward the barcode reader.
+
+The current layout assumes the tube label faces the scanner-visible side. No tube rotation datum is defined in the Stage 3D mainline.
 
 ## Reachability Relationship
 
@@ -116,3 +120,5 @@ Later classification simulation should read `sample_manifest.csv` with fields:
 ```text
 tube_id, barcode, cap_color, height_mm, category, input_row, input_col, target_bin, target_row, target_col, scan_status, note
 ```
+
+Initial pre-assembly area coordinates are listed in `03_cad/solidworks/initial_workspace_layout_table.csv`. These coordinates are planning values and must be updated after SolidWorks collision, reach, and line-of-sight checks.

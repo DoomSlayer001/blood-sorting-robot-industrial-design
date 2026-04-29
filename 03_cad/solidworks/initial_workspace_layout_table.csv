@@ -1,0 +1,12 @@
+area_name,component_or_bin,approx_center_x_mm,approx_center_y_mm,approx_z_mm,approx_size_x_mm,approx_size_y_mm,approx_size_z_mm,role,notes
+input_mixed_tube_rack_4x6,input_mixed_tube_rack_4x6,-250,250,0,180,120,35,mixed input,Initial rear-area mixed sample rack location; not final hole position
+scan_station,scan_station_reference_area,80,80,0,120,100,120,identification station,Gripper-held tube scan position; station is not a storage rack
+category_A_output_bin_2x3,category_A_output_bin_2x3,180,-170,0,100,75,35,Category A output bin,Initial 2x2 output group upper-left bin
+category_B_output_bin_2x3,category_B_output_bin_2x3,320,-170,0,100,75,35,Category B output bin,Initial 2x2 output group upper-right bin
+category_C_output_bin_2x3,category_C_output_bin_2x3,180,-290,0,100,75,35,Category C output bin,Initial 2x2 output group lower-left bin
+category_D_output_bin_2x3,category_D_output_bin_2x3,320,-290,0,100,75,35,Category D output bin,Initial 2x2 output group lower-right bin
+manual_review_bin_2x3,manual_review_bin_2x3,-250,-300,0,100,75,35,exception bin,Receives scan failure unknown category full-bin or abnormal samples
+control_box_area,control_box,-420,-360,0,160,120,80,control hardware area,Initial edge placement for service access
+emergency_stop_area,emergency_stop,-500,-420,20,80,80,60,safety operator interface,Initial edge placement for operator access
+barcode_scanner_area,Cognex_DataMan80_USB,80,160,80,80,60,60,barcode reader area,Scanner side-facing tube label; final pose depends on line of sight
+photoelectric_sensor_area,Panasonic_CX421J,20,80,60,50,30,30,tube presence trigger,Detects tube at scan station and triggers barcode reading

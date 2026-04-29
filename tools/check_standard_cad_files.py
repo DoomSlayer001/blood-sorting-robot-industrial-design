@@ -10,7 +10,7 @@ SCAN_DIR = ROOT / "03_cad" / "standard_parts" / "downloaded"
 REPORT_DIR = ROOT / "reports"
 REPORT_PATH = REPORT_DIR / "cad_file_check_report.md"
 ALLOWED_EXTENSIONS = {".step", ".stp", ".sldprt", ".sldasm", ".x_t", ".igs", ".iges"}
-SUPPLEMENTARY_EXTENSIONS = {".txt", ".pdf", ".html", ".htm"}
+SUPPLEMENTARY_EXTENSIONS = {".txt", ".pdf", ".html", ".htm", ".zip"}
 SUPPLEMENTARY_NAME_KEYWORDS = ("readme", "terms", "license")
 CHINESE_RE = re.compile(r"[\u4e00-\u9fff]")
 
@@ -129,7 +129,7 @@ def main() -> int:
         "- This script does not mark any file as downloaded in BOM or CAD status tables.",
         "- Allowed extensions: `.step`, `.stp`, `.sldprt`, `.sldasm`, `.x_t`, `.igs`, `.iges`.",
         "- File names must not contain Chinese characters or spaces.",
-        "- Supplementary vendor documents such as `.txt`, `.pdf`, `.html`, `.htm`, readme, terms, or license files are reported separately and are not counted as invalid CAD.",
+        "- Supplementary vendor documents or original vendor archives such as `.txt`, `.pdf`, `.html`, `.htm`, `.zip`, readme, terms, or license files are reported separately and are not counted as invalid CAD.",
     ])
 
     REPORT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")

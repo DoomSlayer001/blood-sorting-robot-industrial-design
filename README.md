@@ -10,6 +10,8 @@ This repository is not the previous concept model as the main project. The previ
 
 The main mechanical route has switched from the earlier single-axis-combination Cartesian platform to a dual-side gantry structure: left and right Y-axis supports move the gantry beam, the X-axis module is mounted on the gantry beam, and the Z-axis screw module carries the electric parallel gripper. The old single-axis-combination scheme is no longer the mainline.
 
+The confirmed X/Y actuator series is MISUMI MSA-628 Guided Belt Drive Actuator. The same `MSA-628-B-AB-B1-0750` CAD/configuration is used as separate SolidWorks instances for `left_y_axis_module`, `right_y_axis_module`, and `x_axis_module_on_gantry`. MISUMI MSA-M6S was considered as a higher-rigidity candidate but is larger and is not used in the current mainline BOM. The Z axis remains a separately selected lead-screw lifting module.
+
 ## Frozen Technical Route
 
 - SolidWorks: industrial mechanical modeling, assembly, materials, drawings, interference checks.
@@ -45,7 +47,7 @@ legacy_v1/                    Archived v1 concept model
 
 The current repository still does not generate new CAD models, does not download CAD, does not run simulations, and does not modify `legacy_v1`. Supplier CAD is not marked as downloaded unless a real file exists in the standard-parts CAD workspace.
 
-Future CAD download and SolidWorks assembly work will follow the dual-side gantry layout, especially the left Y-axis module, right Y-axis module, Y-axis mechanical synchronization mechanism, gantry-mounted X-axis module, Z-axis screw module, and electric parallel gripper.
+Future CAD download and SolidWorks assembly work will follow the dual-side gantry layout, especially the MSA-628 left Y-axis module, MSA-628 right Y-axis module, Y-axis mechanical synchronization mechanism, MSA-628 gantry-mounted X-axis module, Z-axis screw module, and electric parallel gripper.
 
 ## Git LFS Usage
 

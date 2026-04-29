@@ -10,6 +10,8 @@ SCAN_DIR = ROOT / "03_cad" / "standard_parts" / "downloaded"
 REPORT_DIR = ROOT / "reports"
 REPORT_PATH = REPORT_DIR / "cad_file_check_report.md"
 ALLOWED_EXTENSIONS = {".step", ".stp", ".sldprt", ".sldasm", ".x_t", ".igs", ".iges"}
+SUPPLEMENTARY_EXTENSIONS = {".txt", ".pdf", ".html", ".htm"}
+SUPPLEMENTARY_NAME_KEYWORDS = ("readme", "terms", "license")
 CHINESE_RE = re.compile(r"[\u4e00-\u9fff]")
 
 
@@ -30,26 +32,51 @@ def check_file(path: Path) -> list[str]:
     return issues
 
 
+def is_supplementary_vendor_document(path: Path) -> bool:
+    name = path.name.lower()
+    return (
+        path.suffix.lower() in SUPPLEMENTARY_EXTENSIONS
+        or any(keyword in name for keyword in SUPPLEMENTARY_NAME_KEYWORDS)
+    )
+
+
 def main() -> int:
     REPORT_DIR.mkdir(parents=True, exist_ok=True)
     files = sorted(p for p in SCAN_DIR.rglob("*") if is_real_candidate(p))
-    rows = []
+    cad_rows = []
+    supplementary_rows = []
+    invalid_rows = []
+    supported_cad_count = 0
     valid_count = 0
 
     for path in files:
+        rel = path.relative_to(ROOT).as_posix()
+        size = path.stat().st_size
+        if is_supplementary_vendor_document(path):
+            supplementary_rows.append((rel, size, "supplementary vendor document"))
+            continue
+
         issues = check_file(path)
+        if path.suffix.lower() in ALLOWED_EXTENSIONS:
+            supported_cad_count += 1
         if not issues:
             valid_count += 1
-        rel = path.relative_to(ROOT).as_posix()
-        rows.append((rel, path.stat().st_size, "OK" if not issues else "; ".join(issues)))
+            cad_rows.append((rel, size, "OK"))
+        else:
+            status = "; ".join(issues)
+            cad_rows.append((rel, size, status))
+            invalid_rows.append((rel, size, status))
 
     lines = [
         "# CAD File Check Report",
         "",
         f"- Generated at: {datetime.now().isoformat(timespec='seconds')}",
         f"- Scan directory: `{SCAN_DIR.relative_to(ROOT).as_posix()}`",
-        f"- Real CAD file count: {len(files)}",
+        f"- File count scanned: {len(files)}",
+        f"- Supported CAD file count: {supported_cad_count}",
         f"- Valid CAD file count: {valid_count}",
+        f"- Supplementary vendor document count: {len(supplementary_rows)}",
+        f"- Invalid / unsupported CAD candidate count: {len(invalid_rows)}",
         "",
     ]
 
@@ -64,14 +91,36 @@ def main() -> int:
         ])
     else:
         lines.extend([
-            "## File Results",
+            "## CAD File Results",
             "",
             "| file | size_bytes | status |",
             "|---|---:|---|",
         ])
-        for rel, size, status in rows:
+        for rel, size, status in cad_rows:
             lines.append(f"| `{rel}` | {size} | {status} |")
         lines.append("")
+
+        if supplementary_rows:
+            lines.extend([
+                "## Supplementary Vendor Documents",
+                "",
+                "| file | size_bytes | note |",
+                "|---|---:|---|",
+            ])
+            for rel, size, note in supplementary_rows:
+                lines.append(f"| `{rel}` | {size} | {note} |")
+            lines.append("")
+
+        if invalid_rows:
+            lines.extend([
+                "## Invalid Or Unsupported CAD Candidates",
+                "",
+                "| file | size_bytes | issue |",
+                "|---|---:|---|",
+            ])
+            for rel, size, issue in invalid_rows:
+                lines.append(f"| `{rel}` | {size} | {issue} |")
+            lines.append("")
 
     lines.extend([
         "## Rules",
@@ -80,12 +129,15 @@ def main() -> int:
         "- This script does not mark any file as downloaded in BOM or CAD status tables.",
         "- Allowed extensions: `.step`, `.stp`, `.sldprt`, `.sldasm`, `.x_t`, `.igs`, `.iges`.",
         "- File names must not contain Chinese characters or spaces.",
+        "- Supplementary vendor documents such as `.txt`, `.pdf`, `.html`, `.htm`, readme, terms, or license files are reported separately and are not counted as invalid CAD.",
     ])
 
     REPORT_PATH.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"CAD file check complete: {REPORT_PATH}")
-    print(f"Real CAD file count: {len(files)}")
+    print(f"Supported CAD file count: {supported_cad_count}")
     print(f"Valid CAD file count: {valid_count}")
+    print(f"Supplementary vendor document count: {len(supplementary_rows)}")
+    print(f"Invalid / unsupported CAD candidate count: {len(invalid_rows)}")
     return 0
 
 

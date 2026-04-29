@@ -92,3 +92,93 @@ MSA-M6S was considered as a higher-rigidity candidate, but it is larger and is n
 3. Record verified dimensions such as mounting hole pitch, carriage top height, carriage hole pattern, moving mass, rated load, belt pitch, pulley interface, and motor interface when supplier data is available.
 4. Continue separate selection for the Z-axis lead-screw lifting module; Z does not use MSA-628.
 5. After user confirmation, commit the normalized CAD files, intake report, check report, and local status updates in one controlled commit.
+
+## Z Axis LS10 Intake Update
+
+### Check Metadata
+
+- Check time: 2026-04-29 19:53:21 +08:00
+- Check directory: `03_cad/standard_parts/downloaded/z_axis_module/`
+- Intake target: MISUMI LS10 Z-axis ball screw module CAD
+- Configuration: `LS1004-140-T42`
+- Usage: `z_axis_module` for vertical pick-and-place motion
+- Commit/push status: no commit and no push performed in this stage
+
+### Original Files Found
+
+| file | size_bytes | note |
+|---|---:|---|
+| `03_cad/standard_parts/downloaded/z_axis_module/LS1004-140-T42_STEP_AP214_20260429/LS1004-140-T42.stp` | 903383 | User-provided MISUMI STEP/STP file retained in original supplier folder |
+| `03_cad/standard_parts/downloaded/z_axis_module/LS1004-140-T42_STEP_AP214_20260429/readme-and-terms-of-use-3d-cad-models.txt` | 2684 | Supplier text/terms file; retained but not treated as CAD |
+
+### ZIP Check
+
+- ZIP files found: none.
+- Extraction performed: no.
+- Extracted CAD files: none.
+- The folder `LS1004-140-T42_STEP_AP214_20260429/` appears to be an already-extracted supplier package.
+
+### Normalized File
+
+- Normalized file name: `MISUMI_LS10_Z_axis_140stroke_T42_ball_screw_v1.step`
+- Normalized file path: `03_cad/standard_parts/downloaded/z_axis_module/MISUMI_LS10_Z_axis_140stroke_T42_ball_screw_v1.step`
+- File size: 903383 bytes.
+- Naming check:
+  - Contains Chinese characters: no.
+  - Contains spaces: no.
+  - Extension allowed: yes, `.step`.
+  - File size greater than zero: yes.
+
+### Recorded Parameters
+
+| parameter | value |
+|---|---|
+| supplier | MISUMI |
+| series | LS10 |
+| configuration | LS1004-140-T42 |
+| drive_method | Rolled Ball Screws |
+| stroke | 140 mm |
+| lead | 4 mm |
+| motor_adapter | T42 |
+| positioning_repeatability | +/-20 um |
+| max_velocity | 467 mm/s |
+| ball_screw_diameter | 10 mm |
+| table_width | 62 mm |
+| table_length | 50 mm |
+
+Unconfirmed parameters remain `TBD`.
+
+### CAD File Check Result
+
+- Script: `python tools/check_standard_cad_files.py`
+- Report: `reports/cad_file_check_report.md`
+- Real file count reported by script: 6
+- Valid CAD file count reported by script: 5
+- Note: the supplier text file `readme-and-terms-of-use-3d-cad-models.txt` is reported by the script as unsupported extension `.txt`. This is expected because it is not a CAD file and is retained for supplier terms/reference.
+
+### Local Status Updates
+
+The following entries were updated locally because a real Z-axis CAD file exists and passed the CAD file check:
+
+| file | entries updated |
+|---|---|
+| `03_cad/standard_parts/CAD_download_status_v2.md` | `SP-003 z_axis_module` set to `downloaded` |
+| `02_bom/standard_parts_bom_v1.csv` | `SP-003` set to `downloaded`; supplier set to MISUMI; series/configuration set to LS10 / LS1004-140-T42 |
+| `02_bom/standard_parts_physical_parameters.csv` | `SP-003` stroke, lead, max velocity, motor adapter, CAD path, and known LS10 notes recorded |
+
+### Priority A Items Still Not Downloaded After Z Intake
+
+- `SP-004` x_axis_motor.
+- `SP-005` y_axis_motor.
+- `SP-006` z_axis_motor.
+- `SP-007` xyz_linear_guides_and_carriage_blocks, if separate guides are still needed.
+- `SP-008` timing_belt.
+- `SP-009` timing_belt_pulley.
+- `SP-010` lead_screw, if not fully covered by integrated LS10 data for release documentation.
+- `SP-011` coupling.
+- `SP-012` bearing_block.
+- `SP-013` electric_parallel_gripper.
+- `SP-016` limit_switches.
+- `SP-019` emergency_stop.
+- `SP-026` y_axis_sync_mechanism.
+- `SP-027` gantry_beam_related_mounting_hardware.

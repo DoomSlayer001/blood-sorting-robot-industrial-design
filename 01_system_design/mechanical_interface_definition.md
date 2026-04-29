@@ -72,6 +72,21 @@ MISUMI MSA-M6S was considered as a higher-rigidity candidate. Because its larger
 - Locating pins: recommended for input/output rack repeatability.
 - Hole array origin: define first hole center as local rack origin reference.
 - Input/output coordinate systems: each rack has a local coordinate system mapped into the base/world coordinate system.
+- Input rack: 4 x 6, 24 vertical positions for randomly mixed tube categories; loose or piled tube feeding is not included.
+- Output bins: four separate 2 x 3 bins, one each for Category A, Category B, Category C, and Category D.
+- Manual review bin: one 2 x 3 bin, used for barcode failure, unknown category, full output category, or abnormal samples.
+- Physical tube box/rack count: six total, including one mixed input rack, four category output bins, and one manual review bin.
+- Recommended placement: input rack in the rear area, scanning station in the middle area, output bins in a 2 x 2 group in the front or front-right area, and manual review bin at a front corner or near the output edge.
+- Mixed tube accommodation: rack and gripper clearances should account for different cap colors, label positions, barcode labels, and possible tube height variants.
+
+## Scanning Station Interfaces
+
+- Photoelectric sensor: Panasonic CX-421-J detects whether a tube is present at the scanning position and provides the trigger condition.
+- Barcode reader: Cognex DataMan 80 USB fixed-mount image-based reader scans 1D/2D barcode or QR code labels on the tube.
+- Tube presentation: gripper centerline, tube label face, sensor optical axis, and barcode reader field of view must be defined as adjustable station interfaces.
+- Bracket adjustment: sensor and scanner brackets should include adjustment slots or datum features for focus distance, reading angle, and tube-to-reader alignment.
+- Exception routing: failed read, unknown category, full target category bin, or abnormal sample sends the tube to the `manual_review_bin`.
+- Interference rule: scanner, sensor, racks, output bins, and gripper-held tubes must be checked for clearance before final bracket and bin positions are frozen.
 
 ## Cable Chain And Wiring Interfaces
 

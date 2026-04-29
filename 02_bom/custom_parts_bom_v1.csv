@@ -1,0 +1,11 @@
+part_id,part_name_cn,material,manufacturing_method,quantity,related_assembly,drawing_required,tolerance_level,surface_treatment,note
+blood_collection_tube_purple_13x75,purple cap blood collection tube 13x75,Scene consumable model,Simplified CadQuery STEP,1 type,Sample tube set,no,visual,None,Category A scene object; not a medical consumable production drawing
+blood_collection_tube_yellow_13x100,yellow cap blood collection tube 13x100,Scene consumable model,Simplified CadQuery STEP,1 type,Sample tube set,no,visual,None,Category B scene object; not a medical consumable production drawing
+blood_collection_tube_blue_13x75,blue cap blood collection tube 13x75,Scene consumable model,Simplified CadQuery STEP,1 type,Sample tube set,no,visual,None,Category C scene object; not a medical consumable production drawing
+blood_collection_tube_red_13x75,red cap blood collection tube 13x75,Scene consumable model,Simplified CadQuery STEP,1 type,Sample tube set,no,visual,None,Category D scene object; not a medical consumable production drawing
+input_mixed_tube_rack_4x6,input mixed tube rack 4x6,POM or PC,CNC machining or 3D printed prototype,1,Tube bin layout,yes,medium,Deburred,Current STEP is simplified for course design and assembly validation
+category_A_output_bin_2x3,Category A output bin 2x3,POM or PC,CNC machining or 3D printed prototype,1,Tube bin layout,yes,medium,Deburred,Current STEP is simplified for course design and assembly validation
+category_B_output_bin_2x3,Category B output bin 2x3,POM or PC,CNC machining or 3D printed prototype,1,Tube bin layout,yes,medium,Deburred,Current STEP is simplified for course design and assembly validation
+category_C_output_bin_2x3,Category C output bin 2x3,POM or PC,CNC machining or 3D printed prototype,1,Tube bin layout,yes,medium,Deburred,Current STEP is simplified for course design and assembly validation
+category_D_output_bin_2x3,Category D output bin 2x3,POM or PC,CNC machining or 3D printed prototype,1,Tube bin layout,yes,medium,Deburred,Current STEP is simplified for course design and assembly validation
+manual_review_bin_2x3,manual review bin 2x3,POM or PC,CNC machining or 3D printed prototype,1,Tube bin layout,yes,medium,Deburred,Used for scan failure unknown category full output bin or abnormal sample; current STEP is simplified

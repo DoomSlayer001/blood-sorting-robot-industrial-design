@@ -16,6 +16,16 @@ The confirmed X/Y configuration is `MSA-628-B-AB-B1-0750`. The same supplier CAD
 
 The base plate recommendation is now 1100 mm x 900 mm x 15 mm. X is the left-right direction along 1100 mm, Y is the front-back direction along 900 mm, and Z is vertical.
 
+## Functional Work Areas
+
+- Input area: 4 x 6 input rack with 24 vertically inserted mixed blood collection tubes.
+- Scanning station: fixed location where the gripper presents a tube to the Panasonic CX-421-J trigger sensor and Cognex DataMan 80 USB barcode reader.
+- Output area: four separate 2 x 3 category output bins for Category A/B/C/D, arranged as a 2 x 2 group in the front or front-right area.
+- Manual review area: one 2 x 3 `manual_review_bin` in a front corner or near the output edge for barcode failure, unknown category, full output category, or abnormal samples.
+- Scanning station count: one, not counted as a tube box because the tube is held by the gripper during scanning.
+
+The X/Y reachable workspace must cover every input hole, the scanning station, every category output-bin slot, and every manual-review slot. Z safe height must clear the tallest expected mixed tube, cap features, rack walls, sensor brackets, barcode reader bracket, and neighboring bins.
+
 ## Y-Axis Synchronization
 
 The mechanical Y axis has two sides:
@@ -54,3 +64,5 @@ The left and right Y sliders and the gantry beam must be constrained so the beam
 ## MATLAB/Simulink Mapping
 
 MATLAB/Simulink continues to use one virtual `y(t)` command for Y-axis motion. The equivalent Y moving mass must later include the gantry beam, X module, Z module, gripper, tube, cable chain moving segment, sensors, and brackets.
+
+For classification simulation, trajectory generation should include an intermediate scanning waypoint between input pickup and category placement. Target selection is not a fixed input-to-output index pair; it is computed from `sample_manifest.csv` category data and available category-bin slots. Unknown, failed, full-bin, or abnormal reads route to `manual_review_bin`.

@@ -1,0 +1,25 @@
+tube_id,barcode,cap_color,height_mm,category,input_row,input_col,target_bin,target_row,target_col,scan_status,note
+TUBE-001,BSR-C-001,blue,75,Category C,A,1,category_c_bin,A,1,success,normal category C sample
+TUBE-002,BSR-A-001,purple,75,Category A,A,2,category_a_bin,A,1,success,normal category A sample
+TUBE-003,UNKNOWN,yellow,100,unknown,A,3,manual_review_bin,A,1,fail,barcode unreadable
+TUBE-004,BSR-B-001,yellow,100,Category B,A,4,category_b_bin,A,1,success,normal category B sample
+TUBE-005,BSR-D-001,red,75,Category D,A,5,category_d_bin,A,1,success,normal category D sample
+TUBE-006,BSR-A-002,purple,75,Category A,A,6,category_a_bin,A,2,success,normal category A sample
+TUBE-007,BSR-B-002,yellow,100,Category B,B,1,category_b_bin,A,2,success,normal category B sample
+TUBE-008,BSR-C-002,blue,75,Category C,B,2,category_c_bin,A,2,success,normal category C sample
+TUBE-009,BSR-D-002,red,75,Category D,B,3,category_d_bin,A,2,success,normal category D sample
+TUBE-010,BSR-A-003,purple,75,Category A,B,4,category_a_bin,A,3,success,normal category A sample
+TUBE-011,BSR-B-003,yellow,100,Category B,B,5,category_b_bin,A,3,success,normal category B sample
+TUBE-012,BSR-C-003,blue,75,Category C,B,6,category_c_bin,A,3,success,normal category C sample
+TUBE-013,BSR-D-003,red,75,Category D,C,1,category_d_bin,A,3,success,normal category D sample
+TUBE-014,BSR-A-004,purple,75,Category A,C,2,category_a_bin,B,1,success,normal category A sample
+TUBE-015,BSR-B-004,yellow,100,Category B,C,3,category_b_bin,B,1,success,normal category B sample
+TUBE-016,UNKNOWN,red,75,unknown,C,4,manual_review_bin,A,2,fail,category unknown after scan failure
+TUBE-017,BSR-C-004,blue,75,Category C,C,5,category_c_bin,B,1,success,normal category C sample
+TUBE-018,BSR-D-004,red,75,Category D,C,6,category_d_bin,B,1,success,normal category D sample
+TUBE-019,BSR-A-005,purple,75,Category A,D,1,category_a_bin,B,2,success,normal category A sample
+TUBE-020,BSR-B-005,yellow,100,Category B,D,2,category_b_bin,B,2,success,normal category B sample
+TUBE-021,BSR-C-005,blue,75,Category C,D,3,category_c_bin,B,2,success,normal category C sample
+TUBE-022,BSR-D-005,red,75,Category D,D,4,category_d_bin,B,2,success,normal category D sample
+TUBE-023,BSR-A-006,purple,75,Category A,D,5,category_a_bin,B,3,success,normal category A sample
+TUBE-024,BSR-B-006,yellow,100,Category B,D,6,category_b_bin,B,3,success,normal category B sample

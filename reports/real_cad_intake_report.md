@@ -516,6 +516,69 @@ The following entries were updated locally as a visual placeholder only:
 - `SP-026` y_axis_sync_mechanism.
 - `SP-027` gantry_beam_related_mounting_hardware.
 
+## Panasonic CX-421-J Photoelectric Sensor Intake Update
+
+- Check time: 2026-04-29 21:46:57 +08:00
+- Check directory: `03_cad/standard_parts/downloaded/sensors/`
+- Related part_id: `SP-017 photoelectric_sensor`
+- Supplier: Panasonic
+- Series: CX-400
+- Model: CX-421-J
+- Type: diffuse reflective photoelectric sensor
+- Usage: tube presence detection and barcode scan trigger at the pick/place or scanning station.
+
+### Original Downloaded Files
+
+| file | type | size_bytes | action |
+|---|---:|---:|---|
+| `03_cad/standard_parts/downloaded/sensors/cx-42_48_49-j_st.zip` | supplier ZIP package | 30373 | kept as original vendor package |
+
+### Extracted Files
+
+| file | type | size_bytes | action |
+|---|---:|---:|---|
+| `03_cad/standard_parts/downloaded/sensors/extracted/cx-42_48_49-j_st/cx-421-j.STEP` | extracted CAD | 205238 | kept as extracted original CAD |
+
+### Normalized Working CAD File
+
+| file | format | size_bytes | naming_check |
+|---|---:|---:|---|
+| `03_cad/standard_parts/downloaded/sensors/Panasonic_CX421J_diffuse_photoelectric_sensor_v1.step` | STEP | 205238 | passed: no Chinese characters, no spaces, supported extension |
+
+### CAD File Check Result
+
+- Script: `python tools/check_standard_cad_files.py`
+- Report: `reports/cad_file_check_report.md`
+- Supported CAD file count: 16
+- Valid CAD file count: 16
+- Supplementary vendor document count: 9
+- Invalid / unsupported CAD candidate count: 0
+- Note: the supplier ZIP package is reported as a supplementary vendor document and is not counted as invalid CAD.
+
+### Local Status Updates
+
+The following entries were updated locally because a real Panasonic photoelectric sensor CAD file exists and passed the CAD file check:
+
+| file | entries updated |
+|---|---|
+| `03_cad/standard_parts/CAD_download_status_v2.md` | `SP-017 photoelectric_sensor` set to `downloaded` |
+| `02_bom/standard_parts_bom_v1.csv` | `SP-017` set to `downloaded`; supplier set to Panasonic; series/model set to CX-400 / CX-421-J |
+| `02_bom/standard_parts_physical_parameters.csv` | `SP-017` CAD path and verified source recorded; unknown physical and sensing parameters remain `TBD` |
+
+The sensor is intended to detect whether a tube is present at the pick/place or barcode scanning station and to provide a trigger condition for barcode scanning.
+
+### Priority Items Still Not Downloaded After Photoelectric Sensor Intake
+
+- `SP-007` xyz_linear_guides_and_carriage_blocks, if separate guides are still needed.
+- `SP-008` timing_belt.
+- `SP-009` timing_belt_pulley.
+- `SP-010` lead_screw, if not fully covered by integrated LS10 data for release documentation.
+- `SP-011` coupling.
+- `SP-012` bearing_block.
+- `SP-019` emergency_stop official CAD replacement.
+- `SP-026` y_axis_sync_mechanism.
+- `SP-027` gantry_beam_related_mounting_hardware.
+
 ## MISUMI MHPKS Cable Carrier Intake Update
 
 ### Check Metadata

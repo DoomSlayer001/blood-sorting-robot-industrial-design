@@ -271,3 +271,91 @@ The following entries were updated locally because a real gripper CAD file exist
 - `SP-019` emergency_stop.
 - `SP-026` y_axis_sync_mechanism.
 - `SP-027` gantry_beam_related_mounting_hardware.
+
+## Oriental Motor AZM46AK Motor Intake Update
+
+### Check Metadata
+
+- Check time: 2026-04-29 20:31:37 +08:00
+- Check directory: `03_cad/standard_parts/downloaded/motors/`
+- Intake target: Oriental Motor AZ Series AZM46AK motor CAD
+- Configuration: 42 mm / NEMA17 stepper motor with mechanical absolute encoder, DC input, no gearbox, no brake
+- Usage: common motor CAD for X/Y/Z axis motor interface verification
+- Commit/push status: local commit requested after this intake; no push performed
+
+### Original Files Found
+
+| file | size_bytes | note |
+|---|---:|---|
+| `03_cad/standard_parts/downloaded/motors/182509157-19-azm46ak.zip` | 126860 | User-provided original Oriental Motor ZIP package; retained without deletion |
+| `03_cad/standard_parts/downloaded/motors/extracted/182509157-19-azm46ak/azm46ak.stp` | 900249 | Extracted supplier STP file retained in extracted package folder |
+| `03_cad/standard_parts/downloaded/motors/extracted/182509157-19-azm46ak/azm46ak.txt` | 3303 | Supplier text file; retained but not treated as CAD |
+
+### ZIP Check
+
+- ZIP files found: one.
+- Extraction performed: yes, into `03_cad/standard_parts/downloaded/motors/extracted/182509157-19-azm46ak/`.
+- Extracted CAD files: `azm46ak.stp`.
+- Original ZIP retained: yes.
+
+### Normalized File
+
+- Normalized file name: `OrientalMotor_AZM46AK_NEMA17_42mm_absolute_encoder_stepper_v1.step`
+- Normalized file path: `03_cad/standard_parts/downloaded/motors/OrientalMotor_AZM46AK_NEMA17_42mm_absolute_encoder_stepper_v1.step`
+- File size: 900249 bytes.
+- Naming check:
+  - Contains Chinese characters: no.
+  - Contains spaces: no.
+  - Extension allowed: yes, `.step`.
+  - File size greater than zero: yes.
+
+### Recorded Parameters
+
+| parameter | value |
+|---|---|
+| supplier | Oriental Motor |
+| series | AZ Series |
+| model | AZM46AK |
+| frame_size | 42 mm / NEMA17 |
+| encoder | mechanical absolute encoder |
+| input | DC |
+| gearbox | none |
+| brake | none |
+| motor_length | 70 mm |
+
+Unconfirmed torque, current, inertia, shaft detail, connector, and driver parameters remain `TBD`.
+
+### CAD File Check Result
+
+- Script: `python tools/check_standard_cad_files.py`
+- Report: `reports/cad_file_check_report.md`
+- Supported CAD file count: 9
+- Valid CAD file count: 9
+- Supplementary vendor document count: 5
+- Invalid / unsupported CAD candidate count: 0
+- Note: the supplier ZIP package and text file are reported as supplementary vendor documents and are not counted as invalid CAD.
+
+### Local Status Updates
+
+The following entries were updated locally because a real motor CAD file exists and passed the CAD file check:
+
+| file | entries updated |
+|---|---|
+| `03_cad/standard_parts/CAD_download_status_v2.md` | `SP-004 x_axis_motor`, `SP-005 y_axis_motor`, `SP-006 z_axis_motor` set to `downloaded` |
+| `02_bom/standard_parts_bom_v1.csv` | `SP-004`, `SP-005`, `SP-006` set to `downloaded`; supplier set to Oriental Motor; series/model set to AZ Series / AZM46AK |
+| `02_bom/standard_parts_physical_parameters.csv` | `SP-004`, `SP-005`, `SP-006` motor length, frame size, motor interface, CAD path, and known AZM46AK notes recorded |
+
+The same normalized motor CAD file is intended to be instantiated three times in SolidWorks for X, Y, and Z motor interface verification.
+
+### Priority A Items Still Not Downloaded After Motor Intake
+
+- `SP-007` xyz_linear_guides_and_carriage_blocks, if separate guides are still needed.
+- `SP-008` timing_belt.
+- `SP-009` timing_belt_pulley.
+- `SP-010` lead_screw, if not fully covered by integrated LS10 data for release documentation.
+- `SP-011` coupling.
+- `SP-012` bearing_block.
+- `SP-016` limit_switches.
+- `SP-019` emergency_stop.
+- `SP-026` y_axis_sync_mechanism.
+- `SP-027` gantry_beam_related_mounting_hardware.

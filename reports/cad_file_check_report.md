@@ -1,11 +1,11 @@
 # CAD File Check Report
 
-- Generated at: 2026-04-29T20:12:08
+- Generated at: 2026-04-29T20:31:26
 - Scan directory: `03_cad/standard_parts/downloaded`
-- File count scanned: 10
-- Supported CAD file count: 7
-- Valid CAD file count: 7
-- Supplementary vendor document count: 3
+- File count scanned: 14
+- Supported CAD file count: 9
+- Valid CAD file count: 9
+- Supplementary vendor document count: 5
 - Invalid / unsupported CAD candidate count: 0
 
 ## CAD File Results
@@ -14,6 +14,8 @@
 |---|---:|---|
 | `03_cad/standard_parts/downloaded/gripper/extracted/PARTserver22026042914085532807997d0b6156e/LEHF20K2-24(0_0).stp` | 228118 | OK |
 | `03_cad/standard_parts/downloaded/gripper/SMC_LEHF20_2finger_parallel_gripper_24stroke_v1.step` | 228118 | OK |
+| `03_cad/standard_parts/downloaded/motors/extracted/182509157-19-azm46ak/azm46ak.stp` | 900249 | OK |
+| `03_cad/standard_parts/downloaded/motors/OrientalMotor_AZM46AK_NEMA17_42mm_absolute_encoder_stepper_v1.step` | 900249 | OK |
 | `03_cad/standard_parts/downloaded/x_axis_module/MISUMI_MSA628_X_axis_L750_double_shaft_B1_v1.step` | 5514777 | OK |
 | `03_cad/standard_parts/downloaded/y_axis_module/MISUMI_MSA628_Y_axis_L750_double_shaft_B1_v1.step` | 5514777 | OK |
 | `03_cad/standard_parts/downloaded/y_axis_module/MSA-628-B-AB-B1-0750.STEP` | 5514777 | OK |
@@ -26,6 +28,8 @@
 |---|---:|---|
 | `03_cad/standard_parts/downloaded/gripper/extracted/PARTserver22026042914085532807997d0b6156e/readme-and-terms-of-use-3d-cad-models.txt` | 2688 | supplementary vendor document |
 | `03_cad/standard_parts/downloaded/gripper/PARTserver22026042914085532807997d0b6156e.zip` | 39405 | supplementary vendor document |
+| `03_cad/standard_parts/downloaded/motors/182509157-19-azm46ak.zip` | 126860 | supplementary vendor document |
+| `03_cad/standard_parts/downloaded/motors/extracted/182509157-19-azm46ak/azm46ak.txt` | 3303 | supplementary vendor document |
 | `03_cad/standard_parts/downloaded/z_axis_module/LS1004-140-T42_STEP_AP214_20260429/readme-and-terms-of-use-3d-cad-models.txt` | 2684 | supplementary vendor document |
 
 ## Rules

@@ -1,10 +1,10 @@
 # CAD File Check Report
 
-- Generated at: 2026-04-29T20:31:26
+- Generated at: 2026-04-29T20:47:38
 - Scan directory: `03_cad/standard_parts/downloaded`
-- File count scanned: 14
-- Supported CAD file count: 9
-- Valid CAD file count: 9
+- File count scanned: 16
+- Supported CAD file count: 11
+- Valid CAD file count: 11
 - Supplementary vendor document count: 5
 - Invalid / unsupported CAD candidate count: 0
 
@@ -16,6 +16,8 @@
 | `03_cad/standard_parts/downloaded/gripper/SMC_LEHF20_2finger_parallel_gripper_24stroke_v1.step` | 228118 | OK |
 | `03_cad/standard_parts/downloaded/motors/extracted/182509157-19-azm46ak/azm46ak.stp` | 900249 | OK |
 | `03_cad/standard_parts/downloaded/motors/OrientalMotor_AZM46AK_NEMA17_42mm_absolute_encoder_stepper_v1.step` | 900249 | OK |
+| `03_cad/standard_parts/downloaded/sensors/D4N-1A20_214.STEP` | 491902 | OK |
+| `03_cad/standard_parts/downloaded/sensors/OMRON_D4N_roller_lever_limit_switch_v1.step` | 491902 | OK |
 | `03_cad/standard_parts/downloaded/x_axis_module/MISUMI_MSA628_X_axis_L750_double_shaft_B1_v1.step` | 5514777 | OK |
 | `03_cad/standard_parts/downloaded/y_axis_module/MISUMI_MSA628_Y_axis_L750_double_shaft_B1_v1.step` | 5514777 | OK |
 | `03_cad/standard_parts/downloaded/y_axis_module/MSA-628-B-AB-B1-0750.STEP` | 5514777 | OK |

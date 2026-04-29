@@ -11,7 +11,7 @@ SP-009,timing_belt_pulley,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,T
 SP-010,lead_screw,TBD,TBD,TBD,TBD,TBD,120,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting screw lead diameter nut style
 SP-011,coupling,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting motor and shaft bore sizes
 SP-012,bearing_block,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting shaft layout and bearing support style
-SP-013,electric_parallel_gripper,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting gripper stroke force mass and flange CAD
+SP-013,electric_parallel_gripper,LEHF20,SMC,TBD,TBD,TBD,24,TBD,TBD,TBD,28,TBD,TBD,None,03_cad/standard_parts/downloaded/gripper/SMC_LEHF20_2finger_parallel_gripper_24stroke_v1.step,Local SMC CAD file provided by user,yes,Gripper type: 2-finger parallel electric gripper; size: 20; dimensions_when_open: 24 mm; dimensions_when_closed: 0 mm; maximum_gripping_force: 28 N; cable/controller: None; unconfirmed physical parameters remain TBD
 SP-014,gripper_soft_pad,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,May become custom silicone or TPU pad after gripper selection
 SP-015,cable_chain,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting cable bundle and bend radius
 SP-016,limit_switch,TBD,TBD,TBD,TBD,TBD,,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,TBD,no,Awaiting switch CAD and actuation direction

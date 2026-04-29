@@ -182,3 +182,92 @@ The following entries were updated locally because a real Z-axis CAD file exists
 - `SP-019` emergency_stop.
 - `SP-026` y_axis_sync_mechanism.
 - `SP-027` gantry_beam_related_mounting_hardware.
+
+## SMC LEHF20 Gripper Intake Update
+
+### Check Metadata
+
+- Check time: 2026-04-29 20:12:26 +08:00
+- Check directory: `03_cad/standard_parts/downloaded/gripper/`
+- Intake target: SMC LEHF20 electric parallel gripper CAD
+- Configuration: 2-finger parallel electric gripper, 24 mm stroke, Size 20
+- Usage: `electric_parallel_gripper` end effector for holding 13 mm blood tubes
+- Commit/push status: local commit requested after this intake; no push performed
+
+### Original Files Found
+
+| file | size_bytes | note |
+|---|---:|---|
+| `03_cad/standard_parts/downloaded/gripper/PARTserver22026042914085532807997d0b6156e.zip` | 39405 | User-provided original supplier ZIP package; retained without deletion |
+| `03_cad/standard_parts/downloaded/gripper/extracted/PARTserver22026042914085532807997d0b6156e/LEHF20K2-24(0_0).stp` | 228118 | Extracted supplier STP file retained in extracted package folder |
+| `03_cad/standard_parts/downloaded/gripper/extracted/PARTserver22026042914085532807997d0b6156e/readme-and-terms-of-use-3d-cad-models.txt` | 2688 | Supplier text/terms file; retained but not treated as CAD |
+
+### ZIP Check
+
+- ZIP files found: one.
+- Extraction performed: yes, into `03_cad/standard_parts/downloaded/gripper/extracted/PARTserver22026042914085532807997d0b6156e/`.
+- Extracted CAD files: `LEHF20K2-24(0_0).stp`.
+- Original ZIP retained: yes.
+
+### Normalized File
+
+- Normalized file name: `SMC_LEHF20_2finger_parallel_gripper_24stroke_v1.step`
+- Normalized file path: `03_cad/standard_parts/downloaded/gripper/SMC_LEHF20_2finger_parallel_gripper_24stroke_v1.step`
+- File size: 228118 bytes.
+- Naming check:
+  - Contains Chinese characters: no.
+  - Contains spaces: no.
+  - Extension allowed: yes, `.step`.
+  - File size greater than zero: yes.
+
+### Recorded Parameters
+
+| parameter | value |
+|---|---|
+| supplier | SMC |
+| series | LEHF20 |
+| gripper_type | 2-finger parallel electric gripper |
+| size | 20 |
+| stroke | 24 mm |
+| dimensions_when_open | 24 mm |
+| dimensions_when_closed | 0 mm |
+| maximum_gripping_force | 28 N |
+| cable/controller | None |
+
+Unconfirmed parameters remain `TBD`.
+
+### CAD File Check Result
+
+- Script: `python tools/check_standard_cad_files.py`
+- Report: `reports/cad_file_check_report.md`
+- Supported CAD file count: 7
+- Valid CAD file count: 7
+- Supplementary vendor document count: 3
+- Invalid / unsupported CAD candidate count: 0
+- Note: the supplier ZIP package and readme/terms files are reported as supplementary vendor documents and are not counted as invalid CAD.
+
+### Local Status Updates
+
+The following entries were updated locally because a real gripper CAD file exists and passed the CAD file check:
+
+| file | entries updated |
+|---|---|
+| `03_cad/standard_parts/CAD_download_status_v2.md` | `SP-013 electric_parallel_gripper` set to `downloaded` |
+| `02_bom/standard_parts_bom_v1.csv` | `SP-013` set to `downloaded`; supplier set to SMC; series/configuration set to LEHF20 |
+| `02_bom/standard_parts_physical_parameters.csv` | `SP-013` stroke, rated gripping force, CAD path, and known LEHF20 notes recorded |
+
+### Priority A Items Still Not Downloaded After Gripper Intake
+
+- `SP-004` x_axis_motor.
+- `SP-005` y_axis_motor.
+- `SP-006` z_axis_motor.
+- `SP-007` xyz_linear_guides_and_carriage_blocks, if separate guides are still needed.
+- `SP-008` timing_belt.
+- `SP-009` timing_belt_pulley.
+- `SP-010` lead_screw, if not fully covered by integrated LS10 data for release documentation.
+- `SP-011` coupling.
+- `SP-012` bearing_block.
+- `SP-016` limit_switches.
+- `SP-019` emergency_stop.
+- `SP-026` y_axis_sync_mechanism.
+- `SP-027` gantry_beam_related_mounting_hardware.

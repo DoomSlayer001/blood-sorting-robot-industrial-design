@@ -75,6 +75,12 @@ Y_left = Y_right = y
 
 MATLAB/Simulink may continue to use a single `y(t)` command for the Y axis, while SolidWorks must show the left/right Y guide structures and gantry beam connection.
 
+## 10.1 Tube Presence And Barcode Reading
+
+- Panasonic CX-421-J photoelectric sensor: detects whether a tube has reached the pick/place or scanning station and provides the scan trigger condition.
+- Cognex DataMan 80 USB fixed-mount image-based barcode reader: reads 1D/2D barcode or QR code labels on blood tubes after tube presence is confirmed.
+- Exception handling: if barcode reading fails after the trigger event, the sample is routed to an exception review area / manual review station instead of being treated as successfully sorted.
+
 ## 11. Materials
 
 - Base plate and mounting plates: 6061-T6 aluminum alloy.

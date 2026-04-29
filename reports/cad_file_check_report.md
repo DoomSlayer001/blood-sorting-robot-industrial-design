@@ -1,17 +1,20 @@
 # CAD File Check Report
 
-- Generated at: 2026-04-29T21:46:49
+- Generated at: 2026-04-29T22:07:39
 - Scan directory: `03_cad/standard_parts/downloaded`
-- File count scanned: 25
-- Supported CAD file count: 16
-- Valid CAD file count: 16
-- Supplementary vendor document count: 9
+- File count scanned: 31
+- Supported CAD file count: 19
+- Valid CAD file count: 19
+- Supplementary vendor document count: 12
 - Invalid / unsupported CAD candidate count: 0
 
 ## CAD File Results
 
 | file | size_bytes | status |
 |---|---:|---|
+| `03_cad/standard_parts/downloaded/barcode_scanner/Cognex_DataMan80_USB_fixed_barcode_reader_v1.step` | 6872638 | OK |
+| `03_cad/standard_parts/downloaded/barcode_scanner/extracted/DM80_CAD_USB/DM80_USB_HPIL_Red_Light_vendor_candidate.step` | 7085154 | OK |
+| `03_cad/standard_parts/downloaded/barcode_scanner/extracted/DM80_CAD_USB/DM80_USB_Standard_Red_Light_vendor_candidate.step` | 6872638 | OK |
 | `03_cad/standard_parts/downloaded/cable_chain/extracted/MHPKS204-38-18-A_STEP_AP214_20260429/MHPKS204-38-18-A.stp` | 217055 | OK |
 | `03_cad/standard_parts/downloaded/cable_chain/MISUMI_MHPKS204_cable_carrier_R38_18links_v1.step` | 217055 | OK |
 | `03_cad/standard_parts/downloaded/gripper/extracted/PARTserver22026042914085532807997d0b6156e/LEHF20K2-24(0_0).stp` | 228118 | OK |
@@ -33,6 +36,9 @@
 
 | file | size_bytes | note |
 |---|---:|---|
+| `03_cad/standard_parts/downloaded/barcode_scanner/DM80_CAD_USB.zip` | 3184542 | supplementary vendor document |
+| `03_cad/standard_parts/downloaded/barcode_scanner/extracted/DM80_CAD_USB/DM80 USB STANDARD 16mm.PDF` | 105708 | supplementary vendor document |
+| `03_cad/standard_parts/downloaded/barcode_scanner/extracted/DM80_CAD_USB/DM80 USB STANDARD 6.2mm.PDF` | 105768 | supplementary vendor document |
 | `03_cad/standard_parts/downloaded/cable_chain/extracted/MHPKS204-38-18-A_STEP_AP214_20260429/readme-and-terms-of-use-3d-cad-models.txt` | 2688 | supplementary vendor document |
 | `03_cad/standard_parts/downloaded/cable_chain/MHPKS204-38-18-A_STEP_AP214_20260429.zip` | 37736 | supplementary vendor document |
 | `03_cad/standard_parts/downloaded/gripper/extracted/PARTserver22026042914085532807997d0b6156e/readme-and-terms-of-use-3d-cad-models.txt` | 2688 | supplementary vendor document |

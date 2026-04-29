@@ -4,13 +4,13 @@
 
 The world coordinate system is the master reference for CAD, controls, and documentation. Units are millimeters.
 
-- X: left-right direction along the 800 mm base length.
-- Y: front-back direction along the 500 mm base width.
+- X: left-right direction along the 1100 mm base length.
+- Y: front-back direction along the 900 mm base width.
 - Z: upward vertical direction.
 
 ## Base Plate Coordinate System
 
-The base plate lower-left-front corner is the nominal base origin. The top surface of the base plate is the primary mounting datum for racks, left/right Y axes, safety cover brackets, and control box mounting.
+The recommended base plate size is 1100 mm x 900 mm x 15 mm. The base plate lower-left-front corner is the nominal base origin. The top surface of the base plate is the primary mounting datum for racks, left/right Y axes, safety cover brackets, and control box mounting.
 
 ## Dual Y-Axis Datums
 
@@ -18,6 +18,7 @@ The base plate lower-left-front corner is the nominal base origin. The top surfa
 - `right_y_axis_datum`: centerline and mounting datum of the right Y guide/module.
 - The two Y datums must be parallel and coplanar within the tolerance later defined by the SolidWorks drawings.
 - The Y-axis synchronization mechanism must reference both Y datums.
+- Left and right Y modules use MISUMI MSA-628, configuration `MSA-628-B-AB-B1-0750`, as separate SolidWorks instances of the same standard CAD.
 
 ## Gantry And X-Axis Datums
 
@@ -25,6 +26,8 @@ The base plate lower-left-front corner is the nominal base origin. The top surfa
 - `x_axis_on_gantry_datum`: X-axis module datum mounted on the gantry beam.
 - `z_axis_centerline`: vertical datum through the Z module carriage and gripper adapter.
 - `gripper_centerline`: midpoint line between gripper fingers, aligned to target tube hole centers.
+- The X-axis module on the gantry also uses MISUMI MSA-628, configuration `MSA-628-B-AB-B1-0750`, but it is instantiated with the X-axis orientation.
+- The Z-axis centerline belongs to a future lead-screw lifting module and must not be treated as MSA-628 geometry.
 
 ## Input Rack Coordinate System
 

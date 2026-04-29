@@ -1,10 +1,12 @@
-# Requirements Specification v1.1
+# Requirements Specification v1.2
 
 ## 1. Device Type
 
 Desktop dual-side gantry three-axis Cartesian blood sample sorting robot.
 
 The main mechanical architecture is no longer a single-side or simple stacked Cartesian platform. The robot uses left and right Y-axis support/guide structures to carry a gantry beam. The X-axis module is mounted on the gantry beam, and the Z-axis module with the electric gripper is mounted on the X-axis carriage.
+
+The confirmed X/Y standard actuator route is MISUMI MSA-628 Guided Belt Drive Actuator. The same MSA-628 CAD/configuration, `MSA-628-B-AB-B1-0750`, is used as separate SolidWorks instances for the left Y-axis module, right Y-axis module, and X-axis module on the gantry. MISUMI MSA-M6S was considered as a higher-rigidity candidate, but it is larger and is not used as the current mainline BOM item.
 
 ## 2. Tube Racks
 
@@ -13,8 +15,11 @@ The main mechanical architecture is no longer a single-side or simple stacked Ca
 
 ## 3. Equipment Size
 
-- Base plate: temporarily 800 mm x 500 mm x 12 mm.
-- The larger base is selected to reserve space for dual Y-axis supports, the gantry beam, cable chain, safety cover, and input/output rack reachability.
+- Base plate: recommended 1100 mm x 900 mm x 15 mm.
+- X direction: left-right direction along the 1100 mm base length.
+- Y direction: front-back direction along the 900 mm base width.
+- Z direction: vertical up-down direction.
+- The larger base is selected to reserve space for the MSA-628 dual Y-axis modules, gantry beam, X-axis MSA-628 module, cable chain, safety cover, and input/output rack reachability.
 
 ## 4. Test Tube Specification
 
@@ -41,8 +46,8 @@ The main mechanical architecture is no longer a single-side or simple stacked Ca
 
 ## 8. Mechanical Axis Definition
 
-- Y axis: left and right side support/guide structures move the gantry beam forward and backward.
-- X axis: belt-driven linear module mounted on the gantry beam moves the Z module and gripper left and right.
+- Y axis: left and right MISUMI MSA-628 modules move the gantry beam forward and backward.
+- X axis: MISUMI MSA-628 belt-driven linear module mounted on the gantry beam moves the Z module and gripper left and right.
 - Z axis: lead-screw lifting module mounted on the X carriage performs vertical pick/place motion.
 - End effector: electric two-finger parallel gripper with silicone or TPU soft pads.
 
@@ -51,8 +56,8 @@ The main mechanical architecture is no longer a single-side or simple stacked Ca
 - Y axis: dual-side support/guide structure with mechanical synchronization preferred.
 - Recommended Y implementation: single motor plus synchronization shaft or synchronization belt linkage.
 - Independent dual Y motors are not preferred. If used later, a separate synchronization-control and anti-jamming risk document is required.
-- X axis: timing-belt linear module mounted on the gantry beam.
-- Z axis: lead-screw lifting module.
+- X/Y axes: MISUMI MSA-628 Guided Belt Drive Actuator, configuration `MSA-628-B-AB-B1-0750`, instantiated separately for left Y, right Y, and X-on-gantry.
+- Z axis: lead-screw lifting module, still requiring separate selection. Z does not use MSA-628.
 
 ## 10. Control Model
 

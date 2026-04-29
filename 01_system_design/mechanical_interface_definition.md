@@ -2,7 +2,8 @@
 
 ## Left Y-Axis Interfaces
 
-- Mounting face: base plate or support rail datum for the left Y module/guide.
+- Selected standard module: MISUMI MSA-628, configuration `MSA-628-B-AB-B1-0750`.
+- Mounting face: base plate or support rail datum for the left Y module.
 - Mounting holes: supplier CAD hole pattern drives the base plate and left support plate.
 - Carriage interface: left Y carriage top face connects to the gantry beam.
 - Drive side: preferred location for the single Y motor or synchronization input.
@@ -10,7 +11,8 @@
 
 ## Right Y-Axis Interfaces
 
-- Mounting face: base plate or support rail datum for the right Y module/guide.
+- Selected standard module: MISUMI MSA-628, configuration `MSA-628-B-AB-B1-0750`.
+- Mounting face: base plate or support rail datum for the right Y module.
 - Mounting holes: supplier CAD hole pattern drives the base plate and right support plate.
 - Carriage interface: right Y carriage top face connects to the gantry beam.
 - Guide side: may be driven through the synchronization mechanism or act as the synchronized guide side.
@@ -25,10 +27,16 @@
 
 ## X-Axis Module On Gantry Interfaces
 
+- Selected standard module: MISUMI MSA-628, configuration `MSA-628-B-AB-B1-0750`.
 - X module base mounting face attaches to the gantry beam front or top mounting surface.
 - X module mounting holes must come from real supplier CAD.
 - X carriage top/front face defines the Z module connection.
 - X motor side and cable exit must be coordinated with drag-chain routing.
+- The X module uses the same MSA-628 series as the left/right Y modules, but it is a separate SolidWorks instance with a different assembly orientation and role.
+
+## MSA-M6S Note
+
+MISUMI MSA-M6S was considered as a higher-rigidity candidate. Because its larger package size is not the current mainline fit for this desktop blood sorting layout, it is not included in the active BOM. It may remain only as an engineering comparison note.
 
 ## Gantry Beam Deflection And Parallelism
 
@@ -49,6 +57,7 @@
 - Z slider mounting face: front carriage face defines gripper adapter location.
 - Screw/motor space: reserve vertical and rear clearance for motor, screw, coupling, and cable exit.
 - Gripper adapter holes: supplier gripper flange and Z carriage hole pattern define adapter plate holes.
+- Z axis does not use MSA-628. It remains a separate lead-screw lifting module to be selected later.
 
 ## Gripper Interfaces
 

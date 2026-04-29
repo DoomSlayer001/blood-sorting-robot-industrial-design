@@ -1,11 +1,11 @@
 # CAD File Check Report
 
-- Generated at: 2026-04-29T20:47:38
+- Generated at: 2026-04-29T21:08:02
 - Scan directory: `03_cad/standard_parts/downloaded`
-- File count scanned: 16
-- Supported CAD file count: 11
-- Valid CAD file count: 11
-- Supplementary vendor document count: 5
+- File count scanned: 18
+- Supported CAD file count: 12
+- Valid CAD file count: 12
+- Supplementary vendor document count: 6
 - Invalid / unsupported CAD candidate count: 0
 
 ## CAD File Results
@@ -16,6 +16,7 @@
 | `03_cad/standard_parts/downloaded/gripper/SMC_LEHF20_2finger_parallel_gripper_24stroke_v1.step` | 228118 | OK |
 | `03_cad/standard_parts/downloaded/motors/extracted/182509157-19-azm46ak/azm46ak.stp` | 900249 | OK |
 | `03_cad/standard_parts/downloaded/motors/OrientalMotor_AZM46AK_NEMA17_42mm_absolute_encoder_stepper_v1.step` | 900249 | OK |
+| `03_cad/standard_parts/downloaded/safety/extracted/User Library-K16-811-N/User_Library-K16-811-N.sldprt` | 2281079 | OK |
 | `03_cad/standard_parts/downloaded/sensors/D4N-1A20_214.STEP` | 491902 | OK |
 | `03_cad/standard_parts/downloaded/sensors/OMRON_D4N_roller_lever_limit_switch_v1.step` | 491902 | OK |
 | `03_cad/standard_parts/downloaded/x_axis_module/MISUMI_MSA628_X_axis_L750_double_shaft_B1_v1.step` | 5514777 | OK |
@@ -32,6 +33,7 @@
 | `03_cad/standard_parts/downloaded/gripper/PARTserver22026042914085532807997d0b6156e.zip` | 39405 | supplementary vendor document |
 | `03_cad/standard_parts/downloaded/motors/182509157-19-azm46ak.zip` | 126860 | supplementary vendor document |
 | `03_cad/standard_parts/downloaded/motors/extracted/182509157-19-azm46ak/azm46ak.txt` | 3303 | supplementary vendor document |
+| `03_cad/standard_parts/downloaded/safety/User Library-K16-811-N.zip` | 2240997 | supplementary vendor document |
 | `03_cad/standard_parts/downloaded/z_axis_module/LS1004-140-T42_STEP_AP214_20260429/readme-and-terms-of-use-3d-cad-models.txt` | 2684 | supplementary vendor document |
 
 ## Rules

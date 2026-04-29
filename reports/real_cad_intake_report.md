@@ -438,3 +438,80 @@ The same normalized switch CAD file is intended to be instantiated multiple time
 - `SP-019` emergency_stop.
 - `SP-026` y_axis_sync_mechanism.
 - `SP-027` gantry_beam_related_mounting_hardware.
+
+## Emergency Stop Visual Placeholder Intake Update
+
+### Check Metadata
+
+- Check time: 2026-04-29 21:08:29 +08:00
+- Source directory: `03_cad/standard_parts/downloaded/safety/`
+- Placeholder directory: `03_cad/standard_parts/placeholders/safety/`
+- Intake target: emergency stop pushbutton visual placeholder
+- Supplier status: community model or unknown official supplier
+- Usage: visual placeholder for emergency stop button mounted on the control panel or base plate safety area
+- Commit/push status: local commit requested after this intake; no push performed
+
+### Original Files Found
+
+| file | size_bytes | note |
+|---|---:|---|
+| `03_cad/standard_parts/downloaded/safety/User Library-K16-811-N.zip` | 2240997 | User-provided original ZIP package; retained without deletion |
+| `03_cad/standard_parts/downloaded/safety/extracted/User Library-K16-811-N/User_Library-K16-811-N.sldprt` | 2281079 | Extracted SolidWorks part; extracted copy renamed to remove spaces so the CAD check does not fail on filename rules |
+
+### ZIP Check
+
+- ZIP files found: one.
+- Extraction performed: yes, into `03_cad/standard_parts/downloaded/safety/extracted/User Library-K16-811-N/`.
+- Extracted CAD files: `User_Library-K16-811-N.sldprt`.
+- Original ZIP retained: yes.
+
+### Placeholder Normalized File
+
+- Placeholder file name: `emergency_stop_visual_placeholder_v1.sldprt`
+- Placeholder file path: `03_cad/standard_parts/placeholders/safety/emergency_stop_visual_placeholder_v1.sldprt`
+- File size: 2281079 bytes.
+- Naming check:
+  - Contains Chinese characters: no.
+  - Contains spaces: no.
+  - Extension allowed: yes, `.sldprt`.
+  - File size greater than zero: yes.
+
+### CAD File Check Result
+
+- Script: `python tools/check_standard_cad_files.py`
+- Report: `reports/cad_file_check_report.md`
+- Supported CAD file count: 12
+- Valid CAD file count: 12
+- Supplementary vendor document count: 6
+- Invalid / unsupported CAD candidate count: 0
+- Note: the original ZIP package is reported as a supplementary vendor document/archive and is not counted as invalid CAD.
+
+### Local Status Updates
+
+The following entries were updated locally as a visual placeholder only:
+
+| file | entries updated |
+|---|---|
+| `03_cad/standard_parts/CAD_download_status_v2.md` | `SP-019 emergency_stop` set to `visual_placeholder` |
+| `02_bom/standard_parts_bom_v1.csv` | `SP-019` set to `visual_placeholder`; supplier set to `community_model`; fallback allowed |
+| `02_bom/standard_parts_physical_parameters.csv` | `SP-019` placeholder path recorded; verified remains `no` because this is not official vendor CAD |
+
+### Placeholder Limitations
+
+- Current model is only for visual layout.
+- It is not official vendor CAD.
+- It must not be used for final production, safety certification, or a rigorous final report release.
+- Final version should replace this placeholder with official CAD from Schneider Harmony XB5, OMRON A22E, Fuji AR22, or IDEC XW.
+- `official_cad_required_later=true`.
+
+### Priority A Items Still Requiring Official CAD After Placeholder Intake
+
+- `SP-007` xyz_linear_guides_and_carriage_blocks, if separate guides are still needed.
+- `SP-008` timing_belt.
+- `SP-009` timing_belt_pulley.
+- `SP-010` lead_screw, if not fully covered by integrated LS10 data for release documentation.
+- `SP-011` coupling.
+- `SP-012` bearing_block.
+- `SP-019` emergency_stop official CAD replacement.
+- `SP-026` y_axis_sync_mechanism.
+- `SP-027` gantry_beam_related_mounting_hardware.

@@ -516,6 +516,76 @@ The following entries were updated locally as a visual placeholder only:
 - `SP-026` y_axis_sync_mechanism.
 - `SP-027` gantry_beam_related_mounting_hardware.
 
+## Cognex DataMan 80 USB Barcode Reader Intake Update
+
+- Check time: 2026-04-29 22:07:48 +08:00
+- Check directory: `03_cad/standard_parts/downloaded/barcode_scanner/`
+- Related part_id: `SP-018 barcode_scanner`
+- Supplier: Cognex
+- Series: DataMan 80
+- Model: DataMan 80 USB
+- Type: fixed-mount image-based barcode reader
+- Usage: tube label 1D/2D barcode or QR code reading, triggered by the Panasonic CX-421-J photoelectric sensor.
+
+### Original Downloaded Files
+
+| file | type | size_bytes | action |
+|---|---:|---:|---|
+| `03_cad/standard_parts/downloaded/barcode_scanner/DM80_CAD_USB.zip` | supplier ZIP package | 3184542 | kept as original vendor package |
+
+### ZIP CAD Candidates
+
+The ZIP contains multiple STEP candidates:
+
+| original ZIP entry | extracted/sanitized file | size_bytes | note |
+|---|---|---:|---|
+| `DM80 USB HPIL Red Light.STEP` | `03_cad/standard_parts/downloaded/barcode_scanner/extracted/DM80_CAD_USB/DM80_USB_HPIL_Red_Light_vendor_candidate.step` | 7085154 | HPIL red light candidate |
+| `DM80 USB Standard Red Light.STEP` | `03_cad/standard_parts/downloaded/barcode_scanner/extracted/DM80_CAD_USB/DM80_USB_Standard_Red_Light_vendor_candidate.step` | 6872638 | selected as the main CAD because it is the standard light version |
+
+The ZIP also contains `DM80 USB STANDARD 16mm.PDF` and `DM80 USB STANDARD 6.2mm.PDF`. The STEP file names do not explicitly encode the lens value, so the standard red light STEP was selected as the most general main CAD while both original CAD candidates are retained.
+
+### Normalized Main CAD File
+
+| file | format | size_bytes | naming_check |
+|---|---:|---:|---|
+| `03_cad/standard_parts/downloaded/barcode_scanner/Cognex_DataMan80_USB_fixed_barcode_reader_v1.step` | STEP | 6872638 | passed: no Chinese characters, no spaces, supported extension |
+
+### CAD File Check Result
+
+- Script: `python tools/check_standard_cad_files.py`
+- Report: `reports/cad_file_check_report.md`
+- Supported CAD file count: 19
+- Valid CAD file count: 19
+- Supplementary vendor document count: 12
+- Invalid / unsupported CAD candidate count: 0
+- Note: the vendor ZIP and PDF datasheets are reported as supplementary vendor documents and are not counted as invalid CAD.
+
+### Local Status Updates
+
+The following entries were updated locally because a real Cognex barcode reader CAD file exists and passed the CAD file check:
+
+| file | entries updated |
+|---|---|
+| `03_cad/standard_parts/CAD_download_status_v2.md` | `SP-018 barcode_scanner` set to `downloaded` |
+| `02_bom/standard_parts_bom_v1.csv` | `SP-018` set to `downloaded`; supplier set to Cognex; series/model set to DataMan 80 / DataMan 80 USB |
+| `02_bom/standard_parts_physical_parameters.csv` | `SP-018` CAD path and verified source recorded; unknown optical and physical parameters remain `TBD` |
+| `00_requirements/requirements_specification.md` | Barcode reader behavior clarified as fixed-mount image-based reading with exception/manual review handling |
+| `01_system_design/system_architecture.md` | Sensing and barcode module clarified with Panasonic trigger and Cognex reader roles |
+
+Panasonic CX-421-J detects tube presence and triggers the barcode reader. Cognex DataMan 80 USB reads the tube label. If reading fails, the sample is routed to an exception review area / manual review station.
+
+### Priority Items Still Not Downloaded After Barcode Reader Intake
+
+- `SP-007` xyz_linear_guides_and_carriage_blocks, if separate guides are still needed.
+- `SP-008` timing_belt.
+- `SP-009` timing_belt_pulley.
+- `SP-010` lead_screw, if not fully covered by integrated LS10 data for release documentation.
+- `SP-011` coupling.
+- `SP-012` bearing_block.
+- `SP-019` emergency_stop official CAD replacement.
+- `SP-026` y_axis_sync_mechanism.
+- `SP-027` gantry_beam_related_mounting_hardware.
+
 ## Panasonic CX-421-J Photoelectric Sensor Intake Update
 
 - Check time: 2026-04-29 21:46:57 +08:00

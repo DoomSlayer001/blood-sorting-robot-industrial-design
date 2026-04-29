@@ -17,8 +17,9 @@ The previous single-axis-combination Cartesian layout is no longer the mainline 
 7. Electric gripper module: electric two-finger parallel gripper with silicone or TPU soft pads.
 8. Input/output tube rack module: two 4 x 6 racks with locating pins and coordinate mapping.
 9. Control box and safety module: controller enclosure, emergency stop, limit switches, software limits, and safety cover.
-10. Cable chain and wiring management module: moving cable routing for gantry, X carriage, Z module, gripper, and sensors.
-11. Isaac Sim visualization module: material, lighting, cameras, and demonstration animation after SolidWorks assembly stabilizes.
+10. Sensing and barcode module: Panasonic CX-421-J photoelectric sensor detects tube presence at the pick/place or scanning station and triggers the Cognex DataMan 80 USB fixed-mount image-based barcode reader for 1D/2D barcode or QR code reading on tube labels.
+11. Cable chain and wiring management module: moving cable routing for gantry, X carriage, Z module, gripper, sensors, and the fixed barcode reader.
+12. Isaac Sim visualization module: material, lighting, cameras, and demonstration animation after SolidWorks assembly stabilizes.
 
 ## Platform Responsibilities
 
@@ -40,3 +41,7 @@ If a future dual-motor Y design is used, a separate synchronization-control and 
 ## Data Flow
 
 Requirements define travel, accuracy, speed, material, synchronization, and platform constraints. The mechanical design produces mass, stiffness, and travel assumptions for MATLAB/Simulink. Control simulation uses the virtual X/Y/Z model. Final CAD exports and selected animation assets are prepared for Isaac Sim visualization and manufacturing package release.
+
+## Barcode Identification Flow
+
+The Panasonic CX-421-J photoelectric sensor confirms tube presence before barcode capture. Once presence is confirmed, the Cognex DataMan 80 USB fixed-mount image-based barcode reader reads the tube label. If barcode reading fails, the sample enters an exception review area / manual review station and should not be logged as a completed normal sort.

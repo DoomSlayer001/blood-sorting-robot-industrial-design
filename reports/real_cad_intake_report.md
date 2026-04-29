@@ -359,3 +359,82 @@ The same normalized motor CAD file is intended to be instantiated three times in
 - `SP-019` emergency_stop.
 - `SP-026` y_axis_sync_mechanism.
 - `SP-027` gantry_beam_related_mounting_hardware.
+
+## OMRON D4N Limit Switch Intake Update
+
+### Check Metadata
+
+- Check time: 2026-04-29 20:48:00 +08:00
+- Check directory: `03_cad/standard_parts/downloaded/sensors/`
+- Intake target: OMRON D4N limit switch CAD
+- Configuration: D4N-1A20 roller lever limit switch
+- Usage: X/Y/Z axis homing and travel limit detection
+- Commit/push status: local commit requested after this intake; no push performed
+
+### Original Files Found
+
+| file | size_bytes | note |
+|---|---:|---|
+| `03_cad/standard_parts/downloaded/sensors/D4N-1A20_214.STEP` | 491902 | User-provided original OMRON STEP file; retained without deletion |
+
+### ZIP Check
+
+- ZIP files found: none.
+- Extraction performed: no.
+- Extracted CAD files: none.
+
+### Normalized File
+
+- Normalized file name: `OMRON_D4N_roller_lever_limit_switch_v1.step`
+- Normalized file path: `03_cad/standard_parts/downloaded/sensors/OMRON_D4N_roller_lever_limit_switch_v1.step`
+- File size: 491902 bytes.
+- Naming check:
+  - Contains Chinese characters: no.
+  - Contains spaces: no.
+  - Extension allowed: yes, `.step`.
+  - File size greater than zero: yes.
+
+### Recorded Parameters
+
+| parameter | value |
+|---|---|
+| supplier | OMRON |
+| series | D4N |
+| model | D4N-1A20 |
+| type | roller lever limit switch |
+| usage | X/Y/Z homing and travel limit detection |
+
+Unconfirmed physical and electrical parameters remain `TBD`.
+
+### CAD File Check Result
+
+- Script: `python tools/check_standard_cad_files.py`
+- Report: `reports/cad_file_check_report.md`
+- Supported CAD file count: 11
+- Valid CAD file count: 11
+- Supplementary vendor document count: 5
+- Invalid / unsupported CAD candidate count: 0
+
+### Local Status Updates
+
+The following entries were updated locally because a real limit switch CAD file exists and passed the CAD file check:
+
+| file | entries updated |
+|---|---|
+| `03_cad/standard_parts/CAD_download_status_v2.md` | `SP-016 limit_switches` set to `downloaded` |
+| `02_bom/standard_parts_bom_v1.csv` | `SP-016` set to `downloaded`; supplier set to OMRON; series/model set to D4N / D4N-1A20 |
+| `02_bom/standard_parts_physical_parameters.csv` | `SP-016` CAD path and known D4N notes recorded |
+
+The same normalized switch CAD file is intended to be instantiated multiple times in SolidWorks for X/Y/Z axis homing and travel limit detection.
+
+### Priority A Items Still Not Downloaded After Limit Switch Intake
+
+- `SP-007` xyz_linear_guides_and_carriage_blocks, if separate guides are still needed.
+- `SP-008` timing_belt.
+- `SP-009` timing_belt_pulley.
+- `SP-010` lead_screw, if not fully covered by integrated LS10 data for release documentation.
+- `SP-011` coupling.
+- `SP-012` bearing_block.
+- `SP-019` emergency_stop.
+- `SP-026` y_axis_sync_mechanism.
+- `SP-027` gantry_beam_related_mounting_hardware.

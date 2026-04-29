@@ -2,16 +2,26 @@
 
 ## 1. Device Type
 
-Desktop dual-side gantry three-axis Cartesian blood sample sorting robot.
+Desktop dual-side gantry three-axis Cartesian mixed blood collection tube identification and classification sorting system.
+
+The system is not a simple tube transfer device. It automatically identifies mixed blood collection tubes placed in the input rack, reads each tube label barcode or QR code, queries the sample category, and sorts the tube into the corresponding output category area. Tubes with failed barcode reading, unknown category, full target category, or other abnormal conditions are routed to a manual review area.
 
 The main mechanical architecture is no longer a single-side or simple stacked Cartesian platform. The robot uses left and right Y-axis support/guide structures to carry a gantry beam. The X-axis module is mounted on the gantry beam, and the Z-axis module with the electric gripper is mounted on the X-axis carriage.
 
 The confirmed X/Y standard actuator route is MISUMI MSA-628 Guided Belt Drive Actuator. The same MSA-628 CAD/configuration, `MSA-628-B-AB-B1-0750`, is used as separate SolidWorks instances for the left Y-axis module, right Y-axis module, and X-axis module on the gantry. MISUMI MSA-M6S was considered as a higher-rigidity candidate, but it is larger and is not used as the current mainline BOM item.
 
-## 2. Tube Racks
+## 2. Tube Rack And Sorting Bin Layout
 
 - Input tube rack: 4 x 6, 24 positions.
-- Output tube rack: 4 x 6, 24 positions.
+- Input tubes are randomly mixed by sample category.
+- Tubes may have different cap colors, labels, barcodes, and heights.
+- Tubes are inserted vertically in the input rack. Loose, piled, or bulk random feeding is outside the current scope.
+- Classification quantity is frozen as `n = 4`.
+- Physical tube box/rack count is frozen as six:
+  - one mixed input tube rack, 4 x 6, 24 positions.
+  - four category output bins, one each for Category A/B/C/D, each 2 x 3 with six positions.
+  - one `manual_review_bin`, 2 x 3 with six positions.
+- The fixed scanning station is not counted as a tube box. It is a gripper-held scanning position paired with the Panasonic CX-421-J photoelectric sensor and Cognex DataMan 80 USB barcode reader.
 
 ## 3. Equipment Size
 
@@ -19,12 +29,15 @@ The confirmed X/Y standard actuator route is MISUMI MSA-628 Guided Belt Drive Ac
 - X direction: left-right direction along the 1100 mm base length.
 - Y direction: front-back direction along the 900 mm base width.
 - Z direction: vertical up-down direction.
-- The larger base is selected to reserve space for the MSA-628 dual Y-axis modules, gantry beam, X-axis MSA-628 module, cable chain, safety cover, and input/output rack reachability.
+- The larger base is selected to reserve space for the MSA-628 dual Y-axis modules, gantry beam, X-axis MSA-628 module, cable chain, safety cover, mixed input rack, scanning station, four category output bins, and manual review bin.
+- Layout principle: the mixed input rack is placed in the rear area, the scanning station is placed in the middle area, the four output bins are arranged in a 2 x 2 group in the front or front-right area, and the manual review bin is placed at a front corner or near the output-bin edge.
+- Emergency stop and control box should be placed near the equipment edge for easy operator access.
 
 ## 4. Test Tube Specification
 
 - Diameter: 13 mm.
-- Height: 75 mm.
+- Nominal height: 75 mm.
+- Mixed input tubes may have different heights; the gripper and safe-height strategy must reserve clearance for the expected height range.
 - Single tube mass: 15-20 g.
 
 ## 5. Accuracy Targets
@@ -79,7 +92,41 @@ MATLAB/Simulink may continue to use a single `y(t)` command for the Y axis, whil
 
 - Panasonic CX-421-J photoelectric sensor: detects whether a tube has reached the pick/place or scanning station and provides the scan trigger condition.
 - Cognex DataMan 80 USB fixed-mount image-based barcode reader: reads 1D/2D barcode or QR code labels on blood tubes after tube presence is confirmed.
-- Exception handling: if barcode reading fails after the trigger event, the sample is routed to an exception review area / manual review station instead of being treated as successfully sorted.
+- Barcode recognition result: used to query the sample category before the robot selects the output target slot.
+- Exception handling: if barcode reading fails, the category is unknown, or the target category area is full, the sample is routed to an exception review area / manual review station instead of being treated as successfully sorted.
+
+## 10.2 Classification Sorting Workflow
+
+The frozen nominal workflow is:
+
+```text
+Pick tube from mixed input rack -> move to scanning station -> photoelectric presence detection -> Cognex barcode reader reads tube label -> query sample category -> place tube into matching output bin -> route failed/unknown/full/abnormal samples to manual_review_bin
+```
+
+Output classification is frozen as:
+
+- Category A: one 2 x 3 output bin.
+- Category B: one 2 x 3 output bin.
+- Category C: one 2 x 3 output bin.
+- Category D: one 2 x 3 output bin.
+
+The `manual_review_bin` is a 2 x 3 bin for barcode failure, unknown category, full category output bin, or other abnormal samples.
+
+## 10.3 Sample Manifest Data
+
+Later software simulation should use `sample_manifest.csv` to describe the mixed input tubes and target classification result.
+
+Recommended fields:
+
+```text
+tube_id, barcode, cap_color, height_mm, category, input_row, input_col, target_rack, target_slot
+```
+
+The frozen schema for later `sample_manifest.csv` is defined in `04_simulation/sample_data/sample_manifest_schema.md`. The actual CSV data file is not generated in this stage.
+
+## 10.4 Modeling Impact
+
+Future CAD and visualization stages need mixed blood collection tube models with varied cap colors, labels, barcode/QR label areas, and possible height variants. The mechanical layout must include the mixed input tube rack, four separate category output bins, `manual_review_bin`, and fixed scanning station. Robot motion must avoid interference between output bins, scanner/sensor brackets, racks, and gripper-held tubes.
 
 ## 11. Materials
 

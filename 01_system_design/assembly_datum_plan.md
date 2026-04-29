@@ -31,15 +31,36 @@ The recommended base plate size is 1100 mm x 900 mm x 15 mm. The base plate lowe
 
 ## Input Rack Coordinate System
 
-The input rack uses its first tube hole center as local rack origin. The local rack X/Y axes follow the hole array. The rack origin is located relative to the base coordinate system by locating pins and fixing holes.
+The input rack uses its first tube hole center as local rack origin. The local rack X/Y axes follow the hole array. The rack origin is located relative to the base coordinate system by locating pins and fixing holes. The input rack is 4 x 6 with 24 vertical tube positions, and its tubes may be randomly mixed by category, cap color, label, barcode, and height.
 
-## Output Rack Coordinate System
+## Output Bin Coordinate Systems
 
-The output rack follows the same local convention as the input rack. It is placed on the opposite side of the work envelope while preserving a clear gripper approach path.
+The frozen output layout uses four separate 2 x 3 category output bins. Each bin follows the same first-hole local-origin convention as the input rack. The default course demonstration uses:
+
+- `category_a_bin`: 2 x 3, six positions.
+- `category_b_bin`: 2 x 3, six positions.
+- `category_c_bin`: 2 x 3, six positions.
+- `category_d_bin`: 2 x 3, six positions.
+
+The four output bins are recommended as a 2 x 2 group in the front or front-right area of the base. If the target category bin is full, the tube is routed to the manual review bin.
+
+## Manual Review Bin Coordinate System
+
+The `manual_review_bin` is frozen as a 2 x 3 bin. Its local origin follows the same first-hole convention as the input and output bins. It receives barcode failures, unknown categories, full-category cases, and abnormal samples. It should be placed at a front corner or near the output-bin edge.
+
+## Scanning Station Datum
+
+The scanning station has a fixed datum in the base coordinate system:
+
+- `DATUM_SCAN_STATION_TUBE_CENTER`: nominal tube centerline while scanning.
+- `DATUM_PHOTOELECTRIC_SENSOR_AXIS`: Panasonic CX-421-J sensing axis for tube presence confirmation.
+- `DATUM_BARCODE_READER_AXIS`: Cognex DataMan 80 USB optical axis for label reading.
+
+The scanning datum must be reachable from the input rack and must allow the gripper to present the tube label toward the barcode reader.
 
 ## Reachability Relationship
 
-The X-axis travel on the gantry beam and the Y-axis gantry travel must cover both rack coordinate systems. The gripper centerline must reach every input and output hole center without violating safe height, cover clearance, or axis travel limits.
+The X-axis travel on the gantry beam and the Y-axis gantry travel must cover the input rack, scanning station, four category output bin coordinate systems, and manual review bin coordinate system. The gripper centerline must reach every input, output-bin, and manual-review hole center without violating safe height, cover clearance, sensor/scanner clearance, neighboring-bin clearance, or axis travel limits.
 
 ## Axis Directions
 
@@ -71,7 +92,14 @@ Use clear datum names:
 - `DATUM_Z_AXIS_CENTERLINE`
 - `DATUM_GRIPPER_CENTERLINE`
 - `DATUM_INPUT_RACK_ORIGIN`
-- `DATUM_OUTPUT_RACK_ORIGIN`
+- `DATUM_CATEGORY_A_BIN_ORIGIN`
+- `DATUM_CATEGORY_B_BIN_ORIGIN`
+- `DATUM_CATEGORY_C_BIN_ORIGIN`
+- `DATUM_CATEGORY_D_BIN_ORIGIN`
+- `DATUM_MANUAL_REVIEW_BIN_ORIGIN`
+- `DATUM_SCAN_STATION_TUBE_CENTER`
+- `DATUM_PHOTOELECTRIC_SENSOR_AXIS`
+- `DATUM_BARCODE_READER_AXIS`
 
 ## MATLAB/Simulink Mapping
 
@@ -81,4 +109,10 @@ MATLAB/Simulink uses the same X/Y/Z convention as SolidWorks. The mechanical dua
 Y_left = Y_right = y
 ```
 
-Rack coordinates, safe height, pick height, and place height must be exported using the same base coordinate system so that planned trajectories map directly to SolidWorks assembly positions.
+Rack coordinates, scanning-station coordinates, safe height, pick height, and place height must be exported using the same base coordinate system so that planned trajectories map directly to SolidWorks assembly positions.
+
+Later classification simulation should read `sample_manifest.csv` with fields:
+
+```text
+tube_id, barcode, cap_color, height_mm, category, input_row, input_col, target_bin, target_row, target_col, scan_status, note
+```

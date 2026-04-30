@@ -48,6 +48,7 @@ legacy_v1/                    Archived v1 concept model
 - Architecture switch: dual-side gantry Cartesian robot route, completed.
 - Stage 3C: mixed input rack, four category output bins, manual review bin, sample tube models, and `sample_manifest.csv` prepared locally.
 - Stage 3D: pre-assembly requirements, scan-station assumptions, failure handling, reachability, and initial workspace layout frozen locally.
+- Stage 4A: SolidWorks first rough assembly plan prepared locally.
 
 The current repository still does not generate new CAD models, does not download CAD, does not run simulations, and does not modify `legacy_v1`. Supplier CAD is not marked as downloaded unless a real file exists in the standard-parts CAD workspace.
 
@@ -91,6 +92,8 @@ Stage 3D freezes the pre-assembly assumptions before SolidWorks layout:
 - 75 mm and 100 mm tubes require height-aware Z pick/place values and a unified safe transfer height.
 - initial workspace coordinates are recorded in `03_cad/solidworks/initial_workspace_layout_table.csv`.
 
+Stage 4A prepares the first SolidWorks rough assembly plan without directly generating the final assembly. It uses CAD inventory and component placement CSV tables to constrain Codex/SolidWorks assembly work and reduce the risk of a disorganized imported assembly. The next stage should generate a rough assembly macro and then perform manual screenshot-based checks.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:
@@ -113,7 +116,8 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 2. Use `02_bom/priority_a_auto_download_feasibility.csv` and `02_bom/priority_a_manual_download_queue.md` to track which sources require manual download.
 3. Run `python tools/check_standard_cad_files.py` after CAD files are placed in `03_cad/standard_parts/downloaded/`.
 4. Record each verified CAD file in `03_cad/standard_parts/CAD_download_status_v2.md`.
-5. Enter Stage 4A SolidWorks total assembly layout using real standard-part interfaces, tube bin STEP files, sample tube scene objects, scanning station datums, and the frozen 1100 mm x 900 mm base layout.
-6. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
-7. Define custom-part interface boundaries before detailed self-made part engineering drawings.
-8. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.
+5. Use the Stage 4A rough assembly plan, CAD inventory, and component placement table as the input for SolidWorks automation.
+6. Generate the Stage 4B rough assembly macro from `03_cad/solidworks/component_placement_table_v1.csv`.
+7. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
+8. Define custom-part interface boundaries before detailed self-made part engineering drawings.
+9. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.

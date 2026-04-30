@@ -24,6 +24,32 @@ It writes:
 
 The `.SLDASM` file is created only if SolidWorks COM automation succeeds.
 
+## Assembly Template Configuration
+
+The Python script first reads:
+
+```text
+03_cad/solidworks/macros/solidworks_template_config.json
+```
+
+Current selected assembly template:
+
+```text
+C:\ProgramData\SOLIDWORKS\SOLIDWORKS 2018\templates\gb_assembly.asmdot
+```
+
+If this file is missing or the project is moved to another machine, edit `assembly_template_path` in the JSON config. Use a real `.asmdot` file only; do not invent a path.
+
+If SolidWorks has no default assembly template, configure one manually:
+
+1. Open SolidWorks.
+2. Go to `Tools > Options > System Options > Default Templates`.
+3. Set the assembly template to a valid `.asmdot`.
+4. Close and reopen SolidWorks if COM automation still sees the old configuration.
+5. Rerun the Python script.
+
+If component insertion still fails after template creation, open one STEP file manually in SolidWorks to confirm import settings and then run the VBA macro from inside SolidWorks.
+
 ## VBA Fallback Macro
 
 Use this file inside SolidWorks if Python COM automation is unavailable or needs local adjustment:
@@ -58,6 +84,9 @@ Open the rough assembly and review it with:
 
 Check:
 
+- top view overall layout screenshot.
+- front view gantry height screenshot.
+- side view Y-axis and scan-station screenshot.
 - left and right Y axes are parallel.
 - X axis spans the Y-axis modules.
 - Z axis points vertically.

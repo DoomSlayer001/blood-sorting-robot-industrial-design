@@ -8,6 +8,7 @@ mates, does not infer mounting faces, and does not select holes.
 from __future__ import annotations
 
 import csv
+import json
 import math
 import platform
 import sys
@@ -22,6 +23,7 @@ INVENTORY_CSV = ROOT / "03_cad" / "solidworks" / "current_cad_inventory_for_asse
 ASSEMBLY_DIR = ROOT / "03_cad" / "solidworks" / "assembly"
 LOG_PATH = ASSEMBLY_DIR / "rough_assembly_v1_log.md"
 OUTPUT_ASM = ASSEMBLY_DIR / "blood_sorting_robot_rough_layout_v1.SLDASM"
+TEMPLATE_CONFIG = ROOT / "03_cad" / "solidworks" / "macros" / "solidworks_template_config.json"
 
 
 def md_path(path: Path) -> str:
@@ -73,6 +75,46 @@ def read_rows() -> list[dict[str, str]]:
         return list(csv.DictReader(fp))
 
 
+def load_template_config() -> dict[str, str]:
+    if not TEMPLATE_CONFIG.exists():
+        return {}
+    try:
+        with TEMPLATE_CONFIG.open(encoding="utf-8") as fp:
+            data = json.load(fp)
+    except Exception:
+        return {}
+    return {str(k): str(v) for k, v in data.items()}
+
+
+def resolve_assembly_template(sw_app, lines: list[str]) -> str | None:
+    config = load_template_config()
+    configured = config.get("assembly_template_path", "").strip()
+    if configured:
+        configured_path = Path(configured)
+        if configured_path.exists() and configured_path.is_file():
+            lines.append(f"- Assembly template from config: `{configured}`")
+            return str(configured_path)
+        lines.append(f"- Config assembly template missing or not a file: `{configured}`")
+    else:
+        lines.append("- Config assembly template: empty or not configured.")
+
+    try:
+        default_template = sw_app.GetUserPreferenceStringValue(2)  # swDefaultTemplateAssembly
+    except Exception as exc:
+        lines.append(f"- SolidWorks default assembly template lookup failed: {type(exc).__name__}: {exc}")
+        return None
+
+    if default_template and Path(default_template).exists():
+        lines.append(f"- Assembly template from SolidWorks defaults: `{default_template}`")
+        return str(default_template)
+
+    if default_template:
+        lines.append(f"- SolidWorks default assembly template path does not exist: `{default_template}`")
+    else:
+        lines.append("- SolidWorks default assembly template: not configured.")
+    return None
+
+
 def is_usable_cad_path(raw_path: str) -> tuple[bool, str, Path | None]:
     raw = (raw_path or "").strip()
     if not raw or raw.upper() == "TBD":
@@ -119,6 +161,7 @@ def run_solidworks_automation() -> tuple[bool, list[str]]:
         "",
         f"- Placement table: `{md_path(PLACEMENT_CSV)}`",
         f"- CAD inventory: `{md_path(INVENTORY_CSV)}`; exists={INVENTORY_CSV.exists()}",
+        f"- Template config: `{md_path(TEMPLATE_CONFIG)}`; exists={TEMPLATE_CONFIG.exists()}",
         f"- Target assembly: `{md_path(OUTPUT_ASM)}`",
         "",
     ]
@@ -160,12 +203,11 @@ def run_solidworks_automation() -> tuple[bool, list[str]]:
         return False, lines
 
     try:
-        template = sw_app.GetUserPreferenceStringValue(2)  # swDefaultTemplateAssembly
+        template = resolve_assembly_template(sw_app, lines)
         if not template:
-            lines.append("- Assembly template: not configured; cannot create a new assembly automatically.")
+            lines.append("- Assembly template: unavailable; cannot create a new assembly automatically.")
             write_log(lines)
             return False, lines
-        lines.append(f"- Assembly template: `{template}`")
 
         model = sw_app.NewDocument(template, 0, 0, 0)
         if model is None:
@@ -173,7 +215,12 @@ def run_solidworks_automation() -> tuple[bool, list[str]]:
             write_log(lines)
             return False, lines
         assembly = model
-        math_util = sw_app.GetMathUtility()
+        try:
+            math_util = sw_app.GetMathUtility()
+            lines.append("- MathUtility: available.")
+        except Exception as exc:
+            math_util = None
+            lines.append(f"- MathUtility: unavailable; components will use AddComponent5 coordinate placement only. {type(exc).__name__}: {exc}")
     except Exception as exc:
         lines.append(f"- Assembly creation failed: {type(exc).__name__}: {exc}")
         write_log(lines)
@@ -205,11 +252,14 @@ def run_solidworks_automation() -> tuple[bool, list[str]]:
             except Exception:
                 pass
 
-            try:
-                transform = math_util.CreateTransform(transform_array(x_m, y_m, z_m, rx, ry, rz))
-                comp.Transform2 = transform
-            except Exception as exc:
-                lines.append(f"- WARN `{name}`: placement inserted but transform update failed: {type(exc).__name__}: {exc}")
+            if math_util is not None:
+                try:
+                    transform = math_util.CreateTransform(transform_array(x_m, y_m, z_m, rx, ry, rz))
+                    comp.Transform2 = transform
+                except Exception as exc:
+                    lines.append(f"- WARN `{name}`: placement inserted but transform update failed: {type(exc).__name__}: {exc}")
+            elif any(abs(v) > 1e-9 for v in [rx, ry, rz]):
+                lines.append(f"- WARN `{name}`: nonzero rotation requested but MathUtility is unavailable; rotation requires manual correction.")
 
             try:
                 model.ClearSelection2(True)
@@ -229,10 +279,16 @@ def run_solidworks_automation() -> tuple[bool, list[str]]:
     try:
         model.ForceRebuild3(False)
         result = model.SaveAs3(str(OUTPUT_ASM), 0, 2)
-        success = bool(result)
+        success = bool(result) and inserted > 0 and failed == 0
         lines.extend(["", "## Save Result", ""])
         lines.append(f"- SaveAs3 returned: `{result}`")
         lines.append(f"- Output exists: `{OUTPUT_ASM.exists()}`")
+        if not success and OUTPUT_ASM.exists():
+            try:
+                OUTPUT_ASM.unlink()
+                lines.append("- Removed incomplete or failed rough assembly output to avoid treating it as a valid SLDASM.")
+            except Exception as exc:
+                lines.append(f"- Could not remove incomplete rough assembly output: {type(exc).__name__}: {exc}")
     except Exception as exc:
         lines.extend(["", "## Save Result", ""])
         lines.append(f"- Save failed: {type(exc).__name__}: {exc}")
@@ -248,6 +304,7 @@ def run_solidworks_automation() -> tuple[bool, list[str]]:
             f"- Inserted rows: {inserted}",
             f"- Failed insertions: {failed}",
             f"- Assembly generated: {success and OUTPUT_ASM.exists()}",
+            f"- Output assembly path: `{md_path(OUTPUT_ASM)}`",
             "",
             "This log is diagnostic only. The rough assembly remains a coordinate scaffold and requires manual SolidWorks review.",
         ]

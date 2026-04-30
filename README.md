@@ -50,6 +50,7 @@ legacy_v1/                    Archived v1 concept model
 - Stage 3D: pre-assembly requirements, scan-station assumptions, failure handling, reachability, and initial workspace layout frozen locally.
 - Stage 4A: SolidWorks first rough assembly plan prepared locally.
 - Stage 4A-1: rough-assembly placeholder custom parts prepared locally.
+- Stage 4B: SolidWorks first rough assembly macro generated locally.
 
 The current repository does not download CAD, does not run simulations, and does not modify `legacy_v1`. New CAD generated in Stage 4A-1 is limited to simple rough-assembly custom placeholders or initial self-made parts, not final production drawings. Supplier CAD is not marked as downloaded unless a real file exists in the standard-parts CAD workspace.
 
@@ -97,6 +98,8 @@ Stage 4A prepares the first SolidWorks rough assembly plan without directly gene
 
 Stage 4A-1 fills the missing rough-assembly components required by that macro plan: `base_plate_1100x900x15.step`, `scan_station_reference_block.step`, `control_box_placeholder_160x120x80.step`, and `y_axis_sync_shaft_placeholder.step`. The base plate is an initial no-hole custom part, while the scan station, control box, and Y-axis synchronization shaft are placeholders. The next stage can enter Stage 4B: generate the SolidWorks rough assembly macro from the updated inventory and placement tables.
 
+Stage 4B generates the SolidWorks rough assembly automation files. The Python COM script and VBA fallback macro only perform coordinate placement from `component_placement_table_v1.csv`; they do not add final mates, identify mounting faces, or select hole patterns. The generated rough layout is intended for manual screenshot checks and does not represent the final engineering assembly.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:
@@ -120,7 +123,8 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 3. Run `python tools/check_standard_cad_files.py` after CAD files are placed in `03_cad/standard_parts/downloaded/`.
 4. Record each verified CAD file in `03_cad/standard_parts/CAD_download_status_v2.md`.
 5. Use the Stage 4A rough assembly plan, CAD inventory, and component placement table as the input for SolidWorks automation.
-6. Generate the Stage 4B rough assembly macro from `03_cad/solidworks/component_placement_table_v1.csv`, using the Stage 4A-1 placeholder paths where final custom parts are not yet available.
-7. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
-8. Define custom-part interface boundaries before detailed self-made part engineering drawings.
-9. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.
+6. Configure a SolidWorks default assembly template or set a template path in the Stage 4B macro.
+7. Run the Stage 4B macro and save the first rough `.SLDASM`.
+8. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
+9. Define custom-part interface boundaries before detailed self-made part engineering drawings.
+10. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.

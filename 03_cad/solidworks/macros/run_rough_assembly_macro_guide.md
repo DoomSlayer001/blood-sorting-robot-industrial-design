@@ -93,6 +93,19 @@ If Python conversion fails:
 7. Use `Insert Components` to insert the saved SLDPRT.
 8. If this succeeds manually, adjust the macro for the local SolidWorks 2018 COM import settings or run the VBA fallback from inside SolidWorks.
 
+## Recommended Stage 4B-3 Workflow
+
+The current recommended route is manual-assisted native cache conversion:
+
+1. Use `03_cad/solidworks/converted_native/manual_native_conversion_todo.csv`.
+2. Open each Priority A STEP/STP manually in SolidWorks.
+3. Accept template and Import Diagnostics dialogs.
+4. Save as `.SLDPRT` or `.SLDASM` under `converted_native/parts` or `converted_native/assemblies`.
+5. Update `03_cad/solidworks/converted_native/native_file_mapping.csv`.
+6. Rerun the Python macro.
+
+The Python macro now inserts only registered native `.SLDPRT/.SLDASM` files. It intentionally does not continue trying to open STEP files through COM.
+
 ## VBA Fallback Macro
 
 Use this file inside SolidWorks if Python COM automation is unavailable or needs local adjustment:

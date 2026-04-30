@@ -24,6 +24,36 @@ It writes:
 
 The `.SLDASM` file is created only if SolidWorks COM automation succeeds.
 
+## Native Conversion Workflow
+
+Stage 4B-2 changes the rough assembly strategy:
+
+1. Resolve each CAD path from `component_placement_table_v1.csv`.
+2. Convert `.step` and `.stp` files to native SolidWorks files.
+3. Insert only `.SLDPRT` or `.SLDASM` files into the rough assembly.
+
+Conversion outputs are intended to live under:
+
+```text
+03_cad/solidworks/converted_native/parts/
+03_cad/solidworks/converted_native/assemblies/
+```
+
+Conversion reports are written to:
+
+```text
+03_cad/solidworks/conversion_reports/step_to_native_conversion_report.csv
+03_cad/solidworks/conversion_reports/step_to_native_conversion_report.md
+```
+
+The script first tests:
+
+```text
+03_cad/custom_parts/base_plate/base_plate_1100x900x15.step
+```
+
+If this base plate STEP cannot be opened and saved as native SolidWorks CAD, batch conversion stops so the project does not produce misleading empty or partial assemblies.
+
 ## Assembly Template Configuration
 
 The Python script first reads:
@@ -50,6 +80,19 @@ If SolidWorks has no default assembly template, configure one manually:
 
 If component insertion still fails after template creation, open one STEP file manually in SolidWorks to confirm import settings and then run the VBA macro from inside SolidWorks.
 
+## Manual STEP Import Diagnostic
+
+If Python conversion fails:
+
+1. Open SolidWorks manually.
+2. Use `File > Open`.
+3. Select `03_cad/custom_parts/base_plate/base_plate_1100x900x15.step`.
+4. Confirm the STEP imports as a part.
+5. Save it as `base_plate_1100x900x15.SLDPRT`.
+6. Create a new assembly from `gb_assembly.asmdot`.
+7. Use `Insert Components` to insert the saved SLDPRT.
+8. If this succeeds manually, adjust the macro for the local SolidWorks 2018 COM import settings or run the VBA fallback from inside SolidWorks.
+
 ## VBA Fallback Macro
 
 Use this file inside SolidWorks if Python COM automation is unavailable or needs local adjustment:
@@ -64,7 +107,8 @@ Recommended steps:
 2. Use `Tools > Macro > New` or `Tools > Macro > Edit`.
 3. Load or paste the VBA macro.
 4. Confirm `REPO_ROOT` matches the local project path.
-5. Run `Main`.
+5. If `step_to_native_conversion_report.csv` contains valid native output paths, update the macro or placement table to use those native paths.
+6. Run `Main`.
 
 ## Pre-Run Checks
 

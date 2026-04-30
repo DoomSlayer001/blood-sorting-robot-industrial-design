@@ -8,6 +8,17 @@
 '   is unavailable or needs version-specific adjustment.
 '   It does not add mates, does not select mounting faces, and does not select holes.
 '
+' Stage 4B-2 note:
+'   Python COM direct insertion of STEP files failed on the current SolidWorks 2018
+'   environment. The recommended workflow is to first convert STEP/STP files to
+'   native SLDPRT/SLDASM files, then insert native files into the rough assembly.
+'   The Python script writes:
+'     03_cad\solidworks\conversion_reports\step_to_native_conversion_report.csv
+'   If native_output_path values exist in that report, use those native files for
+'   insertion. If conversion fails, manually open a STEP in SolidWorks, save it as
+'   SLDPRT/SLDASM, then update the placement CSV or this macro to use that native
+'   path.
+'
 ' Recommended use:
 '   1. Open SolidWorks.
 '   2. Tools > Macro > New or Edit.
@@ -20,6 +31,7 @@ Option Explicit
 Const REPO_ROOT As String = "C:\Users\29868\Desktop\作业\医用机器人\blood-sorting-robot-industrial-design"
 Const PLACEMENT_CSV As String = "\03_cad\solidworks\component_placement_table_v1.csv"
 Const OUTPUT_ASM As String = "\03_cad\solidworks\assembly\blood_sorting_robot_rough_layout_v1.SLDASM"
+Const CONVERSION_REPORT_CSV As String = "\03_cad\solidworks\conversion_reports\step_to_native_conversion_report.csv"
 
 Sub Main()
     Dim swApp As Object
@@ -43,6 +55,9 @@ Sub Main()
     End If
     Set swAssembly = swModel
 
+    ' This fallback keeps the simple placement-table workflow. For the native
+    ' conversion workflow, replace cadPath below with native_output_path values
+    ' from CONVERSION_REPORT_CSV when they are available.
     InsertFromCsv swApp, swModel, swAssembly, REPO_ROOT & PLACEMENT_CSV
 
     swModel.ForceRebuild3 False

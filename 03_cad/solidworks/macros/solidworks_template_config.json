@@ -1,0 +1,7 @@
+{
+  "assembly_template_path": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2018\\templates\\gb_assembly.asmdot",
+  "part_template_path": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2018\\templates\\gb_part.prtdot",
+  "drawing_template_path": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2018\\templates\\gb_a4.drwdot",
+  "detection_method": "searched common ProgramData, Public Documents, user Documents, and project CAD template paths for .asmdot/.prtdot/.drwdot files",
+  "notes": "Selected gb_assembly.asmdot because it is a valid SolidWorks 2018 assembly template in the standard templates folder. MBD assembly templates and tutorial templates were detected but not selected for the rough assembly macro."
+}

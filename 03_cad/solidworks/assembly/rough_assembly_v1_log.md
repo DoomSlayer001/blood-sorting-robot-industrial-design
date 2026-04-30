@@ -2,7 +2,7 @@
 
 ## Environment
 
-- Generated at: 2026-04-30T12:57:24
+- Generated at: 2026-04-30T13:04:11
 - Platform: Windows-11-10.0.26200-SP0
 - Python: 3.13.2
 - win32com.client: available
@@ -11,6 +11,7 @@
 
 - Placement table: `03_cad/solidworks/component_placement_table_v1.csv`
 - CAD inventory: `03_cad/solidworks/current_cad_inventory_for_assembly.csv`; exists=True
+- Template config: `03_cad/solidworks/macros/solidworks_template_config.json`; exists=True
 - Target assembly: `03_cad/solidworks/assembly/blood_sorting_robot_rough_layout_v1.SLDASM`
 
 ## Row Precheck
@@ -47,4 +48,52 @@
 ## SolidWorks Automation
 
 - COM dispatch: succeeded (`SldWorks.Application`).
-- Assembly template: not configured; cannot create a new assembly automatically.
+- Assembly template from config: `C:\ProgramData\SOLIDWORKS\SOLIDWORKS 2018\templates\gb_assembly.asmdot`
+- MathUtility: unavailable; components will use AddComponent5 coordinate placement only. com_error: (-2147352573, '找不到成员。', None, None)
+
+## Insert Results
+
+- FAIL `base_plate_1100x900x15_v1`: AddComponent5 returned None.
+- FAIL `left_y_axis_module_v1`: AddComponent5 returned None.
+- FAIL `right_y_axis_module_v1`: AddComponent5 returned None.
+- FAIL `x_axis_module_on_gantry_v1`: AddComponent5 returned None.
+- FAIL `z_axis_module_v1`: AddComponent5 returned None.
+- FAIL `electric_parallel_gripper_v1`: AddComponent5 returned None.
+- FAIL `x_axis_motor_v1`: AddComponent5 returned None.
+- FAIL `y_axis_motor_common_v1`: AddComponent5 returned None.
+- FAIL `y_axis_motor_right_reference_v1`: AddComponent5 returned None.
+- FAIL `z_axis_motor_v1`: AddComponent5 returned None.
+- FAIL `input_mixed_tube_rack_4x6_v1`: AddComponent5 returned None.
+- FAIL `category_A_output_bin_2x3_v1`: AddComponent5 returned None.
+- FAIL `category_B_output_bin_2x3_v1`: AddComponent5 returned None.
+- FAIL `category_C_output_bin_2x3_v1`: AddComponent5 returned None.
+- FAIL `category_D_output_bin_2x3_v1`: AddComponent5 returned None.
+- FAIL `manual_review_bin_2x3_v1`: AddComponent5 returned None.
+- FAIL `scan_station_reference_v1`: AddComponent5 returned None.
+- FAIL `barcode_scanner_v1`: AddComponent5 returned None.
+- FAIL `photoelectric_sensor_v1`: AddComponent5 returned None.
+- FAIL `limit_switch_x_home_v1`: AddComponent5 returned None.
+- FAIL `limit_switch_y_home_v1`: AddComponent5 returned None.
+- FAIL `limit_switch_z_home_v1`: AddComponent5 returned None.
+- FAIL `cable_chain_xz_v1`: AddComponent5 returned None.
+- FAIL `emergency_stop_placeholder_v1`: AddComponent5 returned None.
+- FAIL `control_box_placeholder_v1`: AddComponent5 returned None.
+- FAIL `y_axis_sync_shaft_placeholder_v1`: AddComponent5 returned None.
+
+## Save Result
+
+- SaveAs3 returned: `0`
+- Output exists: `True`
+- Removed incomplete or failed rough assembly output to avoid treating it as a valid SLDASM.
+
+## Summary
+
+- Total CSV rows: 28
+- Valid CAD rows attempted: 26
+- Skipped rows: 2
+- Inserted rows: 0
+- Failed insertions: 26
+- Assembly generated: False
+- Output assembly path: `03_cad/solidworks/assembly/blood_sorting_robot_rough_layout_v1.SLDASM`
+
+This log is diagnostic only. The rough assembly remains a coordinate scaffold and requires manual SolidWorks review.

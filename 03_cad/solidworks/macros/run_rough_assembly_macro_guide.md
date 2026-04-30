@@ -24,6 +24,31 @@ It writes:
 
 The `.SLDASM` file is created only if SolidWorks COM automation succeeds.
 
+## Stage 4B-4 Auto Retry Script
+
+After repairing the SolidWorks default template settings, the optional retry script can be run:
+
+```bash
+python 03_cad/solidworks/macros/create_rough_assembly_auto_retry_v1.py
+```
+
+This script first performs a smoke test with:
+
+```text
+03_cad/custom_parts/base_plate/base_plate_1100x900x15.step
+03_cad/standard_parts/downloaded/gripper/SMC_LEHF20_2finger_parallel_gripper_24stroke_v1.step
+```
+
+If the smoke test succeeds, it attempts batch STEP/STP conversion and then creates the rough assembly. If the smoke test fails, it stops before batch conversion and preserves the manual native cache workflow.
+
+The current 4B-4 retry result showed SolidWorks COM and templates were available, but `OpenDoc6` still failed for STEP import with SolidWorks error code `2097152`. This means the recommended route remains manual-assisted native conversion unless the local SolidWorks import automation settings are further adjusted.
+
+If `manual_native_conversion_todo.csv` is open in Excel or another program, the auto retry script writes a fallback list:
+
+```text
+03_cad/solidworks/converted_native/manual_native_conversion_todo_autoretry.csv
+```
+
 ## Native Conversion Workflow
 
 Stage 4B-2 changes the rough assembly strategy:

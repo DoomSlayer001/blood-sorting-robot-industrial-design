@@ -100,6 +100,8 @@ Stage 4A-1 fills the missing rough-assembly components required by that macro pl
 
 Stage 4B generates the SolidWorks rough assembly automation files. The Python COM script and VBA fallback macro only perform coordinate placement from `component_placement_table_v1.csv`; they do not add final mates, identify mounting faces, or select hole patterns. The generated rough layout is intended for manual screenshot checks and does not represent the final engineering assembly.
 
+Stage 4B-3 switches the rough assembly route to a manual-assisted native CAD cache. SolidWorks 2018 can open the STEP files manually, but Python COM cannot reliably handle the template and Import Diagnostics dialogs. The current rough assembly macro therefore reads `03_cad/solidworks/converted_native/native_file_mapping.csv` and inserts only existing `.SLDPRT` or `.SLDASM` files. Priority A files should be manually converted using `manual_native_conversion_todo.csv` before rerunning the macro.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:
@@ -123,8 +125,8 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 3. Run `python tools/check_standard_cad_files.py` after CAD files are placed in `03_cad/standard_parts/downloaded/`.
 4. Record each verified CAD file in `03_cad/standard_parts/CAD_download_status_v2.md`.
 5. Use the Stage 4A rough assembly plan, CAD inventory, and component placement table as the input for SolidWorks automation.
-6. Configure a SolidWorks default assembly template or set a template path in the Stage 4B macro.
-7. Run the Stage 4B macro and save the first rough `.SLDASM`.
+6. Convert Priority A STEP/STP files to native SolidWorks files using `03_cad/solidworks/converted_native/manual_native_conversion_todo.csv`.
+7. Update `03_cad/solidworks/converted_native/native_file_mapping.csv` and rerun the Stage 4B macro.
 8. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
 9. Define custom-part interface boundaries before detailed self-made part engineering drawings.
 10. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.

@@ -12,6 +12,10 @@
 '   Python COM direct insertion of STEP files failed on the current SolidWorks 2018
 '   environment. The recommended workflow is to first convert STEP/STP files to
 '   native SLDPRT/SLDASM files, then insert native files into the rough assembly.
+' Stage 4B-3 note:
+'   The Python macro now reads converted_native\native_file_mapping.csv and inserts
+'   only existing SLDPRT/SLDASM paths. Keep this VBA macro as an inside-SolidWorks
+'   fallback when Python COM insertion still needs local adjustment.
 '   The Python script writes:
 '     03_cad\solidworks\conversion_reports\step_to_native_conversion_report.csv
 '   If native_output_path values exist in that report, use those native files for

@@ -1,10 +1,10 @@
 # CAD File Check Report
 
-- Generated at: 2026-04-30T13:15:40
+- Generated at: 2026-04-30T14:24:50
 - Scan directory: `03_cad/standard_parts/downloaded`
-- File count scanned: 31
-- Supported CAD file count: 19
-- Valid CAD file count: 19
+- File count scanned: 33
+- Supported CAD file count: 21
+- Valid CAD file count: 21
 - Supplementary vendor document count: 12
 - Invalid / unsupported CAD candidate count: 0
 
@@ -18,7 +18,9 @@
 | `03_cad/standard_parts/downloaded/cable_chain/extracted/MHPKS204-38-18-A_STEP_AP214_20260429/MHPKS204-38-18-A.stp` | 217055 | OK |
 | `03_cad/standard_parts/downloaded/cable_chain/MISUMI_MHPKS204_cable_carrier_R38_18links_v1.step` | 217055 | OK |
 | `03_cad/standard_parts/downloaded/gripper/extracted/PARTserver22026042914085532807997d0b6156e/LEHF20K2-24(0_0).stp` | 228118 | OK |
+| `03_cad/standard_parts/downloaded/gripper/SMC_LEHF20_2finger_parallel_gripper_24stroke_v1.SLDASM` | 278176 | OK |
 | `03_cad/standard_parts/downloaded/gripper/SMC_LEHF20_2finger_parallel_gripper_24stroke_v1.step` | 228118 | OK |
+| `03_cad/standard_parts/downloaded/gripper/~$SMC_LEHF20_2finger_parallel_gripper_24stroke_v1.SLDASM` | 6 | OK |
 | `03_cad/standard_parts/downloaded/motors/extracted/182509157-19-azm46ak/azm46ak.stp` | 900249 | OK |
 | `03_cad/standard_parts/downloaded/motors/OrientalMotor_AZM46AK_NEMA17_42mm_absolute_encoder_stepper_v1.step` | 900249 | OK |
 | `03_cad/standard_parts/downloaded/safety/extracted/User Library-K16-811-N/User_Library-K16-811-N.sldprt` | 2281079 | OK |

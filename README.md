@@ -112,6 +112,8 @@ Stage 4C-Internal-VBA minimum validation is now complete. The manually run Solid
 
 Stage 4C full internal VBA assembly validation is also complete. The manually run full macro generated `03_cad/solidworks/assembly/full_verified_internal_macro_rough_layout_2026_v1.SLDASM`, and FeatureManager contains real components after save, close, and reopen. This validates the internal VBA insertion route, but the current layout is not final: components are stacked, the gantry structure is not correctly expanded, and reused output bin geometry/naming needs correction. The next stage is 4D: assembly placement correction and transform audit.
 
+Stage 4D prepares a corrected SolidWorks 2026 internal VBA rough layout. It adds `component_placement_table_4d_corrected.csv`, a new corrected VBA macro with Euler rotation support, and a copy-to-SWP module. The 4D pass focuses on component mapping, distinct instance names, rotation matrix handling, and a cleaner main-body layout. Cable chain, Y-axis sync placeholder, emergency stop, control box, motors, limit switches, and sample tube demo instances are deferred until the gantry and sample-bin layout is correct.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

@@ -9,17 +9,24 @@ External Python COM is paused for assembly generation. It remains useful for rep
 ## Macros
 
 - Minimum test macro: `03_cad/solidworks/macros/create_minimal_verified_rough_assembly_2026_internal_vba.vba`
+- Copy-to-SWP module: `03_cad/solidworks/macros/create_minimal_verified_rough_assembly_2026_copy_to_swp.bas`
 - Full rough assembly skeleton: `03_cad/solidworks/macros/create_full_verified_rough_assembly_2026_internal_vba.vba`
 - Recorded insertion reference: `03_cad/solidworks/macros/recorded_insert_baseplate_2026.vba`
+- SWP copy/paste instructions: `03_cad/solidworks/macros/solidworks_swp_copy_paste_instructions.md`
 
 ## How To Run The Minimum Macro
 
 1. Open SolidWorks 2026.
-2. Use `Tools / Macro / Run`.
-3. Select `create_minimal_verified_rough_assembly_2026_internal_vba.vba`.
-4. Keep the VBA Immediate Window visible when possible so `Debug.Print` output can be checked.
-5. The macro should create:
+2. Do not try to run the repository `.vba` file directly. SolidWorks macros must be created as `.swp` files through SolidWorks.
+3. Use `Tools / Macro / New` and save a new `.swp` macro.
+4. In the VBA editor, paste the full content of `create_minimal_verified_rough_assembly_2026_copy_to_swp.bas`.
+5. Save the `.swp`.
+6. Use `Tools / Macro / Run` and select the `.swp` macro.
+7. Keep the VBA Immediate Window visible when possible so `Debug.Print` output can be checked.
+8. The macro should create:
    `03_cad/solidworks/assembly/minimal_verified_internal_macro_rough_layout_2026_v1.SLDASM`
+
+Detailed copy/paste steps are documented in `solidworks_swp_copy_paste_instructions.md`.
 
 ## Minimum Macro Success Checks
 

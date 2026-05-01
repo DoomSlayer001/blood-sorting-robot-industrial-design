@@ -106,6 +106,8 @@ Stage 4C audit found that earlier rough assembly files can exist on disk and sti
 
 Stage 4C-Redo attempts a verified STEP-based rough assembly using original STEP/STP CAD and SolidWorks 2026. The smoke test currently fails because SolidWorks COM insertion calls return without increasing assembly component count, so no new verified rough assembly is accepted yet. The next SolidWorks automation step must solve the insertion API behavior before screenshot review.
 
+Stage 4C-Internal-VBA pauses external Python COM as the main assembly creation route. A user-recorded internal SolidWorks VBA macro proved that `OpenDoc6`, `ActivateDoc3`, `AddComponent5`, and `SetTransformAndSolve2` can insert a native component when run inside SolidWorks. The project now includes a minimum verified internal VBA macro and a full rough-assembly VBA skeleton. The next action is to run `03_cad/solidworks/macros/create_minimal_verified_rough_assembly_2026_internal_vba.vba` inside SolidWorks 2026 and verify real FeatureManager components after save, close, and reopen.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:
@@ -131,8 +133,9 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 5. Use the Stage 4A rough assembly plan, CAD inventory, and component placement table as the input for SolidWorks automation.
 6. Convert Priority A STEP/STP files to native SolidWorks files using `03_cad/solidworks/converted_native/manual_native_conversion_todo.csv`.
 7. Update `03_cad/solidworks/converted_native/native_file_mapping.csv` and rerun the Stage 4B macro.
-8. Resolve SolidWorks COM insertion so a verified rough assembly contains real components after close/reopen validation.
-9. Open the verified Stage 4C rough assembly in SolidWorks and capture the required overall, top, front, side, gripper/tube, scan station, and output-bin screenshots.
-10. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
-11. Define custom-part interface boundaries before detailed self-made part engineering drawings.
-12. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.
+8. Run the minimum SolidWorks 2026 internal VBA macro and confirm six real FeatureManager components after save, close, and reopen.
+9. If the minimum macro succeeds, run or refine the full internal VBA rough-assembly macro.
+10. Open the verified Stage 4C rough assembly in SolidWorks and capture the required overall, top, front, side, gripper/tube, scan station, and output-bin screenshots.
+11. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
+12. Define custom-part interface boundaries before detailed self-made part engineering drawings.
+13. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.

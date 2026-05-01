@@ -41,6 +41,7 @@ CRITICAL_COMPONENTS = {
     "z_axis_module",
     "electric_parallel_gripper",
     "input_mixed_tube_rack_4x6",
+    "manual_review_bin_2x3",
     "barcode_scanner",
     "photoelectric_sensor",
 }
@@ -180,7 +181,17 @@ def missing_critical_components(mapping: dict[str, dict[str, str]]) -> list[str]
     return missing
 
 
-def insert_native_component(model: Any, row: dict[str, str], native_path: Path, math_util: Any, lines: list[str]) -> bool:
+def open_native_for_insert(sw_app: Any, native_path: Path, lines: list[str]) -> None:
+    doc_type = 1 if native_path.suffix.lower() == ".sldprt" else 2
+    try:
+        doc = sw_app.OpenDoc6(str(native_path), doc_type, 1, "", 0, 0)
+        if doc is None:
+            lines.append(f"- WARN `{native_path.name}`: native OpenDoc6 returned None before insertion.")
+    except Exception as exc:
+        lines.append(f"- WARN `{native_path.name}`: native OpenDoc6 before insertion failed: {type(exc).__name__}: {exc}")
+
+
+def insert_native_component(model: Any, sw_app: Any, row: dict[str, str], native_path: Path, math_util: Any, lines: list[str]) -> bool:
     name = row.get("instance_name") or row.get("component_name") or native_path.stem
     x_m = parse_float(row.get("approx_x_mm")) / 1000.0
     y_m = parse_float(row.get("approx_y_mm")) / 1000.0
@@ -191,9 +202,34 @@ def insert_native_component(model: Any, row: dict[str, str], native_path: Path, 
     manual = str(row.get("manual_check_required", "")).strip().lower() in {"yes", "true", "1"}
 
     try:
-        comp = model.AddComponent5(str(native_path), 0, "", "", False, x_m, y_m, z_m)
+        open_native_for_insert(sw_app, native_path, lines)
+        comp = None
+        try:
+            # SolidWorks 2018 expects UseConfigForPartReferences as a Boolean
+            # before ExistingConfigName. The previous string/bool order raises
+            # a COM type mismatch on this workstation.
+            comp = model.AddComponent5(str(native_path), 0, "", False, "", x_m, y_m, z_m)
+        except Exception as first_exc:
+            lines.append(f"- WARN `{name}`: AddComponent5 primary signature failed: {type(first_exc).__name__}: {first_exc}")
+            try:
+                comp = model.AddComponent4(str(native_path), "", x_m, y_m, z_m)
+            except Exception as second_exc:
+                lines.append(f"- WARN `{name}`: AddComponent4 fallback failed: {type(second_exc).__name__}: {second_exc}")
+                comp = model.AddComponent(str(native_path), x_m, y_m, z_m)
         if comp is None:
-            lines.append(f"- FAIL `{name}`: AddComponent5 returned None for native file `{md_path(native_path)}`.")
+            lines.append(f"- WARN `{name}`: AddComponent5 returned None; trying AddComponent4 fallback.")
+            try:
+                comp = model.AddComponent4(str(native_path), "", x_m, y_m, z_m)
+            except Exception as exc:
+                lines.append(f"- WARN `{name}`: AddComponent4 after None failed: {type(exc).__name__}: {exc}")
+        if comp is None:
+            lines.append(f"- WARN `{name}`: AddComponent4 returned None; trying legacy AddComponent fallback.")
+            try:
+                comp = model.AddComponent(str(native_path), x_m, y_m, z_m)
+            except Exception as exc:
+                lines.append(f"- WARN `{name}`: legacy AddComponent after None failed: {type(exc).__name__}: {exc}")
+        if comp is None:
+            lines.append(f"- FAIL `{name}`: all native insertion methods returned None for `{md_path(native_path)}`.")
             return False
         try:
             comp.Name2 = name
@@ -282,8 +318,6 @@ def run_solidworks_automation() -> tuple[bool, list[str]]:
             ]
         )
         write_log(lines)
-        if OUTPUT_ASM.exists():
-            OUTPUT_ASM.unlink()
         return False, lines
 
     lines.extend(["- Critical native CAD gate passed.", "", "## SolidWorks Native Insert", ""])
@@ -313,6 +347,10 @@ def run_solidworks_automation() -> tuple[bool, list[str]]:
     inserted = 0
     failed = 0
     skipped = 0
+    critical_inserted: set[str] = set()
+    critical_failed: list[str] = []
+    output_bin_inserted = False
+    manual_check_components: list[str] = []
     for row in placement_rows:
         name = row.get("component_name", "")
         mapping = native_mapping.get(name)
@@ -320,22 +358,53 @@ def run_solidworks_automation() -> tuple[bool, list[str]]:
         if not native_path or not native_path.exists() or native_path.suffix.lower() not in SUPPORTED_NATIVE:
             skipped += 1
             continue
-        if insert_native_component(model, row, native_path, math_util, lines):
+        if str(row.get("manual_check_required", "")).strip().lower() in {"yes", "true", "1"}:
+            manual_check_components.append(name)
+        if insert_native_component(model, sw_app, row, native_path, math_util, lines):
             inserted += 1
+            if name in CRITICAL_COMPONENTS:
+                critical_inserted.add(name)
+            if name in OUTPUT_BIN_COMPONENTS:
+                output_bin_inserted = True
         else:
             failed += 1
+            if name in CRITICAL_COMPONENTS:
+                critical_failed.append(name)
 
     success = False
+    post_insert_missing = sorted(CRITICAL_COMPONENTS - critical_inserted)
+    can_save = inserted > 0 and not critical_failed and not post_insert_missing and output_bin_inserted
+    lines.extend(["", "## Insert Gate", ""])
+    lines.append(f"- Critical components inserted: {len(critical_inserted)} / {len(CRITICAL_COMPONENTS)}")
+    lines.append(f"- Output bin inserted: {output_bin_inserted}")
+    if critical_failed:
+        lines.append("- Critical insertion failures:")
+        for name in critical_failed:
+            lines.append(f"  - {name}")
+    if post_insert_missing:
+        lines.append("- Critical components not inserted:")
+        for name in post_insert_missing:
+            lines.append(f"  - {name}")
+    if not output_bin_inserted:
+        lines.append("- No category output bin was inserted.")
+
     try:
         model.ForceRebuild3(False)
-        result = model.SaveAs3(str(OUTPUT_ASM), 0, 1)
-        success = bool(result) and inserted > 0 and failed == 0 and OUTPUT_ASM.exists()
         lines.extend(["", "## Save Result", ""])
-        lines.append(f"- SaveAs3 returned: `{result}`")
-        lines.append(f"- Output exists: `{OUTPUT_ASM.exists()}`")
-        if not success and OUTPUT_ASM.exists():
-            OUTPUT_ASM.unlink()
-            lines.append("- Removed incomplete or failed rough assembly output.")
+        if can_save:
+            result = model.SaveAs3(str(OUTPUT_ASM), 0, 1)
+            # SolidWorks 2018 may return 0 from SaveAs3 even when the file is
+            # written. Treat a non-empty output assembly as the success source
+            # of truth after the critical insertion gate passes.
+            success = OUTPUT_ASM.exists() and OUTPUT_ASM.stat().st_size > 0
+            lines.append(f"- SaveAs3 returned: `{result}`")
+            lines.append(f"- Output exists: `{OUTPUT_ASM.exists()}`")
+            lines.append(f"- Output size bytes: `{OUTPUT_ASM.stat().st_size if OUTPUT_ASM.exists() else 'N/A'}`")
+        else:
+            result = "skipped_due_to_failed_insert_gate"
+            lines.append("- SaveAs3 skipped because critical insertion requirements were not met.")
+            lines.append(f"- Output exists before/after run: `{OUTPUT_ASM.exists()}`")
+            lines.append(f"- Output size bytes: `{OUTPUT_ASM.stat().st_size if OUTPUT_ASM.exists() else 'N/A'}`")
     except Exception as exc:
         lines.append(f"- Save failed: {type(exc).__name__}: {exc}")
 
@@ -350,8 +419,15 @@ def run_solidworks_automation() -> tuple[bool, list[str]]:
             f"- Insertion failed rows: {failed}",
             f"- Skipped rows: {skipped}",
             f"- Assembly generated: {success}",
+            f"- Generated SLDASM path: `{md_path(OUTPUT_ASM)}`",
+            f"- Generated SLDASM size bytes: `{OUTPUT_ASM.stat().st_size if OUTPUT_ASM.exists() else 'N/A'}`",
+            "",
+            "## Manual Orientation Check Components",
+            "",
         ]
     )
+    for name in manual_check_components:
+        lines.append(f"- {name}")
     write_log(lines)
     return success, lines
 

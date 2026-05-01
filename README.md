@@ -114,6 +114,8 @@ Stage 4C full internal VBA assembly validation is also complete. The manually ru
 
 Stage 4D prepares a corrected SolidWorks 2026 internal VBA rough layout. It adds `component_placement_table_4d_corrected.csv`, a new corrected VBA macro with Euler rotation support, and a copy-to-SWP module. The 4D pass focuses on component mapping, distinct instance names, rotation matrix handling, and a cleaner main-body layout. Cable chain, Y-axis sync placeholder, emergency stop, control box, motors, limit switches, and sample tube demo instances are deferred until the gantry and sample-bin layout is correct.
 
+Stage 4E prepares a transform and bounding box audit for the non-empty 4D assembly. The current 4D result is classified as valid component insertion but incorrect layout. The next success standard is no longer only "components exist"; component positions, dominant axes, and bounding boxes must match the target coordinate plan. The audit macro exports measured component transforms and bounding boxes for the next correction pass.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

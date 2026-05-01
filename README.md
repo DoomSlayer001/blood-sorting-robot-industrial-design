@@ -108,6 +108,8 @@ Stage 4C-Redo attempts a verified STEP-based rough assembly using original STEP/
 
 Stage 4C-Internal-VBA pauses external Python COM as the main assembly creation route. A user-recorded internal SolidWorks VBA macro proved that `OpenDoc6`, `ActivateDoc3`, `AddComponent5`, and `SetTransformAndSolve2` can insert a native component when run inside SolidWorks. The project now includes a minimum verified internal VBA macro and a full rough-assembly VBA skeleton. The next action is to run `03_cad/solidworks/macros/create_minimal_verified_rough_assembly_2026_internal_vba.vba` inside SolidWorks 2026 and verify real FeatureManager components after save, close, and reopen.
 
+Stage 4C-Internal-VBA minimum validation is now complete. The manually run SolidWorks 2026 internal VBA macro generated `03_cad/solidworks/assembly/minimal_verified_internal_macro_rough_layout_2026_v1.SLDASM`, and FeatureManager showed six real components after save, close, and reopen. The next step is to run or refine the full verified internal VBA rough assembly macro.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:
@@ -133,8 +135,8 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 5. Use the Stage 4A rough assembly plan, CAD inventory, and component placement table as the input for SolidWorks automation.
 6. Convert Priority A STEP/STP files to native SolidWorks files using `03_cad/solidworks/converted_native/manual_native_conversion_todo.csv`.
 7. Update `03_cad/solidworks/converted_native/native_file_mapping.csv` and rerun the Stage 4B macro.
-8. Run the minimum SolidWorks 2026 internal VBA macro and confirm six real FeatureManager components after save, close, and reopen.
-9. If the minimum macro succeeds, run or refine the full internal VBA rough-assembly macro.
+8. Run or refine the full internal VBA rough-assembly macro now that the minimum SolidWorks 2026 internal VBA assembly is validated.
+9. Confirm the full rough assembly contains real FeatureManager components after save, close, and reopen.
 10. Open the verified Stage 4C rough assembly in SolidWorks and capture the required overall, top, front, side, gripper/tube, scan station, and output-bin screenshots.
 11. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
 12. Define custom-part interface boundaries before detailed self-made part engineering drawings.

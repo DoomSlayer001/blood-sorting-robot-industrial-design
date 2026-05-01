@@ -118,6 +118,8 @@ Stage 4E prepares a transform and bounding box audit for the non-empty 4D assemb
 
 Stage 4F switches the rough-layout automation route from SolidWorks COM / internal VBA to CadQuery/OCP STEP assembly generation. FreeCAD is not available in the current local environment, while CadQuery/OCP can import STEP/STP files, apply coordinate/rotation placements, and export a combined STEP for SolidWorks 2026 manual inspection. `03_cad/freecad_assembly/blood_sorting_robot_cadquery_rough_layout_v2.step` has been opened successfully in SolidWorks 2026, with the base plate, dual Y axes, X axis, Z axis, gripper, input rack, output bins, barcode scanner, and photoelectric sensor visible. This validates the CadQuery/OCP automatic rough-assembly route for the current stage; SolidWorks remains the manual inspection tool.
 
+Stage 4F v5 adds a color-manifest fallback and an automated interference/clearance audit before the next SolidWorks 2026 manual check. The STEP color export path is attempted through CadQuery/OCP XCAF/STEPCAF, but SolidWorks color preservation must still be verified manually.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

@@ -120,6 +120,8 @@ Stage 4F switches the rough-layout automation route from SolidWorks COM / intern
 
 Stage 4F v5 adds a color-manifest fallback and an automated interference/clearance audit. `03_cad/freecad_assembly/blood_sorting_robot_cadquery_rough_layout_v5.step` has been opened in SolidWorks 2026: colors are visible, demo tubes are readable, and no obvious overlap was observed. v5 is the current recommended automated rough assembly layout.
 
+Stage 4F v5.1 is a presentation refinement based on v5. It adds simple scanner and photoelectric sensor brackets plus a clearer X-Z adapter plate while keeping CadQuery/OCP as the main automated assembly route and SolidWorks 2026 as the inspection/screenshot tool. SolidWorks COM and FreeCAD remain outside the main route.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

@@ -83,3 +83,22 @@ The minimum macro is successful only if:
 - The Immediate Window shows attempted, inserted, failed, and final component counts.
 
 Do not accept `.SLDASM` file size alone as proof of success.
+
+## Minimum Macro Validation Update
+
+The minimum internal VBA macro was manually run in SolidWorks 2026 and generated:
+
+```text
+03_cad/solidworks/assembly/minimal_verified_internal_macro_rough_layout_2026_v1.SLDASM
+```
+
+Manual verification confirmed six real FeatureManager components:
+
+1. `base_plate`
+2. `input_mixed_tube_rack_4x6`
+3. `category_A_output_bin_2x3`
+4. `SMC_LEHF20` electric parallel gripper
+5. `Cognex DataMan80` barcode scanner
+6. `Panasonic CX421J` photoelectric sensor
+
+After closing and reopening the assembly, the components remained present. This validates the SolidWorks 2026 internal VBA macro route and supports proceeding to the full verified rough assembly macro.

@@ -1,15 +1,15 @@
 {
-  "assembly_template_path": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2018\\templates\\gb_assembly.asmdot",
-  "part_template_path": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2018\\templates\\gb_part.prtdot",
-  "drawing_template_path": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2018\\templates\\gb_a4.drwdot",
+  "assembly_template_path": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2026\\templates\\gb_assembly.asmdot",
+  "part_template_path": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2026\\templates\\gb_part.prtdot",
+  "drawing_template_path": "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2026\\templates\\gb_a4.drwdot",
   "drawing_template_candidates": [
-    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2018\\templates\\gb_a0.drwdot",
-    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2018\\templates\\gb_a1.drwdot",
-    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2018\\templates\\gb_a2.drwdot",
-    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2018\\templates\\gb_a3.drwdot",
-    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2018\\templates\\gb_a4.drwdot",
-    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2018\\templates\\gb_a4p.drwdot"
+    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2026\\templates\\gb_a0.drwdot",
+    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2026\\templates\\gb_a1.drwdot",
+    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2026\\templates\\gb_a2.drwdot",
+    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2026\\templates\\gb_a3.drwdot",
+    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2026\\templates\\gb_a4.drwdot",
+    "C:\\ProgramData\\SOLIDWORKS\\SOLIDWORKS 2026\\templates\\gb_a4p.drwdot"
   ],
-  "detection_method": "searched common ProgramData, Public Documents, user Documents, and project CAD template paths for .asmdot/.prtdot/.drwdot files",
-  "notes": "Selected gb_assembly.asmdot because it is a valid SolidWorks 2018 assembly template in the standard templates folder. Selected gb_part.prtdot as the part template. gb_drawing.drwdot was not found, so gb_a4.drwdot is used as the drawing template and other gb_a*.drwdot files are recorded as candidates."
+  "detection_method": "controlled SolidWorks 2026 migration branch update after native-only smoke test passed",
+  "notes": "Selected SolidWorks 2026 GB templates for the migration branch. Main branch remains unchanged until the migration is reviewed and merged."
 }

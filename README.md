@@ -110,6 +110,8 @@ Stage 4C-Internal-VBA pauses external Python COM as the main assembly creation r
 
 Stage 4C-Internal-VBA minimum validation is now complete. The manually run SolidWorks 2026 internal VBA macro generated `03_cad/solidworks/assembly/minimal_verified_internal_macro_rough_layout_2026_v1.SLDASM`, and FeatureManager showed six real components after save, close, and reopen. The next step is to run or refine the full verified internal VBA rough assembly macro.
 
+Stage 4C full internal VBA assembly validation is also complete. The manually run full macro generated `03_cad/solidworks/assembly/full_verified_internal_macro_rough_layout_2026_v1.SLDASM`, and FeatureManager contains real components after save, close, and reopen. This validates the internal VBA insertion route, but the current layout is not final: components are stacked, the gantry structure is not correctly expanded, and reused output bin geometry/naming needs correction. The next stage is 4D: assembly placement correction and transform audit.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:
@@ -135,9 +137,9 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 5. Use the Stage 4A rough assembly plan, CAD inventory, and component placement table as the input for SolidWorks automation.
 6. Convert Priority A STEP/STP files to native SolidWorks files using `03_cad/solidworks/converted_native/manual_native_conversion_todo.csv`.
 7. Update `03_cad/solidworks/converted_native/native_file_mapping.csv` and rerun the Stage 4B macro.
-8. Run or refine the full internal VBA rough-assembly macro now that the minimum SolidWorks 2026 internal VBA assembly is validated.
-9. Confirm the full rough assembly contains real FeatureManager components after save, close, and reopen.
-10. Open the verified Stage 4C rough assembly in SolidWorks and capture the required overall, top, front, side, gripper/tube, scan station, and output-bin screenshots.
+8. Start Stage 4D: audit placement coordinates, rotations, transform behavior, and reused component naming.
+9. Correct the full internal VBA rough-assembly macro so components are spatially expanded into the intended dual-side gantry layout.
+10. Open the corrected verified Stage 4C/4D rough assembly in SolidWorks and capture the required overall, top, front, side, gripper/tube, scan station, and output-bin screenshots.
 11. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
 12. Define custom-part interface boundaries before detailed self-made part engineering drawings.
 13. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.

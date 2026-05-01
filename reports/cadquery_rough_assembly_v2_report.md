@@ -11,4 +11,8 @@
 - Total solids: 49 imported / 49 exported
 - Total bbox: 1100.000 x 900.000 x 497.500 mm
 - Output STEP path: `03_cad/freecad_assembly/blood_sorting_robot_cadquery_rough_layout_v2.step`
-- Next step: open the v2 STEP in SolidWorks 2026 for manual inspection.
+- SolidWorks 2026 manual check: v2 STEP opens successfully.
+- Visible components confirmed: base plate, left/right Y axes, X axis, Z axis, gripper, input rack, output bins, barcode scanner, and photoelectric sensor.
+- Result: CadQuery/OCP automatic rough-assembly route is validated, and v2 is accepted as the current rough-assembly stage result.
+- Known follow-up: Z axis and gripper are slightly high; the Z-axis mounting relationship should be explained later with an X-Z adapter plate; barcode scanner and photoelectric sensor orientation will be fine-tuned later.
+- Next step: create v3 with small Z-axis and gripper height refinements.

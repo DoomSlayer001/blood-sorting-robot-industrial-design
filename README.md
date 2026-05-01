@@ -116,6 +116,8 @@ Stage 4D prepares a corrected SolidWorks 2026 internal VBA rough layout. It adds
 
 Stage 4E prepares a transform and bounding box audit for the non-empty 4D assembly. The current 4D result is classified as valid component insertion but incorrect layout. The next success standard is no longer only "components exist"; component positions, dominant axes, and bounding boxes must match the target coordinate plan. The audit macro exports measured component transforms and bounding boxes for the next correction pass.
 
+Stage 4F switches the rough-layout automation route from SolidWorks COM / internal VBA to CadQuery/OCP STEP assembly generation. FreeCAD is not available in the current local environment, while CadQuery/OCP can import STEP/STP files, apply coordinate/rotation placements, and export a combined STEP for SolidWorks 2026 manual inspection. `03_cad/freecad_assembly/blood_sorting_robot_cadquery_rough_layout_v2.step` has been opened successfully in SolidWorks 2026, with the base plate, dual Y axes, X axis, Z axis, gripper, input rack, output bins, barcode scanner, and photoelectric sensor visible. This validates the CadQuery/OCP automatic rough-assembly route for the current stage; SolidWorks remains the manual inspection tool.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:
@@ -138,12 +140,11 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 2. Use `02_bom/priority_a_auto_download_feasibility.csv` and `02_bom/priority_a_manual_download_queue.md` to track which sources require manual download.
 3. Run `python tools/check_standard_cad_files.py` after CAD files are placed in `03_cad/standard_parts/downloaded/`.
 4. Record each verified CAD file in `03_cad/standard_parts/CAD_download_status_v2.md`.
-5. Use the Stage 4A rough assembly plan, CAD inventory, and component placement table as the input for SolidWorks automation.
-6. Convert Priority A STEP/STP files to native SolidWorks files using `03_cad/solidworks/converted_native/manual_native_conversion_todo.csv`.
-7. Update `03_cad/solidworks/converted_native/native_file_mapping.csv` and rerun the Stage 4B macro.
-8. Start Stage 4D: audit placement coordinates, rotations, transform behavior, and reused component naming.
-9. Correct the full internal VBA rough-assembly macro so components are spatially expanded into the intended dual-side gantry layout.
-10. Open the corrected verified Stage 4C/4D rough assembly in SolidWorks and capture the required overall, top, front, side, gripper/tube, scan station, and output-bin screenshots.
-11. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
-12. Define custom-part interface boundaries before detailed self-made part engineering drawings.
-13. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.
+5. Use CadQuery/OCP as the main automated rough-layout generator and export combined STEP files for SolidWorks 2026 inspection.
+6. Keep SolidWorks COM and FreeCAD out of the current rough-layout automation path unless a later stage explicitly reopens them.
+7. Refine the CadQuery/OCP layout with small coordinate corrections, starting with Z-axis and gripper height adjustment.
+8. Add an X-Z adapter plate concept to explain the Z-axis mounting relationship.
+9. Open each accepted CadQuery/OCP STEP in SolidWorks 2026 and capture the required overall, top, front, side, gripper/tube, scan station, and output-bin screenshots.
+10. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
+11. Define custom-part interface boundaries before detailed self-made part engineering drawings.
+12. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.

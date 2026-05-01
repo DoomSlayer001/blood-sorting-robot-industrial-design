@@ -11,4 +11,6 @@
 - STEP color export: attempted, but SolidWorks color recognition is not locally proven.
 - Interference audit summary: overlap=0, too_close=0, allowed_mount_contact=17.
 - Output STEP path: `03_cad/freecad_assembly/blood_sorting_robot_cadquery_rough_layout_v5.step`
-- Remaining issue: open v5 STEP in SolidWorks 2026 to verify color interpretation and visual clearance.
+- SolidWorks 2026 manual check: colors are visible; input/output/scan-station sample tubes are vertical and readable; no obvious overlap was observed.
+- Result: v5 is accepted as the current recommended automated rough assembly layout.
+- Remaining issue: deferred components such as cable chain, emergency stop, control box, and limit switches are still intentionally excluded.

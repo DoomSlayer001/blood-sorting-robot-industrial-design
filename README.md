@@ -102,7 +102,9 @@ Stage 4B generates the SolidWorks rough assembly automation files. The Python CO
 
 Stage 4B-3 switches the rough assembly route to a manual-assisted native CAD cache. SolidWorks 2018 can open the STEP files manually, but Python COM cannot reliably handle the template and Import Diagnostics dialogs. The current rough assembly macro therefore reads `03_cad/solidworks/converted_native/native_file_mapping.csv` and inserts only existing `.SLDPRT` or `.SLDASM` files. Priority A files should be manually converted using `manual_native_conversion_todo.csv` before rerunning the macro.
 
-Stage 4C refreshes the manual native cache and attempts the first SolidWorks rough assembly from existing `.SLDPRT/.SLDASM` files only. The generated `blood_sorting_robot_rough_layout_v1.SLDASM` is a coordinate rough placement for screenshot review; it is not a final engineering assembly and does not define final mates, hole positions, or manufacturing geometry.
+Stage 4C audit found that earlier rough assembly files can exist on disk and still open as empty SolidWorks assemblies. File existence, file size, or a script loop count is therefore no longer accepted as a success criterion. Stage 4C-Redo defines a verified rough assembly standard based on component count, referenced documents, component names, and a close/reopen check.
+
+Stage 4C-Redo attempts a verified STEP-based rough assembly using original STEP/STP CAD and SolidWorks 2026. The smoke test currently fails because SolidWorks COM insertion calls return without increasing assembly component count, so no new verified rough assembly is accepted yet. The next SolidWorks automation step must solve the insertion API behavior before screenshot review.
 
 ## Git LFS Usage
 
@@ -129,7 +131,8 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 5. Use the Stage 4A rough assembly plan, CAD inventory, and component placement table as the input for SolidWorks automation.
 6. Convert Priority A STEP/STP files to native SolidWorks files using `03_cad/solidworks/converted_native/manual_native_conversion_todo.csv`.
 7. Update `03_cad/solidworks/converted_native/native_file_mapping.csv` and rerun the Stage 4B macro.
-8. Open the Stage 4C rough assembly in SolidWorks and capture the required overall, top, front, side, gripper/tube, scan station, and output-bin screenshots.
-9. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
-10. Define custom-part interface boundaries before detailed self-made part engineering drawings.
-10. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.
+8. Resolve SolidWorks COM insertion so a verified rough assembly contains real components after close/reopen validation.
+9. Open the verified Stage 4C rough assembly in SolidWorks and capture the required overall, top, front, side, gripper/tube, scan station, and output-bin screenshots.
+10. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
+11. Define custom-part interface boundaries before detailed self-made part engineering drawings.
+12. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.

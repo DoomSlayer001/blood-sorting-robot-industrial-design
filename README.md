@@ -126,6 +126,8 @@ Stage 4F v5.2 is a small alignment-correction pass based on v5.1. It keeps the r
 
 Stage 4F v6 refactors the rough-layout generator into module and anchor-based CadQuery/OCP assembly logic. It keeps SolidWorks 2026 as the final inspection and screenshot tool while reducing absolute-coordinate drift in the tool chain, scan station, input rack tubes, output-bin tubes, and label plates. SolidWorks 2026 manual inspection confirmed that v6 opens normally, colors are visible, tubes align to slot centers, the scan station is coherent, and the Z-axis/adapter/gripper tool chain is clear. v6 is the current recommended modular CadQuery rough assembly layout; SolidWorks COM and FreeCAD remain outside the current main route.
 
+Stage 6A starts the non-CAD task-planning layer after the validated v6 rough layout. It defines sorting coordinates, rack/slot tables, pick/place height rules, the sorting state machine, sample-driven routing, and an initial reachability check without generating new CAD.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

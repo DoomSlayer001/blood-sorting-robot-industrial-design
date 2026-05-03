@@ -128,6 +128,8 @@ Stage 4F v6 refactors the rough-layout generator into module and anchor-based Ca
 
 Stage 6A starts the non-CAD task-planning layer after the validated v6 rough layout. It defines sorting coordinates, rack/slot tables, pick/place height rules, the sorting state machine, sample-driven routing, and an initial reachability check without generating new CAD.
 
+Stage 6B generates the first pick-scan-place trajectory sequence for all 24 manifest samples. The project has moved from CAD rough assembly into sorting motion planning: waypoint CSVs, workspace checks, motion summaries, and a 2D top-view path figure are generated without creating new CAD.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

@@ -1,0 +1,25 @@
+sample_id,input_slot,tube_height_mm,category,barcode_status,target_zone,target_slot,num_waypoints,estimated_xy_distance_mm,uses_manual_review,status
+TUBE-001,A1,75,Category C,success,category_c_bin,A1,12,730.333,no,ok
+TUBE-002,A2,75,Category A,success,category_a_bin,A1,12,555.695,no,ok
+TUBE-003,A3,100,unknown,fail,manual_review_bin,A1,12,696.587,yes,manual_review
+TUBE-004,A4,100,Category B,success,category_b_bin,A1,12,625.757,no,ok
+TUBE-005,A5,75,Category D,success,category_d_bin,A1,12,752.566,no,ok
+TUBE-006,A6,75,Category A,success,category_a_bin,A2,12,536.676,no,ok
+TUBE-007,B1,100,Category B,success,category_b_bin,A2,12,665.089,no,ok
+TUBE-008,B2,75,Category C,success,category_c_bin,A2,12,700.168,no,ok
+TUBE-009,B3,75,Category D,success,category_d_bin,A2,12,759.983,no,ok
+TUBE-010,B4,75,Category A,success,category_a_bin,A3,12,533.207,no,ok
+TUBE-011,B5,100,Category B,success,category_b_bin,A3,12,632.904,no,ok
+TUBE-012,B6,75,Category C,success,category_c_bin,A3,12,673.444,no,ok
+TUBE-013,C1,75,Category D,success,category_d_bin,A3,12,791.093,no,ok
+TUBE-014,C2,75,Category A,success,category_a_bin,B1,12,536.760,no,ok
+TUBE-015,C3,100,Category B,success,category_b_bin,B1,12,607.816,no,ok
+TUBE-016,C4,75,unknown,fail,manual_review_bin,A2,12,626.917,yes,manual_review
+TUBE-017,C5,75,Category C,success,category_c_bin,B1,12,655.452,no,ok
+TUBE-018,C6,75,Category D,success,category_d_bin,B1,12,718.339,no,ok
+TUBE-019,D1,75,Category A,success,category_a_bin,B2,12,552.849,no,ok
+TUBE-020,D2,100,Category B,success,category_b_bin,B2,12,625.946,no,ok
+TUBE-021,D3,75,Category C,success,category_c_bin,B2,12,665.554,no,ok
+TUBE-022,D4,75,Category D,success,category_d_bin,B2,12,720.629,no,ok
+TUBE-023,D5,75,Category A,success,category_a_bin,B3,12,494.794,no,ok
+TUBE-024,D6,100,Category B,success,category_b_bin,B3,12,593.232,no,ok

@@ -1,0 +1,289 @@
+trajectory_id,sample_id,step_order,state,zone,slot_id,x_mm,y_mm,z_mm,gripper_action,scanner_action,expected_result,notes
+traj_001,TUBE-001,1,MOVE_SAFE_ABOVE_INPUT,input,A1,-230.000,342.000,180.000,open,idle,,above input slot
+traj_001,TUBE-001,2,APPROACH_INPUT_SLOT,input,A1,-230.000,342.000,120.000,open,idle,,approach input slot
+traj_001,TUBE-001,3,PICK_TUBE,input,A1,-230.000,342.000,55.000,close,idle,,grip 75 mm tube
+traj_001,TUBE-001,4,LIFT_TO_SAFE_Z,input,A1,-230.000,342.000,180.000,hold,idle,,lift picked tube
+traj_001,TUBE-001,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_001,TUBE-001,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_001,TUBE-001,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category C,scan and classify sample
+traj_001,TUBE-001,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_001,TUBE-001,9,MOVE_SAFE_ABOVE_TARGET,category_c_bin,A1,62.000,-316.000,180.000,hold,idle,,move above selected target
+traj_001,TUBE-001,10,APPROACH_TARGET_SLOT,category_c_bin,A1,62.000,-316.000,120.000,hold,idle,,approach target slot
+traj_001,TUBE-001,11,PLACE_TUBE,category_c_bin,A1,62.000,-316.000,45.000,open,idle,,place 75 mm tube
+traj_001,TUBE-001,12,RETREAT_TO_SAFE_Z,category_c_bin,A1,62.000,-316.000,180.000,open,idle,,retreat after place
+traj_002,TUBE-002,1,MOVE_SAFE_ABOVE_INPUT,input,A2,-202.000,342.000,180.000,open,idle,,above input slot
+traj_002,TUBE-002,2,APPROACH_INPUT_SLOT,input,A2,-202.000,342.000,120.000,open,idle,,approach input slot
+traj_002,TUBE-002,3,PICK_TUBE,input,A2,-202.000,342.000,55.000,close,idle,,grip 75 mm tube
+traj_002,TUBE-002,4,LIFT_TO_SAFE_Z,input,A2,-202.000,342.000,180.000,hold,idle,,lift picked tube
+traj_002,TUBE-002,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_002,TUBE-002,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_002,TUBE-002,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category A,scan and classify sample
+traj_002,TUBE-002,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_002,TUBE-002,9,MOVE_SAFE_ABOVE_TARGET,category_a_bin,A1,62.000,-146.000,180.000,hold,idle,,move above selected target
+traj_002,TUBE-002,10,APPROACH_TARGET_SLOT,category_a_bin,A1,62.000,-146.000,120.000,hold,idle,,approach target slot
+traj_002,TUBE-002,11,PLACE_TUBE,category_a_bin,A1,62.000,-146.000,45.000,open,idle,,place 75 mm tube
+traj_002,TUBE-002,12,RETREAT_TO_SAFE_Z,category_a_bin,A1,62.000,-146.000,180.000,open,idle,,retreat after place
+traj_003,TUBE-003,1,MOVE_SAFE_ABOVE_INPUT,input,A3,-174.000,342.000,180.000,open,idle,,above input slot
+traj_003,TUBE-003,2,APPROACH_INPUT_SLOT,input,A3,-174.000,342.000,120.000,open,idle,,approach input slot
+traj_003,TUBE-003,3,PICK_TUBE,input,A3,-174.000,342.000,80.000,close,idle,,grip 100 mm tube
+traj_003,TUBE-003,4,LIFT_TO_SAFE_Z,input,A3,-174.000,342.000,180.000,hold,idle,,lift picked tube
+traj_003,TUBE-003,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_003,TUBE-003,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_003,TUBE-003,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,fail / unknown,scan and classify sample
+traj_003,TUBE-003,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_003,TUBE-003,9,MOVE_SAFE_ABOVE_TARGET,manual_review_bin,A1,-233.000,-316.000,180.000,hold,idle,,move above selected target
+traj_003,TUBE-003,10,APPROACH_TARGET_SLOT,manual_review_bin,A1,-233.000,-316.000,120.000,hold,idle,,approach target slot
+traj_003,TUBE-003,11,PLACE_TUBE,manual_review_bin,A1,-233.000,-316.000,70.000,open,idle,,place 100 mm tube
+traj_003,TUBE-003,12,RETREAT_TO_SAFE_Z,manual_review_bin,A1,-233.000,-316.000,180.000,open,idle,,retreat after place
+traj_004,TUBE-004,1,MOVE_SAFE_ABOVE_INPUT,input,A4,-146.000,342.000,180.000,open,idle,,above input slot
+traj_004,TUBE-004,2,APPROACH_INPUT_SLOT,input,A4,-146.000,342.000,120.000,open,idle,,approach input slot
+traj_004,TUBE-004,3,PICK_TUBE,input,A4,-146.000,342.000,80.000,close,idle,,grip 100 mm tube
+traj_004,TUBE-004,4,LIFT_TO_SAFE_Z,input,A4,-146.000,342.000,180.000,hold,idle,,lift picked tube
+traj_004,TUBE-004,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_004,TUBE-004,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_004,TUBE-004,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category B,scan and classify sample
+traj_004,TUBE-004,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_004,TUBE-004,9,MOVE_SAFE_ABOVE_TARGET,category_b_bin,A1,222.000,-146.000,180.000,hold,idle,,move above selected target
+traj_004,TUBE-004,10,APPROACH_TARGET_SLOT,category_b_bin,A1,222.000,-146.000,120.000,hold,idle,,approach target slot
+traj_004,TUBE-004,11,PLACE_TUBE,category_b_bin,A1,222.000,-146.000,70.000,open,idle,,place 100 mm tube
+traj_004,TUBE-004,12,RETREAT_TO_SAFE_Z,category_b_bin,A1,222.000,-146.000,180.000,open,idle,,retreat after place
+traj_005,TUBE-005,1,MOVE_SAFE_ABOVE_INPUT,input,A5,-118.000,342.000,180.000,open,idle,,above input slot
+traj_005,TUBE-005,2,APPROACH_INPUT_SLOT,input,A5,-118.000,342.000,120.000,open,idle,,approach input slot
+traj_005,TUBE-005,3,PICK_TUBE,input,A5,-118.000,342.000,55.000,close,idle,,grip 75 mm tube
+traj_005,TUBE-005,4,LIFT_TO_SAFE_Z,input,A5,-118.000,342.000,180.000,hold,idle,,lift picked tube
+traj_005,TUBE-005,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_005,TUBE-005,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_005,TUBE-005,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category D,scan and classify sample
+traj_005,TUBE-005,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_005,TUBE-005,9,MOVE_SAFE_ABOVE_TARGET,category_d_bin,A1,222.000,-316.000,180.000,hold,idle,,move above selected target
+traj_005,TUBE-005,10,APPROACH_TARGET_SLOT,category_d_bin,A1,222.000,-316.000,120.000,hold,idle,,approach target slot
+traj_005,TUBE-005,11,PLACE_TUBE,category_d_bin,A1,222.000,-316.000,45.000,open,idle,,place 75 mm tube
+traj_005,TUBE-005,12,RETREAT_TO_SAFE_Z,category_d_bin,A1,222.000,-316.000,180.000,open,idle,,retreat after place
+traj_006,TUBE-006,1,MOVE_SAFE_ABOVE_INPUT,input,A6,-90.000,342.000,180.000,open,idle,,above input slot
+traj_006,TUBE-006,2,APPROACH_INPUT_SLOT,input,A6,-90.000,342.000,120.000,open,idle,,approach input slot
+traj_006,TUBE-006,3,PICK_TUBE,input,A6,-90.000,342.000,55.000,close,idle,,grip 75 mm tube
+traj_006,TUBE-006,4,LIFT_TO_SAFE_Z,input,A6,-90.000,342.000,180.000,hold,idle,,lift picked tube
+traj_006,TUBE-006,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_006,TUBE-006,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_006,TUBE-006,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category A,scan and classify sample
+traj_006,TUBE-006,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_006,TUBE-006,9,MOVE_SAFE_ABOVE_TARGET,category_a_bin,A2,90.000,-146.000,180.000,hold,idle,,move above selected target
+traj_006,TUBE-006,10,APPROACH_TARGET_SLOT,category_a_bin,A2,90.000,-146.000,120.000,hold,idle,,approach target slot
+traj_006,TUBE-006,11,PLACE_TUBE,category_a_bin,A2,90.000,-146.000,45.000,open,idle,,place 75 mm tube
+traj_006,TUBE-006,12,RETREAT_TO_SAFE_Z,category_a_bin,A2,90.000,-146.000,180.000,open,idle,,retreat after place
+traj_007,TUBE-007,1,MOVE_SAFE_ABOVE_INPUT,input,B1,-230.000,314.000,180.000,open,idle,,above input slot
+traj_007,TUBE-007,2,APPROACH_INPUT_SLOT,input,B1,-230.000,314.000,120.000,open,idle,,approach input slot
+traj_007,TUBE-007,3,PICK_TUBE,input,B1,-230.000,314.000,80.000,close,idle,,grip 100 mm tube
+traj_007,TUBE-007,4,LIFT_TO_SAFE_Z,input,B1,-230.000,314.000,180.000,hold,idle,,lift picked tube
+traj_007,TUBE-007,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_007,TUBE-007,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_007,TUBE-007,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category B,scan and classify sample
+traj_007,TUBE-007,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_007,TUBE-007,9,MOVE_SAFE_ABOVE_TARGET,category_b_bin,A2,250.000,-146.000,180.000,hold,idle,,move above selected target
+traj_007,TUBE-007,10,APPROACH_TARGET_SLOT,category_b_bin,A2,250.000,-146.000,120.000,hold,idle,,approach target slot
+traj_007,TUBE-007,11,PLACE_TUBE,category_b_bin,A2,250.000,-146.000,70.000,open,idle,,place 100 mm tube
+traj_007,TUBE-007,12,RETREAT_TO_SAFE_Z,category_b_bin,A2,250.000,-146.000,180.000,open,idle,,retreat after place
+traj_008,TUBE-008,1,MOVE_SAFE_ABOVE_INPUT,input,B2,-202.000,314.000,180.000,open,idle,,above input slot
+traj_008,TUBE-008,2,APPROACH_INPUT_SLOT,input,B2,-202.000,314.000,120.000,open,idle,,approach input slot
+traj_008,TUBE-008,3,PICK_TUBE,input,B2,-202.000,314.000,55.000,close,idle,,grip 75 mm tube
+traj_008,TUBE-008,4,LIFT_TO_SAFE_Z,input,B2,-202.000,314.000,180.000,hold,idle,,lift picked tube
+traj_008,TUBE-008,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_008,TUBE-008,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_008,TUBE-008,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category C,scan and classify sample
+traj_008,TUBE-008,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_008,TUBE-008,9,MOVE_SAFE_ABOVE_TARGET,category_c_bin,A2,90.000,-316.000,180.000,hold,idle,,move above selected target
+traj_008,TUBE-008,10,APPROACH_TARGET_SLOT,category_c_bin,A2,90.000,-316.000,120.000,hold,idle,,approach target slot
+traj_008,TUBE-008,11,PLACE_TUBE,category_c_bin,A2,90.000,-316.000,45.000,open,idle,,place 75 mm tube
+traj_008,TUBE-008,12,RETREAT_TO_SAFE_Z,category_c_bin,A2,90.000,-316.000,180.000,open,idle,,retreat after place
+traj_009,TUBE-009,1,MOVE_SAFE_ABOVE_INPUT,input,B3,-174.000,314.000,180.000,open,idle,,above input slot
+traj_009,TUBE-009,2,APPROACH_INPUT_SLOT,input,B3,-174.000,314.000,120.000,open,idle,,approach input slot
+traj_009,TUBE-009,3,PICK_TUBE,input,B3,-174.000,314.000,55.000,close,idle,,grip 75 mm tube
+traj_009,TUBE-009,4,LIFT_TO_SAFE_Z,input,B3,-174.000,314.000,180.000,hold,idle,,lift picked tube
+traj_009,TUBE-009,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_009,TUBE-009,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_009,TUBE-009,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category D,scan and classify sample
+traj_009,TUBE-009,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_009,TUBE-009,9,MOVE_SAFE_ABOVE_TARGET,category_d_bin,A2,250.000,-316.000,180.000,hold,idle,,move above selected target
+traj_009,TUBE-009,10,APPROACH_TARGET_SLOT,category_d_bin,A2,250.000,-316.000,120.000,hold,idle,,approach target slot
+traj_009,TUBE-009,11,PLACE_TUBE,category_d_bin,A2,250.000,-316.000,45.000,open,idle,,place 75 mm tube
+traj_009,TUBE-009,12,RETREAT_TO_SAFE_Z,category_d_bin,A2,250.000,-316.000,180.000,open,idle,,retreat after place
+traj_010,TUBE-010,1,MOVE_SAFE_ABOVE_INPUT,input,B4,-146.000,314.000,180.000,open,idle,,above input slot
+traj_010,TUBE-010,2,APPROACH_INPUT_SLOT,input,B4,-146.000,314.000,120.000,open,idle,,approach input slot
+traj_010,TUBE-010,3,PICK_TUBE,input,B4,-146.000,314.000,55.000,close,idle,,grip 75 mm tube
+traj_010,TUBE-010,4,LIFT_TO_SAFE_Z,input,B4,-146.000,314.000,180.000,hold,idle,,lift picked tube
+traj_010,TUBE-010,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_010,TUBE-010,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_010,TUBE-010,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category A,scan and classify sample
+traj_010,TUBE-010,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_010,TUBE-010,9,MOVE_SAFE_ABOVE_TARGET,category_a_bin,A3,118.000,-146.000,180.000,hold,idle,,move above selected target
+traj_010,TUBE-010,10,APPROACH_TARGET_SLOT,category_a_bin,A3,118.000,-146.000,120.000,hold,idle,,approach target slot
+traj_010,TUBE-010,11,PLACE_TUBE,category_a_bin,A3,118.000,-146.000,45.000,open,idle,,place 75 mm tube
+traj_010,TUBE-010,12,RETREAT_TO_SAFE_Z,category_a_bin,A3,118.000,-146.000,180.000,open,idle,,retreat after place
+traj_011,TUBE-011,1,MOVE_SAFE_ABOVE_INPUT,input,B5,-118.000,314.000,180.000,open,idle,,above input slot
+traj_011,TUBE-011,2,APPROACH_INPUT_SLOT,input,B5,-118.000,314.000,120.000,open,idle,,approach input slot
+traj_011,TUBE-011,3,PICK_TUBE,input,B5,-118.000,314.000,80.000,close,idle,,grip 100 mm tube
+traj_011,TUBE-011,4,LIFT_TO_SAFE_Z,input,B5,-118.000,314.000,180.000,hold,idle,,lift picked tube
+traj_011,TUBE-011,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_011,TUBE-011,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_011,TUBE-011,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category B,scan and classify sample
+traj_011,TUBE-011,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_011,TUBE-011,9,MOVE_SAFE_ABOVE_TARGET,category_b_bin,A3,278.000,-146.000,180.000,hold,idle,,move above selected target
+traj_011,TUBE-011,10,APPROACH_TARGET_SLOT,category_b_bin,A3,278.000,-146.000,120.000,hold,idle,,approach target slot
+traj_011,TUBE-011,11,PLACE_TUBE,category_b_bin,A3,278.000,-146.000,70.000,open,idle,,place 100 mm tube
+traj_011,TUBE-011,12,RETREAT_TO_SAFE_Z,category_b_bin,A3,278.000,-146.000,180.000,open,idle,,retreat after place
+traj_012,TUBE-012,1,MOVE_SAFE_ABOVE_INPUT,input,B6,-90.000,314.000,180.000,open,idle,,above input slot
+traj_012,TUBE-012,2,APPROACH_INPUT_SLOT,input,B6,-90.000,314.000,120.000,open,idle,,approach input slot
+traj_012,TUBE-012,3,PICK_TUBE,input,B6,-90.000,314.000,55.000,close,idle,,grip 75 mm tube
+traj_012,TUBE-012,4,LIFT_TO_SAFE_Z,input,B6,-90.000,314.000,180.000,hold,idle,,lift picked tube
+traj_012,TUBE-012,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_012,TUBE-012,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_012,TUBE-012,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category C,scan and classify sample
+traj_012,TUBE-012,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_012,TUBE-012,9,MOVE_SAFE_ABOVE_TARGET,category_c_bin,A3,118.000,-316.000,180.000,hold,idle,,move above selected target
+traj_012,TUBE-012,10,APPROACH_TARGET_SLOT,category_c_bin,A3,118.000,-316.000,120.000,hold,idle,,approach target slot
+traj_012,TUBE-012,11,PLACE_TUBE,category_c_bin,A3,118.000,-316.000,45.000,open,idle,,place 75 mm tube
+traj_012,TUBE-012,12,RETREAT_TO_SAFE_Z,category_c_bin,A3,118.000,-316.000,180.000,open,idle,,retreat after place
+traj_013,TUBE-013,1,MOVE_SAFE_ABOVE_INPUT,input,C1,-230.000,286.000,180.000,open,idle,,above input slot
+traj_013,TUBE-013,2,APPROACH_INPUT_SLOT,input,C1,-230.000,286.000,120.000,open,idle,,approach input slot
+traj_013,TUBE-013,3,PICK_TUBE,input,C1,-230.000,286.000,55.000,close,idle,,grip 75 mm tube
+traj_013,TUBE-013,4,LIFT_TO_SAFE_Z,input,C1,-230.000,286.000,180.000,hold,idle,,lift picked tube
+traj_013,TUBE-013,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_013,TUBE-013,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_013,TUBE-013,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category D,scan and classify sample
+traj_013,TUBE-013,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_013,TUBE-013,9,MOVE_SAFE_ABOVE_TARGET,category_d_bin,A3,278.000,-316.000,180.000,hold,idle,,move above selected target
+traj_013,TUBE-013,10,APPROACH_TARGET_SLOT,category_d_bin,A3,278.000,-316.000,120.000,hold,idle,,approach target slot
+traj_013,TUBE-013,11,PLACE_TUBE,category_d_bin,A3,278.000,-316.000,45.000,open,idle,,place 75 mm tube
+traj_013,TUBE-013,12,RETREAT_TO_SAFE_Z,category_d_bin,A3,278.000,-316.000,180.000,open,idle,,retreat after place
+traj_014,TUBE-014,1,MOVE_SAFE_ABOVE_INPUT,input,C2,-202.000,286.000,180.000,open,idle,,above input slot
+traj_014,TUBE-014,2,APPROACH_INPUT_SLOT,input,C2,-202.000,286.000,120.000,open,idle,,approach input slot
+traj_014,TUBE-014,3,PICK_TUBE,input,C2,-202.000,286.000,55.000,close,idle,,grip 75 mm tube
+traj_014,TUBE-014,4,LIFT_TO_SAFE_Z,input,C2,-202.000,286.000,180.000,hold,idle,,lift picked tube
+traj_014,TUBE-014,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_014,TUBE-014,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_014,TUBE-014,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category A,scan and classify sample
+traj_014,TUBE-014,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_014,TUBE-014,9,MOVE_SAFE_ABOVE_TARGET,category_a_bin,B1,62.000,-174.000,180.000,hold,idle,,move above selected target
+traj_014,TUBE-014,10,APPROACH_TARGET_SLOT,category_a_bin,B1,62.000,-174.000,120.000,hold,idle,,approach target slot
+traj_014,TUBE-014,11,PLACE_TUBE,category_a_bin,B1,62.000,-174.000,45.000,open,idle,,place 75 mm tube
+traj_014,TUBE-014,12,RETREAT_TO_SAFE_Z,category_a_bin,B1,62.000,-174.000,180.000,open,idle,,retreat after place
+traj_015,TUBE-015,1,MOVE_SAFE_ABOVE_INPUT,input,C3,-174.000,286.000,180.000,open,idle,,above input slot
+traj_015,TUBE-015,2,APPROACH_INPUT_SLOT,input,C3,-174.000,286.000,120.000,open,idle,,approach input slot
+traj_015,TUBE-015,3,PICK_TUBE,input,C3,-174.000,286.000,80.000,close,idle,,grip 100 mm tube
+traj_015,TUBE-015,4,LIFT_TO_SAFE_Z,input,C3,-174.000,286.000,180.000,hold,idle,,lift picked tube
+traj_015,TUBE-015,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_015,TUBE-015,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_015,TUBE-015,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category B,scan and classify sample
+traj_015,TUBE-015,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_015,TUBE-015,9,MOVE_SAFE_ABOVE_TARGET,category_b_bin,B1,222.000,-174.000,180.000,hold,idle,,move above selected target
+traj_015,TUBE-015,10,APPROACH_TARGET_SLOT,category_b_bin,B1,222.000,-174.000,120.000,hold,idle,,approach target slot
+traj_015,TUBE-015,11,PLACE_TUBE,category_b_bin,B1,222.000,-174.000,70.000,open,idle,,place 100 mm tube
+traj_015,TUBE-015,12,RETREAT_TO_SAFE_Z,category_b_bin,B1,222.000,-174.000,180.000,open,idle,,retreat after place
+traj_016,TUBE-016,1,MOVE_SAFE_ABOVE_INPUT,input,C4,-146.000,286.000,180.000,open,idle,,above input slot
+traj_016,TUBE-016,2,APPROACH_INPUT_SLOT,input,C4,-146.000,286.000,120.000,open,idle,,approach input slot
+traj_016,TUBE-016,3,PICK_TUBE,input,C4,-146.000,286.000,55.000,close,idle,,grip 75 mm tube
+traj_016,TUBE-016,4,LIFT_TO_SAFE_Z,input,C4,-146.000,286.000,180.000,hold,idle,,lift picked tube
+traj_016,TUBE-016,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_016,TUBE-016,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_016,TUBE-016,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,fail / unknown,scan and classify sample
+traj_016,TUBE-016,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_016,TUBE-016,9,MOVE_SAFE_ABOVE_TARGET,manual_review_bin,A2,-205.000,-316.000,180.000,hold,idle,,move above selected target
+traj_016,TUBE-016,10,APPROACH_TARGET_SLOT,manual_review_bin,A2,-205.000,-316.000,120.000,hold,idle,,approach target slot
+traj_016,TUBE-016,11,PLACE_TUBE,manual_review_bin,A2,-205.000,-316.000,45.000,open,idle,,place 75 mm tube
+traj_016,TUBE-016,12,RETREAT_TO_SAFE_Z,manual_review_bin,A2,-205.000,-316.000,180.000,open,idle,,retreat after place
+traj_017,TUBE-017,1,MOVE_SAFE_ABOVE_INPUT,input,C5,-118.000,286.000,180.000,open,idle,,above input slot
+traj_017,TUBE-017,2,APPROACH_INPUT_SLOT,input,C5,-118.000,286.000,120.000,open,idle,,approach input slot
+traj_017,TUBE-017,3,PICK_TUBE,input,C5,-118.000,286.000,55.000,close,idle,,grip 75 mm tube
+traj_017,TUBE-017,4,LIFT_TO_SAFE_Z,input,C5,-118.000,286.000,180.000,hold,idle,,lift picked tube
+traj_017,TUBE-017,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_017,TUBE-017,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_017,TUBE-017,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category C,scan and classify sample
+traj_017,TUBE-017,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_017,TUBE-017,9,MOVE_SAFE_ABOVE_TARGET,category_c_bin,B1,62.000,-344.000,180.000,hold,idle,,move above selected target
+traj_017,TUBE-017,10,APPROACH_TARGET_SLOT,category_c_bin,B1,62.000,-344.000,120.000,hold,idle,,approach target slot
+traj_017,TUBE-017,11,PLACE_TUBE,category_c_bin,B1,62.000,-344.000,45.000,open,idle,,place 75 mm tube
+traj_017,TUBE-017,12,RETREAT_TO_SAFE_Z,category_c_bin,B1,62.000,-344.000,180.000,open,idle,,retreat after place
+traj_018,TUBE-018,1,MOVE_SAFE_ABOVE_INPUT,input,C6,-90.000,286.000,180.000,open,idle,,above input slot
+traj_018,TUBE-018,2,APPROACH_INPUT_SLOT,input,C6,-90.000,286.000,120.000,open,idle,,approach input slot
+traj_018,TUBE-018,3,PICK_TUBE,input,C6,-90.000,286.000,55.000,close,idle,,grip 75 mm tube
+traj_018,TUBE-018,4,LIFT_TO_SAFE_Z,input,C6,-90.000,286.000,180.000,hold,idle,,lift picked tube
+traj_018,TUBE-018,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_018,TUBE-018,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_018,TUBE-018,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category D,scan and classify sample
+traj_018,TUBE-018,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_018,TUBE-018,9,MOVE_SAFE_ABOVE_TARGET,category_d_bin,B1,222.000,-344.000,180.000,hold,idle,,move above selected target
+traj_018,TUBE-018,10,APPROACH_TARGET_SLOT,category_d_bin,B1,222.000,-344.000,120.000,hold,idle,,approach target slot
+traj_018,TUBE-018,11,PLACE_TUBE,category_d_bin,B1,222.000,-344.000,45.000,open,idle,,place 75 mm tube
+traj_018,TUBE-018,12,RETREAT_TO_SAFE_Z,category_d_bin,B1,222.000,-344.000,180.000,open,idle,,retreat after place
+traj_019,TUBE-019,1,MOVE_SAFE_ABOVE_INPUT,input,D1,-230.000,258.000,180.000,open,idle,,above input slot
+traj_019,TUBE-019,2,APPROACH_INPUT_SLOT,input,D1,-230.000,258.000,120.000,open,idle,,approach input slot
+traj_019,TUBE-019,3,PICK_TUBE,input,D1,-230.000,258.000,55.000,close,idle,,grip 75 mm tube
+traj_019,TUBE-019,4,LIFT_TO_SAFE_Z,input,D1,-230.000,258.000,180.000,hold,idle,,lift picked tube
+traj_019,TUBE-019,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_019,TUBE-019,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_019,TUBE-019,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category A,scan and classify sample
+traj_019,TUBE-019,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_019,TUBE-019,9,MOVE_SAFE_ABOVE_TARGET,category_a_bin,B2,90.000,-174.000,180.000,hold,idle,,move above selected target
+traj_019,TUBE-019,10,APPROACH_TARGET_SLOT,category_a_bin,B2,90.000,-174.000,120.000,hold,idle,,approach target slot
+traj_019,TUBE-019,11,PLACE_TUBE,category_a_bin,B2,90.000,-174.000,45.000,open,idle,,place 75 mm tube
+traj_019,TUBE-019,12,RETREAT_TO_SAFE_Z,category_a_bin,B2,90.000,-174.000,180.000,open,idle,,retreat after place
+traj_020,TUBE-020,1,MOVE_SAFE_ABOVE_INPUT,input,D2,-202.000,258.000,180.000,open,idle,,above input slot
+traj_020,TUBE-020,2,APPROACH_INPUT_SLOT,input,D2,-202.000,258.000,120.000,open,idle,,approach input slot
+traj_020,TUBE-020,3,PICK_TUBE,input,D2,-202.000,258.000,80.000,close,idle,,grip 100 mm tube
+traj_020,TUBE-020,4,LIFT_TO_SAFE_Z,input,D2,-202.000,258.000,180.000,hold,idle,,lift picked tube
+traj_020,TUBE-020,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_020,TUBE-020,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_020,TUBE-020,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category B,scan and classify sample
+traj_020,TUBE-020,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_020,TUBE-020,9,MOVE_SAFE_ABOVE_TARGET,category_b_bin,B2,250.000,-174.000,180.000,hold,idle,,move above selected target
+traj_020,TUBE-020,10,APPROACH_TARGET_SLOT,category_b_bin,B2,250.000,-174.000,120.000,hold,idle,,approach target slot
+traj_020,TUBE-020,11,PLACE_TUBE,category_b_bin,B2,250.000,-174.000,70.000,open,idle,,place 100 mm tube
+traj_020,TUBE-020,12,RETREAT_TO_SAFE_Z,category_b_bin,B2,250.000,-174.000,180.000,open,idle,,retreat after place
+traj_021,TUBE-021,1,MOVE_SAFE_ABOVE_INPUT,input,D3,-174.000,258.000,180.000,open,idle,,above input slot
+traj_021,TUBE-021,2,APPROACH_INPUT_SLOT,input,D3,-174.000,258.000,120.000,open,idle,,approach input slot
+traj_021,TUBE-021,3,PICK_TUBE,input,D3,-174.000,258.000,55.000,close,idle,,grip 75 mm tube
+traj_021,TUBE-021,4,LIFT_TO_SAFE_Z,input,D3,-174.000,258.000,180.000,hold,idle,,lift picked tube
+traj_021,TUBE-021,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_021,TUBE-021,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_021,TUBE-021,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category C,scan and classify sample
+traj_021,TUBE-021,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_021,TUBE-021,9,MOVE_SAFE_ABOVE_TARGET,category_c_bin,B2,90.000,-344.000,180.000,hold,idle,,move above selected target
+traj_021,TUBE-021,10,APPROACH_TARGET_SLOT,category_c_bin,B2,90.000,-344.000,120.000,hold,idle,,approach target slot
+traj_021,TUBE-021,11,PLACE_TUBE,category_c_bin,B2,90.000,-344.000,45.000,open,idle,,place 75 mm tube
+traj_021,TUBE-021,12,RETREAT_TO_SAFE_Z,category_c_bin,B2,90.000,-344.000,180.000,open,idle,,retreat after place
+traj_022,TUBE-022,1,MOVE_SAFE_ABOVE_INPUT,input,D4,-146.000,258.000,180.000,open,idle,,above input slot
+traj_022,TUBE-022,2,APPROACH_INPUT_SLOT,input,D4,-146.000,258.000,120.000,open,idle,,approach input slot
+traj_022,TUBE-022,3,PICK_TUBE,input,D4,-146.000,258.000,55.000,close,idle,,grip 75 mm tube
+traj_022,TUBE-022,4,LIFT_TO_SAFE_Z,input,D4,-146.000,258.000,180.000,hold,idle,,lift picked tube
+traj_022,TUBE-022,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_022,TUBE-022,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_022,TUBE-022,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category D,scan and classify sample
+traj_022,TUBE-022,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_022,TUBE-022,9,MOVE_SAFE_ABOVE_TARGET,category_d_bin,B2,250.000,-344.000,180.000,hold,idle,,move above selected target
+traj_022,TUBE-022,10,APPROACH_TARGET_SLOT,category_d_bin,B2,250.000,-344.000,120.000,hold,idle,,approach target slot
+traj_022,TUBE-022,11,PLACE_TUBE,category_d_bin,B2,250.000,-344.000,45.000,open,idle,,place 75 mm tube
+traj_022,TUBE-022,12,RETREAT_TO_SAFE_Z,category_d_bin,B2,250.000,-344.000,180.000,open,idle,,retreat after place
+traj_023,TUBE-023,1,MOVE_SAFE_ABOVE_INPUT,input,D5,-118.000,258.000,180.000,open,idle,,above input slot
+traj_023,TUBE-023,2,APPROACH_INPUT_SLOT,input,D5,-118.000,258.000,120.000,open,idle,,approach input slot
+traj_023,TUBE-023,3,PICK_TUBE,input,D5,-118.000,258.000,55.000,close,idle,,grip 75 mm tube
+traj_023,TUBE-023,4,LIFT_TO_SAFE_Z,input,D5,-118.000,258.000,180.000,hold,idle,,lift picked tube
+traj_023,TUBE-023,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_023,TUBE-023,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_023,TUBE-023,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category A,scan and classify sample
+traj_023,TUBE-023,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_023,TUBE-023,9,MOVE_SAFE_ABOVE_TARGET,category_a_bin,B3,118.000,-174.000,180.000,hold,idle,,move above selected target
+traj_023,TUBE-023,10,APPROACH_TARGET_SLOT,category_a_bin,B3,118.000,-174.000,120.000,hold,idle,,approach target slot
+traj_023,TUBE-023,11,PLACE_TUBE,category_a_bin,B3,118.000,-174.000,45.000,open,idle,,place 75 mm tube
+traj_023,TUBE-023,12,RETREAT_TO_SAFE_Z,category_a_bin,B3,118.000,-174.000,180.000,open,idle,,retreat after place
+traj_024,TUBE-024,1,MOVE_SAFE_ABOVE_INPUT,input,D6,-90.000,258.000,180.000,open,idle,,above input slot
+traj_024,TUBE-024,2,APPROACH_INPUT_SLOT,input,D6,-90.000,258.000,120.000,open,idle,,approach input slot
+traj_024,TUBE-024,3,PICK_TUBE,input,D6,-90.000,258.000,80.000,close,idle,,grip 100 mm tube
+traj_024,TUBE-024,4,LIFT_TO_SAFE_Z,input,D6,-90.000,258.000,180.000,hold,idle,,lift picked tube
+traj_024,TUBE-024,5,MOVE_SAFE_ABOVE_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,move above scan station
+traj_024,TUBE-024,6,APPROACH_SCAN_STATION,scan_station,SCAN1,-92.000,170.000,75.000,hold,idle,,present tube to scanner
+traj_024,TUBE-024,7,SCAN_BARCODE,scan_station,SCAN1,-92.000,170.000,75.000,hold,trigger_scan,success / Category B,scan and classify sample
+traj_024,TUBE-024,8,LIFT_TO_SAFE_Z_AFTER_SCAN,scan_station,SCAN1,-92.000,170.000,180.000,hold,idle,,lift after scan
+traj_024,TUBE-024,9,MOVE_SAFE_ABOVE_TARGET,category_b_bin,B3,278.000,-174.000,180.000,hold,idle,,move above selected target
+traj_024,TUBE-024,10,APPROACH_TARGET_SLOT,category_b_bin,B3,278.000,-174.000,120.000,hold,idle,,approach target slot
+traj_024,TUBE-024,11,PLACE_TUBE,category_b_bin,B3,278.000,-174.000,70.000,open,idle,,place 100 mm tube
+traj_024,TUBE-024,12,RETREAT_TO_SAFE_Z,category_b_bin,B3,278.000,-174.000,180.000,open,idle,,retreat after place

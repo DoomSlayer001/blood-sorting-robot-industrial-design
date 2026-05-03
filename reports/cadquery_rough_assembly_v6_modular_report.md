@@ -15,5 +15,6 @@
 - STEP color export: attempted through CadQuery/OCP XCAF/STEPCAF; v5/v5.2 colors were visible in SolidWorks, and the v6 color manifest remains the fallback.
 - Interference audit summary: overlap=0, too_close=0, allowed_mount_contact=20.
 - Output STEP path: `03_cad/freecad_assembly/blood_sorting_robot_cadquery_rough_layout_v6.step`
-- Remaining check: SolidWorks 2026 manual inspection for v6 color preservation, scan-station readability, and tool-chain appearance.
-- Next step: open the v6 STEP in SolidWorks 2026 for manual inspection.
+- SolidWorks 2026 manual check: v6 opens normally, colors are visible, input/output tubes are inserted on slot centers, the scan station reads as one coherent module, and the Z-axis/adapter/gripper tool chain is clear.
+- Manual check found no obvious misalignment, body penetration, or floating components.
+- Conclusion: v6 is the current recommended modular/anchor-based CadQuery automated rough assembly layout.

@@ -1,0 +1,6 @@
+scenario_id,enabled,sample_id,failure_type,failure_step,expected_handling,notes
+baseline_manifest_failures,yes,,baseline_manifest_failures,SCAN_BARCODE,route_manifest_scan_fail_or_unknown_to_manual_review,Use existing scan fail and unknown samples from sorting_sequence_v1.csv.
+injected_pick_failure,yes,TUBE-004,gripper_pick_failed,PICK_TUBE,PAUSE_ALARM,Conservative v1 policy pauses for operator check on pick failure.
+injected_place_failure,yes,TUBE-005,gripper_place_failed,PLACE_TUBE,PAUSE_ALARM,Conservative v1 policy pauses for operator check on place failure.
+forced_output_full,yes,TUBE-002,target_bin_full,SELECT_OUTPUT_SLOT,manual_review_bin,Preload Category A with five occupied slots so later Category A samples overflow to manual review.
+forced_manual_review_full,yes,TUBE-016,manual_review_bin_full,MOVE_TO_MANUAL_REVIEW,PAUSE_ALARM,Limit manual review capacity to one slot so the second manifest exception pauses the system.

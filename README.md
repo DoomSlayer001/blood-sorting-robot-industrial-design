@@ -132,6 +132,8 @@ Stage 6B generates the first pick-scan-place trajectory sequence for all 24 mani
 
 Stage 6C estimates cycle time and throughput from the Stage 6B trajectory waypoints. The project now has four validation layers: rough CAD layout, task coordinates/reachability, pick-scan-place paths, and first-pass timing/throughput analysis.
 
+Stage 6D simulates failure handling and exception flow for the sorting task. The project now covers rough CAD layout, reachability validation, trajectory paths, cycle-time estimation, and exception handling before moving to visualization and controller-interface planning.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

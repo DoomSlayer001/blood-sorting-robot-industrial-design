@@ -1,0 +1,5 @@
+run_id,event_id,sample_id,alarm_type,trigger_state,reason,recommended_operator_action,notes
+injected_pick_failure,injected_pick_failure_ALARM_001,TUBE-004,gripper_pick_failed,PAUSE_ALARM,injected gripper_pick_failed at PICK_TUBE,"Inspect gripper/tube, clear fault, and resume from safe state.",Conservative v1 policy pauses for operator check on pick failure.
+injected_place_failure,injected_place_failure_ALARM_001,TUBE-005,gripper_place_failed,PAUSE_ALARM,injected gripper_place_failed at PLACE_TUBE,"Inspect gripper/tube, clear fault, and resume from safe state.",Conservative v1 policy pauses for operator check on place failure.
+forced_output_full,forced_output_full_ALARM_001,TUBE-023,manual_review_bin_full,PAUSE_ALARM,target_bin_full requires manual review but no slot is available,Clear manual review bin and resume after operator confirmation.,category_a_bin full; rerouted to review
+forced_manual_review_full,forced_manual_review_full_ALARM_001,TUBE-016,manual_review_bin_full,PAUSE_ALARM,scan_failed requires manual review but no slot is available,Clear manual review bin and resume after operator confirmation.,manifest exception routed to review

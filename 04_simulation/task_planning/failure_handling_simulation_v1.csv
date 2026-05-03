@@ -1,0 +1,121 @@
+run_id,sample_id,input_slot,barcode_status,category,initial_target_zone,failure_type,final_target_zone,final_target_slot,handling_action,system_state,alarm_triggered,notes
+baseline_manifest_failures,TUBE-001,A1,success,Category C,category_c_bin,none,category_c_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-002,A2,success,Category A,category_a_bin,none,category_a_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-003,A3,fail,unknown,manual_review_bin,scan_failed,manual_review_bin,A1,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,manifest exception routed to review
+baseline_manifest_failures,TUBE-004,A4,success,Category B,category_b_bin,none,category_b_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-005,A5,success,Category D,category_d_bin,none,category_d_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-006,A6,success,Category A,category_a_bin,none,category_a_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-007,B1,success,Category B,category_b_bin,none,category_b_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-008,B2,success,Category C,category_c_bin,none,category_c_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-009,B3,success,Category D,category_d_bin,none,category_d_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-010,B4,success,Category A,category_a_bin,none,category_a_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-011,B5,success,Category B,category_b_bin,none,category_b_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-012,B6,success,Category C,category_c_bin,none,category_c_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-013,C1,success,Category D,category_d_bin,none,category_d_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-014,C2,success,Category A,category_a_bin,none,category_a_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-015,C3,success,Category B,category_b_bin,none,category_b_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-016,C4,fail,unknown,manual_review_bin,scan_failed,manual_review_bin,A2,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,manifest exception routed to review
+baseline_manifest_failures,TUBE-017,C5,success,Category C,category_c_bin,none,category_c_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-018,C6,success,Category D,category_d_bin,none,category_d_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-019,D1,success,Category A,category_a_bin,none,category_a_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-020,D2,success,Category B,category_b_bin,none,category_b_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-021,D3,success,Category C,category_c_bin,none,category_c_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-022,D4,success,Category D,category_d_bin,none,category_d_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-023,D5,success,Category A,category_a_bin,none,category_a_bin,B3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+baseline_manifest_failures,TUBE-024,D6,success,Category B,category_b_bin,none,category_b_bin,B3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-001,A1,success,Category C,category_c_bin,none,category_c_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-002,A2,success,Category A,category_a_bin,none,category_a_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-003,A3,fail,unknown,manual_review_bin,scan_failed,manual_review_bin,A1,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,manifest exception routed to review
+injected_pick_failure,TUBE-004,A4,success,Category B,category_b_bin,gripper_pick_failed,manual_review_bin,,PAUSE_ALARM,PAUSE_ALARM,yes,conservative v1 policy pauses on gripper pick/place failure
+injected_pick_failure,TUBE-005,A5,success,Category D,category_d_bin,none,category_d_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-006,A6,success,Category A,category_a_bin,none,category_a_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-007,B1,success,Category B,category_b_bin,none,category_b_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-008,B2,success,Category C,category_c_bin,none,category_c_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-009,B3,success,Category D,category_d_bin,none,category_d_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-010,B4,success,Category A,category_a_bin,none,category_a_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-011,B5,success,Category B,category_b_bin,none,category_b_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-012,B6,success,Category C,category_c_bin,none,category_c_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-013,C1,success,Category D,category_d_bin,none,category_d_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-014,C2,success,Category A,category_a_bin,none,category_a_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-015,C3,success,Category B,category_b_bin,none,category_b_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-016,C4,fail,unknown,manual_review_bin,scan_failed,manual_review_bin,A2,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,manifest exception routed to review
+injected_pick_failure,TUBE-017,C5,success,Category C,category_c_bin,none,category_c_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-018,C6,success,Category D,category_d_bin,none,category_d_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-019,D1,success,Category A,category_a_bin,none,category_a_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-020,D2,success,Category B,category_b_bin,none,category_b_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-021,D3,success,Category C,category_c_bin,none,category_c_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-022,D4,success,Category D,category_d_bin,none,category_d_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-023,D5,success,Category A,category_a_bin,none,category_a_bin,B3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_pick_failure,TUBE-024,D6,success,Category B,category_b_bin,none,category_b_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-001,A1,success,Category C,category_c_bin,none,category_c_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-002,A2,success,Category A,category_a_bin,none,category_a_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-003,A3,fail,unknown,manual_review_bin,scan_failed,manual_review_bin,A1,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,manifest exception routed to review
+injected_place_failure,TUBE-004,A4,success,Category B,category_b_bin,none,category_b_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-005,A5,success,Category D,category_d_bin,gripper_place_failed,manual_review_bin,,PAUSE_ALARM,PAUSE_ALARM,yes,conservative v1 policy pauses on gripper pick/place failure
+injected_place_failure,TUBE-006,A6,success,Category A,category_a_bin,none,category_a_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-007,B1,success,Category B,category_b_bin,none,category_b_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-008,B2,success,Category C,category_c_bin,none,category_c_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-009,B3,success,Category D,category_d_bin,none,category_d_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-010,B4,success,Category A,category_a_bin,none,category_a_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-011,B5,success,Category B,category_b_bin,none,category_b_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-012,B6,success,Category C,category_c_bin,none,category_c_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-013,C1,success,Category D,category_d_bin,none,category_d_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-014,C2,success,Category A,category_a_bin,none,category_a_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-015,C3,success,Category B,category_b_bin,none,category_b_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-016,C4,fail,unknown,manual_review_bin,scan_failed,manual_review_bin,A2,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,manifest exception routed to review
+injected_place_failure,TUBE-017,C5,success,Category C,category_c_bin,none,category_c_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-018,C6,success,Category D,category_d_bin,none,category_d_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-019,D1,success,Category A,category_a_bin,none,category_a_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-020,D2,success,Category B,category_b_bin,none,category_b_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-021,D3,success,Category C,category_c_bin,none,category_c_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-022,D4,success,Category D,category_d_bin,none,category_d_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-023,D5,success,Category A,category_a_bin,none,category_a_bin,B3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+injected_place_failure,TUBE-024,D6,success,Category B,category_b_bin,none,category_b_bin,B3,NORMAL_SORT,COMPLETE_SAMPLE,no,baseline capacity
+forced_output_full,TUBE-001,A1,success,Category C,category_c_bin,none,category_c_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-002,A2,success,Category A,category_a_bin,none,category_a_bin,B3,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-003,A3,fail,unknown,manual_review_bin,scan_failed,manual_review_bin,A1,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,manifest exception routed to review
+forced_output_full,TUBE-004,A4,success,Category B,category_b_bin,none,category_b_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-005,A5,success,Category D,category_d_bin,none,category_d_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-006,A6,success,Category A,category_a_bin,target_bin_full,manual_review_bin,A2,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,category_a_bin full; rerouted to review
+forced_output_full,TUBE-007,B1,success,Category B,category_b_bin,none,category_b_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-008,B2,success,Category C,category_c_bin,none,category_c_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-009,B3,success,Category D,category_d_bin,none,category_d_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-010,B4,success,Category A,category_a_bin,target_bin_full,manual_review_bin,A3,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,category_a_bin full; rerouted to review
+forced_output_full,TUBE-011,B5,success,Category B,category_b_bin,none,category_b_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-012,B6,success,Category C,category_c_bin,none,category_c_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-013,C1,success,Category D,category_d_bin,none,category_d_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-014,C2,success,Category A,category_a_bin,target_bin_full,manual_review_bin,B1,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,category_a_bin full; rerouted to review
+forced_output_full,TUBE-015,C3,success,Category B,category_b_bin,none,category_b_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-016,C4,fail,unknown,manual_review_bin,scan_failed,manual_review_bin,B2,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,manifest exception routed to review
+forced_output_full,TUBE-017,C5,success,Category C,category_c_bin,none,category_c_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-018,C6,success,Category D,category_d_bin,none,category_d_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-019,D1,success,Category A,category_a_bin,target_bin_full,manual_review_bin,B3,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,category_a_bin full; rerouted to review
+forced_output_full,TUBE-020,D2,success,Category B,category_b_bin,none,category_b_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-021,D3,success,Category C,category_c_bin,none,category_c_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-022,D4,success,Category D,category_d_bin,none,category_d_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_output_full,TUBE-023,D5,success,Category A,category_a_bin,target_bin_full,manual_review_bin,,PAUSE_ALARM,PAUSE_ALARM,yes,manual review full
+forced_output_full,TUBE-024,D6,success,Category B,category_b_bin,none,category_b_bin,B3,NORMAL_SORT,COMPLETE_SAMPLE,no,preloaded category_a_bin with five occupied slots
+forced_manual_review_full,TUBE-001,A1,success,Category C,category_c_bin,none,category_c_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-002,A2,success,Category A,category_a_bin,none,category_a_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-003,A3,fail,unknown,manual_review_bin,scan_failed,manual_review_bin,A1,ROUTE_TO_MANUAL_REVIEW,MOVE_TO_MANUAL_REVIEW,no,manifest exception routed to review
+forced_manual_review_full,TUBE-004,A4,success,Category B,category_b_bin,none,category_b_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-005,A5,success,Category D,category_d_bin,none,category_d_bin,A1,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-006,A6,success,Category A,category_a_bin,none,category_a_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-007,B1,success,Category B,category_b_bin,none,category_b_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-008,B2,success,Category C,category_c_bin,none,category_c_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-009,B3,success,Category D,category_d_bin,none,category_d_bin,A2,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-010,B4,success,Category A,category_a_bin,none,category_a_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-011,B5,success,Category B,category_b_bin,none,category_b_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-012,B6,success,Category C,category_c_bin,none,category_c_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-013,C1,success,Category D,category_d_bin,none,category_d_bin,A3,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-014,C2,success,Category A,category_a_bin,none,category_a_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-015,C3,success,Category B,category_b_bin,none,category_b_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-016,C4,fail,unknown,manual_review_bin,scan_failed,manual_review_bin,,PAUSE_ALARM,PAUSE_ALARM,yes,manual review full
+forced_manual_review_full,TUBE-017,C5,success,Category C,category_c_bin,none,category_c_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-018,C6,success,Category D,category_d_bin,none,category_d_bin,B1,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-019,D1,success,Category A,category_a_bin,none,category_a_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-020,D2,success,Category B,category_b_bin,none,category_b_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-021,D3,success,Category C,category_c_bin,none,category_c_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-022,D4,success,Category D,category_d_bin,none,category_d_bin,B2,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-023,D5,success,Category A,category_a_bin,none,category_a_bin,B3,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot
+forced_manual_review_full,TUBE-024,D6,success,Category B,category_b_bin,none,category_b_bin,B3,NORMAL_SORT,COMPLETE_SAMPLE,no,manual_review_bin capacity limited to one slot

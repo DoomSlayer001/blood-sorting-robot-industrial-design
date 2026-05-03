@@ -1,0 +1,13 @@
+metric,value,unit,notes
+total_samples,24,samples,baseline manifest sample count
+normal_completed,22,samples,baseline samples sorted to category bins
+scan_failed_count,10,events,all enabled runs
+unknown_category_count,10,events,all enabled runs
+target_bin_full_count,5,events,all enabled runs
+manual_review_used_count,13,samples,all enabled runs
+manual_review_full_count,2,events,all enabled runs
+pick_failed_count,1,events,injected scenario count
+place_failed_count,1,events,injected scenario count
+alarm_count,4,events,all enabled runs
+paused_runs,4,runs,runs with PAUSE_ALARM
+baseline_run_status,PASS_NO_ALARM,status,baseline manifest exceptions route to manual review

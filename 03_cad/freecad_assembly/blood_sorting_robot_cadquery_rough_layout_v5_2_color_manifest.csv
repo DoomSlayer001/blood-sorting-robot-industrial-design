@@ -1,0 +1,230 @@
+instance_name,subpart_name,color_name,r,g,b,a,source_path,notes
+base_plate,imported_shape,base_light_gray,0.7,0.72,0.74,1.0,03_cad/custom_parts/base_plate/base_plate_1100x900x15.step,
+left_y_axis_module,imported_shape,dark_gray,0.22,0.23,0.24,1.0,03_cad/standard_parts/downloaded/y_axis_module/MISUMI_MSA628_Y_axis_L750_double_shaft_B1_v1.step,v3/v4 gantry position retained; auto-align long axis to Y
+right_y_axis_module,imported_shape,dark_gray,0.22,0.23,0.24,1.0,03_cad/standard_parts/downloaded/y_axis_module/MISUMI_MSA628_Y_axis_L750_double_shaft_B1_v1.step,v3/v4 gantry position retained; auto-align long axis to Y
+x_axis_module_on_gantry,imported_shape,dark_gray,0.22,0.23,0.24,1.0,03_cad/standard_parts/downloaded/x_axis_module/MISUMI_MSA628_X_axis_L750_double_shaft_B1_v1.step,v3/v4 gantry position retained; auto-align long axis to X
+z_axis_module,imported_shape,dark_gray,0.22,0.23,0.24,1.0,03_cad/standard_parts/downloaded/z_axis_module/MISUMI_LS10_Z_axis_140stroke_T42_ball_screw_v1.step,v3/v4 Z height retained; auto-align long axis to Z
+electric_parallel_gripper,imported_shape,dark_gray,0.22,0.23,0.24,1.0,03_cad/standard_parts/downloaded/gripper/SMC_LEHF20_2finger_parallel_gripper_24stroke_v1.step,v3/v4 gripper height retained
+input_mixed_tube_rack_4x6,imported_shape,rack_light_gray,0.83,0.85,0.84,1.0,03_cad/custom_parts/tube_bins/input_mixed_tube_rack_4x6.step,v5 moved inward from left Y axis for clearance after audit
+category_A_output_bin_2x3,imported_shape,bin_mid_gray,0.72,0.74,0.73,1.0,03_cad/custom_parts/tube_bins/category_A_output_bin_2x3.step,v5 moved away from right Y axis
+category_B_output_bin_2x3,imported_shape,bin_mid_gray,0.72,0.74,0.73,1.0,03_cad/custom_parts/tube_bins/category_B_output_bin_2x3.step,v5 moved away from right Y axis
+category_C_output_bin_2x3,imported_shape,bin_mid_gray,0.72,0.74,0.73,1.0,03_cad/custom_parts/tube_bins/category_C_output_bin_2x3.step,v5 moved away from right Y axis
+category_D_output_bin_2x3,imported_shape,bin_mid_gray,0.72,0.74,0.73,1.0,03_cad/custom_parts/tube_bins/category_D_output_bin_2x3.step,v5 moved away from right Y axis
+manual_review_bin_2x3,imported_shape,bin_mid_gray,0.72,0.74,0.73,1.0,03_cad/custom_parts/tube_bins/manual_review_bin_2x3.step,v5 moved inward from left Y axis for clearance
+barcode_scanner,imported_shape,scanner_black,0.06,0.06,0.06,1.0,03_cad/standard_parts/downloaded/barcode_scanner/Cognex_DataMan80_USB_fixed_barcode_reader_v1.step,v5.2 grouped with scanner bracket and scan tube
+photoelectric_sensor,imported_shape,sensor_dark_gray,0.14,0.14,0.14,1.0,03_cad/standard_parts/downloaded/sensors/Panasonic_CX421J_diffuse_photoelectric_sensor_v1.step,v5.2 grouped with sensor bracket and scan tube
+input_demo_tube_01_purple75,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 1, col 1; v5 input rack origin"
+input_demo_tube_01_purple75,tube_cap,purple_cap,0.45,0.16,0.75,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 1, col 1; v5 input rack origin"
+input_demo_tube_01_purple75,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 1, col 1; v5 input rack origin"
+input_demo_tube_01_purple75,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 1, col 1; v5 input rack origin"
+input_demo_tube_01_purple75,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 1, col 1; v5 input rack origin"
+input_demo_tube_01_purple75,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 1, col 1; v5 input rack origin"
+input_demo_tube_01_purple75,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 1, col 1; v5 input rack origin"
+input_demo_tube_01_purple75,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 1, col 1; v5 input rack origin"
+input_demo_tube_01_purple75,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 1, col 1; v5 input rack origin"
+input_demo_tube_01_purple75,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 1, col 1; v5 input rack origin"
+input_demo_tube_01_purple75,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 1, col 1; v5 input rack origin"
+input_demo_tube_01_purple75,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 1, col 1; v5 input rack origin"
+input_demo_tube_02_yellow100,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 1, col 2; v5 input rack origin"
+input_demo_tube_02_yellow100,tube_cap,yellow_cap,1.0,0.82,0.05,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 1, col 2; v5 input rack origin"
+input_demo_tube_02_yellow100,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 1, col 2; v5 input rack origin"
+input_demo_tube_02_yellow100,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 1, col 2; v5 input rack origin"
+input_demo_tube_02_yellow100,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 1, col 2; v5 input rack origin"
+input_demo_tube_02_yellow100,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 1, col 2; v5 input rack origin"
+input_demo_tube_02_yellow100,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 1, col 2; v5 input rack origin"
+input_demo_tube_02_yellow100,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 1, col 2; v5 input rack origin"
+input_demo_tube_02_yellow100,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 1, col 2; v5 input rack origin"
+input_demo_tube_02_yellow100,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 1, col 2; v5 input rack origin"
+input_demo_tube_02_yellow100,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 1, col 2; v5 input rack origin"
+input_demo_tube_02_yellow100,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 1, col 2; v5 input rack origin"
+input_demo_tube_03_blue75,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 1, col 4; v5 input rack origin"
+input_demo_tube_03_blue75,tube_cap,blue_cap,0.08,0.34,0.95,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 1, col 4; v5 input rack origin"
+input_demo_tube_03_blue75,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 1, col 4; v5 input rack origin"
+input_demo_tube_03_blue75,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 1, col 4; v5 input rack origin"
+input_demo_tube_03_blue75,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 1, col 4; v5 input rack origin"
+input_demo_tube_03_blue75,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 1, col 4; v5 input rack origin"
+input_demo_tube_03_blue75,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 1, col 4; v5 input rack origin"
+input_demo_tube_03_blue75,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 1, col 4; v5 input rack origin"
+input_demo_tube_03_blue75,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 1, col 4; v5 input rack origin"
+input_demo_tube_03_blue75,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 1, col 4; v5 input rack origin"
+input_demo_tube_03_blue75,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 1, col 4; v5 input rack origin"
+input_demo_tube_03_blue75,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 1, col 4; v5 input rack origin"
+input_demo_tube_04_red75,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 1, col 6; v5 input rack origin"
+input_demo_tube_04_red75,tube_cap,red_cap,0.86,0.05,0.05,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 1, col 6; v5 input rack origin"
+input_demo_tube_04_red75,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 1, col 6; v5 input rack origin"
+input_demo_tube_04_red75,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 1, col 6; v5 input rack origin"
+input_demo_tube_04_red75,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 1, col 6; v5 input rack origin"
+input_demo_tube_04_red75,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 1, col 6; v5 input rack origin"
+input_demo_tube_04_red75,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 1, col 6; v5 input rack origin"
+input_demo_tube_04_red75,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 1, col 6; v5 input rack origin"
+input_demo_tube_04_red75,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 1, col 6; v5 input rack origin"
+input_demo_tube_04_red75,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 1, col 6; v5 input rack origin"
+input_demo_tube_04_red75,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 1, col 6; v5 input rack origin"
+input_demo_tube_04_red75,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 1, col 6; v5 input rack origin"
+input_demo_tube_05_yellow100,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 2, col 1; v5 input rack origin"
+input_demo_tube_05_yellow100,tube_cap,yellow_cap,1.0,0.82,0.05,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 2, col 1; v5 input rack origin"
+input_demo_tube_05_yellow100,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 2, col 1; v5 input rack origin"
+input_demo_tube_05_yellow100,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 2, col 1; v5 input rack origin"
+input_demo_tube_05_yellow100,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 2, col 1; v5 input rack origin"
+input_demo_tube_05_yellow100,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 2, col 1; v5 input rack origin"
+input_demo_tube_05_yellow100,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 2, col 1; v5 input rack origin"
+input_demo_tube_05_yellow100,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 2, col 1; v5 input rack origin"
+input_demo_tube_05_yellow100,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 2, col 1; v5 input rack origin"
+input_demo_tube_05_yellow100,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 2, col 1; v5 input rack origin"
+input_demo_tube_05_yellow100,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 2, col 1; v5 input rack origin"
+input_demo_tube_05_yellow100,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 2, col 1; v5 input rack origin"
+input_demo_tube_06_purple75,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 2, col 3; v5 input rack origin"
+input_demo_tube_06_purple75,tube_cap,purple_cap,0.45,0.16,0.75,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 2, col 3; v5 input rack origin"
+input_demo_tube_06_purple75,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 2, col 3; v5 input rack origin"
+input_demo_tube_06_purple75,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 2, col 3; v5 input rack origin"
+input_demo_tube_06_purple75,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 2, col 3; v5 input rack origin"
+input_demo_tube_06_purple75,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 2, col 3; v5 input rack origin"
+input_demo_tube_06_purple75,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 2, col 3; v5 input rack origin"
+input_demo_tube_06_purple75,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 2, col 3; v5 input rack origin"
+input_demo_tube_06_purple75,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 2, col 3; v5 input rack origin"
+input_demo_tube_06_purple75,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 2, col 3; v5 input rack origin"
+input_demo_tube_06_purple75,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 2, col 3; v5 input rack origin"
+input_demo_tube_06_purple75,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 2, col 3; v5 input rack origin"
+input_demo_tube_07_blue75,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 2, col 5; v5 input rack origin"
+input_demo_tube_07_blue75,tube_cap,blue_cap,0.08,0.34,0.95,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 2, col 5; v5 input rack origin"
+input_demo_tube_07_blue75,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 2, col 5; v5 input rack origin"
+input_demo_tube_07_blue75,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 2, col 5; v5 input rack origin"
+input_demo_tube_07_blue75,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 2, col 5; v5 input rack origin"
+input_demo_tube_07_blue75,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 2, col 5; v5 input rack origin"
+input_demo_tube_07_blue75,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 2, col 5; v5 input rack origin"
+input_demo_tube_07_blue75,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 2, col 5; v5 input rack origin"
+input_demo_tube_07_blue75,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 2, col 5; v5 input rack origin"
+input_demo_tube_07_blue75,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 2, col 5; v5 input rack origin"
+input_demo_tube_07_blue75,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 2, col 5; v5 input rack origin"
+input_demo_tube_07_blue75,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 2, col 5; v5 input rack origin"
+input_demo_tube_08_red75,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 3, col 2; v5 input rack origin"
+input_demo_tube_08_red75,tube_cap,red_cap,0.86,0.05,0.05,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 3, col 2; v5 input rack origin"
+input_demo_tube_08_red75,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 3, col 2; v5 input rack origin"
+input_demo_tube_08_red75,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 3, col 2; v5 input rack origin"
+input_demo_tube_08_red75,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 3, col 2; v5 input rack origin"
+input_demo_tube_08_red75,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 3, col 2; v5 input rack origin"
+input_demo_tube_08_red75,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 3, col 2; v5 input rack origin"
+input_demo_tube_08_red75,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 3, col 2; v5 input rack origin"
+input_demo_tube_08_red75,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 3, col 2; v5 input rack origin"
+input_demo_tube_08_red75,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 3, col 2; v5 input rack origin"
+input_demo_tube_08_red75,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 3, col 2; v5 input rack origin"
+input_demo_tube_08_red75,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 3, col 2; v5 input rack origin"
+input_demo_tube_09_yellow100,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 3, col 4; v5 input rack origin"
+input_demo_tube_09_yellow100,tube_cap,yellow_cap,1.0,0.82,0.05,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 3, col 4; v5 input rack origin"
+input_demo_tube_09_yellow100,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 3, col 4; v5 input rack origin"
+input_demo_tube_09_yellow100,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 3, col 4; v5 input rack origin"
+input_demo_tube_09_yellow100,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 3, col 4; v5 input rack origin"
+input_demo_tube_09_yellow100,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 3, col 4; v5 input rack origin"
+input_demo_tube_09_yellow100,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 3, col 4; v5 input rack origin"
+input_demo_tube_09_yellow100,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 3, col 4; v5 input rack origin"
+input_demo_tube_09_yellow100,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 3, col 4; v5 input rack origin"
+input_demo_tube_09_yellow100,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 3, col 4; v5 input rack origin"
+input_demo_tube_09_yellow100,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 3, col 4; v5 input rack origin"
+input_demo_tube_09_yellow100,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"input rack row 3, col 4; v5 input rack origin"
+input_demo_tube_10_purple75,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 3, col 6; v5 input rack origin"
+input_demo_tube_10_purple75,tube_cap,purple_cap,0.45,0.16,0.75,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 3, col 6; v5 input rack origin"
+input_demo_tube_10_purple75,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 3, col 6; v5 input rack origin"
+input_demo_tube_10_purple75,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 3, col 6; v5 input rack origin"
+input_demo_tube_10_purple75,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 3, col 6; v5 input rack origin"
+input_demo_tube_10_purple75,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 3, col 6; v5 input rack origin"
+input_demo_tube_10_purple75,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 3, col 6; v5 input rack origin"
+input_demo_tube_10_purple75,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 3, col 6; v5 input rack origin"
+input_demo_tube_10_purple75,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 3, col 6; v5 input rack origin"
+input_demo_tube_10_purple75,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 3, col 6; v5 input rack origin"
+input_demo_tube_10_purple75,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 3, col 6; v5 input rack origin"
+input_demo_tube_10_purple75,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"input rack row 3, col 6; v5 input rack origin"
+input_demo_tube_11_blue75,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 4, col 1; v5 input rack origin"
+input_demo_tube_11_blue75,tube_cap,blue_cap,0.08,0.34,0.95,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 4, col 1; v5 input rack origin"
+input_demo_tube_11_blue75,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 4, col 1; v5 input rack origin"
+input_demo_tube_11_blue75,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 4, col 1; v5 input rack origin"
+input_demo_tube_11_blue75,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 4, col 1; v5 input rack origin"
+input_demo_tube_11_blue75,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 4, col 1; v5 input rack origin"
+input_demo_tube_11_blue75,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 4, col 1; v5 input rack origin"
+input_demo_tube_11_blue75,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 4, col 1; v5 input rack origin"
+input_demo_tube_11_blue75,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 4, col 1; v5 input rack origin"
+input_demo_tube_11_blue75,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 4, col 1; v5 input rack origin"
+input_demo_tube_11_blue75,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 4, col 1; v5 input rack origin"
+input_demo_tube_11_blue75,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/blue_cap_tube_13x75_v2.step,"input rack row 4, col 1; v5 input rack origin"
+input_demo_tube_12_red75,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 4, col 5; v5 input rack origin"
+input_demo_tube_12_red75,tube_cap,red_cap,0.86,0.05,0.05,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 4, col 5; v5 input rack origin"
+input_demo_tube_12_red75,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 4, col 5; v5 input rack origin"
+input_demo_tube_12_red75,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 4, col 5; v5 input rack origin"
+input_demo_tube_12_red75,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 4, col 5; v5 input rack origin"
+input_demo_tube_12_red75,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 4, col 5; v5 input rack origin"
+input_demo_tube_12_red75,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 4, col 5; v5 input rack origin"
+input_demo_tube_12_red75,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 4, col 5; v5 input rack origin"
+input_demo_tube_12_red75,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 4, col 5; v5 input rack origin"
+input_demo_tube_12_red75,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 4, col 5; v5 input rack origin"
+input_demo_tube_12_red75,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 4, col 5; v5 input rack origin"
+input_demo_tube_12_red75,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/red_cap_tube_13x75_v2.step,"input rack row 4, col 5; v5 input rack origin"
+scan_station_demo_tube_yellow100,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,v5.2 scan tube centered in the coherent scan station
+scan_station_demo_tube_yellow100,tube_cap,yellow_cap,1.0,0.82,0.05,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,v5.2 scan tube centered in the coherent scan station
+scan_station_demo_tube_yellow100,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,v5.2 scan tube centered in the coherent scan station
+scan_station_demo_tube_yellow100,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,v5.2 scan tube centered in the coherent scan station
+scan_station_demo_tube_yellow100,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,v5.2 scan tube centered in the coherent scan station
+scan_station_demo_tube_yellow100,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,v5.2 scan tube centered in the coherent scan station
+scan_station_demo_tube_yellow100,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,v5.2 scan tube centered in the coherent scan station
+scan_station_demo_tube_yellow100,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,v5.2 scan tube centered in the coherent scan station
+scan_station_demo_tube_yellow100,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,v5.2 scan tube centered in the coherent scan station
+scan_station_demo_tube_yellow100,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,v5.2 scan tube centered in the coherent scan station
+scan_station_demo_tube_yellow100,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,v5.2 scan tube centered in the coherent scan station
+scan_station_demo_tube_yellow100,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,v5.2 scan tube centered in the coherent scan station
+category_A_classified_tube_01_purple75,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 1, col 1; v5 output origin"
+category_A_classified_tube_01_purple75,tube_cap,purple_cap,0.45,0.16,0.75,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 1, col 1; v5 output origin"
+category_A_classified_tube_01_purple75,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 1, col 1; v5 output origin"
+category_A_classified_tube_01_purple75,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 1, col 1; v5 output origin"
+category_A_classified_tube_01_purple75,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 1, col 1; v5 output origin"
+category_A_classified_tube_01_purple75,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 1, col 1; v5 output origin"
+category_A_classified_tube_01_purple75,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 1, col 1; v5 output origin"
+category_A_classified_tube_01_purple75,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 1, col 1; v5 output origin"
+category_A_classified_tube_01_purple75,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 1, col 1; v5 output origin"
+category_A_classified_tube_01_purple75,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 1, col 1; v5 output origin"
+category_A_classified_tube_01_purple75,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 1, col 1; v5 output origin"
+category_A_classified_tube_01_purple75,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 1, col 1; v5 output origin"
+category_A_classified_tube_02_purple75,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 2, col 2; v5 output origin"
+category_A_classified_tube_02_purple75,tube_cap,purple_cap,0.45,0.16,0.75,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 2, col 2; v5 output origin"
+category_A_classified_tube_02_purple75,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 2, col 2; v5 output origin"
+category_A_classified_tube_02_purple75,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 2, col 2; v5 output origin"
+category_A_classified_tube_02_purple75,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 2, col 2; v5 output origin"
+category_A_classified_tube_02_purple75,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 2, col 2; v5 output origin"
+category_A_classified_tube_02_purple75,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 2, col 2; v5 output origin"
+category_A_classified_tube_02_purple75,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 2, col 2; v5 output origin"
+category_A_classified_tube_02_purple75,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 2, col 2; v5 output origin"
+category_A_classified_tube_02_purple75,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 2, col 2; v5 output origin"
+category_A_classified_tube_02_purple75,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 2, col 2; v5 output origin"
+category_A_classified_tube_02_purple75,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/purple_cap_tube_13x75_v2.step,"Category A output row 2, col 2; v5 output origin"
+category_B_classified_tube_01_yellow100,tube_body_13mm_od,light_gray_body,0.78,0.84,0.88,0.55,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"Category B output row 1, col 2; v5 output origin"
+category_B_classified_tube_01_yellow100,tube_cap,yellow_cap,1.0,0.82,0.05,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"Category B output row 1, col 2; v5 output origin"
+category_B_classified_tube_01_yellow100,curved_white_label_220deg,white_label,1.0,1.0,1.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"Category B output row 1, col 2; v5 output origin"
+category_B_classified_tube_01_yellow100,curved_barcode_stripe_1,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"Category B output row 1, col 2; v5 output origin"
+category_B_classified_tube_01_yellow100,curved_barcode_stripe_2,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"Category B output row 1, col 2; v5 output origin"
+category_B_classified_tube_01_yellow100,curved_barcode_stripe_3,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"Category B output row 1, col 2; v5 output origin"
+category_B_classified_tube_01_yellow100,curved_barcode_stripe_4,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"Category B output row 1, col 2; v5 output origin"
+category_B_classified_tube_01_yellow100,curved_barcode_stripe_5,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"Category B output row 1, col 2; v5 output origin"
+category_B_classified_tube_01_yellow100,curved_barcode_stripe_6,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"Category B output row 1, col 2; v5 output origin"
+category_B_classified_tube_01_yellow100,curved_barcode_stripe_7,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"Category B output row 1, col 2; v5 output origin"
+category_B_classified_tube_01_yellow100,curved_barcode_stripe_8,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"Category B output row 1, col 2; v5 output origin"
+category_B_classified_tube_01_yellow100,curved_barcode_stripe_9,barcode_black,0.0,0.0,0.0,1.0,03_cad/custom_parts/sample_tube/yellow_cap_tube_13x100_v2.step,"Category B output row 1, col 2; v5 output origin"
+xz_adapter_plate_simplified,adapter_plate,adapter_gray,0.5,0.54,0.56,1.0,generated:xz_adapter_plate_simplified,v5.2 aligned on the X-Z-gripper tool-chain interface
+xz_adapter_plate_simplified,mount_hole_marker_1,label_plate_dark,0.04,0.04,0.04,1.0,generated:xz_adapter_plate_simplified,v5.2 aligned on the X-Z-gripper tool-chain interface
+xz_adapter_plate_simplified,mount_hole_marker_2,label_plate_dark,0.04,0.04,0.04,1.0,generated:xz_adapter_plate_simplified,v5.2 aligned on the X-Z-gripper tool-chain interface
+xz_adapter_plate_simplified,mount_hole_marker_3,label_plate_dark,0.04,0.04,0.04,1.0,generated:xz_adapter_plate_simplified,v5.2 aligned on the X-Z-gripper tool-chain interface
+xz_adapter_plate_simplified,mount_hole_marker_4,label_plate_dark,0.04,0.04,0.04,1.0,generated:xz_adapter_plate_simplified,v5.2 aligned on the X-Z-gripper tool-chain interface
+barcode_scanner_mount_bracket,vertical_post,bracket_gray,0.32,0.34,0.35,1.0,generated:barcode_scanner_mount_bracket,v5.2 scanner bracket grouped into the scan station
+barcode_scanner_mount_bracket,scanner_support_arm,bracket_gray,0.32,0.34,0.35,1.0,generated:barcode_scanner_mount_bracket,v5.2 scanner bracket grouped into the scan station
+barcode_scanner_mount_bracket,base_foot,bracket_gray,0.32,0.34,0.35,1.0,generated:barcode_scanner_mount_bracket,v5.2 scanner bracket grouped into the scan station
+photoelectric_sensor_mount_bracket,vertical_post,bracket_gray,0.32,0.34,0.35,1.0,generated:photoelectric_sensor_mount_bracket,v5.2 sensor bracket grouped into the scan station
+photoelectric_sensor_mount_bracket,sensor_support_arm,bracket_gray,0.32,0.34,0.35,1.0,generated:photoelectric_sensor_mount_bracket,v5.2 sensor bracket grouped into the scan station
+photoelectric_sensor_mount_bracket,base_foot,bracket_gray,0.32,0.34,0.35,1.0,generated:photoelectric_sensor_mount_bracket,v5.2 sensor bracket grouped into the scan station
+label_plate_INPUT,plate_base,label_plate_dark,0.04,0.04,0.04,1.0,generated:label_plate_INPUT,INPUT name plate with dark base and light text/marker
+label_plate_INPUT,light_marker,label_plate_text_light,0.92,0.92,0.86,1.0,generated:label_plate_INPUT,INPUT name plate with dark base and light text/marker
+label_plate_A,plate_base,label_plate_dark,0.04,0.04,0.04,1.0,generated:label_plate_A,A name plate with dark base and light text/marker
+label_plate_A,light_marker,label_plate_text_light,0.92,0.92,0.86,1.0,generated:label_plate_A,A name plate with dark base and light text/marker
+label_plate_B,plate_base,label_plate_dark,0.04,0.04,0.04,1.0,generated:label_plate_B,B name plate with dark base and light text/marker
+label_plate_B,light_marker,label_plate_text_light,0.92,0.92,0.86,1.0,generated:label_plate_B,B name plate with dark base and light text/marker
+label_plate_C,plate_base,label_plate_dark,0.04,0.04,0.04,1.0,generated:label_plate_C,C name plate with dark base and light text/marker
+label_plate_C,light_marker,label_plate_text_light,0.92,0.92,0.86,1.0,generated:label_plate_C,C name plate with dark base and light text/marker
+label_plate_D,plate_base,label_plate_dark,0.04,0.04,0.04,1.0,generated:label_plate_D,D name plate with dark base and light text/marker
+label_plate_D,light_marker,label_plate_text_light,0.92,0.92,0.86,1.0,generated:label_plate_D,D name plate with dark base and light text/marker
+label_plate_REVIEW,plate_base,label_plate_dark,0.04,0.04,0.04,1.0,generated:label_plate_REVIEW,REVIEW name plate with dark base and light text/marker
+label_plate_REVIEW,light_marker,label_plate_text_light,0.92,0.92,0.86,1.0,generated:label_plate_REVIEW,REVIEW name plate with dark base and light text/marker

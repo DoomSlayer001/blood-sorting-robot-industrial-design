@@ -122,6 +122,8 @@ Stage 4F v5 adds a color-manifest fallback and an automated interference/clearan
 
 Stage 4F v5.1 is a presentation refinement based on v5. It adds simple scanner and photoelectric sensor brackets plus a clearer X-Z adapter plate while keeping CadQuery/OCP as the main automated assembly route and SolidWorks 2026 as the inspection/screenshot tool. SolidWorks COM and FreeCAD remain outside the main route.
 
+Stage 4F v5.2 is a small alignment-correction pass based on v5.1. It keeps the recommended CadQuery/OCP route and the v5/v5.1 main layout while aligning the X-Z adapter/Z-axis/gripper tool chain and regrouping the scan station before SolidWorks 2026 manual inspection.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

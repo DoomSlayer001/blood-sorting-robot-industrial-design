@@ -1,0 +1,13 @@
+metric,value,unit,notes
+sample_count,24,samples,number of manifest samples
+total_waypoints,288,waypoints,generated Stage 6B trajectory waypoints
+total_batch_time_s,274.273,s,sum of estimated sample cycle times
+total_batch_time_min,4.571,min,sum of estimated sample cycle times
+average_cycle_time_s,11.428,s/sample,mean cycle time
+max_cycle_time_s,12.120,s,slowest sample
+min_cycle_time_s,10.627,s,fastest sample
+normal_sample_count,22,samples,samples routed to category bins
+manual_review_sample_count,2,samples,samples routed to manual review
+estimated_samples_per_hour,315.015,samples/hour,ideal continuous throughput estimate
+bottleneck_action,motion,category,largest aggregate time component
+assumptions_version,stage_6c_initial_v1,version,initial engineering estimate

@@ -130,6 +130,8 @@ Stage 6A starts the non-CAD task-planning layer after the validated v6 rough lay
 
 Stage 6B generates the first pick-scan-place trajectory sequence for all 24 manifest samples. The project has moved from CAD rough assembly into sorting motion planning: waypoint CSVs, workspace checks, motion summaries, and a 2D top-view path figure are generated without creating new CAD.
 
+Stage 6C estimates cycle time and throughput from the Stage 6B trajectory waypoints. The project now has four validation layers: rough CAD layout, task coordinates/reachability, pick-scan-place paths, and first-pass timing/throughput analysis.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

@@ -1,0 +1,25 @@
+sample_id,input_slot,target_zone,target_slot,tube_height_mm,barcode_status,category,num_waypoints,xy_distance_mm,z_distance_mm,motion_time_s,gripper_time_s,scan_time_s,decision_time_s,settle_time_s,manual_review_extra_s,total_cycle_time_s,notes
+TUBE-001,A1,category_c_bin,A1,75,success,Category C,12,730.333,730.000,8.518,1.400,1.200,0.200,0.600,0.000,11.918,normal category path
+TUBE-002,A2,category_a_bin,A1,75,success,Category A,12,555.695,730.000,7.936,1.400,1.200,0.200,0.600,0.000,11.336,normal category path
+TUBE-003,A3,manual_review_bin,A1,100,fail,unknown,12,696.587,630.000,7.572,1.400,1.200,0.200,0.600,0.500,11.472,manual review path includes extra handling time
+TUBE-004,A4,category_b_bin,A1,100,success,Category B,12,625.757,630.000,7.336,1.400,1.200,0.200,0.600,0.000,10.736,normal category path
+TUBE-005,A5,category_d_bin,A1,75,success,Category D,12,752.566,730.000,8.592,1.400,1.200,0.200,0.600,0.000,11.992,normal category path
+TUBE-006,A6,category_a_bin,A2,75,success,Category A,12,536.676,730.000,7.872,1.400,1.200,0.200,0.600,0.000,11.272,normal category path
+TUBE-007,B1,category_b_bin,A2,100,success,Category B,12,665.089,630.000,7.467,1.400,1.200,0.200,0.600,0.000,10.867,normal category path
+TUBE-008,B2,category_c_bin,A2,75,success,Category C,12,700.168,730.000,8.417,1.400,1.200,0.200,0.600,0.000,11.817,normal category path
+TUBE-009,B3,category_d_bin,A2,75,success,Category D,12,759.983,730.000,8.617,1.400,1.200,0.200,0.600,0.000,12.017,normal category path
+TUBE-010,B4,category_a_bin,A3,75,success,Category A,12,533.207,730.000,7.861,1.400,1.200,0.200,0.600,0.000,11.261,normal category path
+TUBE-011,B5,category_b_bin,A3,100,success,Category B,12,632.904,630.000,7.360,1.400,1.200,0.200,0.600,0.000,10.760,normal category path
+TUBE-012,B6,category_c_bin,A3,75,success,Category C,12,673.444,730.000,8.328,1.400,1.200,0.200,0.600,0.000,11.728,normal category path
+TUBE-013,C1,category_d_bin,A3,75,success,Category D,12,791.093,730.000,8.720,1.400,1.200,0.200,0.600,0.000,12.120,normal category path
+TUBE-014,C2,category_a_bin,B1,75,success,Category A,12,536.760,730.000,7.873,1.400,1.200,0.200,0.600,0.000,11.273,normal category path
+TUBE-015,C3,category_b_bin,B1,100,success,Category B,12,607.816,630.000,7.276,1.400,1.200,0.200,0.600,0.000,10.676,normal category path
+TUBE-016,C4,manual_review_bin,A2,75,fail,unknown,12,626.917,730.000,8.173,1.400,1.200,0.200,0.600,0.500,12.073,manual review path includes extra handling time
+TUBE-017,C5,category_c_bin,B1,75,success,Category C,12,655.452,730.000,8.268,1.400,1.200,0.200,0.600,0.000,11.668,normal category path
+TUBE-018,C6,category_d_bin,B1,75,success,Category D,12,718.339,730.000,8.478,1.400,1.200,0.200,0.600,0.000,11.878,normal category path
+TUBE-019,D1,category_a_bin,B2,75,success,Category A,12,552.849,730.000,7.926,1.400,1.200,0.200,0.600,0.000,11.326,normal category path
+TUBE-020,D2,category_b_bin,B2,100,success,Category B,12,625.946,630.000,7.336,1.400,1.200,0.200,0.600,0.000,10.736,normal category path
+TUBE-021,D3,category_c_bin,B2,75,success,Category C,12,665.554,730.000,8.302,1.400,1.200,0.200,0.600,0.000,11.702,normal category path
+TUBE-022,D4,category_d_bin,B2,75,success,Category D,12,720.629,730.000,8.485,1.400,1.200,0.200,0.600,0.000,11.885,normal category path
+TUBE-023,D5,category_a_bin,B3,75,success,Category A,12,494.794,730.000,7.733,1.400,1.200,0.200,0.600,0.000,11.133,normal category path
+TUBE-024,D6,category_b_bin,B3,100,success,Category B,12,593.232,630.000,7.227,1.400,1.200,0.200,0.600,0.000,10.627,normal category path

@@ -134,6 +134,8 @@ Stage 6C estimates cycle time and throughput from the Stage 6B trajectory waypoi
 
 Stage 6D simulates failure handling and exception flow for the sorting task. The project now covers rough CAD layout, reachability validation, trajectory paths, cycle-time estimation, and exception handling before moving to visualization and controller-interface planning.
 
+Stage 6E generates a 2D top-view sorting process animation for report and presentation use. The project now has CAD rough layout, task paths, cycle-time estimates, exception-flow simulation, and a process visualization layer.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

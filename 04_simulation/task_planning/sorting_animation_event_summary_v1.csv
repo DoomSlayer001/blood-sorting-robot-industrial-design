@@ -1,0 +1,289 @@
+frame_id,sample_id,state,x_mm,y_mm,target_zone,event_label,notes
+1,TUBE-001,MOVE_SAFE_ABOVE_INPUT,-230.000,342.000,category_c_bin,Category C,above input slot
+2,TUBE-001,APPROACH_INPUT_SLOT,-230.000,342.000,category_c_bin,Category C,approach input slot
+3,TUBE-001,PICK_TUBE,-230.000,342.000,category_c_bin,Category C,grip 75 mm tube
+4,TUBE-001,LIFT_TO_SAFE_Z,-230.000,342.000,category_c_bin,Category C,lift picked tube
+5,TUBE-001,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_c_bin,Category C,move above scan station
+6,TUBE-001,APPROACH_SCAN_STATION,-92.000,170.000,category_c_bin,Category C,present tube to scanner
+7,TUBE-001,SCAN_BARCODE,-92.000,170.000,category_c_bin,Category C,scan and classify sample
+8,TUBE-001,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_c_bin,Category C,lift after scan
+9,TUBE-001,MOVE_SAFE_ABOVE_TARGET,62.000,-316.000,category_c_bin,Category C,move above selected target
+10,TUBE-001,APPROACH_TARGET_SLOT,62.000,-316.000,category_c_bin,Category C,approach target slot
+11,TUBE-001,PLACE_TUBE,62.000,-316.000,category_c_bin,Category C,place 75 mm tube
+12,TUBE-001,RETREAT_TO_SAFE_Z,62.000,-316.000,category_c_bin,Category C,retreat after place
+13,TUBE-002,MOVE_SAFE_ABOVE_INPUT,-202.000,342.000,category_a_bin,Category A,above input slot
+14,TUBE-002,APPROACH_INPUT_SLOT,-202.000,342.000,category_a_bin,Category A,approach input slot
+15,TUBE-002,PICK_TUBE,-202.000,342.000,category_a_bin,Category A,grip 75 mm tube
+16,TUBE-002,LIFT_TO_SAFE_Z,-202.000,342.000,category_a_bin,Category A,lift picked tube
+17,TUBE-002,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_a_bin,Category A,move above scan station
+18,TUBE-002,APPROACH_SCAN_STATION,-92.000,170.000,category_a_bin,Category A,present tube to scanner
+19,TUBE-002,SCAN_BARCODE,-92.000,170.000,category_a_bin,Category A,scan and classify sample
+20,TUBE-002,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_a_bin,Category A,lift after scan
+21,TUBE-002,MOVE_SAFE_ABOVE_TARGET,62.000,-146.000,category_a_bin,Category A,move above selected target
+22,TUBE-002,APPROACH_TARGET_SLOT,62.000,-146.000,category_a_bin,Category A,approach target slot
+23,TUBE-002,PLACE_TUBE,62.000,-146.000,category_a_bin,Category A,place 75 mm tube
+24,TUBE-002,RETREAT_TO_SAFE_Z,62.000,-146.000,category_a_bin,Category A,retreat after place
+25,TUBE-003,MOVE_SAFE_ABOVE_INPUT,-174.000,342.000,manual_review_bin,scan_failed / manual_review,above input slot
+26,TUBE-003,APPROACH_INPUT_SLOT,-174.000,342.000,manual_review_bin,scan_failed / manual_review,approach input slot
+27,TUBE-003,PICK_TUBE,-174.000,342.000,manual_review_bin,scan_failed / manual_review,grip 100 mm tube
+28,TUBE-003,LIFT_TO_SAFE_Z,-174.000,342.000,manual_review_bin,scan_failed / manual_review,lift picked tube
+29,TUBE-003,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,manual_review_bin,scan_failed / manual_review,move above scan station
+30,TUBE-003,APPROACH_SCAN_STATION,-92.000,170.000,manual_review_bin,scan_failed / manual_review,present tube to scanner
+31,TUBE-003,SCAN_BARCODE,-92.000,170.000,manual_review_bin,scan_failed / manual_review,scan and classify sample
+32,TUBE-003,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,manual_review_bin,scan_failed / manual_review,lift after scan
+33,TUBE-003,MOVE_SAFE_ABOVE_TARGET,-233.000,-316.000,manual_review_bin,scan_failed / manual_review,move above selected target
+34,TUBE-003,APPROACH_TARGET_SLOT,-233.000,-316.000,manual_review_bin,scan_failed / manual_review,approach target slot
+35,TUBE-003,PLACE_TUBE,-233.000,-316.000,manual_review_bin,scan_failed / manual_review,place 100 mm tube
+36,TUBE-003,RETREAT_TO_SAFE_Z,-233.000,-316.000,manual_review_bin,scan_failed / manual_review,retreat after place
+37,TUBE-004,MOVE_SAFE_ABOVE_INPUT,-146.000,342.000,category_b_bin,Category B,above input slot
+38,TUBE-004,APPROACH_INPUT_SLOT,-146.000,342.000,category_b_bin,Category B,approach input slot
+39,TUBE-004,PICK_TUBE,-146.000,342.000,category_b_bin,Category B,grip 100 mm tube
+40,TUBE-004,LIFT_TO_SAFE_Z,-146.000,342.000,category_b_bin,Category B,lift picked tube
+41,TUBE-004,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_b_bin,Category B,move above scan station
+42,TUBE-004,APPROACH_SCAN_STATION,-92.000,170.000,category_b_bin,Category B,present tube to scanner
+43,TUBE-004,SCAN_BARCODE,-92.000,170.000,category_b_bin,Category B,scan and classify sample
+44,TUBE-004,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_b_bin,Category B,lift after scan
+45,TUBE-004,MOVE_SAFE_ABOVE_TARGET,222.000,-146.000,category_b_bin,Category B,move above selected target
+46,TUBE-004,APPROACH_TARGET_SLOT,222.000,-146.000,category_b_bin,Category B,approach target slot
+47,TUBE-004,PLACE_TUBE,222.000,-146.000,category_b_bin,Category B,place 100 mm tube
+48,TUBE-004,RETREAT_TO_SAFE_Z,222.000,-146.000,category_b_bin,Category B,retreat after place
+49,TUBE-005,MOVE_SAFE_ABOVE_INPUT,-118.000,342.000,category_d_bin,Category D,above input slot
+50,TUBE-005,APPROACH_INPUT_SLOT,-118.000,342.000,category_d_bin,Category D,approach input slot
+51,TUBE-005,PICK_TUBE,-118.000,342.000,category_d_bin,Category D,grip 75 mm tube
+52,TUBE-005,LIFT_TO_SAFE_Z,-118.000,342.000,category_d_bin,Category D,lift picked tube
+53,TUBE-005,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_d_bin,Category D,move above scan station
+54,TUBE-005,APPROACH_SCAN_STATION,-92.000,170.000,category_d_bin,Category D,present tube to scanner
+55,TUBE-005,SCAN_BARCODE,-92.000,170.000,category_d_bin,Category D,scan and classify sample
+56,TUBE-005,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_d_bin,Category D,lift after scan
+57,TUBE-005,MOVE_SAFE_ABOVE_TARGET,222.000,-316.000,category_d_bin,Category D,move above selected target
+58,TUBE-005,APPROACH_TARGET_SLOT,222.000,-316.000,category_d_bin,Category D,approach target slot
+59,TUBE-005,PLACE_TUBE,222.000,-316.000,category_d_bin,Category D,place 75 mm tube
+60,TUBE-005,RETREAT_TO_SAFE_Z,222.000,-316.000,category_d_bin,Category D,retreat after place
+61,TUBE-006,MOVE_SAFE_ABOVE_INPUT,-90.000,342.000,category_a_bin,Category A,above input slot
+62,TUBE-006,APPROACH_INPUT_SLOT,-90.000,342.000,category_a_bin,Category A,approach input slot
+63,TUBE-006,PICK_TUBE,-90.000,342.000,category_a_bin,Category A,grip 75 mm tube
+64,TUBE-006,LIFT_TO_SAFE_Z,-90.000,342.000,category_a_bin,Category A,lift picked tube
+65,TUBE-006,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_a_bin,Category A,move above scan station
+66,TUBE-006,APPROACH_SCAN_STATION,-92.000,170.000,category_a_bin,Category A,present tube to scanner
+67,TUBE-006,SCAN_BARCODE,-92.000,170.000,category_a_bin,Category A,scan and classify sample
+68,TUBE-006,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_a_bin,Category A,lift after scan
+69,TUBE-006,MOVE_SAFE_ABOVE_TARGET,90.000,-146.000,category_a_bin,Category A,move above selected target
+70,TUBE-006,APPROACH_TARGET_SLOT,90.000,-146.000,category_a_bin,Category A,approach target slot
+71,TUBE-006,PLACE_TUBE,90.000,-146.000,category_a_bin,Category A,place 75 mm tube
+72,TUBE-006,RETREAT_TO_SAFE_Z,90.000,-146.000,category_a_bin,Category A,retreat after place
+73,TUBE-007,MOVE_SAFE_ABOVE_INPUT,-230.000,314.000,category_b_bin,Category B,above input slot
+74,TUBE-007,APPROACH_INPUT_SLOT,-230.000,314.000,category_b_bin,Category B,approach input slot
+75,TUBE-007,PICK_TUBE,-230.000,314.000,category_b_bin,Category B,grip 100 mm tube
+76,TUBE-007,LIFT_TO_SAFE_Z,-230.000,314.000,category_b_bin,Category B,lift picked tube
+77,TUBE-007,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_b_bin,Category B,move above scan station
+78,TUBE-007,APPROACH_SCAN_STATION,-92.000,170.000,category_b_bin,Category B,present tube to scanner
+79,TUBE-007,SCAN_BARCODE,-92.000,170.000,category_b_bin,Category B,scan and classify sample
+80,TUBE-007,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_b_bin,Category B,lift after scan
+81,TUBE-007,MOVE_SAFE_ABOVE_TARGET,250.000,-146.000,category_b_bin,Category B,move above selected target
+82,TUBE-007,APPROACH_TARGET_SLOT,250.000,-146.000,category_b_bin,Category B,approach target slot
+83,TUBE-007,PLACE_TUBE,250.000,-146.000,category_b_bin,Category B,place 100 mm tube
+84,TUBE-007,RETREAT_TO_SAFE_Z,250.000,-146.000,category_b_bin,Category B,retreat after place
+85,TUBE-008,MOVE_SAFE_ABOVE_INPUT,-202.000,314.000,category_c_bin,Category C,above input slot
+86,TUBE-008,APPROACH_INPUT_SLOT,-202.000,314.000,category_c_bin,Category C,approach input slot
+87,TUBE-008,PICK_TUBE,-202.000,314.000,category_c_bin,Category C,grip 75 mm tube
+88,TUBE-008,LIFT_TO_SAFE_Z,-202.000,314.000,category_c_bin,Category C,lift picked tube
+89,TUBE-008,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_c_bin,Category C,move above scan station
+90,TUBE-008,APPROACH_SCAN_STATION,-92.000,170.000,category_c_bin,Category C,present tube to scanner
+91,TUBE-008,SCAN_BARCODE,-92.000,170.000,category_c_bin,Category C,scan and classify sample
+92,TUBE-008,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_c_bin,Category C,lift after scan
+93,TUBE-008,MOVE_SAFE_ABOVE_TARGET,90.000,-316.000,category_c_bin,Category C,move above selected target
+94,TUBE-008,APPROACH_TARGET_SLOT,90.000,-316.000,category_c_bin,Category C,approach target slot
+95,TUBE-008,PLACE_TUBE,90.000,-316.000,category_c_bin,Category C,place 75 mm tube
+96,TUBE-008,RETREAT_TO_SAFE_Z,90.000,-316.000,category_c_bin,Category C,retreat after place
+97,TUBE-009,MOVE_SAFE_ABOVE_INPUT,-174.000,314.000,category_d_bin,Category D,above input slot
+98,TUBE-009,APPROACH_INPUT_SLOT,-174.000,314.000,category_d_bin,Category D,approach input slot
+99,TUBE-009,PICK_TUBE,-174.000,314.000,category_d_bin,Category D,grip 75 mm tube
+100,TUBE-009,LIFT_TO_SAFE_Z,-174.000,314.000,category_d_bin,Category D,lift picked tube
+101,TUBE-009,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_d_bin,Category D,move above scan station
+102,TUBE-009,APPROACH_SCAN_STATION,-92.000,170.000,category_d_bin,Category D,present tube to scanner
+103,TUBE-009,SCAN_BARCODE,-92.000,170.000,category_d_bin,Category D,scan and classify sample
+104,TUBE-009,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_d_bin,Category D,lift after scan
+105,TUBE-009,MOVE_SAFE_ABOVE_TARGET,250.000,-316.000,category_d_bin,Category D,move above selected target
+106,TUBE-009,APPROACH_TARGET_SLOT,250.000,-316.000,category_d_bin,Category D,approach target slot
+107,TUBE-009,PLACE_TUBE,250.000,-316.000,category_d_bin,Category D,place 75 mm tube
+108,TUBE-009,RETREAT_TO_SAFE_Z,250.000,-316.000,category_d_bin,Category D,retreat after place
+109,TUBE-010,MOVE_SAFE_ABOVE_INPUT,-146.000,314.000,category_a_bin,Category A,above input slot
+110,TUBE-010,APPROACH_INPUT_SLOT,-146.000,314.000,category_a_bin,Category A,approach input slot
+111,TUBE-010,PICK_TUBE,-146.000,314.000,category_a_bin,Category A,grip 75 mm tube
+112,TUBE-010,LIFT_TO_SAFE_Z,-146.000,314.000,category_a_bin,Category A,lift picked tube
+113,TUBE-010,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_a_bin,Category A,move above scan station
+114,TUBE-010,APPROACH_SCAN_STATION,-92.000,170.000,category_a_bin,Category A,present tube to scanner
+115,TUBE-010,SCAN_BARCODE,-92.000,170.000,category_a_bin,Category A,scan and classify sample
+116,TUBE-010,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_a_bin,Category A,lift after scan
+117,TUBE-010,MOVE_SAFE_ABOVE_TARGET,118.000,-146.000,category_a_bin,Category A,move above selected target
+118,TUBE-010,APPROACH_TARGET_SLOT,118.000,-146.000,category_a_bin,Category A,approach target slot
+119,TUBE-010,PLACE_TUBE,118.000,-146.000,category_a_bin,Category A,place 75 mm tube
+120,TUBE-010,RETREAT_TO_SAFE_Z,118.000,-146.000,category_a_bin,Category A,retreat after place
+121,TUBE-011,MOVE_SAFE_ABOVE_INPUT,-118.000,314.000,category_b_bin,Category B,above input slot
+122,TUBE-011,APPROACH_INPUT_SLOT,-118.000,314.000,category_b_bin,Category B,approach input slot
+123,TUBE-011,PICK_TUBE,-118.000,314.000,category_b_bin,Category B,grip 100 mm tube
+124,TUBE-011,LIFT_TO_SAFE_Z,-118.000,314.000,category_b_bin,Category B,lift picked tube
+125,TUBE-011,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_b_bin,Category B,move above scan station
+126,TUBE-011,APPROACH_SCAN_STATION,-92.000,170.000,category_b_bin,Category B,present tube to scanner
+127,TUBE-011,SCAN_BARCODE,-92.000,170.000,category_b_bin,Category B,scan and classify sample
+128,TUBE-011,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_b_bin,Category B,lift after scan
+129,TUBE-011,MOVE_SAFE_ABOVE_TARGET,278.000,-146.000,category_b_bin,Category B,move above selected target
+130,TUBE-011,APPROACH_TARGET_SLOT,278.000,-146.000,category_b_bin,Category B,approach target slot
+131,TUBE-011,PLACE_TUBE,278.000,-146.000,category_b_bin,Category B,place 100 mm tube
+132,TUBE-011,RETREAT_TO_SAFE_Z,278.000,-146.000,category_b_bin,Category B,retreat after place
+133,TUBE-012,MOVE_SAFE_ABOVE_INPUT,-90.000,314.000,category_c_bin,Category C,above input slot
+134,TUBE-012,APPROACH_INPUT_SLOT,-90.000,314.000,category_c_bin,Category C,approach input slot
+135,TUBE-012,PICK_TUBE,-90.000,314.000,category_c_bin,Category C,grip 75 mm tube
+136,TUBE-012,LIFT_TO_SAFE_Z,-90.000,314.000,category_c_bin,Category C,lift picked tube
+137,TUBE-012,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_c_bin,Category C,move above scan station
+138,TUBE-012,APPROACH_SCAN_STATION,-92.000,170.000,category_c_bin,Category C,present tube to scanner
+139,TUBE-012,SCAN_BARCODE,-92.000,170.000,category_c_bin,Category C,scan and classify sample
+140,TUBE-012,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_c_bin,Category C,lift after scan
+141,TUBE-012,MOVE_SAFE_ABOVE_TARGET,118.000,-316.000,category_c_bin,Category C,move above selected target
+142,TUBE-012,APPROACH_TARGET_SLOT,118.000,-316.000,category_c_bin,Category C,approach target slot
+143,TUBE-012,PLACE_TUBE,118.000,-316.000,category_c_bin,Category C,place 75 mm tube
+144,TUBE-012,RETREAT_TO_SAFE_Z,118.000,-316.000,category_c_bin,Category C,retreat after place
+145,TUBE-013,MOVE_SAFE_ABOVE_INPUT,-230.000,286.000,category_d_bin,Category D,above input slot
+146,TUBE-013,APPROACH_INPUT_SLOT,-230.000,286.000,category_d_bin,Category D,approach input slot
+147,TUBE-013,PICK_TUBE,-230.000,286.000,category_d_bin,Category D,grip 75 mm tube
+148,TUBE-013,LIFT_TO_SAFE_Z,-230.000,286.000,category_d_bin,Category D,lift picked tube
+149,TUBE-013,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_d_bin,Category D,move above scan station
+150,TUBE-013,APPROACH_SCAN_STATION,-92.000,170.000,category_d_bin,Category D,present tube to scanner
+151,TUBE-013,SCAN_BARCODE,-92.000,170.000,category_d_bin,Category D,scan and classify sample
+152,TUBE-013,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_d_bin,Category D,lift after scan
+153,TUBE-013,MOVE_SAFE_ABOVE_TARGET,278.000,-316.000,category_d_bin,Category D,move above selected target
+154,TUBE-013,APPROACH_TARGET_SLOT,278.000,-316.000,category_d_bin,Category D,approach target slot
+155,TUBE-013,PLACE_TUBE,278.000,-316.000,category_d_bin,Category D,place 75 mm tube
+156,TUBE-013,RETREAT_TO_SAFE_Z,278.000,-316.000,category_d_bin,Category D,retreat after place
+157,TUBE-014,MOVE_SAFE_ABOVE_INPUT,-202.000,286.000,category_a_bin,Category A,above input slot
+158,TUBE-014,APPROACH_INPUT_SLOT,-202.000,286.000,category_a_bin,Category A,approach input slot
+159,TUBE-014,PICK_TUBE,-202.000,286.000,category_a_bin,Category A,grip 75 mm tube
+160,TUBE-014,LIFT_TO_SAFE_Z,-202.000,286.000,category_a_bin,Category A,lift picked tube
+161,TUBE-014,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_a_bin,Category A,move above scan station
+162,TUBE-014,APPROACH_SCAN_STATION,-92.000,170.000,category_a_bin,Category A,present tube to scanner
+163,TUBE-014,SCAN_BARCODE,-92.000,170.000,category_a_bin,Category A,scan and classify sample
+164,TUBE-014,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_a_bin,Category A,lift after scan
+165,TUBE-014,MOVE_SAFE_ABOVE_TARGET,62.000,-174.000,category_a_bin,Category A,move above selected target
+166,TUBE-014,APPROACH_TARGET_SLOT,62.000,-174.000,category_a_bin,Category A,approach target slot
+167,TUBE-014,PLACE_TUBE,62.000,-174.000,category_a_bin,Category A,place 75 mm tube
+168,TUBE-014,RETREAT_TO_SAFE_Z,62.000,-174.000,category_a_bin,Category A,retreat after place
+169,TUBE-015,MOVE_SAFE_ABOVE_INPUT,-174.000,286.000,category_b_bin,Category B,above input slot
+170,TUBE-015,APPROACH_INPUT_SLOT,-174.000,286.000,category_b_bin,Category B,approach input slot
+171,TUBE-015,PICK_TUBE,-174.000,286.000,category_b_bin,Category B,grip 100 mm tube
+172,TUBE-015,LIFT_TO_SAFE_Z,-174.000,286.000,category_b_bin,Category B,lift picked tube
+173,TUBE-015,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_b_bin,Category B,move above scan station
+174,TUBE-015,APPROACH_SCAN_STATION,-92.000,170.000,category_b_bin,Category B,present tube to scanner
+175,TUBE-015,SCAN_BARCODE,-92.000,170.000,category_b_bin,Category B,scan and classify sample
+176,TUBE-015,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_b_bin,Category B,lift after scan
+177,TUBE-015,MOVE_SAFE_ABOVE_TARGET,222.000,-174.000,category_b_bin,Category B,move above selected target
+178,TUBE-015,APPROACH_TARGET_SLOT,222.000,-174.000,category_b_bin,Category B,approach target slot
+179,TUBE-015,PLACE_TUBE,222.000,-174.000,category_b_bin,Category B,place 100 mm tube
+180,TUBE-015,RETREAT_TO_SAFE_Z,222.000,-174.000,category_b_bin,Category B,retreat after place
+181,TUBE-016,MOVE_SAFE_ABOVE_INPUT,-146.000,286.000,manual_review_bin,scan_failed / manual_review,above input slot
+182,TUBE-016,APPROACH_INPUT_SLOT,-146.000,286.000,manual_review_bin,scan_failed / manual_review,approach input slot
+183,TUBE-016,PICK_TUBE,-146.000,286.000,manual_review_bin,scan_failed / manual_review,grip 75 mm tube
+184,TUBE-016,LIFT_TO_SAFE_Z,-146.000,286.000,manual_review_bin,scan_failed / manual_review,lift picked tube
+185,TUBE-016,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,manual_review_bin,scan_failed / manual_review,move above scan station
+186,TUBE-016,APPROACH_SCAN_STATION,-92.000,170.000,manual_review_bin,scan_failed / manual_review,present tube to scanner
+187,TUBE-016,SCAN_BARCODE,-92.000,170.000,manual_review_bin,scan_failed / manual_review,scan and classify sample
+188,TUBE-016,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,manual_review_bin,scan_failed / manual_review,lift after scan
+189,TUBE-016,MOVE_SAFE_ABOVE_TARGET,-205.000,-316.000,manual_review_bin,scan_failed / manual_review,move above selected target
+190,TUBE-016,APPROACH_TARGET_SLOT,-205.000,-316.000,manual_review_bin,scan_failed / manual_review,approach target slot
+191,TUBE-016,PLACE_TUBE,-205.000,-316.000,manual_review_bin,scan_failed / manual_review,place 75 mm tube
+192,TUBE-016,RETREAT_TO_SAFE_Z,-205.000,-316.000,manual_review_bin,scan_failed / manual_review,retreat after place
+193,TUBE-017,MOVE_SAFE_ABOVE_INPUT,-118.000,286.000,category_c_bin,Category C,above input slot
+194,TUBE-017,APPROACH_INPUT_SLOT,-118.000,286.000,category_c_bin,Category C,approach input slot
+195,TUBE-017,PICK_TUBE,-118.000,286.000,category_c_bin,Category C,grip 75 mm tube
+196,TUBE-017,LIFT_TO_SAFE_Z,-118.000,286.000,category_c_bin,Category C,lift picked tube
+197,TUBE-017,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_c_bin,Category C,move above scan station
+198,TUBE-017,APPROACH_SCAN_STATION,-92.000,170.000,category_c_bin,Category C,present tube to scanner
+199,TUBE-017,SCAN_BARCODE,-92.000,170.000,category_c_bin,Category C,scan and classify sample
+200,TUBE-017,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_c_bin,Category C,lift after scan
+201,TUBE-017,MOVE_SAFE_ABOVE_TARGET,62.000,-344.000,category_c_bin,Category C,move above selected target
+202,TUBE-017,APPROACH_TARGET_SLOT,62.000,-344.000,category_c_bin,Category C,approach target slot
+203,TUBE-017,PLACE_TUBE,62.000,-344.000,category_c_bin,Category C,place 75 mm tube
+204,TUBE-017,RETREAT_TO_SAFE_Z,62.000,-344.000,category_c_bin,Category C,retreat after place
+205,TUBE-018,MOVE_SAFE_ABOVE_INPUT,-90.000,286.000,category_d_bin,Category D,above input slot
+206,TUBE-018,APPROACH_INPUT_SLOT,-90.000,286.000,category_d_bin,Category D,approach input slot
+207,TUBE-018,PICK_TUBE,-90.000,286.000,category_d_bin,Category D,grip 75 mm tube
+208,TUBE-018,LIFT_TO_SAFE_Z,-90.000,286.000,category_d_bin,Category D,lift picked tube
+209,TUBE-018,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_d_bin,Category D,move above scan station
+210,TUBE-018,APPROACH_SCAN_STATION,-92.000,170.000,category_d_bin,Category D,present tube to scanner
+211,TUBE-018,SCAN_BARCODE,-92.000,170.000,category_d_bin,Category D,scan and classify sample
+212,TUBE-018,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_d_bin,Category D,lift after scan
+213,TUBE-018,MOVE_SAFE_ABOVE_TARGET,222.000,-344.000,category_d_bin,Category D,move above selected target
+214,TUBE-018,APPROACH_TARGET_SLOT,222.000,-344.000,category_d_bin,Category D,approach target slot
+215,TUBE-018,PLACE_TUBE,222.000,-344.000,category_d_bin,Category D,place 75 mm tube
+216,TUBE-018,RETREAT_TO_SAFE_Z,222.000,-344.000,category_d_bin,Category D,retreat after place
+217,TUBE-019,MOVE_SAFE_ABOVE_INPUT,-230.000,258.000,category_a_bin,Category A,above input slot
+218,TUBE-019,APPROACH_INPUT_SLOT,-230.000,258.000,category_a_bin,Category A,approach input slot
+219,TUBE-019,PICK_TUBE,-230.000,258.000,category_a_bin,Category A,grip 75 mm tube
+220,TUBE-019,LIFT_TO_SAFE_Z,-230.000,258.000,category_a_bin,Category A,lift picked tube
+221,TUBE-019,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_a_bin,Category A,move above scan station
+222,TUBE-019,APPROACH_SCAN_STATION,-92.000,170.000,category_a_bin,Category A,present tube to scanner
+223,TUBE-019,SCAN_BARCODE,-92.000,170.000,category_a_bin,Category A,scan and classify sample
+224,TUBE-019,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_a_bin,Category A,lift after scan
+225,TUBE-019,MOVE_SAFE_ABOVE_TARGET,90.000,-174.000,category_a_bin,Category A,move above selected target
+226,TUBE-019,APPROACH_TARGET_SLOT,90.000,-174.000,category_a_bin,Category A,approach target slot
+227,TUBE-019,PLACE_TUBE,90.000,-174.000,category_a_bin,Category A,place 75 mm tube
+228,TUBE-019,RETREAT_TO_SAFE_Z,90.000,-174.000,category_a_bin,Category A,retreat after place
+229,TUBE-020,MOVE_SAFE_ABOVE_INPUT,-202.000,258.000,category_b_bin,Category B,above input slot
+230,TUBE-020,APPROACH_INPUT_SLOT,-202.000,258.000,category_b_bin,Category B,approach input slot
+231,TUBE-020,PICK_TUBE,-202.000,258.000,category_b_bin,Category B,grip 100 mm tube
+232,TUBE-020,LIFT_TO_SAFE_Z,-202.000,258.000,category_b_bin,Category B,lift picked tube
+233,TUBE-020,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_b_bin,Category B,move above scan station
+234,TUBE-020,APPROACH_SCAN_STATION,-92.000,170.000,category_b_bin,Category B,present tube to scanner
+235,TUBE-020,SCAN_BARCODE,-92.000,170.000,category_b_bin,Category B,scan and classify sample
+236,TUBE-020,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_b_bin,Category B,lift after scan
+237,TUBE-020,MOVE_SAFE_ABOVE_TARGET,250.000,-174.000,category_b_bin,Category B,move above selected target
+238,TUBE-020,APPROACH_TARGET_SLOT,250.000,-174.000,category_b_bin,Category B,approach target slot
+239,TUBE-020,PLACE_TUBE,250.000,-174.000,category_b_bin,Category B,place 100 mm tube
+240,TUBE-020,RETREAT_TO_SAFE_Z,250.000,-174.000,category_b_bin,Category B,retreat after place
+241,TUBE-021,MOVE_SAFE_ABOVE_INPUT,-174.000,258.000,category_c_bin,Category C,above input slot
+242,TUBE-021,APPROACH_INPUT_SLOT,-174.000,258.000,category_c_bin,Category C,approach input slot
+243,TUBE-021,PICK_TUBE,-174.000,258.000,category_c_bin,Category C,grip 75 mm tube
+244,TUBE-021,LIFT_TO_SAFE_Z,-174.000,258.000,category_c_bin,Category C,lift picked tube
+245,TUBE-021,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_c_bin,Category C,move above scan station
+246,TUBE-021,APPROACH_SCAN_STATION,-92.000,170.000,category_c_bin,Category C,present tube to scanner
+247,TUBE-021,SCAN_BARCODE,-92.000,170.000,category_c_bin,Category C,scan and classify sample
+248,TUBE-021,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_c_bin,Category C,lift after scan
+249,TUBE-021,MOVE_SAFE_ABOVE_TARGET,90.000,-344.000,category_c_bin,Category C,move above selected target
+250,TUBE-021,APPROACH_TARGET_SLOT,90.000,-344.000,category_c_bin,Category C,approach target slot
+251,TUBE-021,PLACE_TUBE,90.000,-344.000,category_c_bin,Category C,place 75 mm tube
+252,TUBE-021,RETREAT_TO_SAFE_Z,90.000,-344.000,category_c_bin,Category C,retreat after place
+253,TUBE-022,MOVE_SAFE_ABOVE_INPUT,-146.000,258.000,category_d_bin,Category D,above input slot
+254,TUBE-022,APPROACH_INPUT_SLOT,-146.000,258.000,category_d_bin,Category D,approach input slot
+255,TUBE-022,PICK_TUBE,-146.000,258.000,category_d_bin,Category D,grip 75 mm tube
+256,TUBE-022,LIFT_TO_SAFE_Z,-146.000,258.000,category_d_bin,Category D,lift picked tube
+257,TUBE-022,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_d_bin,Category D,move above scan station
+258,TUBE-022,APPROACH_SCAN_STATION,-92.000,170.000,category_d_bin,Category D,present tube to scanner
+259,TUBE-022,SCAN_BARCODE,-92.000,170.000,category_d_bin,Category D,scan and classify sample
+260,TUBE-022,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_d_bin,Category D,lift after scan
+261,TUBE-022,MOVE_SAFE_ABOVE_TARGET,250.000,-344.000,category_d_bin,Category D,move above selected target
+262,TUBE-022,APPROACH_TARGET_SLOT,250.000,-344.000,category_d_bin,Category D,approach target slot
+263,TUBE-022,PLACE_TUBE,250.000,-344.000,category_d_bin,Category D,place 75 mm tube
+264,TUBE-022,RETREAT_TO_SAFE_Z,250.000,-344.000,category_d_bin,Category D,retreat after place
+265,TUBE-023,MOVE_SAFE_ABOVE_INPUT,-118.000,258.000,category_a_bin,Category A,above input slot
+266,TUBE-023,APPROACH_INPUT_SLOT,-118.000,258.000,category_a_bin,Category A,approach input slot
+267,TUBE-023,PICK_TUBE,-118.000,258.000,category_a_bin,Category A,grip 75 mm tube
+268,TUBE-023,LIFT_TO_SAFE_Z,-118.000,258.000,category_a_bin,Category A,lift picked tube
+269,TUBE-023,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_a_bin,Category A,move above scan station
+270,TUBE-023,APPROACH_SCAN_STATION,-92.000,170.000,category_a_bin,Category A,present tube to scanner
+271,TUBE-023,SCAN_BARCODE,-92.000,170.000,category_a_bin,Category A,scan and classify sample
+272,TUBE-023,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_a_bin,Category A,lift after scan
+273,TUBE-023,MOVE_SAFE_ABOVE_TARGET,118.000,-174.000,category_a_bin,Category A,move above selected target
+274,TUBE-023,APPROACH_TARGET_SLOT,118.000,-174.000,category_a_bin,Category A,approach target slot
+275,TUBE-023,PLACE_TUBE,118.000,-174.000,category_a_bin,Category A,place 75 mm tube
+276,TUBE-023,RETREAT_TO_SAFE_Z,118.000,-174.000,category_a_bin,Category A,retreat after place
+277,TUBE-024,MOVE_SAFE_ABOVE_INPUT,-90.000,258.000,category_b_bin,Category B,above input slot
+278,TUBE-024,APPROACH_INPUT_SLOT,-90.000,258.000,category_b_bin,Category B,approach input slot
+279,TUBE-024,PICK_TUBE,-90.000,258.000,category_b_bin,Category B,grip 100 mm tube
+280,TUBE-024,LIFT_TO_SAFE_Z,-90.000,258.000,category_b_bin,Category B,lift picked tube
+281,TUBE-024,MOVE_SAFE_ABOVE_SCAN,-92.000,170.000,category_b_bin,Category B,move above scan station
+282,TUBE-024,APPROACH_SCAN_STATION,-92.000,170.000,category_b_bin,Category B,present tube to scanner
+283,TUBE-024,SCAN_BARCODE,-92.000,170.000,category_b_bin,Category B,scan and classify sample
+284,TUBE-024,LIFT_TO_SAFE_Z_AFTER_SCAN,-92.000,170.000,category_b_bin,Category B,lift after scan
+285,TUBE-024,MOVE_SAFE_ABOVE_TARGET,278.000,-174.000,category_b_bin,Category B,move above selected target
+286,TUBE-024,APPROACH_TARGET_SLOT,278.000,-174.000,category_b_bin,Category B,approach target slot
+287,TUBE-024,PLACE_TUBE,278.000,-174.000,category_b_bin,Category B,place 100 mm tube
+288,TUBE-024,RETREAT_TO_SAFE_Z,278.000,-174.000,category_b_bin,Category B,retreat after place

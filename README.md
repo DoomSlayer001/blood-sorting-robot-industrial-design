@@ -124,6 +124,8 @@ Stage 4F v5.1 is a presentation refinement based on v5. It adds simple scanner a
 
 Stage 4F v5.2 is a small alignment-correction pass based on v5.1. It keeps the recommended CadQuery/OCP route and the v5/v5.1 main layout while aligning the X-Z adapter/Z-axis/gripper tool chain and regrouping the scan station before SolidWorks 2026 manual inspection.
 
+Stage 4F v6 refactors the rough-layout generator into module and anchor-based CadQuery/OCP assembly logic. It keeps SolidWorks 2026 as the final inspection and screenshot tool while reducing absolute-coordinate drift in the tool chain, scan station, input rack tubes, output-bin tubes, and label plates. SolidWorks COM and FreeCAD remain outside the current main route.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

@@ -1,0 +1,8 @@
+item,check_status,notes
+input_box_replacement_access,pass,v7.1 input box coordinates are retained; front/top guard openings keep the left-side replacement path visible.
+output_box_replacement_access,pass,v7.1 output box coordinates are retained; right/front access opening remains clear of control box and cable chain.
+manual_review_front_access,pass,manual_review remains at the front operator side and keeps the 2x3 abnormal-sample role.
+emergency_stop_reachability,pass,E-stop is mounted at the front-left edge and is not hidden behind the guard or sample boxes.
+control_box_non_work_area,pass,control box is placed in the rear/right non-pick area and does not occupy the multi-box task points.
+cable_chain_and_wiring_clearance,pass,drag chain and simplified cable routes are elevated/rear routed and do not block tube pick/place access.
+guard_visual_observation,pass,transparent guard uses open-access panels and top opening markers instead of a sealed box expression.

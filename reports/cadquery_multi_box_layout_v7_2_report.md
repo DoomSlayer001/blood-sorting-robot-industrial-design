@@ -1,0 +1,24 @@
+# CadQuery Multi-box Layout v7.2 Report
+
+- v7.2 is based on the manually accepted v7.1 multi-box batch layout.
+- Purpose: add layout-level electrical, safety, enclosure, cable-chain, wiring, and limit-switch modules before returning to animation or PID/dynamics work.
+- Input boxes: 4 replaceable 4 x 6 boxes, 24 slots each, total input capacity 96.
+- Output boxes: Category A/B/C/D each has one replaceable 4 x 6 box, total output capacity 96.
+- Manual review: one 2 x 3 bin, capacity 6, reserved for true abnormal samples.
+- ElectricalControlModule: control box, side power inlet, X/Y/Z/gripper driver placeholders, controller board placeholder, cable glands, and CONTROL/POWER labels.
+- SafetyModule: front emergency stop, E-STOP/WARNING label plates, and transparent guard with front/top access openings.
+- CableChainAndWiringModule: segmented rear drag chain, Z-axis cable loop, scanner/sensor routes, and limit-switch cable routes.
+- LimitSwitchModule: X home, left/right Y home, and Z home limit switch placeholders near axis ends.
+- Guard and access expression: the guard remains transparent and intentionally shows front/top openings for input replacement, output clearing, and manual_review removal.
+- v7.2 preserves v7.1 input, output, manual_review, scan-station, and gantry anchor locations.
+- Base remains 1200 x 900 x 15 mm.
+- Accessibility check summary: pass=7, issue=0.
+- Successful imported/generated components: 99
+- Failed components: 0
+- Total solids: 514 added / 514 exported
+- Total bbox: 1200.000 x 900.000 x 480.000 mm
+- Interference audit summary: overlap=0, too_close=0, allowed_mount_contact=192.
+- Current model status: layout-level engineering completeness model, not final manufacturing CAD.
+- Remaining engineering detail: formal wire harness design, real guard structure, control box internal layout, engineering drawings, hole patterns, tolerances, and PID/dynamics simulation.
+- STEP path: `03_cad/freecad_assembly/blood_sorting_robot_cadquery_multi_box_layout_v7_2.step`
+- Accessibility CSV: `03_cad/freecad_assembly/blood_sorting_robot_cadquery_multi_box_layout_v7_2_accessibility_check.csv`

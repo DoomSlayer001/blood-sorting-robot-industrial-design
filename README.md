@@ -138,6 +138,8 @@ Stage 6E generates a 2D top-view sorting process animation for report and presen
 
 Requirements traceability review confirms that v6 + Stage 6A-6E are a rough assembly and task-validation milestone, not final project completion. The next major work should close the gap toward PID/dynamics simulation first, then mechanical detail, digital-twin visualization, and final engineering deliverables.
 
+Stage 6R revises the target workflow to a multi-box batch sorting requirement: four replaceable 4 x 6 input boxes, four replaceable 4 x 6 category output boxes, and one 2 x 3 manual review bin reserved only for true abnormal samples. v6 and Stage 6A-6E are retained as single-batch prototype validation; the next stage should update the coordinate model, sorting policy, trajectories, cycle time, and animation for the multi-box workflow before PID/dynamics simulation.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:
@@ -167,4 +169,5 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 9. Open each accepted CadQuery/OCP STEP in SolidWorks 2026 and capture the required overall, top, front, side, gripper/tube, scan station, and output-bin screenshots.
 10. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
 11. Define custom-part interface boundaries before detailed self-made part engineering drawings.
-12. Create MATLAB/Simulink baseline trajectory and PID models aligned with real mechanical masses after CAD mass properties become available.
+12. Revise Stage 6A-6E task planning for the multi-box batch workflow before freezing PID targets.
+13. Create MATLAB/Simulink baseline trajectory and PID models aligned with the stable multi-box workflow and real mechanical masses.

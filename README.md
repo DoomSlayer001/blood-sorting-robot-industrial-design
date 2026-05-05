@@ -136,6 +136,8 @@ Stage 6D simulates failure handling and exception flow for the sorting task. The
 
 Stage 6E generates a 2D top-view sorting process animation for report and presentation use. The project now has CAD rough layout, task paths, cycle-time estimates, exception-flow simulation, and a process visualization layer.
 
+Requirements traceability review confirms that v6 + Stage 6A-6E are a rough assembly and task-validation milestone, not final project completion. The next major work should close the gap toward PID/dynamics simulation first, then mechanical detail, digital-twin visualization, and final engineering deliverables.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

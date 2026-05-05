@@ -1,0 +1,501 @@
+run_id,event_id,sample_id,event_type,state,related_category,related_box_id,x_mm,y_mm,z_mm,notes
+baseline_multi_box_run,baseline_multi_box_run_0001_MBOX-001_scan_event_7,MBOX-001,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0001_MBOX-001_place_to_category_output_11,MBOX-001,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,90.000,212.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0002_MBOX-002_scan_event_7,MBOX-002,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0002_MBOX-002_place_to_category_output_11,MBOX-002,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,300.000,212.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0003_MBOX-003_scan_event_7,MBOX-003,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0003_MBOX-003_place_to_category_output_11,MBOX-003,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,90.000,2.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0004_MBOX-004_scan_event_7,MBOX-004,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0004_MBOX-004_place_to_category_output_11,MBOX-004,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,300.000,2.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0005_MBOX-005_scan_event_7,MBOX-005,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0005_MBOX-005_place_to_manual_review_11,MBOX-005,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-208.000,-286.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0006_MBOX-006_scan_event_7,MBOX-006,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0006_MBOX-006_place_to_category_output_11,MBOX-006,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,118.000,212.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0007_MBOX-007_scan_event_7,MBOX-007,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0007_MBOX-007_place_to_category_output_11,MBOX-007,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,328.000,212.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0008_MBOX-008_scan_event_7,MBOX-008,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0008_MBOX-008_place_to_category_output_11,MBOX-008,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,118.000,2.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0009_MBOX-009_scan_event_7,MBOX-009,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0009_MBOX-009_place_to_category_output_11,MBOX-009,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,328.000,2.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0010_MBOX-010_scan_event_7,MBOX-010,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0010_MBOX-010_place_to_category_output_11,MBOX-010,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,146.000,212.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0011_MBOX-011_scan_event_7,MBOX-011,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0011_MBOX-011_place_to_category_output_11,MBOX-011,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,356.000,212.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0012_MBOX-012_scan_event_7,MBOX-012,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0012_MBOX-012_place_to_category_output_11,MBOX-012,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,146.000,2.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0013_MBOX-013_scan_event_7,MBOX-013,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0013_MBOX-013_place_to_category_output_11,MBOX-013,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,356.000,2.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0014_MBOX-014_scan_event_7,MBOX-014,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0014_MBOX-014_place_to_category_output_11,MBOX-014,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,174.000,212.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0015_MBOX-015_scan_event_7,MBOX-015,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0015_MBOX-015_place_to_category_output_11,MBOX-015,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,384.000,212.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0016_MBOX-016_scan_event_7,MBOX-016,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0016_MBOX-016_place_to_category_output_11,MBOX-016,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,174.000,2.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0017_MBOX-017_scan_event_7,MBOX-017,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0017_MBOX-017_place_to_category_output_11,MBOX-017,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,384.000,2.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0018_MBOX-018_scan_event_7,MBOX-018,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0018_MBOX-018_place_to_category_output_11,MBOX-018,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,202.000,212.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0019_MBOX-019_scan_event_7,MBOX-019,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0019_MBOX-019_place_to_manual_review_11,MBOX-019,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-180.000,-286.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0020_MBOX-020_scan_event_7,MBOX-020,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0020_MBOX-020_place_to_category_output_11,MBOX-020,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,412.000,212.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0021_MBOX-021_scan_event_7,MBOX-021,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0021_MBOX-021_place_to_category_output_11,MBOX-021,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,202.000,2.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0022_MBOX-022_scan_event_7,MBOX-022,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0022_MBOX-022_place_to_category_output_11,MBOX-022,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,412.000,2.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0023_MBOX-023_scan_event_7,MBOX-023,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0023_MBOX-023_place_to_category_output_11,MBOX-023,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,230.000,212.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0024_MBOX-024_scan_event_7,MBOX-024,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0024_MBOX-024_place_to_category_output_11,MBOX-024,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,440.000,212.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0025_MBOX-025_scan_event_7,MBOX-025,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0025_MBOX-025_place_to_category_output_11,MBOX-025,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,230.000,2.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0026_MBOX-026_scan_event_7,MBOX-026,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0026_MBOX-026_place_to_category_output_11,MBOX-026,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,440.000,2.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0027_MBOX-027_scan_event_7,MBOX-027,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0027_MBOX-027_place_to_category_output_11,MBOX-027,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,90.000,184.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0028_MBOX-028_scan_event_7,MBOX-028,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0028_MBOX-028_place_to_category_output_11,MBOX-028,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,300.000,184.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0029_MBOX-029_scan_event_7,MBOX-029,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0029_MBOX-029_place_to_category_output_11,MBOX-029,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,90.000,-26.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0030_MBOX-030_scan_event_7,MBOX-030,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0030_MBOX-030_place_to_category_output_11,MBOX-030,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,300.000,-26.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0031_MBOX-031_scan_event_7,MBOX-031,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0031_MBOX-031_place_to_category_output_11,MBOX-031,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,118.000,184.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0032_MBOX-032_scan_event_7,MBOX-032,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0032_MBOX-032_place_to_category_output_11,MBOX-032,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,328.000,184.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0033_MBOX-033_scan_event_7,MBOX-033,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0033_MBOX-033_place_to_category_output_11,MBOX-033,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,118.000,-26.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0034_MBOX-034_scan_event_7,MBOX-034,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0034_MBOX-034_place_to_category_output_11,MBOX-034,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,328.000,-26.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0035_MBOX-035_scan_event_7,MBOX-035,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0035_MBOX-035_place_to_category_output_11,MBOX-035,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,146.000,184.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0036_MBOX-036_scan_event_7,MBOX-036,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0036_MBOX-036_place_to_category_output_11,MBOX-036,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,356.000,184.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0037_MBOX-037_scan_event_7,MBOX-037,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0037_MBOX-037_place_to_manual_review_11,MBOX-037,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-152.000,-286.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0038_MBOX-038_scan_event_7,MBOX-038,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0038_MBOX-038_place_to_category_output_11,MBOX-038,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,146.000,-26.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0039_MBOX-039_scan_event_7,MBOX-039,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0039_MBOX-039_place_to_category_output_11,MBOX-039,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,356.000,-26.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0040_MBOX-040_scan_event_7,MBOX-040,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0040_MBOX-040_place_to_category_output_11,MBOX-040,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,174.000,184.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0041_MBOX-041_scan_event_7,MBOX-041,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0041_MBOX-041_place_to_category_output_11,MBOX-041,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,384.000,184.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0042_MBOX-042_scan_event_7,MBOX-042,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0042_MBOX-042_place_to_category_output_11,MBOX-042,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,174.000,-26.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0043_MBOX-043_scan_event_7,MBOX-043,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0043_MBOX-043_place_to_category_output_11,MBOX-043,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,384.000,-26.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0044_MBOX-044_scan_event_7,MBOX-044,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0044_MBOX-044_place_to_category_output_11,MBOX-044,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,202.000,184.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0045_MBOX-045_scan_event_7,MBOX-045,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0045_MBOX-045_place_to_category_output_11,MBOX-045,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,412.000,184.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0046_MBOX-046_scan_event_7,MBOX-046,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0046_MBOX-046_place_to_category_output_11,MBOX-046,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,202.000,-26.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0047_MBOX-047_scan_event_7,MBOX-047,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0047_MBOX-047_place_to_category_output_11,MBOX-047,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,412.000,-26.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0048_MBOX-048_scan_event_7,MBOX-048,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0048_MBOX-048_place_to_category_output_11,MBOX-048,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,230.000,184.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0049_MBOX-049_scan_event_7,MBOX-049,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0049_MBOX-049_place_to_category_output_11,MBOX-049,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,440.000,184.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0050_MBOX-050_scan_event_7,MBOX-050,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0050_MBOX-050_place_to_category_output_11,MBOX-050,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,230.000,-26.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0051_MBOX-051_scan_event_7,MBOX-051,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0051_MBOX-051_place_to_category_output_11,MBOX-051,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,440.000,-26.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0052_MBOX-052_scan_event_7,MBOX-052,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0052_MBOX-052_place_to_category_output_11,MBOX-052,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,90.000,156.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0053_MBOX-053_scan_event_7,MBOX-053,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0053_MBOX-053_place_to_category_output_11,MBOX-053,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,300.000,156.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0054_MBOX-054_scan_event_7,MBOX-054,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0054_MBOX-054_place_to_category_output_11,MBOX-054,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,90.000,-54.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0055_MBOX-055_scan_event_7,MBOX-055,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0055_MBOX-055_place_to_category_output_11,MBOX-055,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,300.000,-54.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0056_MBOX-056_scan_event_7,MBOX-056,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0056_MBOX-056_place_to_category_output_11,MBOX-056,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,118.000,156.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0057_MBOX-057_scan_event_7,MBOX-057,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0057_MBOX-057_place_to_category_output_11,MBOX-057,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,328.000,156.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0058_MBOX-058_scan_event_7,MBOX-058,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0058_MBOX-058_place_to_manual_review_11,MBOX-058,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-208.000,-314.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0059_MBOX-059_scan_event_7,MBOX-059,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0059_MBOX-059_place_to_category_output_11,MBOX-059,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,118.000,-54.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0060_MBOX-060_scan_event_7,MBOX-060,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0060_MBOX-060_place_to_category_output_11,MBOX-060,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,328.000,-54.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0061_MBOX-061_scan_event_7,MBOX-061,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0061_MBOX-061_place_to_category_output_11,MBOX-061,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,146.000,156.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0062_MBOX-062_scan_event_7,MBOX-062,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0062_MBOX-062_place_to_category_output_11,MBOX-062,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,356.000,156.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0063_MBOX-063_scan_event_7,MBOX-063,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0063_MBOX-063_place_to_category_output_11,MBOX-063,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,146.000,-54.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0064_MBOX-064_scan_event_7,MBOX-064,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0064_MBOX-064_place_to_category_output_11,MBOX-064,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,356.000,-54.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0065_MBOX-065_scan_event_7,MBOX-065,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0065_MBOX-065_place_to_category_output_11,MBOX-065,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,174.000,156.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0066_MBOX-066_scan_event_7,MBOX-066,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0066_MBOX-066_place_to_category_output_11,MBOX-066,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,384.000,156.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0067_MBOX-067_scan_event_7,MBOX-067,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0067_MBOX-067_place_to_category_output_11,MBOX-067,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,174.000,-54.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0068_MBOX-068_scan_event_7,MBOX-068,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0068_MBOX-068_place_to_category_output_11,MBOX-068,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,384.000,-54.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0069_MBOX-069_scan_event_7,MBOX-069,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0069_MBOX-069_place_to_category_output_11,MBOX-069,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,202.000,156.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0070_MBOX-070_scan_event_7,MBOX-070,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0070_MBOX-070_place_to_category_output_11,MBOX-070,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,412.000,156.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0071_MBOX-071_scan_event_7,MBOX-071,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0071_MBOX-071_place_to_category_output_11,MBOX-071,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,202.000,-54.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0072_MBOX-072_scan_event_7,MBOX-072,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0072_MBOX-072_place_to_category_output_11,MBOX-072,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,412.000,-54.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0073_MBOX-073_scan_event_7,MBOX-073,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0073_MBOX-073_place_to_manual_review_11,MBOX-073,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-180.000,-314.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0074_MBOX-074_scan_event_7,MBOX-074,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0074_MBOX-074_place_to_category_output_11,MBOX-074,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,230.000,156.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0075_MBOX-075_scan_event_7,MBOX-075,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0075_MBOX-075_place_to_category_output_11,MBOX-075,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,440.000,156.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0076_MBOX-076_scan_event_7,MBOX-076,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0076_MBOX-076_place_to_category_output_11,MBOX-076,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,230.000,-54.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0077_MBOX-077_scan_event_7,MBOX-077,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0077_MBOX-077_place_to_category_output_11,MBOX-077,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,440.000,-54.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0078_MBOX-078_scan_event_7,MBOX-078,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0078_MBOX-078_place_to_category_output_11,MBOX-078,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,90.000,128.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0079_MBOX-079_scan_event_7,MBOX-079,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0079_MBOX-079_place_to_category_output_11,MBOX-079,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,300.000,128.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0080_MBOX-080_scan_event_7,MBOX-080,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0080_MBOX-080_place_to_category_output_11,MBOX-080,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,90.000,-82.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0081_MBOX-081_scan_event_7,MBOX-081,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0081_MBOX-081_place_to_category_output_11,MBOX-081,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,300.000,-82.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0082_MBOX-082_scan_event_7,MBOX-082,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0082_MBOX-082_place_to_category_output_11,MBOX-082,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,118.000,128.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0083_MBOX-083_scan_event_7,MBOX-083,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0083_MBOX-083_place_to_category_output_11,MBOX-083,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,328.000,128.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0084_MBOX-084_scan_event_7,MBOX-084,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0084_MBOX-084_place_to_category_output_11,MBOX-084,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,118.000,-82.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0085_MBOX-085_scan_event_7,MBOX-085,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0085_MBOX-085_place_to_category_output_11,MBOX-085,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,328.000,-82.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0086_MBOX-086_scan_event_7,MBOX-086,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0086_MBOX-086_place_to_category_output_11,MBOX-086,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,146.000,128.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0087_MBOX-087_scan_event_7,MBOX-087,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0087_MBOX-087_place_to_category_output_11,MBOX-087,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,356.000,128.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0088_MBOX-088_scan_event_7,MBOX-088,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0088_MBOX-088_place_to_category_output_11,MBOX-088,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,146.000,-82.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0089_MBOX-089_scan_event_7,MBOX-089,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0089_MBOX-089_place_to_category_output_11,MBOX-089,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,356.000,-82.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0090_MBOX-090_scan_event_7,MBOX-090,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0090_MBOX-090_place_to_category_output_11,MBOX-090,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,174.000,128.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0091_MBOX-091_scan_event_7,MBOX-091,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0091_MBOX-091_place_to_manual_review_11,MBOX-091,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-152.000,-314.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0092_MBOX-092_scan_event_7,MBOX-092,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0092_MBOX-092_place_to_category_output_11,MBOX-092,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,384.000,128.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0093_MBOX-093_scan_event_7,MBOX-093,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0093_MBOX-093_place_to_category_output_11,MBOX-093,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,174.000,-82.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0094_MBOX-094_scan_event_7,MBOX-094,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0094_MBOX-094_place_to_category_output_11,MBOX-094,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,384.000,-82.000,45.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0095_MBOX-095_scan_event_7,MBOX-095,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0095_MBOX-095_place_to_category_output_11,MBOX-095,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,202.000,128.000,70.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0096_MBOX-096_scan_event_7,MBOX-096,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+baseline_multi_box_run,baseline_multi_box_run_0096_MBOX-096_place_to_category_output_11,MBOX-096,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,412.000,128.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0001_MBOX-001_scan_event_7,MBOX-001,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0001_MBOX-001_place_to_category_output_11,MBOX-001,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,90.000,212.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0002_MBOX-002_scan_event_7,MBOX-002,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0002_MBOX-002_place_to_category_output_11,MBOX-002,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,300.000,212.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0003_MBOX-003_scan_event_7,MBOX-003,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0003_MBOX-003_place_to_category_output_11,MBOX-003,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,90.000,2.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0004_MBOX-004_scan_event_7,MBOX-004,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0004_MBOX-004_place_to_category_output_11,MBOX-004,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,300.000,2.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0005_MBOX-005_scan_event_7,MBOX-005,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0005_MBOX-005_place_to_manual_review_11,MBOX-005,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-208.000,-286.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0006_MBOX-006_scan_event_7,MBOX-006,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0006_MBOX-006_place_to_category_output_11,MBOX-006,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,118.000,212.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0007_MBOX-007_scan_event_7,MBOX-007,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0007_MBOX-007_place_to_category_output_11,MBOX-007,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,328.000,212.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0008_MBOX-008_scan_event_7,MBOX-008,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0008_MBOX-008_place_to_category_output_11,MBOX-008,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,118.000,2.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0009_MBOX-009_scan_event_7,MBOX-009,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0009_MBOX-009_place_to_category_output_11,MBOX-009,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,328.000,2.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0010_MBOX-010_scan_event_7,MBOX-010,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0010_MBOX-010_place_to_category_output_11,MBOX-010,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,146.000,212.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0011_MBOX-011_scan_event_7,MBOX-011,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0011_MBOX-011_place_to_category_output_11,MBOX-011,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,356.000,212.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0012_MBOX-012_scan_event_7,MBOX-012,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0012_MBOX-012_place_to_category_output_11,MBOX-012,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,146.000,2.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0013_MBOX-013_scan_event_7,MBOX-013,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0013_MBOX-013_place_to_category_output_11,MBOX-013,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,356.000,2.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0014_MBOX-014_scan_event_7,MBOX-014,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0014_MBOX-014_place_to_category_output_11,MBOX-014,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,174.000,212.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0015_MBOX-015_scan_event_7,MBOX-015,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0015_MBOX-015_place_to_category_output_11,MBOX-015,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,384.000,212.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0016_MBOX-016_scan_event_7,MBOX-016,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0016_MBOX-016_place_to_category_output_11,MBOX-016,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,174.000,2.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0017_MBOX-017_scan_event_7,MBOX-017,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0017_MBOX-017_place_to_category_output_11,MBOX-017,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,384.000,2.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0018_MBOX-018_queued_category_hold_1,MBOX-018,category_hold,HOLD_CATEGORY,,,-260.000,271.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0019_MBOX-019_scan_event_7,MBOX-019,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0019_MBOX-019_place_to_manual_review_11,MBOX-019,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-180.000,-286.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0020_MBOX-020_scan_event_7,MBOX-020,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0020_MBOX-020_place_to_category_output_11,MBOX-020,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,412.000,212.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0021_MBOX-021_scan_event_7,MBOX-021,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0021_MBOX-021_place_to_category_output_11,MBOX-021,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,202.000,2.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0022_MBOX-022_scan_event_7,MBOX-022,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0022_MBOX-022_place_to_category_output_11,MBOX-022,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,412.000,2.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0023_MBOX-023_queued_queued_pending_sample_1,MBOX-023,queued_pending_sample,SKIP_HELD_CATEGORY,,,-288.000,243.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0024_MBOX-024_scan_event_7,MBOX-024,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0024_MBOX-024_place_to_category_output_11,MBOX-024,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,440.000,212.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0025_MBOX-025_scan_event_7,MBOX-025,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0025_MBOX-025_place_to_category_output_11,MBOX-025,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,230.000,2.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0026_MBOX-026_scan_event_7,MBOX-026,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0026_MBOX-026_place_to_category_output_11,MBOX-026,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,440.000,2.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0027_MBOX-027_queued_queued_pending_sample_1,MBOX-027,queued_pending_sample,SKIP_HELD_CATEGORY,,,-344.000,197.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0028_MBOX-028_scan_event_7,MBOX-028,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0028_MBOX-028_place_to_category_output_11,MBOX-028,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,300.000,184.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0029_MBOX-029_scan_event_7,MBOX-029,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0029_MBOX-029_place_to_category_output_11,MBOX-029,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,90.000,-26.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0030_MBOX-030_scan_event_7,MBOX-030,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0030_MBOX-030_place_to_category_output_11,MBOX-030,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,300.000,-26.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0031_MBOX-031_queued_queued_pending_sample_1,MBOX-031,queued_pending_sample,SKIP_HELD_CATEGORY,,,-400.000,169.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0032_MBOX-032_scan_event_7,MBOX-032,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0032_MBOX-032_place_to_category_output_11,MBOX-032,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,328.000,184.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0033_MBOX-033_scan_event_7,MBOX-033,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0033_MBOX-033_place_to_category_output_11,MBOX-033,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,118.000,-26.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0034_MBOX-034_scan_event_7,MBOX-034,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0034_MBOX-034_place_to_category_output_11,MBOX-034,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,328.000,-26.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0035_MBOX-035_queued_queued_pending_sample_1,MBOX-035,queued_pending_sample,SKIP_HELD_CATEGORY,,,-288.000,169.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0036_MBOX-036_scan_event_7,MBOX-036,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0036_MBOX-036_place_to_category_output_11,MBOX-036,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,356.000,184.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0037_MBOX-037_scan_event_7,MBOX-037,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0037_MBOX-037_place_to_manual_review_11,MBOX-037,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-152.000,-286.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0038_MBOX-038_scan_event_7,MBOX-038,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0038_MBOX-038_place_to_category_output_11,MBOX-038,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,146.000,-26.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0039_MBOX-039_scan_event_7,MBOX-039,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0039_MBOX-039_place_to_category_output_11,MBOX-039,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,356.000,-26.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0040_MBOX-040_queued_queued_pending_sample_1,MBOX-040,queued_pending_sample,SKIP_HELD_CATEGORY,,,-316.000,141.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0041_MBOX-041_scan_event_7,MBOX-041,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0041_MBOX-041_place_to_category_output_11,MBOX-041,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,384.000,184.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0042_MBOX-042_scan_event_7,MBOX-042,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0042_MBOX-042_place_to_category_output_11,MBOX-042,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,174.000,-26.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0043_MBOX-043_scan_event_7,MBOX-043,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0043_MBOX-043_place_to_category_output_11,MBOX-043,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,384.000,-26.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0044_MBOX-044_queued_queued_pending_sample_1,MBOX-044,queued_pending_sample,SKIP_HELD_CATEGORY,,,-372.000,113.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0045_MBOX-045_scan_event_7,MBOX-045,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0045_MBOX-045_place_to_category_output_11,MBOX-045,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,412.000,184.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0046_MBOX-046_scan_event_7,MBOX-046,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0046_MBOX-046_place_to_category_output_11,MBOX-046,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,202.000,-26.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0047_MBOX-047_scan_event_7,MBOX-047,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0047_MBOX-047_place_to_category_output_11,MBOX-047,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,412.000,-26.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0048_MBOX-048_queued_queued_pending_sample_1,MBOX-048,queued_pending_sample,SKIP_HELD_CATEGORY,,,-260.000,113.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0049_MBOX-049_scan_event_7,MBOX-049,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0049_MBOX-049_place_to_category_output_11,MBOX-049,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,440.000,184.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0050_MBOX-050_scan_event_7,MBOX-050,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0050_MBOX-050_place_to_category_output_11,MBOX-050,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,230.000,-26.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0051_MBOX-051_scan_event_7,MBOX-051,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0051_MBOX-051_place_to_category_output_11,MBOX-051,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,440.000,-26.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0052_MBOX-052_queued_queued_pending_sample_1,MBOX-052,queued_pending_sample,SKIP_HELD_CATEGORY,,,-316.000,67.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0053_MBOX-053_scan_event_7,MBOX-053,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0053_MBOX-053_place_to_category_output_11,MBOX-053,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,300.000,156.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0054_MBOX-054_scan_event_7,MBOX-054,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0054_MBOX-054_place_to_category_output_11,MBOX-054,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,90.000,-54.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0055_MBOX-055_scan_event_7,MBOX-055,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0055_MBOX-055_place_to_category_output_11,MBOX-055,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,300.000,-54.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0056_MBOX-056_queued_queued_pending_sample_1,MBOX-056,queued_pending_sample,SKIP_HELD_CATEGORY,,,-372.000,39.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0057_MBOX-057_scan_event_7,MBOX-057,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0057_MBOX-057_place_to_category_output_11,MBOX-057,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,328.000,156.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0058_MBOX-058_scan_event_7,MBOX-058,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0058_MBOX-058_place_to_manual_review_11,MBOX-058,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-208.000,-314.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0059_MBOX-059_scan_event_7,MBOX-059,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0059_MBOX-059_place_to_category_output_11,MBOX-059,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,118.000,-54.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0060_MBOX-060_scan_event_7,MBOX-060,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0060_MBOX-060_place_to_category_output_11,MBOX-060,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,328.000,-54.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0061_MBOX-061_queued_queued_pending_sample_1,MBOX-061,queued_pending_sample,SKIP_HELD_CATEGORY,,,-400.000,11.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0062_MBOX-062_scan_event_7,MBOX-062,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0062_MBOX-062_place_to_category_output_11,MBOX-062,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,356.000,156.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0063_MBOX-063_scan_event_7,MBOX-063,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0063_MBOX-063_place_to_category_output_11,MBOX-063,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,146.000,-54.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0064_MBOX-064_scan_event_7,MBOX-064,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0064_MBOX-064_place_to_category_output_11,MBOX-064,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,356.000,-54.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0065_MBOX-065_queued_queued_pending_sample_1,MBOX-065,queued_pending_sample,SKIP_HELD_CATEGORY,,,-288.000,11.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0066_MBOX-066_scan_event_7,MBOX-066,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0066_MBOX-066_place_to_category_output_11,MBOX-066,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,384.000,156.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0067_MBOX-067_scan_event_7,MBOX-067,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0067_MBOX-067_place_to_category_output_11,MBOX-067,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,174.000,-54.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0068_MBOX-068_scan_event_7,MBOX-068,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0068_MBOX-068_place_to_category_output_11,MBOX-068,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,384.000,-54.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0069_MBOX-069_queued_queued_pending_sample_1,MBOX-069,queued_pending_sample,SKIP_HELD_CATEGORY,,,-344.000,-17.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0070_MBOX-070_scan_event_7,MBOX-070,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0070_MBOX-070_place_to_category_output_11,MBOX-070,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,412.000,156.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0071_MBOX-071_scan_event_7,MBOX-071,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0071_MBOX-071_place_to_category_output_11,MBOX-071,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,202.000,-54.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0072_MBOX-072_scan_event_7,MBOX-072,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0072_MBOX-072_place_to_category_output_11,MBOX-072,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,412.000,-54.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0073_MBOX-073_scan_event_7,MBOX-073,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0073_MBOX-073_place_to_manual_review_11,MBOX-073,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-180.000,-314.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0074_MBOX-074_queued_queued_pending_sample_1,MBOX-074,queued_pending_sample,SKIP_HELD_CATEGORY,,,-372.000,-63.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0075_MBOX-075_scan_event_7,MBOX-075,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0075_MBOX-075_place_to_category_output_11,MBOX-075,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,440.000,156.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0076_MBOX-076_scan_event_7,MBOX-076,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0076_MBOX-076_place_to_category_output_11,MBOX-076,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,230.000,-54.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0077_MBOX-077_scan_event_7,MBOX-077,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0077_MBOX-077_place_to_category_output_11,MBOX-077,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,440.000,-54.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0078_MBOX-078_queued_queued_pending_sample_1,MBOX-078,queued_pending_sample,SKIP_HELD_CATEGORY,,,-260.000,-63.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0079_MBOX-079_scan_event_7,MBOX-079,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0079_MBOX-079_place_to_category_output_11,MBOX-079,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,300.000,128.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0080_MBOX-080_scan_event_7,MBOX-080,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0080_MBOX-080_place_to_category_output_11,MBOX-080,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,90.000,-82.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0081_MBOX-081_scan_event_7,MBOX-081,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0081_MBOX-081_place_to_category_output_11,MBOX-081,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,300.000,-82.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0082_MBOX-082_queued_queued_pending_sample_1,MBOX-082,queued_pending_sample,SKIP_HELD_CATEGORY,,,-316.000,-91.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0083_MBOX-083_scan_event_7,MBOX-083,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0083_MBOX-083_place_to_category_output_11,MBOX-083,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,328.000,128.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0084_MBOX-084_scan_event_7,MBOX-084,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0084_MBOX-084_place_to_category_output_11,MBOX-084,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,118.000,-82.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0085_MBOX-085_scan_event_7,MBOX-085,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0085_MBOX-085_place_to_category_output_11,MBOX-085,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,328.000,-82.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0086_MBOX-086_queued_queued_pending_sample_1,MBOX-086,queued_pending_sample,SKIP_HELD_CATEGORY,,,-372.000,-119.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0087_MBOX-087_scan_event_7,MBOX-087,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0087_MBOX-087_place_to_category_output_11,MBOX-087,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,356.000,128.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0088_MBOX-088_scan_event_7,MBOX-088,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0088_MBOX-088_place_to_category_output_11,MBOX-088,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,146.000,-82.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0089_MBOX-089_scan_event_7,MBOX-089,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0089_MBOX-089_place_to_category_output_11,MBOX-089,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,356.000,-82.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0090_MBOX-090_queued_queued_pending_sample_1,MBOX-090,queued_pending_sample,SKIP_HELD_CATEGORY,,,-260.000,-119.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0091_MBOX-091_scan_event_7,MBOX-091,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0091_MBOX-091_place_to_manual_review_11,MBOX-091,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-152.000,-314.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0092_MBOX-092_scan_event_7,MBOX-092,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0092_MBOX-092_place_to_category_output_11,MBOX-092,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,384.000,128.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0093_MBOX-093_scan_event_7,MBOX-093,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0093_MBOX-093_place_to_category_output_11,MBOX-093,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,174.000,-82.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0094_MBOX-094_scan_event_7,MBOX-094,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0094_MBOX-094_place_to_category_output_11,MBOX-094,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,384.000,-82.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0095_MBOX-095_queued_queued_pending_sample_1,MBOX-095,queued_pending_sample,SKIP_HELD_CATEGORY,,,-288.000,-147.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_0096_MBOX-096_scan_event_7,MBOX-096,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0096_MBOX-096_place_to_category_output_11,MBOX-096,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,412.000,128.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0097_MBOX-018_scan_event_7,MBOX-018,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0097_MBOX-018_place_to_category_output_11,MBOX-018,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,90.000,212.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0097_MBOX-018_released_pending_sample_12,MBOX-018,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,90.000,212.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0098_MBOX-023_scan_event_7,MBOX-023,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0098_MBOX-023_place_to_category_output_11,MBOX-023,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,118.000,212.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0098_MBOX-023_released_pending_sample_12,MBOX-023,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,118.000,212.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0099_MBOX-027_scan_event_7,MBOX-027,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0099_MBOX-027_place_to_category_output_11,MBOX-027,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,146.000,212.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0099_MBOX-027_released_pending_sample_12,MBOX-027,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,146.000,212.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0100_MBOX-031_scan_event_7,MBOX-031,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0100_MBOX-031_place_to_category_output_11,MBOX-031,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,174.000,212.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0100_MBOX-031_released_pending_sample_12,MBOX-031,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,174.000,212.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0101_MBOX-035_scan_event_7,MBOX-035,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0101_MBOX-035_place_to_category_output_11,MBOX-035,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,202.000,212.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0101_MBOX-035_released_pending_sample_12,MBOX-035,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,202.000,212.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0102_MBOX-040_scan_event_7,MBOX-040,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0102_MBOX-040_place_to_category_output_11,MBOX-040,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,230.000,212.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0102_MBOX-040_released_pending_sample_12,MBOX-040,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,230.000,212.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0103_MBOX-044_scan_event_7,MBOX-044,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0103_MBOX-044_place_to_category_output_11,MBOX-044,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,90.000,184.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0103_MBOX-044_released_pending_sample_12,MBOX-044,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,90.000,184.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0104_MBOX-048_scan_event_7,MBOX-048,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0104_MBOX-048_place_to_category_output_11,MBOX-048,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,118.000,184.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0104_MBOX-048_released_pending_sample_12,MBOX-048,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,118.000,184.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0105_MBOX-052_scan_event_7,MBOX-052,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0105_MBOX-052_place_to_category_output_11,MBOX-052,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,146.000,184.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0105_MBOX-052_released_pending_sample_12,MBOX-052,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,146.000,184.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0106_MBOX-056_scan_event_7,MBOX-056,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0106_MBOX-056_place_to_category_output_11,MBOX-056,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,174.000,184.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0106_MBOX-056_released_pending_sample_12,MBOX-056,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,174.000,184.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0107_MBOX-061_scan_event_7,MBOX-061,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0107_MBOX-061_place_to_category_output_11,MBOX-061,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,202.000,184.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0107_MBOX-061_released_pending_sample_12,MBOX-061,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,202.000,184.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0108_MBOX-065_scan_event_7,MBOX-065,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0108_MBOX-065_place_to_category_output_11,MBOX-065,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,230.000,184.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0108_MBOX-065_released_pending_sample_12,MBOX-065,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,230.000,184.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0109_MBOX-069_scan_event_7,MBOX-069,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0109_MBOX-069_place_to_category_output_11,MBOX-069,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,90.000,156.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0109_MBOX-069_released_pending_sample_12,MBOX-069,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,90.000,156.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0110_MBOX-074_scan_event_7,MBOX-074,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0110_MBOX-074_place_to_category_output_11,MBOX-074,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,118.000,156.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0110_MBOX-074_released_pending_sample_12,MBOX-074,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,118.000,156.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0111_MBOX-078_scan_event_7,MBOX-078,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0111_MBOX-078_place_to_category_output_11,MBOX-078,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,146.000,156.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0111_MBOX-078_released_pending_sample_12,MBOX-078,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,146.000,156.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0112_MBOX-082_scan_event_7,MBOX-082,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0112_MBOX-082_place_to_category_output_11,MBOX-082,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,174.000,156.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0112_MBOX-082_released_pending_sample_12,MBOX-082,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,174.000,156.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0113_MBOX-086_scan_event_7,MBOX-086,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0113_MBOX-086_place_to_category_output_11,MBOX-086,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,202.000,156.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0113_MBOX-086_released_pending_sample_12,MBOX-086,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,202.000,156.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0114_MBOX-090_scan_event_7,MBOX-090,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0114_MBOX-090_place_to_category_output_11,MBOX-090,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,230.000,156.000,45.000,trajectory event
+forced_category_A_full,forced_category_A_full_0114_MBOX-090_released_pending_sample_12,MBOX-090,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,230.000,156.000,200.000,pending sample resumed and placed
+forced_category_A_full,forced_category_A_full_0115_MBOX-095_scan_event_7,MBOX-095,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_category_A_full,forced_category_A_full_0115_MBOX-095_place_to_category_output_11,MBOX-095,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,90.000,128.000,70.000,trajectory event
+forced_category_A_full,forced_category_A_full_0115_MBOX-095_released_pending_sample_12,MBOX-095,released_pending_sample,RETREAT_TO_SAFE_Z,Category A,category_A_output_box,90.000,128.000,200.000,pending sample resumed and placed
+forced_manual_review_full,forced_manual_review_full_0001_MBOX-001_scan_event_7,MBOX-001,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0001_MBOX-001_place_to_category_output_11,MBOX-001,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,90.000,212.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0002_MBOX-002_scan_event_7,MBOX-002,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0002_MBOX-002_place_to_category_output_11,MBOX-002,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,300.000,212.000,70.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0003_MBOX-003_scan_event_7,MBOX-003,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0003_MBOX-003_place_to_category_output_11,MBOX-003,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,90.000,2.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0004_MBOX-004_scan_event_7,MBOX-004,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0004_MBOX-004_place_to_category_output_11,MBOX-004,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,300.000,2.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0005_MBOX-005_scan_event_7,MBOX-005,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0005_MBOX-005_place_to_manual_review_11,MBOX-005,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-208.000,-286.000,70.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0006_MBOX-006_scan_event_7,MBOX-006,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0006_MBOX-006_place_to_category_output_11,MBOX-006,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,118.000,212.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0007_MBOX-007_scan_event_7,MBOX-007,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0007_MBOX-007_place_to_category_output_11,MBOX-007,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,328.000,212.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0008_MBOX-008_scan_event_7,MBOX-008,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0008_MBOX-008_place_to_category_output_11,MBOX-008,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,118.000,2.000,70.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0009_MBOX-009_scan_event_7,MBOX-009,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0009_MBOX-009_place_to_category_output_11,MBOX-009,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,328.000,2.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0010_MBOX-010_scan_event_7,MBOX-010,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0010_MBOX-010_place_to_category_output_11,MBOX-010,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,146.000,212.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0011_MBOX-011_scan_event_7,MBOX-011,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0011_MBOX-011_place_to_category_output_11,MBOX-011,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,356.000,212.000,70.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0012_MBOX-012_scan_event_7,MBOX-012,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0012_MBOX-012_place_to_category_output_11,MBOX-012,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,146.000,2.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0013_MBOX-013_scan_event_7,MBOX-013,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0013_MBOX-013_place_to_category_output_11,MBOX-013,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,356.000,2.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0014_MBOX-014_scan_event_7,MBOX-014,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0014_MBOX-014_place_to_category_output_11,MBOX-014,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,174.000,212.000,70.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0015_MBOX-015_scan_event_7,MBOX-015,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0015_MBOX-015_place_to_category_output_11,MBOX-015,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,384.000,212.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0016_MBOX-016_scan_event_7,MBOX-016,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0016_MBOX-016_place_to_category_output_11,MBOX-016,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,174.000,2.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0017_MBOX-017_scan_event_7,MBOX-017,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0017_MBOX-017_place_to_category_output_11,MBOX-017,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,384.000,2.000,70.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0018_MBOX-018_scan_event_7,MBOX-018,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0018_MBOX-018_place_to_category_output_11,MBOX-018,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,202.000,212.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0019_MBOX-019_scan_event_7,MBOX-019,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0019_MBOX-019_place_to_manual_review_11,MBOX-019,place_to_manual_review,PLACE_TUBE,,manual_review_bin,-180.000,-286.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0020_MBOX-020_scan_event_7,MBOX-020,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0020_MBOX-020_place_to_category_output_11,MBOX-020,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,412.000,212.000,70.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0021_MBOX-021_scan_event_7,MBOX-021,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0021_MBOX-021_place_to_category_output_11,MBOX-021,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,202.000,2.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0022_MBOX-022_scan_event_7,MBOX-022,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0022_MBOX-022_place_to_category_output_11,MBOX-022,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,412.000,2.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0023_MBOX-023_scan_event_7,MBOX-023,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0023_MBOX-023_place_to_category_output_11,MBOX-023,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,230.000,212.000,70.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0024_MBOX-024_scan_event_7,MBOX-024,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0024_MBOX-024_place_to_category_output_11,MBOX-024,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,440.000,212.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0025_MBOX-025_scan_event_7,MBOX-025,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0025_MBOX-025_place_to_category_output_11,MBOX-025,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,230.000,2.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0026_MBOX-026_scan_event_7,MBOX-026,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0026_MBOX-026_place_to_category_output_11,MBOX-026,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,440.000,2.000,70.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0027_MBOX-027_scan_event_7,MBOX-027,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0027_MBOX-027_place_to_category_output_11,MBOX-027,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,90.000,184.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0028_MBOX-028_scan_event_7,MBOX-028,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0028_MBOX-028_place_to_category_output_11,MBOX-028,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,300.000,184.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0029_MBOX-029_scan_event_7,MBOX-029,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0029_MBOX-029_place_to_category_output_11,MBOX-029,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,90.000,-26.000,70.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0030_MBOX-030_scan_event_7,MBOX-030,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0030_MBOX-030_place_to_category_output_11,MBOX-030,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,300.000,-26.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0031_MBOX-031_scan_event_7,MBOX-031,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0031_MBOX-031_place_to_category_output_11,MBOX-031,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,118.000,184.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0032_MBOX-032_scan_event_7,MBOX-032,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0032_MBOX-032_place_to_category_output_11,MBOX-032,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,328.000,184.000,70.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0033_MBOX-033_scan_event_7,MBOX-033,scan_event,SCAN_BARCODE,Category C,category_C_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0033_MBOX-033_place_to_category_output_11,MBOX-033,place_to_category_output,PLACE_TUBE,Category C,category_C_output_box,118.000,-26.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0034_MBOX-034_scan_event_7,MBOX-034,scan_event,SCAN_BARCODE,Category D,category_D_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0034_MBOX-034_place_to_category_output_11,MBOX-034,place_to_category_output,PLACE_TUBE,Category D,category_D_output_box,328.000,-26.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0035_MBOX-035_scan_event_7,MBOX-035,scan_event,SCAN_BARCODE,Category A,category_A_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0035_MBOX-035_place_to_category_output_11,MBOX-035,place_to_category_output,PLACE_TUBE,Category A,category_A_output_box,146.000,184.000,70.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0036_MBOX-036_scan_event_7,MBOX-036,scan_event,SCAN_BARCODE,Category B,category_B_output_box,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0036_MBOX-036_place_to_category_output_11,MBOX-036,place_to_category_output,PLACE_TUBE,Category B,category_B_output_box,356.000,184.000,45.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0037_MBOX-037_scan_event_7,MBOX-037,scan_event,SCAN_BARCODE,,manual_review_bin,-140.000,60.000,75.000,trajectory event
+forced_manual_review_full,forced_manual_review_full_0037_MBOX-037_PAUSE_ALARM_8,MBOX-037,PAUSE_ALARM,PAUSE_ALARM,,manual_review_bin,-140.000,60.000,200.000,trajectory event
+forced_category_A_full,forced_category_A_full_EVENT_001,,category_A_hold,category_A_hold,A,category_A_output_box,-140.000,60.000,200.000,category output capacity reached; normal sample is not routed to manual review
+forced_category_A_full,forced_category_A_full_EVENT_002,,clear_or_replace_category_A_output_box,category_A_available,A,category_A_output_box,90.000,212.000,200.000,operator clears/replaces full output box before resuming pending samples
+forced_category_A_full,forced_category_A_full_EVENT_003,,resume_category_A,pending_queue_released,A,category_A_output_box,90.000,212.000,200.000,system resumes held category and processes queued samples
+forced_manual_review_full,forced_manual_review_full_EVENT_001,,manual_review_full_alarm,PAUSE_ALARM,manual_review,manual_review_bin,-140.000,60.000,200.000,barcode_invalid requires manual review but no slot is available

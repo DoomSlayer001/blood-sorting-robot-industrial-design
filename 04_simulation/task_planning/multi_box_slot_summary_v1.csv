@@ -1,0 +1,15 @@
+metric,value,unit,notes
+input_box_count,4,box,Stage 6R frozen requirement
+input_slots_per_box,24,slot,4 x 6
+total_input_slots,96,slot,4 input boxes
+output_category_count,4,category,A/B/C/D
+output_slots_per_category,24,slot,4 x 6 per category
+total_output_slots,96,slot,4 category output boxes
+manual_review_slots,6,slot,2 x 3 true abnormal sample bin
+scan_station_slots,1,slot,single scan holder position
+total_task_points,199,point,input + output + manual review + scan
+reachable_points,199,point,inside envelope and not near limit
+unreachable_points,0,point,outside envelope
+near_limit_points,0,point,inside envelope but close to configured limits
+selected_base_plate_size,1200 x 900 x 15,mm,v7.1 recommended multi-box layout
+workspace_assumption_version,stage_7b_v1,id,"x=[-570,570], y=[-420,420], z=[0,280]"

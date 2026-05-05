@@ -1,0 +1,22 @@
+# CadQuery Multi-box Layout v7.1 Report
+
+- v7.1 is based on the v7 multi-box layout and keeps the same Stage 6R requirement basis.
+- SolidWorks 2026 manual inspection of v7 found tight input/Y-axis spacing, tight output/right-side spacing, a box-like guard placeholder, and a scan station that still read as slightly dispersed.
+- Input boxes: 4 replaceable 4 x 6 boxes, 24 slots each, total input capacity 96.
+- Input layout optimization: Scheme A was selected. The four-box vertical queue is retained and shifted 30 mm inward to make the left Y-axis gap and front replacement access clearer.
+- Output boxes: Category A/B/C/D each has one replaceable 4 x 6 box, total output capacity 96.
+- Output layout optimization: A/B/C/D are regrouped into a clearer 2 x 2 block and moved inward from the right Y-axis.
+- Manual review: one 2 x 3 bin, capacity 6, reserved for true abnormal samples.
+- Manual review remains 2 x 3 and stays near the front operator side.
+- Scan station optimization: tube holder, scan tube, barcode scanner, photoelectric sensor, brackets, and SCAN label are tightened into one coherent module near the input area.
+- Guard optimization: the transparent guard is now an open-access frame/panel placeholder with front/top replacement access instead of a visually sealed box.
+- Base selection: 1200 x 900 x 15 mm. 1100 x 900 is retained for v6 but is crowded for multi-box layout plus safety/electrical zones.
+- v7.1 does not change the main gantry/base concept and does not enter coordinate, trajectory, or PID simulation.
+- Successful imported/generated components: 72
+- Failed components: 0
+- Total solids: 440 added / 440 exported
+- Total bbox: 1200.000 x 900.000 x 480.000 mm
+- Interference audit summary: overlap=0, too_close=0, allowed_mount_contact=133.
+- Key coverage: four input boxes, scan station, four category output boxes, manual review, gantry, control box, emergency stop, limit switches, cable chain path, and guard frame are represented.
+- Remaining engineering detail: formal brackets, engineering drawings, hole patterns, tolerances, electrical wiring, real guard design, and PID simulation.
+- STEP path: `03_cad/freecad_assembly/blood_sorting_robot_cadquery_multi_box_layout_v7_1.step`

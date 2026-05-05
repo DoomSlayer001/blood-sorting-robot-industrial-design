@@ -152,6 +152,8 @@ Stage 7D generates multi-box pick-scan-place trajectories from the Stage 7B coor
 
 Stage 7E estimates multi-box cycle time and throughput from the Stage 7D trajectories. It compares baseline, category hold/resume, and manual-review-full scenarios, with motion identified as the current dominant bottleneck under the first-pass timing assumptions. The next stage should update the multi-box process animation.
 
+Stage 7F generates multi-box sorting process animations for report and presentation use. The project now covers multi-box CAD layout, coordinate/reachability validation, category hold/resume policy simulation, multi-box trajectories, cycle-time/throughput estimates, and 2D process animation. The next stage should move into Stage 8A kinematics and trajectory-to-control modeling.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:

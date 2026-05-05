@@ -1,0 +1,673 @@
+animation_id,frame_id,run_id,sample_id,state,category,x_mm,y_mm,target_zone,event_type,event_label,notes
+baseline_multi_box_sorting,1,baseline_multi_box_run,MBOX-001,MOVE_SAFE_ABOVE_INPUT,Category A,-400.000,327.000,output_A,move_to_input,move to input,move to input safe height
+baseline_multi_box_sorting,2,baseline_multi_box_run,MBOX-001,PICK_TUBE,Category A,-400.000,327.000,output_A,pick,pick tube,pick tube
+baseline_multi_box_sorting,3,baseline_multi_box_run,MBOX-001,MOVE_SAFE_ABOVE_SCAN,Category A,-140.000,60.000,output_A,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,4,baseline_multi_box_run,MBOX-001,SCAN_BARCODE,Category A,-140.000,60.000,output_A,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,5,baseline_multi_box_run,MBOX-001,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+baseline_multi_box_sorting,6,baseline_multi_box_run,MBOX-001,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+baseline_multi_box_sorting,7,baseline_multi_box_run,MBOX-001,MOVE_SAFE_ABOVE_TARGET,Category A,90.000,212.000,output_A,move_to_output,move to target,move above target
+baseline_multi_box_sorting,8,baseline_multi_box_run,MBOX-001,PLACE_TUBE,Category A,90.000,212.000,output_A,place_to_output,place to Category A,place tube
+baseline_multi_box_sorting,9,baseline_multi_box_run,MBOX-002,LIFT_TO_SAFE_Z,Category B,-372.000,327.000,output_B,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+baseline_multi_box_sorting,10,baseline_multi_box_run,MBOX-002,PLACE_TUBE,Category B,300.000,212.000,output_B,place_to_output,place to Category B,place tube
+baseline_multi_box_sorting,11,baseline_multi_box_run,MBOX-003,SCAN_BARCODE,Category C,-140.000,60.000,output_C,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,12,baseline_multi_box_run,MBOX-004,APPROACH_INPUT_SLOT,Category D,-316.000,327.000,output_D,trajectory,APPROACH_INPUT_SLOT,approach input slot
+baseline_multi_box_sorting,13,baseline_multi_box_run,MBOX-004,MOVE_SAFE_ABOVE_TARGET,Category D,300.000,2.000,output_D,move_to_output,move to target,move above target
+baseline_multi_box_sorting,14,baseline_multi_box_run,MBOX-005,MOVE_SAFE_ABOVE_SCAN,manual_review,-140.000,60.000,manual_review,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,15,baseline_multi_box_run,MBOX-005,PLACE_TUBE,manual_review,-208.000,-286.000,manual_review,place_to_manual_review,place to manual review,place tube
+baseline_multi_box_sorting,16,baseline_multi_box_run,MBOX-005,RETREAT_TO_SAFE_Z,manual_review,-208.000,-286.000,manual_review,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+baseline_multi_box_sorting,17,baseline_multi_box_run,MBOX-006,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+baseline_multi_box_sorting,18,baseline_multi_box_run,MBOX-007,PICK_TUBE,Category B,-400.000,299.000,output_B,pick,pick tube,pick tube
+baseline_multi_box_sorting,19,baseline_multi_box_run,MBOX-007,APPROACH_TARGET_SLOT,Category B,328.000,212.000,output_B,trajectory,APPROACH_TARGET_SLOT,approach target slot
+baseline_multi_box_sorting,20,baseline_multi_box_run,MBOX-008,APPROACH_SCAN_STATION,Category C,-140.000,60.000,output_C,trajectory,APPROACH_SCAN_STATION,approach scan station
+baseline_multi_box_sorting,21,baseline_multi_box_run,MBOX-009,MOVE_SAFE_ABOVE_INPUT,Category D,-344.000,299.000,output_D,move_to_input,move to input,move to input safe height
+baseline_multi_box_sorting,22,baseline_multi_box_run,MBOX-009,LIFT_TO_SAFE_Z_AFTER_SCAN,Category D,-140.000,60.000,output_D,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+baseline_multi_box_sorting,23,baseline_multi_box_run,MBOX-010,LIFT_TO_SAFE_Z,Category A,-316.000,299.000,output_A,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+baseline_multi_box_sorting,24,baseline_multi_box_run,MBOX-010,PLACE_TUBE,Category A,146.000,212.000,output_A,place_to_output,place to Category A,place tube
+baseline_multi_box_sorting,25,baseline_multi_box_run,MBOX-011,SCAN_BARCODE,Category B,-140.000,60.000,output_B,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,26,baseline_multi_box_run,MBOX-012,APPROACH_INPUT_SLOT,Category C,-260.000,299.000,output_C,trajectory,APPROACH_INPUT_SLOT,approach input slot
+baseline_multi_box_sorting,27,baseline_multi_box_run,MBOX-012,MOVE_SAFE_ABOVE_TARGET,Category C,146.000,2.000,output_C,move_to_output,move to target,move above target
+baseline_multi_box_sorting,28,baseline_multi_box_run,MBOX-013,MOVE_SAFE_ABOVE_SCAN,Category D,-140.000,60.000,output_D,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,29,baseline_multi_box_run,MBOX-013,RETREAT_TO_SAFE_Z,Category D,356.000,2.000,output_D,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+baseline_multi_box_sorting,30,baseline_multi_box_run,MBOX-014,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+baseline_multi_box_sorting,31,baseline_multi_box_run,MBOX-015,PICK_TUBE,Category B,-344.000,271.000,output_B,pick,pick tube,pick tube
+baseline_multi_box_sorting,32,baseline_multi_box_run,MBOX-015,APPROACH_TARGET_SLOT,Category B,384.000,212.000,output_B,trajectory,APPROACH_TARGET_SLOT,approach target slot
+baseline_multi_box_sorting,33,baseline_multi_box_run,MBOX-016,APPROACH_SCAN_STATION,Category C,-140.000,60.000,output_C,trajectory,APPROACH_SCAN_STATION,approach scan station
+baseline_multi_box_sorting,34,baseline_multi_box_run,MBOX-017,MOVE_SAFE_ABOVE_INPUT,Category D,-288.000,271.000,output_D,move_to_input,move to input,move to input safe height
+baseline_multi_box_sorting,35,baseline_multi_box_run,MBOX-017,LIFT_TO_SAFE_Z_AFTER_SCAN,Category D,-140.000,60.000,output_D,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+baseline_multi_box_sorting,36,baseline_multi_box_run,MBOX-018,LIFT_TO_SAFE_Z,Category A,-260.000,271.000,output_A,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+baseline_multi_box_sorting,37,baseline_multi_box_run,MBOX-018,PLACE_TUBE,Category A,202.000,212.000,output_A,place_to_output,place to Category A,place tube
+baseline_multi_box_sorting,38,baseline_multi_box_run,MBOX-019,SCAN_BARCODE,manual_review,-140.000,60.000,manual_review,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,39,baseline_multi_box_run,MBOX-019,PLACE_TUBE,manual_review,-180.000,-286.000,manual_review,place_to_manual_review,place to manual review,place tube
+baseline_multi_box_sorting,40,baseline_multi_box_run,MBOX-020,APPROACH_INPUT_SLOT,Category B,-372.000,243.000,output_B,trajectory,APPROACH_INPUT_SLOT,approach input slot
+baseline_multi_box_sorting,41,baseline_multi_box_run,MBOX-020,MOVE_SAFE_ABOVE_TARGET,Category B,412.000,212.000,output_B,move_to_output,move to target,move above target
+baseline_multi_box_sorting,42,baseline_multi_box_run,MBOX-021,MOVE_SAFE_ABOVE_SCAN,Category C,-140.000,60.000,output_C,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,43,baseline_multi_box_run,MBOX-021,RETREAT_TO_SAFE_Z,Category C,202.000,2.000,output_C,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+baseline_multi_box_sorting,44,baseline_multi_box_run,MBOX-022,CLASSIFY_SAMPLE,Category D,-140.000,60.000,output_D,classify,classify sample,scan and classify
+baseline_multi_box_sorting,45,baseline_multi_box_run,MBOX-023,PICK_TUBE,Category A,-288.000,243.000,output_A,pick,pick tube,pick tube
+baseline_multi_box_sorting,46,baseline_multi_box_run,MBOX-023,APPROACH_TARGET_SLOT,Category A,230.000,212.000,output_A,trajectory,APPROACH_TARGET_SLOT,approach target slot
+baseline_multi_box_sorting,47,baseline_multi_box_run,MBOX-024,APPROACH_SCAN_STATION,Category B,-140.000,60.000,output_B,trajectory,APPROACH_SCAN_STATION,approach scan station
+baseline_multi_box_sorting,48,baseline_multi_box_run,MBOX-025,MOVE_SAFE_ABOVE_INPUT,Category C,-400.000,197.000,output_C,move_to_input,move to input,move to input safe height
+baseline_multi_box_sorting,49,baseline_multi_box_run,MBOX-025,LIFT_TO_SAFE_Z_AFTER_SCAN,Category C,-140.000,60.000,output_C,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+baseline_multi_box_sorting,50,baseline_multi_box_run,MBOX-026,LIFT_TO_SAFE_Z,Category D,-372.000,197.000,output_D,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+baseline_multi_box_sorting,51,baseline_multi_box_run,MBOX-026,PLACE_TUBE,Category D,440.000,2.000,output_D,place_to_output,place to Category D,place tube
+baseline_multi_box_sorting,52,baseline_multi_box_run,MBOX-027,SCAN_BARCODE,Category A,-140.000,60.000,output_A,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,53,baseline_multi_box_run,MBOX-028,APPROACH_INPUT_SLOT,Category B,-316.000,197.000,output_B,trajectory,APPROACH_INPUT_SLOT,approach input slot
+baseline_multi_box_sorting,54,baseline_multi_box_run,MBOX-028,MOVE_SAFE_ABOVE_TARGET,Category B,300.000,184.000,output_B,move_to_output,move to target,move above target
+baseline_multi_box_sorting,55,baseline_multi_box_run,MBOX-029,MOVE_SAFE_ABOVE_SCAN,Category C,-140.000,60.000,output_C,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,56,baseline_multi_box_run,MBOX-029,RETREAT_TO_SAFE_Z,Category C,90.000,-26.000,output_C,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+baseline_multi_box_sorting,57,baseline_multi_box_run,MBOX-030,CLASSIFY_SAMPLE,Category D,-140.000,60.000,output_D,classify,classify sample,scan and classify
+baseline_multi_box_sorting,58,baseline_multi_box_run,MBOX-031,PICK_TUBE,Category A,-400.000,169.000,output_A,pick,pick tube,pick tube
+baseline_multi_box_sorting,59,baseline_multi_box_run,MBOX-031,APPROACH_TARGET_SLOT,Category A,118.000,184.000,output_A,trajectory,APPROACH_TARGET_SLOT,approach target slot
+baseline_multi_box_sorting,60,baseline_multi_box_run,MBOX-032,APPROACH_SCAN_STATION,Category B,-140.000,60.000,output_B,trajectory,APPROACH_SCAN_STATION,approach scan station
+baseline_multi_box_sorting,61,baseline_multi_box_run,MBOX-033,MOVE_SAFE_ABOVE_INPUT,Category C,-344.000,169.000,output_C,move_to_input,move to input,move to input safe height
+baseline_multi_box_sorting,62,baseline_multi_box_run,MBOX-033,LIFT_TO_SAFE_Z_AFTER_SCAN,Category C,-140.000,60.000,output_C,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+baseline_multi_box_sorting,63,baseline_multi_box_run,MBOX-034,LIFT_TO_SAFE_Z,Category D,-316.000,169.000,output_D,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+baseline_multi_box_sorting,64,baseline_multi_box_run,MBOX-034,PLACE_TUBE,Category D,328.000,-26.000,output_D,place_to_output,place to Category D,place tube
+baseline_multi_box_sorting,65,baseline_multi_box_run,MBOX-035,SCAN_BARCODE,Category A,-140.000,60.000,output_A,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,66,baseline_multi_box_run,MBOX-036,APPROACH_INPUT_SLOT,Category B,-260.000,169.000,output_B,trajectory,APPROACH_INPUT_SLOT,approach input slot
+baseline_multi_box_sorting,67,baseline_multi_box_run,MBOX-036,MOVE_SAFE_ABOVE_TARGET,Category B,356.000,184.000,output_B,move_to_output,move to target,move above target
+baseline_multi_box_sorting,68,baseline_multi_box_run,MBOX-037,MOVE_SAFE_ABOVE_SCAN,manual_review,-140.000,60.000,manual_review,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,69,baseline_multi_box_run,MBOX-037,PLACE_TUBE,manual_review,-152.000,-286.000,manual_review,place_to_manual_review,place to manual review,place tube
+baseline_multi_box_sorting,70,baseline_multi_box_run,MBOX-037,RETREAT_TO_SAFE_Z,manual_review,-152.000,-286.000,manual_review,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+baseline_multi_box_sorting,71,baseline_multi_box_run,MBOX-038,CLASSIFY_SAMPLE,Category C,-140.000,60.000,output_C,classify,classify sample,scan and classify
+baseline_multi_box_sorting,72,baseline_multi_box_run,MBOX-039,PICK_TUBE,Category D,-344.000,141.000,output_D,pick,pick tube,pick tube
+baseline_multi_box_sorting,73,baseline_multi_box_run,MBOX-039,APPROACH_TARGET_SLOT,Category D,356.000,-26.000,output_D,trajectory,APPROACH_TARGET_SLOT,approach target slot
+baseline_multi_box_sorting,74,baseline_multi_box_run,MBOX-040,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,trajectory,APPROACH_SCAN_STATION,approach scan station
+baseline_multi_box_sorting,75,baseline_multi_box_run,MBOX-041,MOVE_SAFE_ABOVE_INPUT,Category B,-288.000,141.000,output_B,move_to_input,move to input,move to input safe height
+baseline_multi_box_sorting,76,baseline_multi_box_run,MBOX-041,LIFT_TO_SAFE_Z_AFTER_SCAN,Category B,-140.000,60.000,output_B,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+baseline_multi_box_sorting,77,baseline_multi_box_run,MBOX-042,LIFT_TO_SAFE_Z,Category C,-260.000,141.000,output_C,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+baseline_multi_box_sorting,78,baseline_multi_box_run,MBOX-042,PLACE_TUBE,Category C,174.000,-26.000,output_C,place_to_output,place to Category C,place tube
+baseline_multi_box_sorting,79,baseline_multi_box_run,MBOX-043,SCAN_BARCODE,Category D,-140.000,60.000,output_D,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,80,baseline_multi_box_run,MBOX-044,APPROACH_INPUT_SLOT,Category A,-372.000,113.000,output_A,trajectory,APPROACH_INPUT_SLOT,approach input slot
+baseline_multi_box_sorting,81,baseline_multi_box_run,MBOX-044,MOVE_SAFE_ABOVE_TARGET,Category A,202.000,184.000,output_A,move_to_output,move to target,move above target
+baseline_multi_box_sorting,82,baseline_multi_box_run,MBOX-045,MOVE_SAFE_ABOVE_SCAN,Category B,-140.000,60.000,output_B,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,83,baseline_multi_box_run,MBOX-045,RETREAT_TO_SAFE_Z,Category B,412.000,184.000,output_B,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+baseline_multi_box_sorting,84,baseline_multi_box_run,MBOX-046,CLASSIFY_SAMPLE,Category C,-140.000,60.000,output_C,classify,classify sample,scan and classify
+baseline_multi_box_sorting,85,baseline_multi_box_run,MBOX-047,PICK_TUBE,Category D,-288.000,113.000,output_D,pick,pick tube,pick tube
+baseline_multi_box_sorting,86,baseline_multi_box_run,MBOX-047,APPROACH_TARGET_SLOT,Category D,412.000,-26.000,output_D,trajectory,APPROACH_TARGET_SLOT,approach target slot
+baseline_multi_box_sorting,87,baseline_multi_box_run,MBOX-048,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,trajectory,APPROACH_SCAN_STATION,approach scan station
+baseline_multi_box_sorting,88,baseline_multi_box_run,MBOX-049,MOVE_SAFE_ABOVE_INPUT,Category B,-400.000,67.000,output_B,move_to_input,move to input,move to input safe height
+baseline_multi_box_sorting,89,baseline_multi_box_run,MBOX-049,LIFT_TO_SAFE_Z_AFTER_SCAN,Category B,-140.000,60.000,output_B,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+baseline_multi_box_sorting,90,baseline_multi_box_run,MBOX-050,LIFT_TO_SAFE_Z,Category C,-372.000,67.000,output_C,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+baseline_multi_box_sorting,91,baseline_multi_box_run,MBOX-050,PLACE_TUBE,Category C,230.000,-26.000,output_C,place_to_output,place to Category C,place tube
+baseline_multi_box_sorting,92,baseline_multi_box_run,MBOX-051,SCAN_BARCODE,Category D,-140.000,60.000,output_D,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,93,baseline_multi_box_run,MBOX-052,APPROACH_INPUT_SLOT,Category A,-316.000,67.000,output_A,trajectory,APPROACH_INPUT_SLOT,approach input slot
+baseline_multi_box_sorting,94,baseline_multi_box_run,MBOX-052,MOVE_SAFE_ABOVE_TARGET,Category A,90.000,156.000,output_A,move_to_output,move to target,move above target
+baseline_multi_box_sorting,95,baseline_multi_box_run,MBOX-053,MOVE_SAFE_ABOVE_SCAN,Category B,-140.000,60.000,output_B,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,96,baseline_multi_box_run,MBOX-053,RETREAT_TO_SAFE_Z,Category B,300.000,156.000,output_B,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+baseline_multi_box_sorting,97,baseline_multi_box_run,MBOX-054,CLASSIFY_SAMPLE,Category C,-140.000,60.000,output_C,classify,classify sample,scan and classify
+baseline_multi_box_sorting,98,baseline_multi_box_run,MBOX-055,PICK_TUBE,Category D,-400.000,39.000,output_D,pick,pick tube,pick tube
+baseline_multi_box_sorting,99,baseline_multi_box_run,MBOX-055,APPROACH_TARGET_SLOT,Category D,300.000,-54.000,output_D,trajectory,APPROACH_TARGET_SLOT,approach target slot
+baseline_multi_box_sorting,100,baseline_multi_box_run,MBOX-056,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,trajectory,APPROACH_SCAN_STATION,approach scan station
+baseline_multi_box_sorting,101,baseline_multi_box_run,MBOX-057,MOVE_SAFE_ABOVE_INPUT,Category B,-344.000,39.000,output_B,move_to_input,move to input,move to input safe height
+baseline_multi_box_sorting,102,baseline_multi_box_run,MBOX-057,LIFT_TO_SAFE_Z_AFTER_SCAN,Category B,-140.000,60.000,output_B,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+baseline_multi_box_sorting,103,baseline_multi_box_run,MBOX-058,LIFT_TO_SAFE_Z,manual_review,-316.000,39.000,manual_review,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+baseline_multi_box_sorting,104,baseline_multi_box_run,MBOX-058,PLACE_TUBE,manual_review,-208.000,-314.000,manual_review,place_to_manual_review,place to manual review,place tube
+baseline_multi_box_sorting,105,baseline_multi_box_run,MBOX-059,SCAN_BARCODE,Category C,-140.000,60.000,output_C,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,106,baseline_multi_box_run,MBOX-060,APPROACH_INPUT_SLOT,Category D,-260.000,39.000,output_D,trajectory,APPROACH_INPUT_SLOT,approach input slot
+baseline_multi_box_sorting,107,baseline_multi_box_run,MBOX-060,MOVE_SAFE_ABOVE_TARGET,Category D,328.000,-54.000,output_D,move_to_output,move to target,move above target
+baseline_multi_box_sorting,108,baseline_multi_box_run,MBOX-061,MOVE_SAFE_ABOVE_SCAN,Category A,-140.000,60.000,output_A,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,109,baseline_multi_box_run,MBOX-061,RETREAT_TO_SAFE_Z,Category A,146.000,156.000,output_A,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+baseline_multi_box_sorting,110,baseline_multi_box_run,MBOX-062,CLASSIFY_SAMPLE,Category B,-140.000,60.000,output_B,classify,classify sample,scan and classify
+baseline_multi_box_sorting,111,baseline_multi_box_run,MBOX-063,PICK_TUBE,Category C,-344.000,11.000,output_C,pick,pick tube,pick tube
+baseline_multi_box_sorting,112,baseline_multi_box_run,MBOX-063,APPROACH_TARGET_SLOT,Category C,146.000,-54.000,output_C,trajectory,APPROACH_TARGET_SLOT,approach target slot
+baseline_multi_box_sorting,113,baseline_multi_box_run,MBOX-064,APPROACH_SCAN_STATION,Category D,-140.000,60.000,output_D,trajectory,APPROACH_SCAN_STATION,approach scan station
+baseline_multi_box_sorting,114,baseline_multi_box_run,MBOX-065,MOVE_SAFE_ABOVE_INPUT,Category A,-288.000,11.000,output_A,move_to_input,move to input,move to input safe height
+baseline_multi_box_sorting,115,baseline_multi_box_run,MBOX-065,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+baseline_multi_box_sorting,116,baseline_multi_box_run,MBOX-066,LIFT_TO_SAFE_Z,Category B,-260.000,11.000,output_B,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+baseline_multi_box_sorting,117,baseline_multi_box_run,MBOX-066,PLACE_TUBE,Category B,384.000,156.000,output_B,place_to_output,place to Category B,place tube
+baseline_multi_box_sorting,118,baseline_multi_box_run,MBOX-067,SCAN_BARCODE,Category C,-140.000,60.000,output_C,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,119,baseline_multi_box_run,MBOX-068,APPROACH_INPUT_SLOT,Category D,-372.000,-17.000,output_D,trajectory,APPROACH_INPUT_SLOT,approach input slot
+baseline_multi_box_sorting,120,baseline_multi_box_run,MBOX-068,MOVE_SAFE_ABOVE_TARGET,Category D,384.000,-54.000,output_D,move_to_output,move to target,move above target
+baseline_multi_box_sorting,121,baseline_multi_box_run,MBOX-069,MOVE_SAFE_ABOVE_SCAN,Category A,-140.000,60.000,output_A,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,122,baseline_multi_box_run,MBOX-069,RETREAT_TO_SAFE_Z,Category A,202.000,156.000,output_A,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+baseline_multi_box_sorting,123,baseline_multi_box_run,MBOX-070,CLASSIFY_SAMPLE,Category B,-140.000,60.000,output_B,classify,classify sample,scan and classify
+baseline_multi_box_sorting,124,baseline_multi_box_run,MBOX-071,PICK_TUBE,Category C,-288.000,-17.000,output_C,pick,pick tube,pick tube
+baseline_multi_box_sorting,125,baseline_multi_box_run,MBOX-071,APPROACH_TARGET_SLOT,Category C,202.000,-54.000,output_C,trajectory,APPROACH_TARGET_SLOT,approach target slot
+baseline_multi_box_sorting,126,baseline_multi_box_run,MBOX-072,APPROACH_SCAN_STATION,Category D,-140.000,60.000,output_D,trajectory,APPROACH_SCAN_STATION,approach scan station
+baseline_multi_box_sorting,127,baseline_multi_box_run,MBOX-073,MOVE_SAFE_ABOVE_INPUT,Category C,-400.000,-63.000,manual_review,move_to_input,move to input,move to input safe height
+baseline_multi_box_sorting,128,baseline_multi_box_run,MBOX-073,LIFT_TO_SAFE_Z_AFTER_SCAN,Category C,-140.000,60.000,manual_review,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+baseline_multi_box_sorting,129,baseline_multi_box_run,MBOX-073,PLACE_TUBE,Category C,-180.000,-314.000,manual_review,place_to_manual_review,place to manual review,place tube
+baseline_multi_box_sorting,130,baseline_multi_box_run,MBOX-074,LIFT_TO_SAFE_Z,Category A,-372.000,-63.000,output_A,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+baseline_multi_box_sorting,131,baseline_multi_box_run,MBOX-074,PLACE_TUBE,Category A,230.000,156.000,output_A,place_to_output,place to Category A,place tube
+baseline_multi_box_sorting,132,baseline_multi_box_run,MBOX-075,SCAN_BARCODE,Category B,-140.000,60.000,output_B,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,133,baseline_multi_box_run,MBOX-076,APPROACH_INPUT_SLOT,Category C,-316.000,-63.000,output_C,trajectory,APPROACH_INPUT_SLOT,approach input slot
+baseline_multi_box_sorting,134,baseline_multi_box_run,MBOX-076,MOVE_SAFE_ABOVE_TARGET,Category C,230.000,-54.000,output_C,move_to_output,move to target,move above target
+baseline_multi_box_sorting,135,baseline_multi_box_run,MBOX-077,MOVE_SAFE_ABOVE_SCAN,Category D,-140.000,60.000,output_D,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,136,baseline_multi_box_run,MBOX-077,RETREAT_TO_SAFE_Z,Category D,440.000,-54.000,output_D,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+baseline_multi_box_sorting,137,baseline_multi_box_run,MBOX-078,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+baseline_multi_box_sorting,138,baseline_multi_box_run,MBOX-079,PICK_TUBE,Category B,-400.000,-91.000,output_B,pick,pick tube,pick tube
+baseline_multi_box_sorting,139,baseline_multi_box_run,MBOX-079,APPROACH_TARGET_SLOT,Category B,300.000,128.000,output_B,trajectory,APPROACH_TARGET_SLOT,approach target slot
+baseline_multi_box_sorting,140,baseline_multi_box_run,MBOX-080,APPROACH_SCAN_STATION,Category C,-140.000,60.000,output_C,trajectory,APPROACH_SCAN_STATION,approach scan station
+baseline_multi_box_sorting,141,baseline_multi_box_run,MBOX-081,MOVE_SAFE_ABOVE_INPUT,Category D,-344.000,-91.000,output_D,move_to_input,move to input,move to input safe height
+baseline_multi_box_sorting,142,baseline_multi_box_run,MBOX-081,LIFT_TO_SAFE_Z_AFTER_SCAN,Category D,-140.000,60.000,output_D,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+baseline_multi_box_sorting,143,baseline_multi_box_run,MBOX-082,LIFT_TO_SAFE_Z,Category A,-316.000,-91.000,output_A,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+baseline_multi_box_sorting,144,baseline_multi_box_run,MBOX-082,PLACE_TUBE,Category A,118.000,128.000,output_A,place_to_output,place to Category A,place tube
+baseline_multi_box_sorting,145,baseline_multi_box_run,MBOX-083,SCAN_BARCODE,Category B,-140.000,60.000,output_B,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,146,baseline_multi_box_run,MBOX-084,APPROACH_INPUT_SLOT,Category C,-260.000,-91.000,output_C,trajectory,APPROACH_INPUT_SLOT,approach input slot
+baseline_multi_box_sorting,147,baseline_multi_box_run,MBOX-084,MOVE_SAFE_ABOVE_TARGET,Category C,118.000,-82.000,output_C,move_to_output,move to target,move above target
+baseline_multi_box_sorting,148,baseline_multi_box_run,MBOX-085,MOVE_SAFE_ABOVE_SCAN,Category D,-140.000,60.000,output_D,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,149,baseline_multi_box_run,MBOX-085,RETREAT_TO_SAFE_Z,Category D,328.000,-82.000,output_D,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+baseline_multi_box_sorting,150,baseline_multi_box_run,MBOX-086,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+baseline_multi_box_sorting,151,baseline_multi_box_run,MBOX-087,PICK_TUBE,Category B,-344.000,-119.000,output_B,pick,pick tube,pick tube
+baseline_multi_box_sorting,152,baseline_multi_box_run,MBOX-087,APPROACH_TARGET_SLOT,Category B,356.000,128.000,output_B,trajectory,APPROACH_TARGET_SLOT,approach target slot
+baseline_multi_box_sorting,153,baseline_multi_box_run,MBOX-088,APPROACH_SCAN_STATION,Category C,-140.000,60.000,output_C,trajectory,APPROACH_SCAN_STATION,approach scan station
+baseline_multi_box_sorting,154,baseline_multi_box_run,MBOX-089,MOVE_SAFE_ABOVE_INPUT,Category D,-288.000,-119.000,output_D,move_to_input,move to input,move to input safe height
+baseline_multi_box_sorting,155,baseline_multi_box_run,MBOX-089,LIFT_TO_SAFE_Z_AFTER_SCAN,Category D,-140.000,60.000,output_D,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+baseline_multi_box_sorting,156,baseline_multi_box_run,MBOX-090,LIFT_TO_SAFE_Z,Category A,-260.000,-119.000,output_A,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+baseline_multi_box_sorting,157,baseline_multi_box_run,MBOX-090,PLACE_TUBE,Category A,174.000,128.000,output_A,place_to_output,place to Category A,place tube
+baseline_multi_box_sorting,158,baseline_multi_box_run,MBOX-091,SCAN_BARCODE,Category D,-140.000,60.000,manual_review,scan,scan barcode,scan and classify
+baseline_multi_box_sorting,159,baseline_multi_box_run,MBOX-091,PLACE_TUBE,Category D,-152.000,-314.000,manual_review,place_to_manual_review,place to manual review,place tube
+baseline_multi_box_sorting,160,baseline_multi_box_run,MBOX-092,APPROACH_INPUT_SLOT,Category B,-372.000,-147.000,output_B,trajectory,APPROACH_INPUT_SLOT,approach input slot
+baseline_multi_box_sorting,161,baseline_multi_box_run,MBOX-092,MOVE_SAFE_ABOVE_TARGET,Category B,384.000,128.000,output_B,move_to_output,move to target,move above target
+baseline_multi_box_sorting,162,baseline_multi_box_run,MBOX-093,MOVE_SAFE_ABOVE_SCAN,Category C,-140.000,60.000,output_C,move_to_scan,move to scan,move above scan station
+baseline_multi_box_sorting,163,baseline_multi_box_run,MBOX-093,RETREAT_TO_SAFE_Z,Category C,174.000,-82.000,output_C,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+baseline_multi_box_sorting,164,baseline_multi_box_run,MBOX-094,CLASSIFY_SAMPLE,Category D,-140.000,60.000,output_D,classify,classify sample,scan and classify
+baseline_multi_box_sorting,165,baseline_multi_box_run,MBOX-095,PICK_TUBE,Category A,-288.000,-147.000,output_A,pick,pick tube,pick tube
+baseline_multi_box_sorting,166,baseline_multi_box_run,MBOX-095,APPROACH_TARGET_SLOT,Category A,202.000,128.000,output_A,trajectory,APPROACH_TARGET_SLOT,approach target slot
+baseline_multi_box_sorting,167,baseline_multi_box_run,MBOX-096,APPROACH_SCAN_STATION,Category B,-140.000,60.000,output_B,trajectory,APPROACH_SCAN_STATION,approach scan station
+baseline_multi_box_sorting,168,baseline_multi_box_run,MBOX-096,RETREAT_TO_SAFE_Z,Category B,412.000,128.000,output_B,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,1,forced_category_A_full,MBOX-001,MOVE_SAFE_ABOVE_INPUT,Category A,-400.000,327.000,output_A,move_to_input,move to input,move to input safe height
+category_hold_resume,2,forced_category_A_full,MBOX-001,PICK_TUBE,Category A,-400.000,327.000,output_A,pick,pick tube,pick tube
+category_hold_resume,3,forced_category_A_full,MBOX-001,MOVE_SAFE_ABOVE_SCAN,Category A,-140.000,60.000,output_A,move_to_scan,move to scan,move above scan station
+category_hold_resume,4,forced_category_A_full,MBOX-001,SCAN_BARCODE,Category A,-140.000,60.000,output_A,scan,scan barcode,scan and classify
+category_hold_resume,5,forced_category_A_full,MBOX-001,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+category_hold_resume,6,forced_category_A_full,MBOX-001,MOVE_SAFE_ABOVE_TARGET,Category A,90.000,212.000,output_A,move_to_output,move to target,move above target
+category_hold_resume,7,forced_category_A_full,MBOX-001,PLACE_TUBE,Category A,90.000,212.000,output_A,place_to_output,place to Category A,place tube
+category_hold_resume,8,forced_category_A_full,MBOX-001,RETREAT_TO_SAFE_Z,Category A,90.000,212.000,output_A,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,9,forced_category_A_full,MBOX-002,APPROACH_SCAN_STATION,Category B,-140.000,60.000,output_B,trajectory,APPROACH_SCAN_STATION,approach scan station
+category_hold_resume,10,forced_category_A_full,MBOX-002,PLACE_TUBE,Category B,300.000,212.000,output_B,place_to_output,place to Category B,place tube
+category_hold_resume,11,forced_category_A_full,MBOX-003,MOVE_SAFE_ABOVE_SCAN,Category C,-140.000,60.000,output_C,move_to_scan,move to scan,move above scan station
+category_hold_resume,12,forced_category_A_full,MBOX-003,APPROACH_TARGET_SLOT,Category C,90.000,2.000,output_C,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,13,forced_category_A_full,MBOX-004,LIFT_TO_SAFE_Z,Category D,-316.000,327.000,output_D,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,14,forced_category_A_full,MBOX-004,MOVE_SAFE_ABOVE_TARGET,Category D,300.000,2.000,output_D,move_to_output,move to target,move above target
+category_hold_resume,15,forced_category_A_full,MBOX-005,PICK_TUBE,manual_review,-288.000,327.000,manual_review,pick,pick tube,pick tube
+category_hold_resume,16,forced_category_A_full,MBOX-005,LIFT_TO_SAFE_Z_AFTER_SCAN,manual_review,-140.000,60.000,manual_review,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+category_hold_resume,17,forced_category_A_full,MBOX-005,PLACE_TUBE,manual_review,-208.000,-286.000,manual_review,place_to_manual_review,place to manual review,place tube
+category_hold_resume,18,forced_category_A_full,MBOX-006,APPROACH_INPUT_SLOT,Category A,-260.000,327.000,output_A,trajectory,APPROACH_INPUT_SLOT,approach input slot
+category_hold_resume,19,forced_category_A_full,MBOX-006,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+category_hold_resume,20,forced_category_A_full,MBOX-007,MOVE_SAFE_ABOVE_INPUT,Category B,-400.000,299.000,output_B,move_to_input,move to input,move to input safe height
+category_hold_resume,21,forced_category_A_full,MBOX-007,SCAN_BARCODE,Category B,-140.000,60.000,output_B,scan,scan barcode,scan and classify
+category_hold_resume,22,forced_category_A_full,MBOX-007,RETREAT_TO_SAFE_Z,Category B,328.000,212.000,output_B,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,23,forced_category_A_full,MBOX-008,APPROACH_SCAN_STATION,Category C,-140.000,60.000,output_C,trajectory,APPROACH_SCAN_STATION,approach scan station
+category_hold_resume,24,forced_category_A_full,MBOX-008,PLACE_TUBE,Category C,118.000,2.000,output_C,place_to_output,place to Category C,place tube
+category_hold_resume,25,forced_category_A_full,MBOX-009,MOVE_SAFE_ABOVE_SCAN,Category D,-140.000,60.000,output_D,move_to_scan,move to scan,move above scan station
+category_hold_resume,26,forced_category_A_full,MBOX-009,APPROACH_TARGET_SLOT,Category D,328.000,2.000,output_D,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,27,forced_category_A_full,MBOX-010,LIFT_TO_SAFE_Z,Category A,-316.000,299.000,output_A,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,28,forced_category_A_full,MBOX-010,MOVE_SAFE_ABOVE_TARGET,Category A,146.000,212.000,output_A,move_to_output,move to target,move above target
+category_hold_resume,29,forced_category_A_full,MBOX-011,PICK_TUBE,Category B,-288.000,299.000,output_B,pick,pick tube,pick tube
+category_hold_resume,30,forced_category_A_full,MBOX-011,LIFT_TO_SAFE_Z_AFTER_SCAN,Category B,-140.000,60.000,output_B,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+category_hold_resume,31,forced_category_A_full,MBOX-012,APPROACH_INPUT_SLOT,Category C,-260.000,299.000,output_C,trajectory,APPROACH_INPUT_SLOT,approach input slot
+category_hold_resume,32,forced_category_A_full,MBOX-012,CLASSIFY_SAMPLE,Category C,-140.000,60.000,output_C,classify,classify sample,scan and classify
+category_hold_resume,33,forced_category_A_full,MBOX-013,MOVE_SAFE_ABOVE_INPUT,Category D,-400.000,271.000,output_D,move_to_input,move to input,move to input safe height
+category_hold_resume,34,forced_category_A_full,MBOX-013,SCAN_BARCODE,Category D,-140.000,60.000,output_D,scan,scan barcode,scan and classify
+category_hold_resume,35,forced_category_A_full,MBOX-013,RETREAT_TO_SAFE_Z,Category D,356.000,2.000,output_D,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,36,forced_category_A_full,MBOX-014,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,trajectory,APPROACH_SCAN_STATION,approach scan station
+category_hold_resume,37,forced_category_A_full,MBOX-014,PLACE_TUBE,Category A,174.000,212.000,output_A,place_to_output,place to Category A,place tube
+category_hold_resume,38,forced_category_A_full,MBOX-015,MOVE_SAFE_ABOVE_SCAN,Category B,-140.000,60.000,output_B,move_to_scan,move to scan,move above scan station
+category_hold_resume,39,forced_category_A_full,MBOX-015,APPROACH_TARGET_SLOT,Category B,384.000,212.000,output_B,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,40,forced_category_A_full,MBOX-016,LIFT_TO_SAFE_Z,Category C,-316.000,271.000,output_C,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,41,forced_category_A_full,MBOX-016,MOVE_SAFE_ABOVE_TARGET,Category C,174.000,2.000,output_C,move_to_output,move to target,move above target
+category_hold_resume,42,forced_category_A_full,MBOX-017,PICK_TUBE,Category D,-288.000,271.000,output_D,pick,pick tube,pick tube
+category_hold_resume,43,forced_category_A_full,MBOX-017,LIFT_TO_SAFE_Z_AFTER_SCAN,Category D,-140.000,60.000,output_D,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+category_hold_resume,44,forced_category_A_full,MBOX-018,HOLD_CATEGORY,Category A,-260.000,271.000,,category_hold,Category A HOLD,held-category sample skipped before pick and queued
+category_hold_resume,45,forced_category_A_full,MBOX-019,MOVE_SAFE_ABOVE_INPUT,manual_review,-400.000,243.000,manual_review,move_to_input,move to input,move to input safe height
+category_hold_resume,46,forced_category_A_full,MBOX-019,SCAN_BARCODE,manual_review,-140.000,60.000,manual_review,scan,scan barcode,scan and classify
+category_hold_resume,47,forced_category_A_full,MBOX-019,PLACE_TUBE,manual_review,-180.000,-286.000,manual_review,place_to_manual_review,place to manual review,place tube
+category_hold_resume,48,forced_category_A_full,MBOX-019,RETREAT_TO_SAFE_Z,manual_review,-180.000,-286.000,manual_review,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,49,forced_category_A_full,MBOX-020,APPROACH_SCAN_STATION,Category B,-140.000,60.000,output_B,trajectory,APPROACH_SCAN_STATION,approach scan station
+category_hold_resume,50,forced_category_A_full,MBOX-020,PLACE_TUBE,Category B,412.000,212.000,output_B,place_to_output,place to Category B,place tube
+category_hold_resume,51,forced_category_A_full,MBOX-021,MOVE_SAFE_ABOVE_SCAN,Category C,-140.000,60.000,output_C,move_to_scan,move to scan,move above scan station
+category_hold_resume,52,forced_category_A_full,MBOX-021,APPROACH_TARGET_SLOT,Category C,202.000,2.000,output_C,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,53,forced_category_A_full,MBOX-022,LIFT_TO_SAFE_Z,Category D,-316.000,243.000,output_D,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,54,forced_category_A_full,MBOX-022,MOVE_SAFE_ABOVE_TARGET,Category D,412.000,2.000,output_D,move_to_output,move to target,move above target
+category_hold_resume,55,forced_category_A_full,MBOX-023,SKIP_HELD_CATEGORY,Category A,-288.000,243.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,56,forced_category_A_full,MBOX-024,APPROACH_INPUT_SLOT,Category B,-260.000,243.000,output_B,trajectory,APPROACH_INPUT_SLOT,approach input slot
+category_hold_resume,57,forced_category_A_full,MBOX-024,CLASSIFY_SAMPLE,Category B,-140.000,60.000,output_B,classify,classify sample,scan and classify
+category_hold_resume,58,forced_category_A_full,MBOX-025,MOVE_SAFE_ABOVE_INPUT,Category C,-400.000,197.000,output_C,move_to_input,move to input,move to input safe height
+category_hold_resume,59,forced_category_A_full,MBOX-025,SCAN_BARCODE,Category C,-140.000,60.000,output_C,scan,scan barcode,scan and classify
+category_hold_resume,60,forced_category_A_full,MBOX-025,RETREAT_TO_SAFE_Z,Category C,230.000,2.000,output_C,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,61,forced_category_A_full,MBOX-026,APPROACH_SCAN_STATION,Category D,-140.000,60.000,output_D,trajectory,APPROACH_SCAN_STATION,approach scan station
+category_hold_resume,62,forced_category_A_full,MBOX-026,PLACE_TUBE,Category D,440.000,2.000,output_D,place_to_output,place to Category D,place tube
+category_hold_resume,63,forced_category_A_full,MBOX-027,SKIP_HELD_CATEGORY,Category A,-344.000,197.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,64,forced_category_A_full,MBOX-028,LIFT_TO_SAFE_Z,Category B,-316.000,197.000,output_B,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,65,forced_category_A_full,MBOX-028,MOVE_SAFE_ABOVE_TARGET,Category B,300.000,184.000,output_B,move_to_output,move to target,move above target
+category_hold_resume,66,forced_category_A_full,MBOX-029,PICK_TUBE,Category C,-288.000,197.000,output_C,pick,pick tube,pick tube
+category_hold_resume,67,forced_category_A_full,MBOX-029,LIFT_TO_SAFE_Z_AFTER_SCAN,Category C,-140.000,60.000,output_C,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+category_hold_resume,68,forced_category_A_full,MBOX-030,APPROACH_INPUT_SLOT,Category D,-260.000,197.000,output_D,trajectory,APPROACH_INPUT_SLOT,approach input slot
+category_hold_resume,69,forced_category_A_full,MBOX-030,CLASSIFY_SAMPLE,Category D,-140.000,60.000,output_D,classify,classify sample,scan and classify
+category_hold_resume,70,forced_category_A_full,MBOX-031,SKIP_HELD_CATEGORY,Category A,-400.000,169.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,71,forced_category_A_full,MBOX-032,APPROACH_SCAN_STATION,Category B,-140.000,60.000,output_B,trajectory,APPROACH_SCAN_STATION,approach scan station
+category_hold_resume,72,forced_category_A_full,MBOX-032,PLACE_TUBE,Category B,328.000,184.000,output_B,place_to_output,place to Category B,place tube
+category_hold_resume,73,forced_category_A_full,MBOX-033,MOVE_SAFE_ABOVE_SCAN,Category C,-140.000,60.000,output_C,move_to_scan,move to scan,move above scan station
+category_hold_resume,74,forced_category_A_full,MBOX-033,APPROACH_TARGET_SLOT,Category C,118.000,-26.000,output_C,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,75,forced_category_A_full,MBOX-034,LIFT_TO_SAFE_Z,Category D,-316.000,169.000,output_D,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,76,forced_category_A_full,MBOX-034,MOVE_SAFE_ABOVE_TARGET,Category D,328.000,-26.000,output_D,move_to_output,move to target,move above target
+category_hold_resume,77,forced_category_A_full,MBOX-035,SKIP_HELD_CATEGORY,Category A,-288.000,169.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,78,forced_category_A_full,MBOX-036,APPROACH_INPUT_SLOT,Category B,-260.000,169.000,output_B,trajectory,APPROACH_INPUT_SLOT,approach input slot
+category_hold_resume,79,forced_category_A_full,MBOX-036,CLASSIFY_SAMPLE,Category B,-140.000,60.000,output_B,classify,classify sample,scan and classify
+category_hold_resume,80,forced_category_A_full,MBOX-037,MOVE_SAFE_ABOVE_INPUT,manual_review,-400.000,141.000,manual_review,move_to_input,move to input,move to input safe height
+category_hold_resume,81,forced_category_A_full,MBOX-037,SCAN_BARCODE,manual_review,-140.000,60.000,manual_review,scan,scan barcode,scan and classify
+category_hold_resume,82,forced_category_A_full,MBOX-037,PLACE_TUBE,manual_review,-152.000,-286.000,manual_review,place_to_manual_review,place to manual review,place tube
+category_hold_resume,83,forced_category_A_full,MBOX-037,RETREAT_TO_SAFE_Z,manual_review,-152.000,-286.000,manual_review,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,84,forced_category_A_full,MBOX-038,APPROACH_SCAN_STATION,Category C,-140.000,60.000,output_C,trajectory,APPROACH_SCAN_STATION,approach scan station
+category_hold_resume,85,forced_category_A_full,MBOX-038,PLACE_TUBE,Category C,146.000,-26.000,output_C,place_to_output,place to Category C,place tube
+category_hold_resume,86,forced_category_A_full,MBOX-039,MOVE_SAFE_ABOVE_SCAN,Category D,-140.000,60.000,output_D,move_to_scan,move to scan,move above scan station
+category_hold_resume,87,forced_category_A_full,MBOX-039,APPROACH_TARGET_SLOT,Category D,356.000,-26.000,output_D,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,88,forced_category_A_full,MBOX-040,SKIP_HELD_CATEGORY,Category A,-316.000,141.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,89,forced_category_A_full,MBOX-041,PICK_TUBE,Category B,-288.000,141.000,output_B,pick,pick tube,pick tube
+category_hold_resume,90,forced_category_A_full,MBOX-041,LIFT_TO_SAFE_Z_AFTER_SCAN,Category B,-140.000,60.000,output_B,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+category_hold_resume,91,forced_category_A_full,MBOX-042,APPROACH_INPUT_SLOT,Category C,-260.000,141.000,output_C,trajectory,APPROACH_INPUT_SLOT,approach input slot
+category_hold_resume,92,forced_category_A_full,MBOX-042,CLASSIFY_SAMPLE,Category C,-140.000,60.000,output_C,classify,classify sample,scan and classify
+category_hold_resume,93,forced_category_A_full,MBOX-043,MOVE_SAFE_ABOVE_INPUT,Category D,-400.000,113.000,output_D,move_to_input,move to input,move to input safe height
+category_hold_resume,94,forced_category_A_full,MBOX-043,SCAN_BARCODE,Category D,-140.000,60.000,output_D,scan,scan barcode,scan and classify
+category_hold_resume,95,forced_category_A_full,MBOX-043,RETREAT_TO_SAFE_Z,Category D,384.000,-26.000,output_D,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,96,forced_category_A_full,MBOX-044,SKIP_HELD_CATEGORY,Category A,-372.000,113.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,97,forced_category_A_full,MBOX-045,MOVE_SAFE_ABOVE_SCAN,Category B,-140.000,60.000,output_B,move_to_scan,move to scan,move above scan station
+category_hold_resume,98,forced_category_A_full,MBOX-045,APPROACH_TARGET_SLOT,Category B,412.000,184.000,output_B,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,99,forced_category_A_full,MBOX-046,LIFT_TO_SAFE_Z,Category C,-316.000,113.000,output_C,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,100,forced_category_A_full,MBOX-046,MOVE_SAFE_ABOVE_TARGET,Category C,202.000,-26.000,output_C,move_to_output,move to target,move above target
+category_hold_resume,101,forced_category_A_full,MBOX-047,PICK_TUBE,Category D,-288.000,113.000,output_D,pick,pick tube,pick tube
+category_hold_resume,102,forced_category_A_full,MBOX-047,LIFT_TO_SAFE_Z_AFTER_SCAN,Category D,-140.000,60.000,output_D,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+category_hold_resume,103,forced_category_A_full,MBOX-048,SKIP_HELD_CATEGORY,Category A,-260.000,113.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,104,forced_category_A_full,MBOX-049,MOVE_SAFE_ABOVE_INPUT,Category B,-400.000,67.000,output_B,move_to_input,move to input,move to input safe height
+category_hold_resume,105,forced_category_A_full,MBOX-049,SCAN_BARCODE,Category B,-140.000,60.000,output_B,scan,scan barcode,scan and classify
+category_hold_resume,106,forced_category_A_full,MBOX-049,RETREAT_TO_SAFE_Z,Category B,440.000,184.000,output_B,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,107,forced_category_A_full,MBOX-050,APPROACH_SCAN_STATION,Category C,-140.000,60.000,output_C,trajectory,APPROACH_SCAN_STATION,approach scan station
+category_hold_resume,108,forced_category_A_full,MBOX-050,PLACE_TUBE,Category C,230.000,-26.000,output_C,place_to_output,place to Category C,place tube
+category_hold_resume,109,forced_category_A_full,MBOX-051,MOVE_SAFE_ABOVE_SCAN,Category D,-140.000,60.000,output_D,move_to_scan,move to scan,move above scan station
+category_hold_resume,110,forced_category_A_full,MBOX-051,APPROACH_TARGET_SLOT,Category D,440.000,-26.000,output_D,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,111,forced_category_A_full,MBOX-052,SKIP_HELD_CATEGORY,Category A,-316.000,67.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,112,forced_category_A_full,MBOX-053,PICK_TUBE,Category B,-288.000,67.000,output_B,pick,pick tube,pick tube
+category_hold_resume,113,forced_category_A_full,MBOX-053,LIFT_TO_SAFE_Z_AFTER_SCAN,Category B,-140.000,60.000,output_B,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+category_hold_resume,114,forced_category_A_full,MBOX-054,APPROACH_INPUT_SLOT,Category C,-260.000,67.000,output_C,trajectory,APPROACH_INPUT_SLOT,approach input slot
+category_hold_resume,115,forced_category_A_full,MBOX-054,CLASSIFY_SAMPLE,Category C,-140.000,60.000,output_C,classify,classify sample,scan and classify
+category_hold_resume,116,forced_category_A_full,MBOX-055,MOVE_SAFE_ABOVE_INPUT,Category D,-400.000,39.000,output_D,move_to_input,move to input,move to input safe height
+category_hold_resume,117,forced_category_A_full,MBOX-055,SCAN_BARCODE,Category D,-140.000,60.000,output_D,scan,scan barcode,scan and classify
+category_hold_resume,118,forced_category_A_full,MBOX-055,RETREAT_TO_SAFE_Z,Category D,300.000,-54.000,output_D,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,119,forced_category_A_full,MBOX-056,SKIP_HELD_CATEGORY,Category A,-372.000,39.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,120,forced_category_A_full,MBOX-057,MOVE_SAFE_ABOVE_SCAN,Category B,-140.000,60.000,output_B,move_to_scan,move to scan,move above scan station
+category_hold_resume,121,forced_category_A_full,MBOX-057,APPROACH_TARGET_SLOT,Category B,328.000,156.000,output_B,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,122,forced_category_A_full,MBOX-058,LIFT_TO_SAFE_Z,manual_review,-316.000,39.000,manual_review,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,123,forced_category_A_full,MBOX-058,MOVE_SAFE_ABOVE_TARGET,manual_review,-208.000,-314.000,manual_review,move_to_output,move to target,move above target
+category_hold_resume,124,forced_category_A_full,MBOX-058,PLACE_TUBE,manual_review,-208.000,-314.000,manual_review,place_to_manual_review,place to manual review,place tube
+category_hold_resume,125,forced_category_A_full,MBOX-059,PICK_TUBE,Category C,-288.000,39.000,output_C,pick,pick tube,pick tube
+category_hold_resume,126,forced_category_A_full,MBOX-059,LIFT_TO_SAFE_Z_AFTER_SCAN,Category C,-140.000,60.000,output_C,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+category_hold_resume,127,forced_category_A_full,MBOX-060,APPROACH_INPUT_SLOT,Category D,-260.000,39.000,output_D,trajectory,APPROACH_INPUT_SLOT,approach input slot
+category_hold_resume,128,forced_category_A_full,MBOX-060,CLASSIFY_SAMPLE,Category D,-140.000,60.000,output_D,classify,classify sample,scan and classify
+category_hold_resume,129,forced_category_A_full,MBOX-061,SKIP_HELD_CATEGORY,Category A,-400.000,11.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,130,forced_category_A_full,MBOX-062,APPROACH_SCAN_STATION,Category B,-140.000,60.000,output_B,trajectory,APPROACH_SCAN_STATION,approach scan station
+category_hold_resume,131,forced_category_A_full,MBOX-062,PLACE_TUBE,Category B,356.000,156.000,output_B,place_to_output,place to Category B,place tube
+category_hold_resume,132,forced_category_A_full,MBOX-063,MOVE_SAFE_ABOVE_SCAN,Category C,-140.000,60.000,output_C,move_to_scan,move to scan,move above scan station
+category_hold_resume,133,forced_category_A_full,MBOX-063,APPROACH_TARGET_SLOT,Category C,146.000,-54.000,output_C,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,134,forced_category_A_full,MBOX-064,LIFT_TO_SAFE_Z,Category D,-316.000,11.000,output_D,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,135,forced_category_A_full,MBOX-064,MOVE_SAFE_ABOVE_TARGET,Category D,356.000,-54.000,output_D,move_to_output,move to target,move above target
+category_hold_resume,136,forced_category_A_full,MBOX-065,SKIP_HELD_CATEGORY,Category A,-288.000,11.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,137,forced_category_A_full,MBOX-066,APPROACH_INPUT_SLOT,Category B,-260.000,11.000,output_B,trajectory,APPROACH_INPUT_SLOT,approach input slot
+category_hold_resume,138,forced_category_A_full,MBOX-066,CLASSIFY_SAMPLE,Category B,-140.000,60.000,output_B,classify,classify sample,scan and classify
+category_hold_resume,139,forced_category_A_full,MBOX-067,MOVE_SAFE_ABOVE_INPUT,Category C,-400.000,-17.000,output_C,move_to_input,move to input,move to input safe height
+category_hold_resume,140,forced_category_A_full,MBOX-067,SCAN_BARCODE,Category C,-140.000,60.000,output_C,scan,scan barcode,scan and classify
+category_hold_resume,141,forced_category_A_full,MBOX-067,RETREAT_TO_SAFE_Z,Category C,174.000,-54.000,output_C,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,142,forced_category_A_full,MBOX-068,APPROACH_SCAN_STATION,Category D,-140.000,60.000,output_D,trajectory,APPROACH_SCAN_STATION,approach scan station
+category_hold_resume,143,forced_category_A_full,MBOX-068,PLACE_TUBE,Category D,384.000,-54.000,output_D,place_to_output,place to Category D,place tube
+category_hold_resume,144,forced_category_A_full,MBOX-069,SKIP_HELD_CATEGORY,Category A,-344.000,-17.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,145,forced_category_A_full,MBOX-070,LIFT_TO_SAFE_Z,Category B,-316.000,-17.000,output_B,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,146,forced_category_A_full,MBOX-070,MOVE_SAFE_ABOVE_TARGET,Category B,412.000,156.000,output_B,move_to_output,move to target,move above target
+category_hold_resume,147,forced_category_A_full,MBOX-071,PICK_TUBE,Category C,-288.000,-17.000,output_C,pick,pick tube,pick tube
+category_hold_resume,148,forced_category_A_full,MBOX-071,LIFT_TO_SAFE_Z_AFTER_SCAN,Category C,-140.000,60.000,output_C,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+category_hold_resume,149,forced_category_A_full,MBOX-072,APPROACH_INPUT_SLOT,Category D,-260.000,-17.000,output_D,trajectory,APPROACH_INPUT_SLOT,approach input slot
+category_hold_resume,150,forced_category_A_full,MBOX-072,CLASSIFY_SAMPLE,Category D,-140.000,60.000,output_D,classify,classify sample,scan and classify
+category_hold_resume,151,forced_category_A_full,MBOX-073,MOVE_SAFE_ABOVE_INPUT,Category C,-400.000,-63.000,manual_review,move_to_input,move to input,move to input safe height
+category_hold_resume,152,forced_category_A_full,MBOX-073,SCAN_BARCODE,Category C,-140.000,60.000,manual_review,scan,scan barcode,scan and classify
+category_hold_resume,153,forced_category_A_full,MBOX-073,PLACE_TUBE,Category C,-180.000,-314.000,manual_review,place_to_manual_review,place to manual review,place tube
+category_hold_resume,154,forced_category_A_full,MBOX-073,RETREAT_TO_SAFE_Z,Category C,-180.000,-314.000,manual_review,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,155,forced_category_A_full,MBOX-074,SKIP_HELD_CATEGORY,Category A,-372.000,-63.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,156,forced_category_A_full,MBOX-075,MOVE_SAFE_ABOVE_SCAN,Category B,-140.000,60.000,output_B,move_to_scan,move to scan,move above scan station
+category_hold_resume,157,forced_category_A_full,MBOX-075,APPROACH_TARGET_SLOT,Category B,440.000,156.000,output_B,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,158,forced_category_A_full,MBOX-076,LIFT_TO_SAFE_Z,Category C,-316.000,-63.000,output_C,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,159,forced_category_A_full,MBOX-076,MOVE_SAFE_ABOVE_TARGET,Category C,230.000,-54.000,output_C,move_to_output,move to target,move above target
+category_hold_resume,160,forced_category_A_full,MBOX-077,PICK_TUBE,Category D,-288.000,-63.000,output_D,pick,pick tube,pick tube
+category_hold_resume,161,forced_category_A_full,MBOX-077,LIFT_TO_SAFE_Z_AFTER_SCAN,Category D,-140.000,60.000,output_D,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+category_hold_resume,162,forced_category_A_full,MBOX-078,SKIP_HELD_CATEGORY,Category A,-260.000,-63.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,163,forced_category_A_full,MBOX-079,MOVE_SAFE_ABOVE_INPUT,Category B,-400.000,-91.000,output_B,move_to_input,move to input,move to input safe height
+category_hold_resume,164,forced_category_A_full,MBOX-079,SCAN_BARCODE,Category B,-140.000,60.000,output_B,scan,scan barcode,scan and classify
+category_hold_resume,165,forced_category_A_full,MBOX-079,RETREAT_TO_SAFE_Z,Category B,300.000,128.000,output_B,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,166,forced_category_A_full,MBOX-080,APPROACH_SCAN_STATION,Category C,-140.000,60.000,output_C,trajectory,APPROACH_SCAN_STATION,approach scan station
+category_hold_resume,167,forced_category_A_full,MBOX-080,PLACE_TUBE,Category C,90.000,-82.000,output_C,place_to_output,place to Category C,place tube
+category_hold_resume,168,forced_category_A_full,MBOX-081,MOVE_SAFE_ABOVE_SCAN,Category D,-140.000,60.000,output_D,move_to_scan,move to scan,move above scan station
+category_hold_resume,169,forced_category_A_full,MBOX-081,APPROACH_TARGET_SLOT,Category D,300.000,-82.000,output_D,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,170,forced_category_A_full,MBOX-082,SKIP_HELD_CATEGORY,Category A,-316.000,-91.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,171,forced_category_A_full,MBOX-083,PICK_TUBE,Category B,-288.000,-91.000,output_B,pick,pick tube,pick tube
+category_hold_resume,172,forced_category_A_full,MBOX-083,LIFT_TO_SAFE_Z_AFTER_SCAN,Category B,-140.000,60.000,output_B,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+category_hold_resume,173,forced_category_A_full,MBOX-084,APPROACH_INPUT_SLOT,Category C,-260.000,-91.000,output_C,trajectory,APPROACH_INPUT_SLOT,approach input slot
+category_hold_resume,174,forced_category_A_full,MBOX-084,CLASSIFY_SAMPLE,Category C,-140.000,60.000,output_C,classify,classify sample,scan and classify
+category_hold_resume,175,forced_category_A_full,MBOX-085,MOVE_SAFE_ABOVE_INPUT,Category D,-400.000,-119.000,output_D,move_to_input,move to input,move to input safe height
+category_hold_resume,176,forced_category_A_full,MBOX-085,SCAN_BARCODE,Category D,-140.000,60.000,output_D,scan,scan barcode,scan and classify
+category_hold_resume,177,forced_category_A_full,MBOX-085,RETREAT_TO_SAFE_Z,Category D,328.000,-82.000,output_D,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,178,forced_category_A_full,MBOX-086,SKIP_HELD_CATEGORY,Category A,-372.000,-119.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,179,forced_category_A_full,MBOX-087,MOVE_SAFE_ABOVE_SCAN,Category B,-140.000,60.000,output_B,move_to_scan,move to scan,move above scan station
+category_hold_resume,180,forced_category_A_full,MBOX-087,APPROACH_TARGET_SLOT,Category B,356.000,128.000,output_B,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,181,forced_category_A_full,MBOX-088,LIFT_TO_SAFE_Z,Category C,-316.000,-119.000,output_C,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,182,forced_category_A_full,MBOX-088,MOVE_SAFE_ABOVE_TARGET,Category C,146.000,-82.000,output_C,move_to_output,move to target,move above target
+category_hold_resume,183,forced_category_A_full,MBOX-089,PICK_TUBE,Category D,-288.000,-119.000,output_D,pick,pick tube,pick tube
+category_hold_resume,184,forced_category_A_full,MBOX-089,LIFT_TO_SAFE_Z_AFTER_SCAN,Category D,-140.000,60.000,output_D,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+category_hold_resume,185,forced_category_A_full,MBOX-090,SKIP_HELD_CATEGORY,Category A,-260.000,-119.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,186,forced_category_A_full,MBOX-091,MOVE_SAFE_ABOVE_INPUT,Category D,-400.000,-147.000,manual_review,move_to_input,move to input,move to input safe height
+category_hold_resume,187,forced_category_A_full,MBOX-091,SCAN_BARCODE,Category D,-140.000,60.000,manual_review,scan,scan barcode,scan and classify
+category_hold_resume,188,forced_category_A_full,MBOX-091,PLACE_TUBE,Category D,-152.000,-314.000,manual_review,place_to_manual_review,place to manual review,place tube
+category_hold_resume,189,forced_category_A_full,MBOX-091,RETREAT_TO_SAFE_Z,Category D,-152.000,-314.000,manual_review,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+category_hold_resume,190,forced_category_A_full,MBOX-092,APPROACH_SCAN_STATION,Category B,-140.000,60.000,output_B,trajectory,APPROACH_SCAN_STATION,approach scan station
+category_hold_resume,191,forced_category_A_full,MBOX-092,PLACE_TUBE,Category B,384.000,128.000,output_B,place_to_output,place to Category B,place tube
+category_hold_resume,192,forced_category_A_full,MBOX-093,MOVE_SAFE_ABOVE_SCAN,Category C,-140.000,60.000,output_C,move_to_scan,move to scan,move above scan station
+category_hold_resume,193,forced_category_A_full,MBOX-093,APPROACH_TARGET_SLOT,Category C,174.000,-82.000,output_C,trajectory,APPROACH_TARGET_SLOT,approach target slot
+category_hold_resume,194,forced_category_A_full,MBOX-094,LIFT_TO_SAFE_Z,Category D,-316.000,-147.000,output_D,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+category_hold_resume,195,forced_category_A_full,MBOX-094,MOVE_SAFE_ABOVE_TARGET,Category D,384.000,-82.000,output_D,move_to_output,move to target,move above target
+category_hold_resume,196,forced_category_A_full,MBOX-095,SKIP_HELD_CATEGORY,Category A,-288.000,-147.000,,pending_queue,queued pending sample,held-category sample skipped before pick and queued
+category_hold_resume,197,forced_category_A_full,MBOX-096,APPROACH_INPUT_SLOT,Category B,-260.000,-147.000,output_B,trajectory,APPROACH_INPUT_SLOT,approach input slot
+category_hold_resume,198,forced_category_A_full,MBOX-096,CLASSIFY_SAMPLE,Category B,-140.000,60.000,output_B,classify,classify sample,scan and classify
+category_hold_resume,199,forced_category_A_full,MBOX-018,MOVE_SAFE_ABOVE_INPUT,Category A,-260.000,271.000,output_A,move_to_input,move to input,move to input safe height
+category_hold_resume,200,forced_category_A_full,MBOX-018,APPROACH_INPUT_SLOT,Category A,-260.000,271.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,201,forced_category_A_full,MBOX-018,LIFT_TO_SAFE_Z,Category A,-260.000,271.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,202,forced_category_A_full,MBOX-018,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,203,forced_category_A_full,MBOX-018,SCAN_BARCODE,Category A,-140.000,60.000,output_A,scan,scan barcode,scan and classify
+category_hold_resume,204,forced_category_A_full,MBOX-018,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,205,forced_category_A_full,MBOX-018,APPROACH_TARGET_SLOT,Category A,90.000,212.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,206,forced_category_A_full,MBOX-018,RETREAT_TO_SAFE_Z,Category A,90.000,212.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,207,forced_category_A_full,MBOX-023,APPROACH_INPUT_SLOT,Category A,-288.000,243.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,208,forced_category_A_full,MBOX-023,LIFT_TO_SAFE_Z,Category A,-288.000,243.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,209,forced_category_A_full,MBOX-023,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,210,forced_category_A_full,MBOX-023,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,211,forced_category_A_full,MBOX-023,APPROACH_TARGET_SLOT,Category A,118.000,212.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,212,forced_category_A_full,MBOX-023,PLACE_TUBE,Category A,118.000,212.000,output_A,place_to_output,place to Category A,place tube
+category_hold_resume,213,forced_category_A_full,MBOX-023,RETREAT_TO_SAFE_Z,Category A,118.000,212.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,214,forced_category_A_full,MBOX-027,APPROACH_INPUT_SLOT,Category A,-344.000,197.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,215,forced_category_A_full,MBOX-027,LIFT_TO_SAFE_Z,Category A,-344.000,197.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,216,forced_category_A_full,MBOX-027,MOVE_SAFE_ABOVE_SCAN,Category A,-140.000,60.000,output_A,move_to_scan,move to scan,move above scan station
+category_hold_resume,217,forced_category_A_full,MBOX-027,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,218,forced_category_A_full,MBOX-027,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,219,forced_category_A_full,MBOX-027,APPROACH_TARGET_SLOT,Category A,146.000,212.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,220,forced_category_A_full,MBOX-027,RETREAT_TO_SAFE_Z,Category A,146.000,212.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,221,forced_category_A_full,MBOX-031,APPROACH_INPUT_SLOT,Category A,-400.000,169.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,222,forced_category_A_full,MBOX-031,LIFT_TO_SAFE_Z,Category A,-400.000,169.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,223,forced_category_A_full,MBOX-031,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,224,forced_category_A_full,MBOX-031,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,225,forced_category_A_full,MBOX-031,MOVE_SAFE_ABOVE_TARGET,Category A,174.000,212.000,output_A,move_to_output,move to target,move above target
+category_hold_resume,226,forced_category_A_full,MBOX-031,APPROACH_TARGET_SLOT,Category A,174.000,212.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,227,forced_category_A_full,MBOX-031,RETREAT_TO_SAFE_Z,Category A,174.000,212.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,228,forced_category_A_full,MBOX-035,APPROACH_INPUT_SLOT,Category A,-288.000,169.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,229,forced_category_A_full,MBOX-035,PICK_TUBE,Category A,-288.000,169.000,output_A,pick,pick tube,pick tube
+category_hold_resume,230,forced_category_A_full,MBOX-035,LIFT_TO_SAFE_Z,Category A,-288.000,169.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,231,forced_category_A_full,MBOX-035,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,232,forced_category_A_full,MBOX-035,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,233,forced_category_A_full,MBOX-035,APPROACH_TARGET_SLOT,Category A,202.000,212.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,234,forced_category_A_full,MBOX-035,RETREAT_TO_SAFE_Z,Category A,202.000,212.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,235,forced_category_A_full,MBOX-040,APPROACH_INPUT_SLOT,Category A,-316.000,141.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,236,forced_category_A_full,MBOX-040,LIFT_TO_SAFE_Z,Category A,-316.000,141.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,237,forced_category_A_full,MBOX-040,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,238,forced_category_A_full,MBOX-040,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+category_hold_resume,239,forced_category_A_full,MBOX-040,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,240,forced_category_A_full,MBOX-040,APPROACH_TARGET_SLOT,Category A,230.000,212.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,241,forced_category_A_full,MBOX-040,RETREAT_TO_SAFE_Z,Category A,230.000,212.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,242,forced_category_A_full,MBOX-044,MOVE_SAFE_ABOVE_INPUT,Category A,-372.000,113.000,output_A,move_to_input,move to input,move to input safe height
+category_hold_resume,243,forced_category_A_full,MBOX-044,APPROACH_INPUT_SLOT,Category A,-372.000,113.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,244,forced_category_A_full,MBOX-044,LIFT_TO_SAFE_Z,Category A,-372.000,113.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,245,forced_category_A_full,MBOX-044,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,246,forced_category_A_full,MBOX-044,SCAN_BARCODE,Category A,-140.000,60.000,output_A,scan,scan barcode,scan and classify
+category_hold_resume,247,forced_category_A_full,MBOX-044,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,248,forced_category_A_full,MBOX-044,APPROACH_TARGET_SLOT,Category A,90.000,184.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,249,forced_category_A_full,MBOX-044,RETREAT_TO_SAFE_Z,Category A,90.000,184.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,250,forced_category_A_full,MBOX-048,APPROACH_INPUT_SLOT,Category A,-260.000,113.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,251,forced_category_A_full,MBOX-048,LIFT_TO_SAFE_Z,Category A,-260.000,113.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,252,forced_category_A_full,MBOX-048,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,253,forced_category_A_full,MBOX-048,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,254,forced_category_A_full,MBOX-048,APPROACH_TARGET_SLOT,Category A,118.000,184.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,255,forced_category_A_full,MBOX-048,PLACE_TUBE,Category A,118.000,184.000,output_A,place_to_output,place to Category A,place tube
+category_hold_resume,256,forced_category_A_full,MBOX-048,RETREAT_TO_SAFE_Z,Category A,118.000,184.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,257,forced_category_A_full,MBOX-052,APPROACH_INPUT_SLOT,Category A,-316.000,67.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,258,forced_category_A_full,MBOX-052,LIFT_TO_SAFE_Z,Category A,-316.000,67.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,259,forced_category_A_full,MBOX-052,MOVE_SAFE_ABOVE_SCAN,Category A,-140.000,60.000,output_A,move_to_scan,move to scan,move above scan station
+category_hold_resume,260,forced_category_A_full,MBOX-052,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,261,forced_category_A_full,MBOX-052,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,262,forced_category_A_full,MBOX-052,APPROACH_TARGET_SLOT,Category A,146.000,184.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,263,forced_category_A_full,MBOX-052,RETREAT_TO_SAFE_Z,Category A,146.000,184.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,264,forced_category_A_full,MBOX-056,APPROACH_INPUT_SLOT,Category A,-372.000,39.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,265,forced_category_A_full,MBOX-056,LIFT_TO_SAFE_Z,Category A,-372.000,39.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,266,forced_category_A_full,MBOX-056,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,267,forced_category_A_full,MBOX-056,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,268,forced_category_A_full,MBOX-056,MOVE_SAFE_ABOVE_TARGET,Category A,174.000,184.000,output_A,move_to_output,move to target,move above target
+category_hold_resume,269,forced_category_A_full,MBOX-056,APPROACH_TARGET_SLOT,Category A,174.000,184.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,270,forced_category_A_full,MBOX-056,RETREAT_TO_SAFE_Z,Category A,174.000,184.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,271,forced_category_A_full,MBOX-061,APPROACH_INPUT_SLOT,Category A,-400.000,11.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,272,forced_category_A_full,MBOX-061,PICK_TUBE,Category A,-400.000,11.000,output_A,pick,pick tube,pick tube
+category_hold_resume,273,forced_category_A_full,MBOX-061,LIFT_TO_SAFE_Z,Category A,-400.000,11.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,274,forced_category_A_full,MBOX-061,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,275,forced_category_A_full,MBOX-061,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,276,forced_category_A_full,MBOX-061,APPROACH_TARGET_SLOT,Category A,202.000,184.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,277,forced_category_A_full,MBOX-061,RETREAT_TO_SAFE_Z,Category A,202.000,184.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,278,forced_category_A_full,MBOX-065,APPROACH_INPUT_SLOT,Category A,-288.000,11.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,279,forced_category_A_full,MBOX-065,LIFT_TO_SAFE_Z,Category A,-288.000,11.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,280,forced_category_A_full,MBOX-065,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,281,forced_category_A_full,MBOX-065,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+category_hold_resume,282,forced_category_A_full,MBOX-065,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,283,forced_category_A_full,MBOX-065,APPROACH_TARGET_SLOT,Category A,230.000,184.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,284,forced_category_A_full,MBOX-065,RETREAT_TO_SAFE_Z,Category A,230.000,184.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,285,forced_category_A_full,MBOX-069,MOVE_SAFE_ABOVE_INPUT,Category A,-344.000,-17.000,output_A,move_to_input,move to input,move to input safe height
+category_hold_resume,286,forced_category_A_full,MBOX-069,APPROACH_INPUT_SLOT,Category A,-344.000,-17.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,287,forced_category_A_full,MBOX-069,LIFT_TO_SAFE_Z,Category A,-344.000,-17.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,288,forced_category_A_full,MBOX-069,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,289,forced_category_A_full,MBOX-069,SCAN_BARCODE,Category A,-140.000,60.000,output_A,scan,scan barcode,scan and classify
+category_hold_resume,290,forced_category_A_full,MBOX-069,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,291,forced_category_A_full,MBOX-069,APPROACH_TARGET_SLOT,Category A,90.000,156.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,292,forced_category_A_full,MBOX-069,RETREAT_TO_SAFE_Z,Category A,90.000,156.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,293,forced_category_A_full,MBOX-074,APPROACH_INPUT_SLOT,Category A,-372.000,-63.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,294,forced_category_A_full,MBOX-074,LIFT_TO_SAFE_Z,Category A,-372.000,-63.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,295,forced_category_A_full,MBOX-074,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,296,forced_category_A_full,MBOX-074,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,297,forced_category_A_full,MBOX-074,APPROACH_TARGET_SLOT,Category A,118.000,156.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,298,forced_category_A_full,MBOX-074,PLACE_TUBE,Category A,118.000,156.000,output_A,place_to_output,place to Category A,place tube
+category_hold_resume,299,forced_category_A_full,MBOX-074,RETREAT_TO_SAFE_Z,Category A,118.000,156.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,300,forced_category_A_full,MBOX-078,APPROACH_INPUT_SLOT,Category A,-260.000,-63.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,301,forced_category_A_full,MBOX-078,LIFT_TO_SAFE_Z,Category A,-260.000,-63.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,302,forced_category_A_full,MBOX-078,MOVE_SAFE_ABOVE_SCAN,Category A,-140.000,60.000,output_A,move_to_scan,move to scan,move above scan station
+category_hold_resume,303,forced_category_A_full,MBOX-078,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,304,forced_category_A_full,MBOX-078,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,305,forced_category_A_full,MBOX-078,APPROACH_TARGET_SLOT,Category A,146.000,156.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,306,forced_category_A_full,MBOX-078,RETREAT_TO_SAFE_Z,Category A,146.000,156.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,307,forced_category_A_full,MBOX-082,APPROACH_INPUT_SLOT,Category A,-316.000,-91.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,308,forced_category_A_full,MBOX-082,LIFT_TO_SAFE_Z,Category A,-316.000,-91.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,309,forced_category_A_full,MBOX-082,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,310,forced_category_A_full,MBOX-082,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,311,forced_category_A_full,MBOX-082,MOVE_SAFE_ABOVE_TARGET,Category A,174.000,156.000,output_A,move_to_output,move to target,move above target
+category_hold_resume,312,forced_category_A_full,MBOX-082,APPROACH_TARGET_SLOT,Category A,174.000,156.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,313,forced_category_A_full,MBOX-082,RETREAT_TO_SAFE_Z,Category A,174.000,156.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,314,forced_category_A_full,MBOX-086,APPROACH_INPUT_SLOT,Category A,-372.000,-119.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,315,forced_category_A_full,MBOX-086,PICK_TUBE,Category A,-372.000,-119.000,output_A,pick,pick tube,pick tube
+category_hold_resume,316,forced_category_A_full,MBOX-086,LIFT_TO_SAFE_Z,Category A,-372.000,-119.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,317,forced_category_A_full,MBOX-086,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,318,forced_category_A_full,MBOX-086,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,319,forced_category_A_full,MBOX-086,APPROACH_TARGET_SLOT,Category A,202.000,156.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,320,forced_category_A_full,MBOX-086,RETREAT_TO_SAFE_Z,Category A,202.000,156.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,321,forced_category_A_full,MBOX-090,APPROACH_INPUT_SLOT,Category A,-260.000,-119.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,322,forced_category_A_full,MBOX-090,LIFT_TO_SAFE_Z,Category A,-260.000,-119.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,323,forced_category_A_full,MBOX-090,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,324,forced_category_A_full,MBOX-090,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+category_hold_resume,325,forced_category_A_full,MBOX-090,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,326,forced_category_A_full,MBOX-090,APPROACH_TARGET_SLOT,Category A,230.000,156.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,327,forced_category_A_full,MBOX-090,RETREAT_TO_SAFE_Z,Category A,230.000,156.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,328,forced_category_A_full,MBOX-095,MOVE_SAFE_ABOVE_INPUT,Category A,-288.000,-147.000,output_A,move_to_input,move to input,move to input safe height
+category_hold_resume,329,forced_category_A_full,MBOX-095,APPROACH_INPUT_SLOT,Category A,-288.000,-147.000,output_A,released_pending,released pending sample,approach input slot
+category_hold_resume,330,forced_category_A_full,MBOX-095,LIFT_TO_SAFE_Z,Category A,-288.000,-147.000,output_A,released_pending,released pending sample,lift picked tube
+category_hold_resume,331,forced_category_A_full,MBOX-095,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,released_pending,released pending sample,approach scan station
+category_hold_resume,332,forced_category_A_full,MBOX-095,SCAN_BARCODE,Category A,-140.000,60.000,output_A,scan,scan barcode,scan and classify
+category_hold_resume,333,forced_category_A_full,MBOX-095,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,released_pending,released pending sample,lift after scan
+category_hold_resume,334,forced_category_A_full,MBOX-095,APPROACH_TARGET_SLOT,Category A,90.000,128.000,output_A,released_pending,released pending sample,approach target slot
+category_hold_resume,335,forced_category_A_full,MBOX-095,RETREAT_TO_SAFE_Z,Category A,90.000,128.000,output_A,released_pending,released pending sample,retreat after place
+category_hold_resume,336,forced_category_A_full,,category_A_hold,Category A,90.000,212.000,,category_hold,Category A HOLD,category output capacity reached; normal sample is not routed to manual review
+category_hold_resume,337,forced_category_A_full,,category_A_available,Category A,90.000,212.000,,operator_clear,operator clear output box,operator clears/replaces full output box before resuming pending samples
+category_hold_resume,338,forced_category_A_full,,pending_queue_released,Category A,90.000,212.000,,category_resume,Category A RESUME,system resumes held category and processes queued samples
+manual_review_pause_alarm,1,forced_manual_review_full,MBOX-001,MOVE_SAFE_ABOVE_INPUT,Category A,-400.000,327.000,output_A,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,2,forced_manual_review_full,MBOX-001,PICK_TUBE,Category A,-400.000,327.000,output_A,pick,pick tube,pick tube
+manual_review_pause_alarm,3,forced_manual_review_full,MBOX-001,LIFT_TO_SAFE_Z,Category A,-400.000,327.000,output_A,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,4,forced_manual_review_full,MBOX-001,MOVE_SAFE_ABOVE_SCAN,Category A,-140.000,60.000,output_A,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,5,forced_manual_review_full,MBOX-001,SCAN_BARCODE,Category A,-140.000,60.000,output_A,scan,scan barcode,scan and classify
+manual_review_pause_alarm,6,forced_manual_review_full,MBOX-001,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+manual_review_pause_alarm,7,forced_manual_review_full,MBOX-001,MOVE_SAFE_ABOVE_TARGET,Category A,90.000,212.000,output_A,move_to_output,move to target,move above target
+manual_review_pause_alarm,8,forced_manual_review_full,MBOX-001,PLACE_TUBE,Category A,90.000,212.000,output_A,place_to_output,place to Category A,place tube
+manual_review_pause_alarm,9,forced_manual_review_full,MBOX-001,RETREAT_TO_SAFE_Z,Category A,90.000,212.000,output_A,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+manual_review_pause_alarm,10,forced_manual_review_full,MBOX-002,PICK_TUBE,Category B,-372.000,327.000,output_B,pick,pick tube,pick tube
+manual_review_pause_alarm,11,forced_manual_review_full,MBOX-002,APPROACH_SCAN_STATION,Category B,-140.000,60.000,output_B,trajectory,APPROACH_SCAN_STATION,approach scan station
+manual_review_pause_alarm,12,forced_manual_review_full,MBOX-002,LIFT_TO_SAFE_Z_AFTER_SCAN,Category B,-140.000,60.000,output_B,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+manual_review_pause_alarm,13,forced_manual_review_full,MBOX-002,PLACE_TUBE,Category B,300.000,212.000,output_B,place_to_output,place to Category B,place tube
+manual_review_pause_alarm,14,forced_manual_review_full,MBOX-003,APPROACH_INPUT_SLOT,Category C,-344.000,327.000,output_C,trajectory,APPROACH_INPUT_SLOT,approach input slot
+manual_review_pause_alarm,15,forced_manual_review_full,MBOX-003,MOVE_SAFE_ABOVE_SCAN,Category C,-140.000,60.000,output_C,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,16,forced_manual_review_full,MBOX-003,CLASSIFY_SAMPLE,Category C,-140.000,60.000,output_C,classify,classify sample,scan and classify
+manual_review_pause_alarm,17,forced_manual_review_full,MBOX-003,APPROACH_TARGET_SLOT,Category C,90.000,2.000,output_C,trajectory,APPROACH_TARGET_SLOT,approach target slot
+manual_review_pause_alarm,18,forced_manual_review_full,MBOX-004,MOVE_SAFE_ABOVE_INPUT,Category D,-316.000,327.000,output_D,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,19,forced_manual_review_full,MBOX-004,LIFT_TO_SAFE_Z,Category D,-316.000,327.000,output_D,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,20,forced_manual_review_full,MBOX-004,SCAN_BARCODE,Category D,-140.000,60.000,output_D,scan,scan barcode,scan and classify
+manual_review_pause_alarm,21,forced_manual_review_full,MBOX-004,MOVE_SAFE_ABOVE_TARGET,Category D,300.000,2.000,output_D,move_to_output,move to target,move above target
+manual_review_pause_alarm,22,forced_manual_review_full,MBOX-004,RETREAT_TO_SAFE_Z,Category D,300.000,2.000,output_D,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+manual_review_pause_alarm,23,forced_manual_review_full,MBOX-005,PICK_TUBE,manual_review,-288.000,327.000,manual_review,pick,pick tube,pick tube
+manual_review_pause_alarm,24,forced_manual_review_full,MBOX-005,APPROACH_SCAN_STATION,manual_review,-140.000,60.000,manual_review,trajectory,APPROACH_SCAN_STATION,approach scan station
+manual_review_pause_alarm,25,forced_manual_review_full,MBOX-005,LIFT_TO_SAFE_Z_AFTER_SCAN,manual_review,-140.000,60.000,manual_review,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+manual_review_pause_alarm,26,forced_manual_review_full,MBOX-005,PLACE_TUBE,manual_review,-208.000,-286.000,manual_review,place_to_manual_review,place to manual review,place tube
+manual_review_pause_alarm,27,forced_manual_review_full,MBOX-006,APPROACH_INPUT_SLOT,Category A,-260.000,327.000,output_A,trajectory,APPROACH_INPUT_SLOT,approach input slot
+manual_review_pause_alarm,28,forced_manual_review_full,MBOX-006,MOVE_SAFE_ABOVE_SCAN,Category A,-140.000,60.000,output_A,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,29,forced_manual_review_full,MBOX-006,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+manual_review_pause_alarm,30,forced_manual_review_full,MBOX-006,APPROACH_TARGET_SLOT,Category A,118.000,212.000,output_A,trajectory,APPROACH_TARGET_SLOT,approach target slot
+manual_review_pause_alarm,31,forced_manual_review_full,MBOX-007,MOVE_SAFE_ABOVE_INPUT,Category B,-400.000,299.000,output_B,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,32,forced_manual_review_full,MBOX-007,LIFT_TO_SAFE_Z,Category B,-400.000,299.000,output_B,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,33,forced_manual_review_full,MBOX-007,SCAN_BARCODE,Category B,-140.000,60.000,output_B,scan,scan barcode,scan and classify
+manual_review_pause_alarm,34,forced_manual_review_full,MBOX-007,MOVE_SAFE_ABOVE_TARGET,Category B,328.000,212.000,output_B,move_to_output,move to target,move above target
+manual_review_pause_alarm,35,forced_manual_review_full,MBOX-007,RETREAT_TO_SAFE_Z,Category B,328.000,212.000,output_B,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+manual_review_pause_alarm,36,forced_manual_review_full,MBOX-008,PICK_TUBE,Category C,-372.000,299.000,output_C,pick,pick tube,pick tube
+manual_review_pause_alarm,37,forced_manual_review_full,MBOX-008,APPROACH_SCAN_STATION,Category C,-140.000,60.000,output_C,trajectory,APPROACH_SCAN_STATION,approach scan station
+manual_review_pause_alarm,38,forced_manual_review_full,MBOX-008,LIFT_TO_SAFE_Z_AFTER_SCAN,Category C,-140.000,60.000,output_C,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+manual_review_pause_alarm,39,forced_manual_review_full,MBOX-008,PLACE_TUBE,Category C,118.000,2.000,output_C,place_to_output,place to Category C,place tube
+manual_review_pause_alarm,40,forced_manual_review_full,MBOX-009,APPROACH_INPUT_SLOT,Category D,-344.000,299.000,output_D,trajectory,APPROACH_INPUT_SLOT,approach input slot
+manual_review_pause_alarm,41,forced_manual_review_full,MBOX-009,MOVE_SAFE_ABOVE_SCAN,Category D,-140.000,60.000,output_D,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,42,forced_manual_review_full,MBOX-009,CLASSIFY_SAMPLE,Category D,-140.000,60.000,output_D,classify,classify sample,scan and classify
+manual_review_pause_alarm,43,forced_manual_review_full,MBOX-009,APPROACH_TARGET_SLOT,Category D,328.000,2.000,output_D,trajectory,APPROACH_TARGET_SLOT,approach target slot
+manual_review_pause_alarm,44,forced_manual_review_full,MBOX-010,MOVE_SAFE_ABOVE_INPUT,Category A,-316.000,299.000,output_A,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,45,forced_manual_review_full,MBOX-010,LIFT_TO_SAFE_Z,Category A,-316.000,299.000,output_A,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,46,forced_manual_review_full,MBOX-010,SCAN_BARCODE,Category A,-140.000,60.000,output_A,scan,scan barcode,scan and classify
+manual_review_pause_alarm,47,forced_manual_review_full,MBOX-010,MOVE_SAFE_ABOVE_TARGET,Category A,146.000,212.000,output_A,move_to_output,move to target,move above target
+manual_review_pause_alarm,48,forced_manual_review_full,MBOX-010,RETREAT_TO_SAFE_Z,Category A,146.000,212.000,output_A,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+manual_review_pause_alarm,49,forced_manual_review_full,MBOX-011,PICK_TUBE,Category B,-288.000,299.000,output_B,pick,pick tube,pick tube
+manual_review_pause_alarm,50,forced_manual_review_full,MBOX-011,APPROACH_SCAN_STATION,Category B,-140.000,60.000,output_B,trajectory,APPROACH_SCAN_STATION,approach scan station
+manual_review_pause_alarm,51,forced_manual_review_full,MBOX-011,LIFT_TO_SAFE_Z_AFTER_SCAN,Category B,-140.000,60.000,output_B,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+manual_review_pause_alarm,52,forced_manual_review_full,MBOX-011,PLACE_TUBE,Category B,356.000,212.000,output_B,place_to_output,place to Category B,place tube
+manual_review_pause_alarm,53,forced_manual_review_full,MBOX-012,APPROACH_INPUT_SLOT,Category C,-260.000,299.000,output_C,trajectory,APPROACH_INPUT_SLOT,approach input slot
+manual_review_pause_alarm,54,forced_manual_review_full,MBOX-012,MOVE_SAFE_ABOVE_SCAN,Category C,-140.000,60.000,output_C,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,55,forced_manual_review_full,MBOX-012,CLASSIFY_SAMPLE,Category C,-140.000,60.000,output_C,classify,classify sample,scan and classify
+manual_review_pause_alarm,56,forced_manual_review_full,MBOX-012,APPROACH_TARGET_SLOT,Category C,146.000,2.000,output_C,trajectory,APPROACH_TARGET_SLOT,approach target slot
+manual_review_pause_alarm,57,forced_manual_review_full,MBOX-013,MOVE_SAFE_ABOVE_INPUT,Category D,-400.000,271.000,output_D,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,58,forced_manual_review_full,MBOX-013,LIFT_TO_SAFE_Z,Category D,-400.000,271.000,output_D,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,59,forced_manual_review_full,MBOX-013,SCAN_BARCODE,Category D,-140.000,60.000,output_D,scan,scan barcode,scan and classify
+manual_review_pause_alarm,60,forced_manual_review_full,MBOX-013,MOVE_SAFE_ABOVE_TARGET,Category D,356.000,2.000,output_D,move_to_output,move to target,move above target
+manual_review_pause_alarm,61,forced_manual_review_full,MBOX-013,RETREAT_TO_SAFE_Z,Category D,356.000,2.000,output_D,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+manual_review_pause_alarm,62,forced_manual_review_full,MBOX-014,PICK_TUBE,Category A,-372.000,271.000,output_A,pick,pick tube,pick tube
+manual_review_pause_alarm,63,forced_manual_review_full,MBOX-014,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,trajectory,APPROACH_SCAN_STATION,approach scan station
+manual_review_pause_alarm,64,forced_manual_review_full,MBOX-014,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+manual_review_pause_alarm,65,forced_manual_review_full,MBOX-014,PLACE_TUBE,Category A,174.000,212.000,output_A,place_to_output,place to Category A,place tube
+manual_review_pause_alarm,66,forced_manual_review_full,MBOX-015,APPROACH_INPUT_SLOT,Category B,-344.000,271.000,output_B,trajectory,APPROACH_INPUT_SLOT,approach input slot
+manual_review_pause_alarm,67,forced_manual_review_full,MBOX-015,MOVE_SAFE_ABOVE_SCAN,Category B,-140.000,60.000,output_B,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,68,forced_manual_review_full,MBOX-015,CLASSIFY_SAMPLE,Category B,-140.000,60.000,output_B,classify,classify sample,scan and classify
+manual_review_pause_alarm,69,forced_manual_review_full,MBOX-015,APPROACH_TARGET_SLOT,Category B,384.000,212.000,output_B,trajectory,APPROACH_TARGET_SLOT,approach target slot
+manual_review_pause_alarm,70,forced_manual_review_full,MBOX-016,MOVE_SAFE_ABOVE_INPUT,Category C,-316.000,271.000,output_C,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,71,forced_manual_review_full,MBOX-016,LIFT_TO_SAFE_Z,Category C,-316.000,271.000,output_C,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,72,forced_manual_review_full,MBOX-016,SCAN_BARCODE,Category C,-140.000,60.000,output_C,scan,scan barcode,scan and classify
+manual_review_pause_alarm,73,forced_manual_review_full,MBOX-016,MOVE_SAFE_ABOVE_TARGET,Category C,174.000,2.000,output_C,move_to_output,move to target,move above target
+manual_review_pause_alarm,74,forced_manual_review_full,MBOX-016,RETREAT_TO_SAFE_Z,Category C,174.000,2.000,output_C,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+manual_review_pause_alarm,75,forced_manual_review_full,MBOX-017,PICK_TUBE,Category D,-288.000,271.000,output_D,pick,pick tube,pick tube
+manual_review_pause_alarm,76,forced_manual_review_full,MBOX-017,APPROACH_SCAN_STATION,Category D,-140.000,60.000,output_D,trajectory,APPROACH_SCAN_STATION,approach scan station
+manual_review_pause_alarm,77,forced_manual_review_full,MBOX-017,LIFT_TO_SAFE_Z_AFTER_SCAN,Category D,-140.000,60.000,output_D,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+manual_review_pause_alarm,78,forced_manual_review_full,MBOX-017,PLACE_TUBE,Category D,384.000,2.000,output_D,place_to_output,place to Category D,place tube
+manual_review_pause_alarm,79,forced_manual_review_full,MBOX-018,APPROACH_INPUT_SLOT,Category A,-260.000,271.000,output_A,trajectory,APPROACH_INPUT_SLOT,approach input slot
+manual_review_pause_alarm,80,forced_manual_review_full,MBOX-018,MOVE_SAFE_ABOVE_SCAN,Category A,-140.000,60.000,output_A,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,81,forced_manual_review_full,MBOX-018,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+manual_review_pause_alarm,82,forced_manual_review_full,MBOX-018,APPROACH_TARGET_SLOT,Category A,202.000,212.000,output_A,trajectory,APPROACH_TARGET_SLOT,approach target slot
+manual_review_pause_alarm,83,forced_manual_review_full,MBOX-019,MOVE_SAFE_ABOVE_INPUT,manual_review,-400.000,243.000,manual_review,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,84,forced_manual_review_full,MBOX-019,LIFT_TO_SAFE_Z,manual_review,-400.000,243.000,manual_review,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,85,forced_manual_review_full,MBOX-019,SCAN_BARCODE,manual_review,-140.000,60.000,manual_review,scan,scan barcode,scan and classify
+manual_review_pause_alarm,86,forced_manual_review_full,MBOX-019,MOVE_SAFE_ABOVE_TARGET,manual_review,-180.000,-286.000,manual_review,move_to_output,move to target,move above target
+manual_review_pause_alarm,87,forced_manual_review_full,MBOX-019,PLACE_TUBE,manual_review,-180.000,-286.000,manual_review,place_to_manual_review,place to manual review,place tube
+manual_review_pause_alarm,88,forced_manual_review_full,MBOX-019,RETREAT_TO_SAFE_Z,manual_review,-180.000,-286.000,manual_review,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+manual_review_pause_alarm,89,forced_manual_review_full,MBOX-020,PICK_TUBE,Category B,-372.000,243.000,output_B,pick,pick tube,pick tube
+manual_review_pause_alarm,90,forced_manual_review_full,MBOX-020,APPROACH_SCAN_STATION,Category B,-140.000,60.000,output_B,trajectory,APPROACH_SCAN_STATION,approach scan station
+manual_review_pause_alarm,91,forced_manual_review_full,MBOX-020,LIFT_TO_SAFE_Z_AFTER_SCAN,Category B,-140.000,60.000,output_B,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+manual_review_pause_alarm,92,forced_manual_review_full,MBOX-020,PLACE_TUBE,Category B,412.000,212.000,output_B,place_to_output,place to Category B,place tube
+manual_review_pause_alarm,93,forced_manual_review_full,MBOX-021,APPROACH_INPUT_SLOT,Category C,-344.000,243.000,output_C,trajectory,APPROACH_INPUT_SLOT,approach input slot
+manual_review_pause_alarm,94,forced_manual_review_full,MBOX-021,MOVE_SAFE_ABOVE_SCAN,Category C,-140.000,60.000,output_C,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,95,forced_manual_review_full,MBOX-021,CLASSIFY_SAMPLE,Category C,-140.000,60.000,output_C,classify,classify sample,scan and classify
+manual_review_pause_alarm,96,forced_manual_review_full,MBOX-021,APPROACH_TARGET_SLOT,Category C,202.000,2.000,output_C,trajectory,APPROACH_TARGET_SLOT,approach target slot
+manual_review_pause_alarm,97,forced_manual_review_full,MBOX-022,MOVE_SAFE_ABOVE_INPUT,Category D,-316.000,243.000,output_D,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,98,forced_manual_review_full,MBOX-022,LIFT_TO_SAFE_Z,Category D,-316.000,243.000,output_D,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,99,forced_manual_review_full,MBOX-022,SCAN_BARCODE,Category D,-140.000,60.000,output_D,scan,scan barcode,scan and classify
+manual_review_pause_alarm,100,forced_manual_review_full,MBOX-022,MOVE_SAFE_ABOVE_TARGET,Category D,412.000,2.000,output_D,move_to_output,move to target,move above target
+manual_review_pause_alarm,101,forced_manual_review_full,MBOX-022,RETREAT_TO_SAFE_Z,Category D,412.000,2.000,output_D,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+manual_review_pause_alarm,102,forced_manual_review_full,MBOX-023,PICK_TUBE,Category A,-288.000,243.000,output_A,pick,pick tube,pick tube
+manual_review_pause_alarm,103,forced_manual_review_full,MBOX-023,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,trajectory,APPROACH_SCAN_STATION,approach scan station
+manual_review_pause_alarm,104,forced_manual_review_full,MBOX-023,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+manual_review_pause_alarm,105,forced_manual_review_full,MBOX-023,PLACE_TUBE,Category A,230.000,212.000,output_A,place_to_output,place to Category A,place tube
+manual_review_pause_alarm,106,forced_manual_review_full,MBOX-024,APPROACH_INPUT_SLOT,Category B,-260.000,243.000,output_B,trajectory,APPROACH_INPUT_SLOT,approach input slot
+manual_review_pause_alarm,107,forced_manual_review_full,MBOX-024,MOVE_SAFE_ABOVE_SCAN,Category B,-140.000,60.000,output_B,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,108,forced_manual_review_full,MBOX-024,CLASSIFY_SAMPLE,Category B,-140.000,60.000,output_B,classify,classify sample,scan and classify
+manual_review_pause_alarm,109,forced_manual_review_full,MBOX-024,APPROACH_TARGET_SLOT,Category B,440.000,212.000,output_B,trajectory,APPROACH_TARGET_SLOT,approach target slot
+manual_review_pause_alarm,110,forced_manual_review_full,MBOX-025,MOVE_SAFE_ABOVE_INPUT,Category C,-400.000,197.000,output_C,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,111,forced_manual_review_full,MBOX-025,LIFT_TO_SAFE_Z,Category C,-400.000,197.000,output_C,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,112,forced_manual_review_full,MBOX-025,SCAN_BARCODE,Category C,-140.000,60.000,output_C,scan,scan barcode,scan and classify
+manual_review_pause_alarm,113,forced_manual_review_full,MBOX-025,MOVE_SAFE_ABOVE_TARGET,Category C,230.000,2.000,output_C,move_to_output,move to target,move above target
+manual_review_pause_alarm,114,forced_manual_review_full,MBOX-025,RETREAT_TO_SAFE_Z,Category C,230.000,2.000,output_C,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+manual_review_pause_alarm,115,forced_manual_review_full,MBOX-026,PICK_TUBE,Category D,-372.000,197.000,output_D,pick,pick tube,pick tube
+manual_review_pause_alarm,116,forced_manual_review_full,MBOX-026,APPROACH_SCAN_STATION,Category D,-140.000,60.000,output_D,trajectory,APPROACH_SCAN_STATION,approach scan station
+manual_review_pause_alarm,117,forced_manual_review_full,MBOX-026,LIFT_TO_SAFE_Z_AFTER_SCAN,Category D,-140.000,60.000,output_D,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+manual_review_pause_alarm,118,forced_manual_review_full,MBOX-026,PLACE_TUBE,Category D,440.000,2.000,output_D,place_to_output,place to Category D,place tube
+manual_review_pause_alarm,119,forced_manual_review_full,MBOX-027,APPROACH_INPUT_SLOT,Category A,-344.000,197.000,output_A,trajectory,APPROACH_INPUT_SLOT,approach input slot
+manual_review_pause_alarm,120,forced_manual_review_full,MBOX-027,MOVE_SAFE_ABOVE_SCAN,Category A,-140.000,60.000,output_A,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,121,forced_manual_review_full,MBOX-027,CLASSIFY_SAMPLE,Category A,-140.000,60.000,output_A,classify,classify sample,scan and classify
+manual_review_pause_alarm,122,forced_manual_review_full,MBOX-027,APPROACH_TARGET_SLOT,Category A,90.000,184.000,output_A,trajectory,APPROACH_TARGET_SLOT,approach target slot
+manual_review_pause_alarm,123,forced_manual_review_full,MBOX-028,MOVE_SAFE_ABOVE_INPUT,Category B,-316.000,197.000,output_B,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,124,forced_manual_review_full,MBOX-028,LIFT_TO_SAFE_Z,Category B,-316.000,197.000,output_B,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,125,forced_manual_review_full,MBOX-028,SCAN_BARCODE,Category B,-140.000,60.000,output_B,scan,scan barcode,scan and classify
+manual_review_pause_alarm,126,forced_manual_review_full,MBOX-028,MOVE_SAFE_ABOVE_TARGET,Category B,300.000,184.000,output_B,move_to_output,move to target,move above target
+manual_review_pause_alarm,127,forced_manual_review_full,MBOX-028,RETREAT_TO_SAFE_Z,Category B,300.000,184.000,output_B,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+manual_review_pause_alarm,128,forced_manual_review_full,MBOX-029,PICK_TUBE,Category C,-288.000,197.000,output_C,pick,pick tube,pick tube
+manual_review_pause_alarm,129,forced_manual_review_full,MBOX-029,APPROACH_SCAN_STATION,Category C,-140.000,60.000,output_C,trajectory,APPROACH_SCAN_STATION,approach scan station
+manual_review_pause_alarm,130,forced_manual_review_full,MBOX-029,LIFT_TO_SAFE_Z_AFTER_SCAN,Category C,-140.000,60.000,output_C,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+manual_review_pause_alarm,131,forced_manual_review_full,MBOX-029,PLACE_TUBE,Category C,90.000,-26.000,output_C,place_to_output,place to Category C,place tube
+manual_review_pause_alarm,132,forced_manual_review_full,MBOX-030,APPROACH_INPUT_SLOT,Category D,-260.000,197.000,output_D,trajectory,APPROACH_INPUT_SLOT,approach input slot
+manual_review_pause_alarm,133,forced_manual_review_full,MBOX-030,MOVE_SAFE_ABOVE_SCAN,Category D,-140.000,60.000,output_D,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,134,forced_manual_review_full,MBOX-030,CLASSIFY_SAMPLE,Category D,-140.000,60.000,output_D,classify,classify sample,scan and classify
+manual_review_pause_alarm,135,forced_manual_review_full,MBOX-030,APPROACH_TARGET_SLOT,Category D,300.000,-26.000,output_D,trajectory,APPROACH_TARGET_SLOT,approach target slot
+manual_review_pause_alarm,136,forced_manual_review_full,MBOX-031,MOVE_SAFE_ABOVE_INPUT,Category A,-400.000,169.000,output_A,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,137,forced_manual_review_full,MBOX-031,LIFT_TO_SAFE_Z,Category A,-400.000,169.000,output_A,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,138,forced_manual_review_full,MBOX-031,SCAN_BARCODE,Category A,-140.000,60.000,output_A,scan,scan barcode,scan and classify
+manual_review_pause_alarm,139,forced_manual_review_full,MBOX-031,MOVE_SAFE_ABOVE_TARGET,Category A,118.000,184.000,output_A,move_to_output,move to target,move above target
+manual_review_pause_alarm,140,forced_manual_review_full,MBOX-031,RETREAT_TO_SAFE_Z,Category A,118.000,184.000,output_A,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+manual_review_pause_alarm,141,forced_manual_review_full,MBOX-032,PICK_TUBE,Category B,-372.000,169.000,output_B,pick,pick tube,pick tube
+manual_review_pause_alarm,142,forced_manual_review_full,MBOX-032,APPROACH_SCAN_STATION,Category B,-140.000,60.000,output_B,trajectory,APPROACH_SCAN_STATION,approach scan station
+manual_review_pause_alarm,143,forced_manual_review_full,MBOX-032,LIFT_TO_SAFE_Z_AFTER_SCAN,Category B,-140.000,60.000,output_B,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+manual_review_pause_alarm,144,forced_manual_review_full,MBOX-032,PLACE_TUBE,Category B,328.000,184.000,output_B,place_to_output,place to Category B,place tube
+manual_review_pause_alarm,145,forced_manual_review_full,MBOX-033,APPROACH_INPUT_SLOT,Category C,-344.000,169.000,output_C,trajectory,APPROACH_INPUT_SLOT,approach input slot
+manual_review_pause_alarm,146,forced_manual_review_full,MBOX-033,MOVE_SAFE_ABOVE_SCAN,Category C,-140.000,60.000,output_C,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,147,forced_manual_review_full,MBOX-033,CLASSIFY_SAMPLE,Category C,-140.000,60.000,output_C,classify,classify sample,scan and classify
+manual_review_pause_alarm,148,forced_manual_review_full,MBOX-033,APPROACH_TARGET_SLOT,Category C,118.000,-26.000,output_C,trajectory,APPROACH_TARGET_SLOT,approach target slot
+manual_review_pause_alarm,149,forced_manual_review_full,MBOX-034,MOVE_SAFE_ABOVE_INPUT,Category D,-316.000,169.000,output_D,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,150,forced_manual_review_full,MBOX-034,LIFT_TO_SAFE_Z,Category D,-316.000,169.000,output_D,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,151,forced_manual_review_full,MBOX-034,SCAN_BARCODE,Category D,-140.000,60.000,output_D,scan,scan barcode,scan and classify
+manual_review_pause_alarm,152,forced_manual_review_full,MBOX-034,MOVE_SAFE_ABOVE_TARGET,Category D,328.000,-26.000,output_D,move_to_output,move to target,move above target
+manual_review_pause_alarm,153,forced_manual_review_full,MBOX-034,RETREAT_TO_SAFE_Z,Category D,328.000,-26.000,output_D,trajectory,RETREAT_TO_SAFE_Z,retreat after place
+manual_review_pause_alarm,154,forced_manual_review_full,MBOX-035,PICK_TUBE,Category A,-288.000,169.000,output_A,pick,pick tube,pick tube
+manual_review_pause_alarm,155,forced_manual_review_full,MBOX-035,APPROACH_SCAN_STATION,Category A,-140.000,60.000,output_A,trajectory,APPROACH_SCAN_STATION,approach scan station
+manual_review_pause_alarm,156,forced_manual_review_full,MBOX-035,LIFT_TO_SAFE_Z_AFTER_SCAN,Category A,-140.000,60.000,output_A,trajectory,LIFT_TO_SAFE_Z_AFTER_SCAN,lift after scan
+manual_review_pause_alarm,157,forced_manual_review_full,MBOX-035,PLACE_TUBE,Category A,146.000,184.000,output_A,place_to_output,place to Category A,place tube
+manual_review_pause_alarm,158,forced_manual_review_full,MBOX-036,APPROACH_INPUT_SLOT,Category B,-260.000,169.000,output_B,trajectory,APPROACH_INPUT_SLOT,approach input slot
+manual_review_pause_alarm,159,forced_manual_review_full,MBOX-036,MOVE_SAFE_ABOVE_SCAN,Category B,-140.000,60.000,output_B,move_to_scan,move to scan,move above scan station
+manual_review_pause_alarm,160,forced_manual_review_full,MBOX-036,CLASSIFY_SAMPLE,Category B,-140.000,60.000,output_B,classify,classify sample,scan and classify
+manual_review_pause_alarm,161,forced_manual_review_full,MBOX-036,APPROACH_TARGET_SLOT,Category B,356.000,184.000,output_B,trajectory,APPROACH_TARGET_SLOT,approach target slot
+manual_review_pause_alarm,162,forced_manual_review_full,MBOX-037,MOVE_SAFE_ABOVE_INPUT,manual_review,-400.000,141.000,manual_review,move_to_input,move to input,move to input safe height
+manual_review_pause_alarm,163,forced_manual_review_full,MBOX-037,LIFT_TO_SAFE_Z,manual_review,-400.000,141.000,manual_review,trajectory,LIFT_TO_SAFE_Z,lift picked tube
+manual_review_pause_alarm,164,forced_manual_review_full,MBOX-037,SCAN_BARCODE,manual_review,-140.000,60.000,manual_review,scan,scan barcode,scan reveals sample needs manual review
+manual_review_pause_alarm,165,forced_manual_review_full,MBOX-037,PAUSE_ALARM,manual_review,-140.000,60.000,manual_review,pause_alarm,PAUSE_ALARM,manual_review full on true abnormal sample
+manual_review_pause_alarm,166,forced_manual_review_full,,PAUSE_ALARM,manual_review,-140.000,60.000,,pause_alarm,PAUSE_ALARM,barcode_invalid requires manual review but no slot is available

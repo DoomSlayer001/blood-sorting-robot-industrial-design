@@ -18,5 +18,8 @@
 - Total bbox: 1200.000 x 900.000 x 480.000 mm
 - Interference audit summary: overlap=0, too_close=0, allowed_mount_contact=133.
 - Key coverage: four input boxes, scan station, four category output boxes, manual review, gantry, control box, emergency stop, limit switches, cable chain path, and guard frame are represented.
+- SolidWorks 2026 manual check: v7.1 opens normally; colors are visible; input boxes, output boxes, manual review, gantry coverage, scan station, guard opening, emergency stop, control box, cable chain, and limit switch placeholders are visually acceptable.
+- Recommendation: v7.1 is the current recommended multi-box batch layout prototype.
+- Next step: Stage 7B multi-box coordinate model and reachability.
 - Remaining engineering detail: formal brackets, engineering drawings, hole patterns, tolerances, electrical wiring, real guard design, and PID simulation.
 - STEP path: `03_cad/freecad_assembly/blood_sorting_robot_cadquery_multi_box_layout_v7_1.step`

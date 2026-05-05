@@ -142,7 +142,7 @@ Stage 6R revises the target workflow to a multi-box batch sorting requirement: f
 
 Stage 7A returns to layout modeling for the revised multi-box requirement. v6 remains the single-batch prototype validation, while v7 is the multi-box batch layout prototype generated with CadQuery/OCP on a recommended 1200 x 900 x 15 mm base. The next step is SolidWorks 2026 manual inspection of the v7 STEP, followed by a multi-box coordinate and reachability rerun.
 
-Stage 7A-1 refines v7 after SolidWorks 2026 visual inspection. v7.1 keeps the same multi-box batch concept but improves input/output box accessibility, groups the scan station more clearly, and changes the transparent guard placeholder to show front/top replacement access. The next step is manual inspection of the v7.1 STEP before Stage 7B multi-box coordinate and reachability planning.
+Stage 7A-1 refines v7 after SolidWorks 2026 visual inspection. v7.1 keeps the same multi-box batch concept but improves input/output box accessibility, groups the scan station more clearly, and changes the transparent guard placeholder to show front/top replacement access. SolidWorks 2026 manual inspection confirmed v7.1 as the current recommended multi-box batch layout prototype. The next stage is Stage 7B multi-box coordinate and reachability planning.
 
 ## Git LFS Usage
 
@@ -173,6 +173,6 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 9. Open each accepted CadQuery/OCP STEP in SolidWorks 2026 and capture the required overall, top, front, side, gripper/tube, scan station, and output-bin screenshots.
 10. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
 11. Define custom-part interface boundaries before detailed self-made part engineering drawings.
-12. Open the Stage 7A-1 v7.1 multi-box STEP in SolidWorks 2026 for manual inspection.
-13. Revise Stage 6A-6E task planning for the multi-box batch workflow before freezing PID targets.
+12. Use v7.1 as the current recommended multi-box batch layout prototype.
+13. Revise Stage 6A-6E task planning for the multi-box batch workflow before freezing PID targets, starting with Stage 7B multi-box coordinate and reachability.
 14. Create MATLAB/Simulink baseline trajectory and PID models aligned with the stable multi-box workflow and real mechanical masses.

@@ -1,0 +1,13 @@
+run_id,category,sample_count,completed_count,queued_count,resumed_count,average_cycle_time_s,total_processing_time_s,notes
+baseline_multi_box_run,Category A,23,23,0,0,9.200,211.592,abnormal samples excluded from category throughput
+baseline_multi_box_run,Category B,23,23,0,0,9.836,226.219,abnormal samples excluded from category throughput
+baseline_multi_box_run,Category C,22,22,0,0,9.204,202.488,abnormal samples excluded from category throughput
+baseline_multi_box_run,Category D,22,22,0,0,9.869,217.121,abnormal samples excluded from category throughput
+forced_category_A_full,Category A,23,23,19,19,9.811,225.642,abnormal samples excluded from category throughput
+forced_category_A_full,Category B,23,23,0,0,9.836,226.219,abnormal samples excluded from category throughput
+forced_category_A_full,Category C,22,22,0,0,9.204,202.488,abnormal samples excluded from category throughput
+forced_category_A_full,Category D,22,22,0,0,9.869,217.121,abnormal samples excluded from category throughput
+forced_manual_review_full,Category A,9,9,0,0,9.344,84.092,abnormal samples excluded from category throughput
+forced_manual_review_full,Category B,9,9,0,0,9.885,88.966,abnormal samples excluded from category throughput
+forced_manual_review_full,Category C,8,8,0,0,9.316,74.530,abnormal samples excluded from category throughput
+forced_manual_review_full,Category D,8,8,0,0,9.933,79.463,abnormal samples excluded from category throughput

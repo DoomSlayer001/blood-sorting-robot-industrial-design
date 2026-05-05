@@ -150,6 +150,8 @@ Stage 7C generates a 96-sample multi-box manifest and validates the new batch so
 
 Stage 7D generates multi-box pick-scan-place trajectories from the Stage 7B coordinates and Stage 7C policy simulation. The trajectory set covers the baseline 96-sample run, forced category hold/resume, pending queue release, manual review placement, and manual-review-full `PAUSE_ALARM` behavior without generating new CAD. The next stage should update multi-box cycle time and throughput estimates.
 
+Stage 7E estimates multi-box cycle time and throughput from the Stage 7D trajectories. It compares baseline, category hold/resume, and manual-review-full scenarios, with motion identified as the current dominant bottleneck under the first-pass timing assumptions. The next stage should update the multi-box process animation.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:
@@ -180,5 +182,5 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 10. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
 11. Define custom-part interface boundaries before detailed self-made part engineering drawings.
 12. Use v7.1 as the current recommended multi-box batch layout prototype.
-13. Revise Stage 6A-6E task planning for the multi-box batch workflow before freezing PID targets, continuing with multi-box cycle-time and animation updates.
+13. Revise Stage 6A-6E task planning for the multi-box batch workflow before freezing PID targets, continuing with the multi-box animation update.
 14. Create MATLAB/Simulink baseline trajectory and PID models aligned with the stable multi-box workflow and real mechanical masses.

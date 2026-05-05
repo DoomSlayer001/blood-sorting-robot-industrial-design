@@ -1,0 +1,4 @@
+run_id,total_samples_in_manifest,processed_sample_count,completed_sample_count,abnormal_sample_count,queued_sample_count,resumed_sample_count,paused_sample_count,total_waypoints,total_motion_time_s,total_non_motion_time_s,total_operator_wait_time_s,total_alarm_wait_time_s,total_batch_time_s,average_cycle_time_s,median_cycle_time_s,max_cycle_time_s,estimated_samples_per_hour,bottleneck_stage,notes
+baseline_multi_box_run,96,96,96,6,0,0,0,1152,631.792,283.200,0.000,0.000,914.992,9.531,9.557,10.338,377.708,motion,full 96-sample baseline; no alarm
+forced_category_A_full,96,96,96,6,19,19,0,1171,631.842,297.208,12.008,0.000,929.042,9.678,9.688,10.375,371.996,motion,"includes Category A hold, pending queue, operator clear, and resume"
+forced_manual_review_full,96,37,36,3,0,0,1,440,243.629,142.950,15.000,20.000,386.579,10.448,9.616,40.601,335.248,motion,stops at manual_review_full PAUSE_ALARM

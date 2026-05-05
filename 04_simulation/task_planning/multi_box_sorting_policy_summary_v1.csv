@@ -1,0 +1,16 @@
+metric,value,unit,notes
+total_samples,96,sample,generated from Stage 7B input slots
+normal_sample_count,90,sample,normal samples routed to A/B/C/D
+abnormal_sample_count,6,sample,true abnormal samples routed to manual review
+category_A_count,23,sample,normal Category A
+category_B_count,23,sample,normal Category B
+category_C_count,22,sample,normal Category C
+category_D_count,22,sample,normal Category D
+manual_review_used_count,6,sample,baseline true abnormal samples
+category_hold_event_count,1,event,injected forced category full scenario
+pending_queue_count,19,sample,queued while category held
+resumed_pending_count,19,sample,released after operator clear/resume
+alarm_count,1,event,manual review full injected scenario
+baseline_run_status,PASS_NO_ALARM,status,baseline should have no alarm
+forced_category_full_status,PASS_HOLD_RESUME,status,category hold/resume expected
+forced_manual_review_full_status,PASS_PAUSE_ALARM_EXPECTED,status,pause alarm expected

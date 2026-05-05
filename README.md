@@ -146,6 +146,8 @@ Stage 7A-1 refines v7 after SolidWorks 2026 visual inspection. v7.1 keeps the sa
 
 Stage 7B builds the multi-box coordinate model from v7.1 without generating CAD. It defines 199 task points across 96 input slots, 96 output slots, 6 manual-review slots, and 1 scan-station point, then verifies reachability in the v7.1 planning envelope. The next stage should create the multi-box sample manifest, category hold/resume simulation, and updated trajectory/cycle-time model.
 
+Stage 7C generates a 96-sample multi-box manifest and validates the new batch sorting policy. The simulation covers `category_hold`, `pending_queue`, operator clear/replacement, `category_resume`, and manual-review-full alarm behavior. Normal samples blocked by a full category output box are held and resumed, not routed to manual review; `manual_review` remains reserved for true abnormal samples. The next stage should update multi-box trajectories and cycle-time estimates.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:
@@ -176,5 +178,5 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 10. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
 11. Define custom-part interface boundaries before detailed self-made part engineering drawings.
 12. Use v7.1 as the current recommended multi-box batch layout prototype.
-13. Revise Stage 6A-6E task planning for the multi-box batch workflow before freezing PID targets, continuing with multi-box sample manifest, category hold/resume, trajectory, and cycle-time updates.
+13. Revise Stage 6A-6E task planning for the multi-box batch workflow before freezing PID targets, continuing with multi-box trajectory and cycle-time updates.
 14. Create MATLAB/Simulink baseline trajectory and PID models aligned with the stable multi-box workflow and real mechanical masses.

@@ -1,0 +1,5 @@
+run_id,event_id,event_type,related_box_id,related_category,trigger_step,operator_action,system_response,notes
+forced_category_A_full,forced_category_A_full_EVENT_001,category_A_hold,category_A_output_box,A,18,operator clear/replacement required,category_A_hold,category output capacity reached; normal sample is not routed to manual review
+forced_category_A_full,forced_category_A_full_EVENT_002,clear_or_replace_category_A_output_box,category_A_output_box,A,97,clear_or_replace_category_A_output_box,category_A_available,operator clears/replaces full output box before resuming pending samples
+forced_category_A_full,forced_category_A_full_EVENT_003,resume_category_A,category_A_output_box,A,98,resume_category_A,pending_queue_released,system resumes held category and processes queued samples
+forced_manual_review_full,forced_manual_review_full_EVENT_001,manual_review_full_alarm,manual_review_bin,manual_review,37,operator clears manual review bin and acknowledges alarm,PAUSE_ALARM,barcode_invalid requires manual review but no slot is available

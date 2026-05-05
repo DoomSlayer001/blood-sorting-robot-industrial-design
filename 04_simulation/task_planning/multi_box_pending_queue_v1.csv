@@ -1,0 +1,20 @@
+run_id,event_id,sample_id,category,input_box_id,input_slot_id,pending_reason,hold_category,queued_at_step,released_at_step,final_target_zone,final_target_slot,notes
+forced_category_A_full,forced_category_A_full_PENDING_001,MBOX-018,Category A,input_box_1,C6,category_output_full,Category A,18,99,output_A,A1,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_002,MBOX-023,Category A,input_box_1,D5,category_hold,Category A,23,100,output_A,A2,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_003,MBOX-027,Category A,input_box_2,A3,category_hold,Category A,27,101,output_A,A3,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_004,MBOX-031,Category A,input_box_2,B1,category_hold,Category A,31,102,output_A,A4,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_005,MBOX-035,Category A,input_box_2,B5,category_hold,Category A,35,103,output_A,A5,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_006,MBOX-040,Category A,input_box_2,C4,category_hold,Category A,40,104,output_A,A6,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_007,MBOX-044,Category A,input_box_2,D2,category_hold,Category A,44,105,output_A,B1,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_008,MBOX-048,Category A,input_box_2,D6,category_hold,Category A,48,106,output_A,B2,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_009,MBOX-052,Category A,input_box_3,A4,category_hold,Category A,52,107,output_A,B3,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_010,MBOX-056,Category A,input_box_3,B2,category_hold,Category A,56,108,output_A,B4,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_011,MBOX-061,Category A,input_box_3,C1,category_hold,Category A,61,109,output_A,B5,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_012,MBOX-065,Category A,input_box_3,C5,category_hold,Category A,65,110,output_A,B6,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_013,MBOX-069,Category A,input_box_3,D3,category_hold,Category A,69,111,output_A,C1,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_014,MBOX-074,Category A,input_box_4,A2,category_hold,Category A,74,112,output_A,C2,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_015,MBOX-078,Category A,input_box_4,A6,category_hold,Category A,78,113,output_A,C3,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_016,MBOX-082,Category A,input_box_4,B4,category_hold,Category A,82,114,output_A,C4,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_017,MBOX-086,Category A,input_box_4,C2,category_hold,Category A,86,115,output_A,C5,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_018,MBOX-090,Category A,input_box_4,C6,category_hold,Category A,90,116,output_A,C6,released after operator clear and category resume
+forced_category_A_full,forced_category_A_full_PENDING_019,MBOX-095,Category A,input_box_4,D5,category_hold,Category A,95,117,output_A,D1,released after operator clear and category resume

@@ -140,6 +140,8 @@ Requirements traceability review confirms that v6 + Stage 6A-6E are a rough asse
 
 Stage 6R revises the target workflow to a multi-box batch sorting requirement: four replaceable 4 x 6 input boxes, four replaceable 4 x 6 category output boxes, and one 2 x 3 manual review bin reserved only for true abnormal samples. v6 and Stage 6A-6E are retained as single-batch prototype validation; the next stage should update the coordinate model, sorting policy, trajectories, cycle time, and animation for the multi-box workflow before PID/dynamics simulation.
 
+Stage 7A returns to layout modeling for the revised multi-box requirement. v6 remains the single-batch prototype validation, while v7 is the multi-box batch layout prototype generated with CadQuery/OCP on a recommended 1200 x 900 x 15 mm base. The next step is SolidWorks 2026 manual inspection of the v7 STEP, followed by a multi-box coordinate and reachability rerun.
+
 ## Git LFS Usage
 
 Git LFS is enabled for CAD, SolidWorks, USD, media, and archive files:
@@ -169,5 +171,6 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 9. Open each accepted CadQuery/OCP STEP in SolidWorks 2026 and capture the required overall, top, front, side, gripper/tube, scan station, and output-bin screenshots.
 10. Verify reach, collision, scanner line-of-sight, photoelectric trigger position, cable chain sweep envelope, and emergency-stop accessibility.
 11. Define custom-part interface boundaries before detailed self-made part engineering drawings.
-12. Revise Stage 6A-6E task planning for the multi-box batch workflow before freezing PID targets.
-13. Create MATLAB/Simulink baseline trajectory and PID models aligned with the stable multi-box workflow and real mechanical masses.
+12. Open the Stage 7A v7 multi-box STEP in SolidWorks 2026 for manual inspection.
+13. Revise Stage 6A-6E task planning for the multi-box batch workflow before freezing PID targets.
+14. Create MATLAB/Simulink baseline trajectory and PID models aligned with the stable multi-box workflow and real mechanical masses.

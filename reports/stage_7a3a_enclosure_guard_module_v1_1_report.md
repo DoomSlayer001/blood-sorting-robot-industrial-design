@@ -22,6 +22,11 @@
 - Preview failed components: 0
 - Preview solids: 439
 - Preview bbox: 1200.000 x 918.000 x 480.000 mm
+- SolidWorks 2026 manual check: v1.1 opens normally and corrects the v1 sloped/display-cover impression into a standard rectangular transparent safety guard.
+- Manual check result: lower guard height, lighter transparent panels, open rectangular top frame, and clear front access for input boxes, output boxes, and manual_review are acceptable.
+- Manual check result: sample tube curved labels remain visible, non-tube region label plates are removed, and the guard does not visibly block the gantry, scan station, tube boxes, gripper travel area, or main operating access.
+- Known acceptable note: the rear transparent panel is still slightly large, but it is on the rear side and does not affect the main operator area.
+- Recommendation: enclosure guard module v1.1 is accepted as the enclosure module for later v7.3 modular whole-machine integration.
 - Current status: this is a layout-level enclosure module, not final manufacturing enclosure CAD.
 - Later detail still needed: hinges, locks, handles, magnetic catches, door limits, PC panel thickness check, screw holes, and engineering drawings.
 - Enclosure module STEP: `03_cad/freecad_assembly/blood_sorting_robot_enclosure_guard_module_v1_1.step`

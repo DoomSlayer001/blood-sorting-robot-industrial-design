@@ -1,0 +1,12 @@
+item,check_status,notes
+input_box_replace_opening_clear,pass,front input-side door frame leaves a wide access opening and no solid panel crosses the input boxes.
+output_box_replace_opening_clear,pass,front output-side door frame leaves a wide access opening and no solid panel crosses the output boxes.
+manual_review_access_clear,pass,manual_review has a dedicated low front opening and remains removable from the operator side.
+gantry_motion_not_blocked,pass,side/rear panels and top open frame sit on the base perimeter and do not cross X/Y/Z axes or gripper travel volume.
+x_axis_view_not_blocked,pass,top is open and transparent panels are kept to rear/side/front-low positions.
+z_axis_view_not_blocked,pass,no top cover is modeled; Z axis remains visible through the open frame.
+scan_station_visible,pass,scan station is inside the work area and not covered by a front or top solid panel.
+tube_labels_preserved,pass,sample tubes are still generated from v2 tube geometry with curved label and barcode stripe subparts.
+non_tube_labels_removed,pass,all v7.1 label_plate_* region labels are filtered from the integrated preview.
+top_access_available,pass,TopOpenFrameModule uses rails only; no top sheet or cover is generated.
+front_access_available,pass,front is segmented into access-door frames and small low panels rather than a sealed wall.

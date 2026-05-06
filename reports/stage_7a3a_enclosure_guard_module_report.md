@@ -1,0 +1,26 @@
+# Stage 7A-3a Enclosure Guard Module Report
+
+- Stage 7A-3a pauses full v7.3 generation and switches to module-by-module detailed modeling.
+- The enclosure / transparent safety guard is modeled first because v7.2 made the whole assembly visually heavier and harder to inspect.
+- v7.2 guard issues: large cyan plates obscured the equipment, guard surfaces read as floating blockers, wiring/drag-chain placeholders were visually noisy, and small region labels degraded clarity.
+- v7.3a design principle: aluminum profile frame plus transparent PC/acrylic panels, with front replacement openings and an open top frame.
+- AluminumFrameModule: base perimeter rails, corner posts, rear/side/top rails, segmented front rails, and front divider posts.
+- TransparentPanelModule: rear, side, and small front-low transparent panels only; no large top cover.
+- AccessDoorModule: input and output replacement door/opening frames with simple handles, no text labels.
+- ManualReviewAccessModule: dedicated manual_review front opening.
+- TopOpenFrameModule: thin rails only, preserving visibility and maintenance access.
+- Sample tube curved labels: preserved.
+- Non-tube region labels: removed from the integrated preview by filtering `label_plate_*` geometry.
+- Accessibility check summary: pass=11, issue=0.
+- Interference audit summary: overlap=0, too_close=0, allowed_mount_contact=138.
+- Enclosure module components: 43
+- Enclosure module solids: 43
+- Enclosure module bbox: 1200.000 x 919.000 x 538.000 mm
+- Preview generated components: 97
+- Preview failed components: 0
+- Preview solids: 441
+- Preview bbox: 1200.000 x 919.000 x 553.000 mm
+- Current status: this is a layout-level enclosure module, not final manufacturing enclosure CAD.
+- Later detail still needed: hinges, locks, handles, magnetic catches, door limits, PC panel thickness check, screw holes, and engineering drawings.
+- Enclosure module STEP: `03_cad/freecad_assembly/blood_sorting_robot_enclosure_guard_module_v1.step`
+- Enclosure preview STEP: `03_cad/freecad_assembly/blood_sorting_robot_v7_3a_enclosure_preview.step`

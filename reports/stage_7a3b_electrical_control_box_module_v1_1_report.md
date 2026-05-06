@@ -1,0 +1,35 @@
+# Stage 7A-3b v1.1 Electrical Control Box Module Report
+
+- Stage 7A-3b v1.1 is a placement and mounting revision of the electrical control box module.
+- This is still module-by-module detailed modeling, not final v7.3 whole-machine generation.
+- v1 manual review did not pass because the box looked like an angled external add-on, the connectors protruded too much, the preview Y bbox was too large, and the guard/frame mounting relationship was unclear.
+- v1.1 goal: make the box read as a compact orthogonal rear service module with clearer base/frame mounting and shorter rear-service connectors.
+- Position: rear-right service zone, center=(450.0, 511.0, 72.5) mm. The center was moved inward from v1 while keeping guard clearance.
+- Size: 190 x 120 x 115 mm, reduced from v1 220 x 160 x 130 mm.
+- Orientation: orthogonal to the base plate; no tilt or angled external mounting is used.
+- ControlBoxHousingModule: smaller dark housing, rear service lid, seam lines, screw markers.
+- DINRailAndMountingModule: two simplified compact DIN rails.
+- ControllerBoardModule: green PLC/MCU board placeholder with reduced visible detail.
+- MotorDriverModule: four compact driver placeholders with heat-sink slot markers.
+- PowerSupplyModule: simplified 24 V DC power supply placeholder.
+- TerminalBlockModule: eight compact terminal blocks.
+- CableGlandAndConnectorModule: four short rear-facing glands; no top connector row and no full wire harness.
+- VentilationModule: side/rear vent-slot markers.
+- MountingBracketModule: bottom mounting plate, feet, rear tie bar, and vertical L brackets to make the installation read as fixed.
+- Sample tube curved labels: preserved.
+- Non-tube region labels: kept removed from the integrated preview.
+- Accessibility check summary: pass=16, issue=0.
+- Interference audit summary: overlap=0, too_close=0, allowed_mount_contact=30.
+- Interference audit scope: new control-box-related pairs were checked against the accepted v7.1 body and enclosure v1.1 preview; unchanged body/enclosure relations remain from the already validated enclosure stage.
+- Control box module components: 9
+- Control box module solids: 80
+- Control box module bbox: 208.000 x 136.500 x 126.000 mm
+- Preview generated components: 104
+- Preview failed components: 0
+- Preview solids: 519
+- Preview bbox: 1200.000 x 1049.500 x 480.000 mm
+- Preview bbox Y direction: 1049.500 mm; target <= 1050 mm.
+- Current status: layout-level electrical module, not final electrical design.
+- Later detail still needed: formal electrical schematic, terminal numbering, harness routes, cable-chain selection, grounding, power protection, control-box mounting holes, and engineering drawings.
+- Control box module STEP: `03_cad/freecad_assembly/blood_sorting_robot_electrical_control_box_module_v1_1.step`
+- Control box preview STEP: `03_cad/freecad_assembly/blood_sorting_robot_v7_3b_control_box_preview_v1_1.step`

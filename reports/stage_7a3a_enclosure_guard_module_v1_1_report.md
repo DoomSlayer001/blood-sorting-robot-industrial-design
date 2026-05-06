@@ -1,0 +1,28 @@
+# Stage 7A-3a v1.1 Enclosure Guard Module Report
+
+- v1 manual check: the module improved on v7.2, but still read as a sloped display cover with visually heavy rear/right transparent panels and overly complex front frames.
+- v1.1 purpose: small revision only, not a full v7.3 redesign.
+- v1.1 changes the guard into a clean rectangular safety enclosure: vertical posts, horizontal rear/side/front rails, and a horizontal open top frame.
+- Transparent panels are lighter and lower: rear panel height 300 mm, side panel height 260 mm, front low panel height 90 mm, with lighter transparency.
+- Front access is simplified into clear rectangular input/output/manual_review openings without text labels or complex divider panels.
+- Top remains open: no sloped roof, no tilted transparent panel, and no large top sheet over the work area.
+- AluminumFrameModule: perimeter base rails, four vertical corner posts, horizontal rear/side/front rails.
+- TransparentPanelModule: reduced rear, left, right, and low front transparent panels only.
+- AccessDoorModule: simple input and output rectangular opening frames with small handles.
+- ManualReviewAccessModule: simple manual_review front opening.
+- TopOpenFrameModule: horizontal rectangular thin frame only.
+- Sample tube curved labels: preserved.
+- Non-tube region labels: removed from the integrated preview by filtering `label_plate_*` geometry.
+- Accessibility check summary: pass=14, issue=0.
+- Interference audit summary: overlap=0, too_close=0, allowed_mount_contact=131.
+- Enclosure module components: 41
+- Enclosure module solids: 41
+- Enclosure module bbox: 1200.000 x 918.000 x 430.000 mm
+- Preview generated components: 95
+- Preview failed components: 0
+- Preview solids: 439
+- Preview bbox: 1200.000 x 918.000 x 480.000 mm
+- Current status: this is a layout-level enclosure module, not final manufacturing enclosure CAD.
+- Later detail still needed: hinges, locks, handles, magnetic catches, door limits, PC panel thickness check, screw holes, and engineering drawings.
+- Enclosure module STEP: `03_cad/freecad_assembly/blood_sorting_robot_enclosure_guard_module_v1_1.step`
+- Enclosure preview STEP: `03_cad/freecad_assembly/blood_sorting_robot_v7_3a_enclosure_preview_v1_1.step`

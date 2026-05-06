@@ -1,0 +1,13 @@
+item,check_status,notes
+control_box_not_in_motion_area,pass,control box is rear-mounted outside the primary gantry work envelope.
+control_box_not_blocking_input_replacement,pass,front-left input box replacement opening remains unchanged and clear.
+control_box_not_blocking_output_replacement,pass,front/right output box replacement opening remains unchanged and clear.
+control_box_not_blocking_manual_review,pass,manual_review remains accessible from the front operator side.
+control_box_service_access_available,pass,service lid and visible internal placeholders face the rear service side.
+control_box_not_interfering_with_guard,pass,control box is placed behind the enclosure rear boundary with clearance; mounting is represented separately.
+cable_glands_face_service_side,pass,cable glands face the rear service side.
+cable_glands_not_facing_work_area,pass,only short rear cable stubs are modeled; no cable runs enter the work area.
+gantry_motion_not_blocked,pass,gantry axes and gripper travel are unchanged from v7.1/enclosure preview.
+scan_station_visible,pass,control box is behind the machine and does not cover the scan station.
+tube_labels_preserved,pass,sample tubes continue to use v2 geometry with curved tube labels and barcode stripes.
+non_tube_labels_removed,pass,v7.1 label_plate_* region labels are still filtered from the integrated preview.

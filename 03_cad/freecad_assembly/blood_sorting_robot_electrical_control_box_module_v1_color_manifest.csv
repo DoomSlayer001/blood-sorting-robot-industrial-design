@@ -1,0 +1,86 @@
+component_name,instance_name,expected_color,material_or_role,r,g,b,a,source_path,notes
+rear_box_shell,control_box_housing,control_box_powder_coated_dark_gray,control_box_housing,0.16,0.17,0.18,1.0,generated:control_box_housing,rectangular serviceable electrical enclosure housing without text labels
+service_lid_panel,control_box_housing,control_box_service_lid_graphite,control_box_lid,0.1,0.11,0.12,1.0,generated:control_box_housing,rectangular serviceable electrical enclosure housing without text labels
+lid_seam_top,control_box_housing,control_box_lid_seam_black,control_box_seam,0.01,0.01,0.01,1.0,generated:control_box_housing,rectangular serviceable electrical enclosure housing without text labels
+lid_seam_bottom,control_box_housing,control_box_lid_seam_black,control_box_seam,0.01,0.01,0.01,1.0,generated:control_box_housing,rectangular serviceable electrical enclosure housing without text labels
+lid_seam_left,control_box_housing,control_box_lid_seam_black,control_box_seam,0.01,0.01,0.01,1.0,generated:control_box_housing,rectangular serviceable electrical enclosure housing without text labels
+lid_seam_right,control_box_housing,control_box_lid_seam_black,control_box_seam,0.01,0.01,0.01,1.0,generated:control_box_housing,rectangular serviceable electrical enclosure housing without text labels
+service_lid_screw_marker_1,control_box_housing,control_box_lid_seam_black,control_box_seam,0.01,0.01,0.01,1.0,generated:control_box_housing,rectangular serviceable electrical enclosure housing without text labels
+service_lid_screw_marker_2,control_box_housing,control_box_lid_seam_black,control_box_seam,0.01,0.01,0.01,1.0,generated:control_box_housing,rectangular serviceable electrical enclosure housing without text labels
+service_lid_screw_marker_3,control_box_housing,control_box_lid_seam_black,control_box_seam,0.01,0.01,0.01,1.0,generated:control_box_housing,rectangular serviceable electrical enclosure housing without text labels
+service_lid_screw_marker_4,control_box_housing,control_box_lid_seam_black,control_box_seam,0.01,0.01,0.01,1.0,generated:control_box_housing,rectangular serviceable electrical enclosure housing without text labels
+upper_din_rail,din_rail_and_mounting,din_rail_zinc_gray,din_rail_metal,0.72,0.74,0.73,1.0,generated:din_rail_and_mounting,two simplified DIN rails visible on service panel
+lower_din_rail,din_rail_and_mounting,din_rail_zinc_gray,din_rail_metal,0.72,0.74,0.73,1.0,generated:din_rail_and_mounting,two simplified DIN rails visible on service panel
+controller_pcb,controller_board_placeholder,controller_board_green,controller_board_green,0.05,0.42,0.22,1.0,generated:controller_board_placeholder,PLC/MCU controller board placeholder
+controller_main_chip,controller_board_placeholder,pcb_chip_dark,pcb_chip_dark,0.02,0.02,0.02,1.0,generated:controller_board_placeholder,PLC/MCU controller board placeholder
+controller_terminal_strip,controller_board_placeholder,terminal_block_orange,terminal_orange,0.95,0.45,0.08,1.0,generated:controller_board_placeholder,PLC/MCU controller board placeholder
+controller_small_component_1,controller_board_placeholder,pcb_chip_dark,pcb_chip_dark,0.02,0.02,0.02,1.0,generated:controller_board_placeholder,PLC/MCU controller board placeholder
+controller_small_component_2,controller_board_placeholder,pcb_chip_dark,pcb_chip_dark,0.02,0.02,0.02,1.0,generated:controller_board_placeholder,PLC/MCU controller board placeholder
+controller_small_component_3,controller_board_placeholder,pcb_chip_dark,pcb_chip_dark,0.02,0.02,0.02,1.0,generated:controller_board_placeholder,PLC/MCU controller board placeholder
+controller_small_component_4,controller_board_placeholder,pcb_chip_dark,pcb_chip_dark,0.02,0.02,0.02,1.0,generated:controller_board_placeholder,PLC/MCU controller board placeholder
+motor_driver_1_body,motor_driver_placeholders,motor_driver_dark_gray,motor_driver_dark,0.2,0.21,0.22,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_1_heat_sink_slot_1,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_1_heat_sink_slot_2,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_1_heat_sink_slot_3,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_1_heat_sink_slot_4,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_2_body,motor_driver_placeholders,motor_driver_dark_gray,motor_driver_dark,0.2,0.21,0.22,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_2_heat_sink_slot_1,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_2_heat_sink_slot_2,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_2_heat_sink_slot_3,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_2_heat_sink_slot_4,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_3_body,motor_driver_placeholders,motor_driver_dark_gray,motor_driver_dark,0.2,0.21,0.22,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_3_heat_sink_slot_1,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_3_heat_sink_slot_2,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_3_heat_sink_slot_3,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_3_heat_sink_slot_4,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_4_body,motor_driver_placeholders,motor_driver_dark_gray,motor_driver_dark,0.2,0.21,0.22,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_4_heat_sink_slot_1,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_4_heat_sink_slot_2,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_4_heat_sink_slot_3,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+motor_driver_4_heat_sink_slot_4,motor_driver_placeholders,driver_heat_sink_gray,heat_sink_gray,0.62,0.64,0.65,1.0,generated:motor_driver_placeholders,four motor driver placeholders for X/Y/Z/gripper axes
+power_supply_body,power_supply_placeholder,power_supply_light_gray,power_supply_gray,0.58,0.6,0.6,1.0,generated:power_supply_placeholder,24 V DC power supply placeholder
+power_supply_vent_slot_1,power_supply_placeholder,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:power_supply_placeholder,24 V DC power supply placeholder
+power_supply_vent_slot_2,power_supply_placeholder,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:power_supply_placeholder,24 V DC power supply placeholder
+power_supply_vent_slot_3,power_supply_placeholder,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:power_supply_placeholder,24 V DC power supply placeholder
+power_supply_vent_slot_4,power_supply_placeholder,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:power_supply_placeholder,24 V DC power supply placeholder
+terminal_block_01,terminal_blocks,terminal_block_orange,terminal_orange,0.95,0.45,0.08,1.0,generated:terminal_blocks,ten simplified terminal blocks
+terminal_block_02,terminal_blocks,terminal_block_orange,terminal_orange,0.95,0.45,0.08,1.0,generated:terminal_blocks,ten simplified terminal blocks
+terminal_block_03,terminal_blocks,terminal_block_orange,terminal_orange,0.95,0.45,0.08,1.0,generated:terminal_blocks,ten simplified terminal blocks
+terminal_block_04,terminal_blocks,terminal_block_orange,terminal_orange,0.95,0.45,0.08,1.0,generated:terminal_blocks,ten simplified terminal blocks
+terminal_block_05,terminal_blocks,terminal_block_orange,terminal_orange,0.95,0.45,0.08,1.0,generated:terminal_blocks,ten simplified terminal blocks
+terminal_block_06,terminal_blocks,terminal_block_orange,terminal_orange,0.95,0.45,0.08,1.0,generated:terminal_blocks,ten simplified terminal blocks
+terminal_block_07,terminal_blocks,terminal_block_orange,terminal_orange,0.95,0.45,0.08,1.0,generated:terminal_blocks,ten simplified terminal blocks
+terminal_block_08,terminal_blocks,terminal_block_orange,terminal_orange,0.95,0.45,0.08,1.0,generated:terminal_blocks,ten simplified terminal blocks
+terminal_block_09,terminal_blocks,terminal_block_orange,terminal_orange,0.95,0.45,0.08,1.0,generated:terminal_blocks,ten simplified terminal blocks
+terminal_block_10,terminal_blocks,terminal_block_orange,terminal_orange,0.95,0.45,0.08,1.0,generated:terminal_blocks,ten simplified terminal blocks
+rear_cable_gland_01,cable_glands_and_connectors,cable_gland_black,cable_gland_black,0.02,0.02,0.02,1.0,generated:cable_glands_and_connectors,six rear-facing cable glands and short rear stubs only
+short_rear_cable_stub_01,cable_glands_and_connectors,cable_gland_black,cable_gland_black,0.02,0.02,0.02,1.0,generated:cable_glands_and_connectors,six rear-facing cable glands and short rear stubs only
+rear_cable_gland_02,cable_glands_and_connectors,cable_gland_black,cable_gland_black,0.02,0.02,0.02,1.0,generated:cable_glands_and_connectors,six rear-facing cable glands and short rear stubs only
+short_rear_cable_stub_02,cable_glands_and_connectors,cable_gland_black,cable_gland_black,0.02,0.02,0.02,1.0,generated:cable_glands_and_connectors,six rear-facing cable glands and short rear stubs only
+rear_cable_gland_03,cable_glands_and_connectors,cable_gland_black,cable_gland_black,0.02,0.02,0.02,1.0,generated:cable_glands_and_connectors,six rear-facing cable glands and short rear stubs only
+short_rear_cable_stub_03,cable_glands_and_connectors,cable_gland_black,cable_gland_black,0.02,0.02,0.02,1.0,generated:cable_glands_and_connectors,six rear-facing cable glands and short rear stubs only
+rear_cable_gland_04,cable_glands_and_connectors,cable_gland_black,cable_gland_black,0.02,0.02,0.02,1.0,generated:cable_glands_and_connectors,six rear-facing cable glands and short rear stubs only
+short_rear_cable_stub_04,cable_glands_and_connectors,cable_gland_black,cable_gland_black,0.02,0.02,0.02,1.0,generated:cable_glands_and_connectors,six rear-facing cable glands and short rear stubs only
+rear_cable_gland_05,cable_glands_and_connectors,cable_gland_black,cable_gland_black,0.02,0.02,0.02,1.0,generated:cable_glands_and_connectors,six rear-facing cable glands and short rear stubs only
+short_rear_cable_stub_05,cable_glands_and_connectors,cable_gland_black,cable_gland_black,0.02,0.02,0.02,1.0,generated:cable_glands_and_connectors,six rear-facing cable glands and short rear stubs only
+rear_cable_gland_06,cable_glands_and_connectors,cable_gland_black,cable_gland_black,0.02,0.02,0.02,1.0,generated:cable_glands_and_connectors,six rear-facing cable glands and short rear stubs only
+short_rear_cable_stub_06,cable_glands_and_connectors,cable_gland_black,cable_gland_black,0.02,0.02,0.02,1.0,generated:cable_glands_and_connectors,six rear-facing cable glands and short rear stubs only
+right_side_vent_slot_1,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+right_side_vent_slot_2,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+right_side_vent_slot_3,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+right_side_vent_slot_4,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+right_side_vent_slot_5,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+right_side_vent_slot_6,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+rear_vent_slot_1,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+rear_vent_slot_2,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+rear_vent_slot_3,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+rear_vent_slot_4,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+rear_vent_slot_5,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+rear_vent_slot_6,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+rear_vent_slot_7,ventilation_slots,vent_slot_dark,vent_dark,0.03,0.03,0.03,1.0,generated:ventilation_slots,side and rear simplified vent slots
+left_mounting_foot,mounting_brackets,control_box_mounting_bracket_gray,mounting_bracket,0.34,0.36,0.37,1.0,generated:mounting_brackets,feet and rear support brackets fixing the control box in the rear service zone
+right_mounting_foot,mounting_brackets,control_box_mounting_bracket_gray,mounting_bracket,0.34,0.36,0.37,1.0,generated:mounting_brackets,feet and rear support brackets fixing the control box in the rear service zone
+left_rear_mounting_foot,mounting_brackets,control_box_mounting_bracket_gray,mounting_bracket,0.34,0.36,0.37,1.0,generated:mounting_brackets,feet and rear support brackets fixing the control box in the rear service zone
+right_rear_mounting_foot,mounting_brackets,control_box_mounting_bracket_gray,mounting_bracket,0.34,0.36,0.37,1.0,generated:mounting_brackets,feet and rear support brackets fixing the control box in the rear service zone
+rear_support_strut_left,mounting_brackets,control_box_mounting_bracket_gray,mounting_bracket,0.34,0.36,0.37,1.0,generated:mounting_brackets,feet and rear support brackets fixing the control box in the rear service zone
+rear_support_strut_right,mounting_brackets,control_box_mounting_bracket_gray,mounting_bracket,0.34,0.36,0.37,1.0,generated:mounting_brackets,feet and rear support brackets fixing the control box in the rear service zone

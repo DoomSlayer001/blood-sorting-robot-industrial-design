@@ -1,0 +1,30 @@
+# Stage 7A-3b Electrical Control Box Module Report
+
+- Stage 7A-3b continues module-by-module detailed modeling; this is the second refined module after the enclosure guard.
+- This is not final v7.3 whole-machine generation.
+- Electrical control box is modeled after the guard so placement can be checked against the accepted enclosure v1.1 and v7.1 body layout.
+- Position: rear service zone / rear-right side, center=(430, 545, 80) mm. The preview bbox extends behind the base because the box is treated as a rear service-mounted enclosure rather than occupying the work area.
+- ControlBoxHousingModule: rectangular dark housing, service lid, seam lines, screw markers.
+- DINRailAndMountingModule: two simplified DIN rails.
+- ControllerBoardModule: green PLC/MCU board placeholder with chips and terminal strip.
+- MotorDriverModule: four driver placeholders with heat-sink slot markers for X/Y/Z/gripper axes.
+- PowerSupplyModule: simplified 24 V DC power supply placeholder.
+- TerminalBlockModule: ten compact terminal blocks.
+- CableGlandAndConnectorModule: six rear-facing glands and short stubs only; no full wire harness is modeled.
+- VentilationModule: side/rear vent-slot markers.
+- MountingBracketModule: mounting feet and rear support brackets.
+- Sample tube curved labels: preserved.
+- Non-tube region labels: kept removed from the integrated preview.
+- Accessibility check summary: pass=12, issue=0.
+- Interference audit summary: overlap=0, too_close=0, allowed_mount_contact=152.
+- Control box module components: 9
+- Control box module solids: 85
+- Control box module bbox: 222.700 x 215.000 x 140.000 mm
+- Preview generated components: 104
+- Preview failed components: 0
+- Preview solids: 524
+- Preview bbox: 1200.000 x 1125.000 x 480.000 mm
+- Current status: layout-level electrical module, not final electrical design.
+- Later detail still needed: formal electrical schematic, terminal numbering, harness routes, cable-chain selection, grounding, power protection, control-box mounting holes, and engineering drawings.
+- Control box module STEP: `03_cad/freecad_assembly/blood_sorting_robot_electrical_control_box_module_v1.step`
+- Control box preview STEP: `03_cad/freecad_assembly/blood_sorting_robot_v7_3b_control_box_preview.step`

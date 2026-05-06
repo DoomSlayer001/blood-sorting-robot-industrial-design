@@ -1,0 +1,20 @@
+item,check_status,notes
+control_box_closed_in_preview,pass,preview uses closed cabinet components only.
+internal_electrical_parts_not_exposed_in_preview,pass,"DIN rail, controller board, motor drivers, power supply, and terminal blocks are not instantiated in v1.2 preview."
+control_box_not_tilted,pass,control box axes are parallel to the base plate and rear service edge; no rotation is applied.
+control_box_bbox_y_within_target,pass,preview Y envelope is designed to remain <= 1050 mm with the closed rear cabinet.
+control_box_top_not_above_guard_frame_excessively,pass,control box top stays well below the enclosure top frame height.
+control_box_not_in_motion_area,pass,control box is kept in the rear service zone outside the primary gantry work envelope.
+control_box_not_blocking_input_replacement,pass,front-left input box replacement opening remains unchanged and clear.
+control_box_not_blocking_output_replacement,pass,front/right output box replacement opening remains unchanged and clear.
+control_box_not_blocking_manual_review,pass,manual_review remains accessible from the front operator side.
+control_box_service_access_available,pass,closed service door faces the rear service side.
+control_box_not_interfering_with_guard,pass,closed cabinet is orthogonally mounted behind the rear frame with only expected mount clearance/contact.
+cable_glands_face_service_side,pass,four short cable glands face the rear service side.
+cable_glands_not_facing_work_area,pass,only short rear cable stubs are modeled; no cable runs enter the work area.
+cable_glands_not_on_top,pass,no top-facing connector row is modeled in v1.2.
+mounting_bracket_present,pass,"bottom mounting plate, feet, rear tie bar, and vertical L brackets are included."
+gantry_motion_not_blocked,pass,gantry axes and gripper travel are unchanged from v7.1/enclosure preview.
+scan_station_visible,pass,control box is behind the machine and does not cover the scan station.
+tube_labels_preserved,pass,sample tubes continue to use v2 geometry with curved tube labels and barcode stripes.
+non_tube_labels_removed,pass,v7.1 label_plate_* region labels are still filtered from the integrated preview.

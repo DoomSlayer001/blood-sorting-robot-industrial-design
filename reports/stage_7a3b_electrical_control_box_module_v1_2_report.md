@@ -1,0 +1,34 @@
+# Stage 7A-3b v1.2 Electrical Control Box Module Report
+
+- Stage 7A-3b v1.2 is a closed rear service cabinet revision of the electrical control box module.
+- This is still module-by-module detailed modeling, not final v7.3 whole-machine generation.
+- v1.1 manual review still did not pass because the box read as an exposed tray with visible internal electrical blocks, sat visually on/above the rear guard, and did not read as a closed service cabinet.
+- v1.2 goal: make the preview show a realistic closed rear-mounted control cabinet while avoiding exposed electrical internals in the running machine view.
+- The integrated preview uses the closed cabinet only because real equipment should run with the electrical cabinet closed.
+- Internal DIN rail, controller board, motor drivers, power supply, and terminal blocks are intentionally not instantiated in the v1.2 preview; v1.1 remains the earlier internal-layout reference.
+- Position: rear-right service zone, center=(455.0, 505.0, 120.0) mm. The cabinet is rear-mounted and parallel to the rear edge.
+- Size: 210 x 95 x 150 mm, revised from v1.1 190 x 120 x 115 mm into a taller but shallower closed cabinet.
+- Orientation: orthogonal to the base plate; no tilt or angled external mounting is used.
+- ClosedControlBoxHousingModule: closed dark housing, rear service door, door seam, and four screw markers.
+- CableGlandAndConnectorModule: four short rear-facing glands; no top connector row and no full wire harness.
+- VentilationModule: side/rear vent-slot markers.
+- MountingBracketModule: bottom mounting plate, feet, rear tie bar, and vertical L brackets to make the installation read as fixed to the rear service frame/base.
+- Sample tube curved labels: preserved.
+- Non-tube region labels: kept removed from the integrated preview.
+- Accessibility check summary: pass=19, issue=0.
+- Interference audit summary: overlap=0, too_close=0, allowed_mount_contact=5.
+- Interference audit scope: new control-box-related pairs were checked against the accepted v7.1 body and enclosure v1.1 preview; unchanged body/enclosure relations remain from the already validated enclosure stage.
+- Control box module components: 4
+- Control box module solids: 38
+- Control box module bbox: 228.000 x 108.000 x 161.000 mm
+- Preview generated components: 99
+- Preview failed components: 0
+- Preview solids: 477
+- Preview bbox: 1200.000 x 1027.500 x 480.000 mm
+- Preview bbox Y direction: 1027.500 mm; target <= 1050 mm.
+- Preview control box state: closed cabinet.
+- Preview internal electrical exposure: hidden; no DIN rail, controller board, motor drivers, power supply, or terminal blocks are shown.
+- Current status: layout-level electrical module, not final electrical design.
+- Later detail still needed: formal electrical architecture, I/O map, terminal numbering, harness routes, cable-chain selection, grounding, power protection, control-box mounting holes, and engineering drawings.
+- Control box module STEP: `03_cad/freecad_assembly/blood_sorting_robot_electrical_control_box_module_v1_2.step`
+- Control box preview STEP: `03_cad/freecad_assembly/blood_sorting_robot_v7_3b_control_box_preview_v1_2.step`

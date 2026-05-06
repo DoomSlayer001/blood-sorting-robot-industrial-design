@@ -1,0 +1,27 @@
+cable_id,source_module,target_module,signal_type,voltage_level,moving_or_fixed,suggested_route,connector_side,requires_cable_chain,estimated_cable_group,notes
+CBL-001,AC inlet,24V DC power supply,power,AC mains,fixed,Fixed Rear Service Route,rear_control_box,no,power_input,Main power input to power supply
+CBL-002,24V DC power supply,PLC or MCU controller,power,24V DC,fixed,Control Box Internal Route,internal,no,control_box_power,Power supply to controller
+CBL-003,Controller,X motor driver,communication/control,driver bus,fixed,Control Box Internal Route,internal,no,motion_control,Controller to X driver
+CBL-004,Controller,Y-left motor driver,communication/control,driver bus,fixed,Control Box Internal Route,internal,no,motion_control,Controller to Y-left driver
+CBL-005,Controller,Y-right motor driver,communication/control,driver bus,fixed,Control Box Internal Route,internal,no,motion_control,Controller to Y-right driver
+CBL-006,Controller,Z motor driver,communication/control,driver bus,fixed,Control Box Internal Route,internal,no,motion_control,Controller to Z driver
+CBL-007,Controller,Gripper controller,digital/control,24V DC,fixed,Control Box Internal Route,internal,no,gripper_control,Controller to gripper controller
+CBL-008,X motor driver,X motor,power/feedback,driver output,moving,Moving Gantry Cable Chain Route,rear_service_to_gantry,yes,moving_axis_power,X driver to X motor
+CBL-009,Y-left motor driver,Y-left motor,power/feedback,driver output,fixed,Fixed Rear Service Route,rear_left_axis,no,axis_power,Y-left driver to Y-left motor
+CBL-010,Y-right motor driver,Y-right motor,power/feedback,driver output,fixed,Fixed Rear Service Route,rear_right_axis,no,axis_power,Y-right driver to Y-right motor
+CBL-011,Z motor driver,Z motor,power/feedback,driver output,moving,Moving Gantry Cable Chain Route,xz_carriage,yes,moving_axis_power,Z driver to Z motor
+CBL-012,Gripper controller,Electric gripper,digital/control,24V DC,moving,Moving Gantry Cable Chain Route,xz_carriage,yes,moving_tool_io,Gripper controller to gripper
+CBL-013,Barcode scanner,Controller,communication,24V DC/Ethernet-like,fixed,Scanner / Photoelectric Route,rear_control_box,no,scan_station_io,Barcode scanner to controller
+CBL-014,Photoelectric sensor,Controller,digital input,24V DC,fixed,Scanner / Photoelectric Route,rear_control_box,no,scan_station_io,Photoelectric sensor to controller
+CBL-015,X limit switch,Controller,digital input,24V DC,moving,Moving Gantry Cable Chain Route,x_axis_carriage,yes,moving_limit_io,X limit switch to controller
+CBL-016,Y limit switch,Controller,digital input,24V DC,fixed,Fixed Rear Service Route,rear_axis_side,no,fixed_limit_io,Y limit switch to controller
+CBL-017,Z limit switch,Controller,digital input,24V DC,moving,Moving Gantry Cable Chain Route,xz_carriage,yes,moving_limit_io,Z limit switch to controller
+CBL-018,Emergency stop,Safety relay,safety input,24V DC safety,fixed,Fixed Rear Service Route,front_to_control_box,no,safety_chain,Emergency stop to safety relay
+CBL-019,Door interlock,Safety relay,safety input,24V DC safety,fixed,Fixed Rear Service Route,guard_to_control_box,no,safety_chain,Door interlock to safety relay
+CBL-020,Safety relay,Motor enable bus,safety output,24V DC safety,fixed,Control Box Internal Route,internal,no,safety_chain,Safety relay to motor enable
+CBL-021,Bin full sensors,Controller,digital input,24V DC,fixed,Base Fixed Sensor Route,rear_control_box,no,bin_sensor_io,Category A/B/C/D bin full sensors to controller
+CBL-022,Input tray presence sensors,Controller,digital input,24V DC,fixed,Base Fixed Sensor Route,rear_control_box,no,input_sensor_io,Input tray presence sensors to controller
+CBL-023,Grounding terminal block,Machine frame,ground,PE,fixed,Grounding Route,ground_bar,no,grounding,Grounding wire to frame
+CBL-024,Grounding terminal block,Control box housing,ground,PE,fixed,Grounding Route,ground_bar,no,grounding,Grounding wire to control box
+CBL-025,Controller,Alarm buzzer/status light,digital output,24V DC,fixed,Fixed Rear Service Route,rear_or_front_indicator,no,alarm_output,Alarm/status light wiring
+CBL-026,Controller,X/Z carriage IO junction,digital/communication,24V DC,moving,Moving Gantry Cable Chain Route,xz_carriage,yes,moving_tool_io,Reserved interface bundle for future tool-side sensors

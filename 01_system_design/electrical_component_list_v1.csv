@@ -1,0 +1,29 @@
+component_id,component_name,category,function,location_zone,mounted_in_control_box,requires_moving_cable,voltage_level,signal_type,notes
+EC-001,AC inlet placeholder,power_input,Main AC power entry,rear_service_side,no,no,AC mains,power,Concept only; final inlet rating TBD
+EC-002,Main power switch,power_input,Service power isolation,rear_service_side,no,no,AC mains,power,Operator/service switch placeholder
+EC-003,Fuse or breaker placeholder,power_input,Input circuit protection,control_box_internal,yes,no,AC mains,power,Protection sizing TBD
+EC-004,24V DC power supply,power_input,Low-voltage system supply,control_box_internal,yes,no,24V DC,power,Feeds controller sensors and auxiliary loads
+EC-005,PLC or MCU controller,control,Main sorting controller,control_box_internal,yes,no,24V DC,digital/control,Concept controller placeholder
+EC-006,I/O module,control,Discrete and communication expansion,control_box_internal,yes,no,24V DC,digital/communication,Expansion placeholder
+EC-007,X motor driver,motion,Drive X carriage axis,control_box_internal,yes,yes,24V DC or driver bus,motion_command,Final motor/driver spec TBD
+EC-008,Y-left motor driver,motion,Drive left Y gantry axis,control_box_internal,yes,no,24V DC or driver bus,motion_command,May route fixed along rear/Y side
+EC-009,Y-right motor driver,motion,Drive right Y gantry axis,control_box_internal,yes,no,24V DC or driver bus,motion_command,May route fixed along rear/Y side
+EC-010,Z motor driver,motion,Drive vertical Z axis,control_box_internal,yes,yes,24V DC or driver bus,motion_command,Uses moving carriage cable path
+EC-011,Gripper controller,motion,Control electric gripper,control_box_internal,yes,yes,24V DC,digital/control,Open/close command and status
+EC-012,Barcode scanner,sensor,Read tube barcode at scan station,scan_station,no,no,24V DC,communication,Fixed scan-station device
+EC-013,Photoelectric sensor,sensor,Detect tube at scan station,scan_station,no,no,24V DC,digital_input,Fixed scan-station trigger
+EC-014,X home limit switch,sensor,Home/reference X axis,x_axis_end,no,yes,24V DC,digital_input,Exact physical switch later
+EC-015,Y home limit switch,sensor,Home/reference Y gantry,y_axis_end,no,no,24V DC,digital_input,May split into left/right in detailed model
+EC-016,Z home limit switch,sensor,Home/reference Z axis,z_axis_top,no,yes,24V DC,digital_input,Routes through moving carriage
+EC-017,Emergency stop,safety,Operator emergency stop,front_operator_side,no,no,24V DC safety,safety_input,Not a software-only button
+EC-018,Door interlock placeholder,safety,Detect guard access door state,enclosure_guard,no,no,24V DC safety,safety_input,Placeholder for later guard design
+EC-019,Safety relay placeholder,safety,Combine E-stop/interlock and motor enable,control_box_internal,yes,no,24V DC safety,safety_logic,Concept-level safety block
+EC-020,Category A bin full sensor placeholder,sensor,Detect Category A output full,category_A_output_box,no,no,24V DC,digital_input,Capacity/hold signal placeholder
+EC-021,Category B bin full sensor placeholder,sensor,Detect Category B output full,category_B_output_box,no,no,24V DC,digital_input,Capacity/hold signal placeholder
+EC-022,Category C bin full sensor placeholder,sensor,Detect Category C output full,category_C_output_box,no,no,24V DC,digital_input,Capacity/hold signal placeholder
+EC-023,Category D bin full sensor placeholder,sensor,Detect Category D output full,category_D_output_box,no,no,24V DC,digital_input,Capacity/hold signal placeholder
+EC-024,Input tray presence sensor placeholder,sensor,Detect replaceable input boxes,input_box_area,no,no,24V DC,digital_input,Represents four box-present channels
+EC-025,Alarm buzzer or status light placeholder,output,Operator alarm/status indication,front_or_top_service_area,no,no,24V DC,digital_output,Alarm device placeholder
+EC-026,Grounding terminal block,grounding,Protective earth and shield drain point,control_box_internal,yes,no,PE,ground,Final grounding scheme TBD
+EC-027,Cable glands,interface,Control-box cable entry/exit,rear_control_box_wall,yes,no,n/a,mechanical_interface,Four rear service glands in v1.2 model
+EC-028,Cable chain,interface,Moving cable management,rear_gantry_to_xz_carriage,no,yes,n/a,mechanical_interface,To be modeled in Stage 7A-3c

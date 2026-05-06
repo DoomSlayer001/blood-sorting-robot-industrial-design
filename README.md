@@ -158,6 +158,8 @@ Stage 7A-3b v1.2 revises the electrical control box again after v1.1 visual revi
 
 Stage 7A-3b v1.2 has passed SolidWorks 2026 manual inspection. It is accepted as the electrical control box module for later modular v7.3 whole-machine integration; broader material realism will be handled later in a unified Material / Appearance pass.
 
+Stage 7A-3b-0 adds the concept-level electrical architecture needed before cable-chain and wiring CAD. It defines the electrical component list, I/O map, wiring interface table, safety circuit concept, control-box internal layout plan, and cable routing plan without generating new CAD or STEP files. Stage 7A-3c should use the wiring interface table for cable-chain / wiring module modeling.
+
 Stage 7B builds the multi-box coordinate model from v7.1 without generating CAD. It defines 199 task points across 96 input slots, 96 output slots, 6 manual-review slots, and 1 scan-station point, then verifies reachability in the v7.1 planning envelope. The next stage should create the multi-box sample manifest, category hold/resume simulation, and updated trajectory/cycle-time model.
 
 Stage 7C generates a 96-sample multi-box manifest and validates the new batch sorting policy. The simulation covers `category_hold`, `pending_queue`, operator clear/replacement, `category_resume`, and manual-review-full alarm behavior. Normal samples blocked by a full category output box are held and resumed, not routed to manual review; `manual_review` remains reserved for true abnormal samples. The next stage should update multi-box trajectories and cycle-time estimates.

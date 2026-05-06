@@ -1,0 +1,26 @@
+io_id,device,signal_name,direction,signal_type,voltage_level,normal_state,safety_related,moving_or_fixed,notes
+IO-001,Barcode scanner,barcode_data_link,bidirectional,communication,24V DC/Ethernet-like,connected,no,fixed,Scanner communication interface placeholder
+IO-002,Photoelectric sensor,scan_tube_present,input,digital,24V DC,off,no,fixed,Tube-position trigger at scan station
+IO-003,X home limit switch,x_home,input,digital,24V DC,off,no,moving,Routes through moving carriage/cable-chain concept
+IO-004,Y-left home limit switch,y_left_home,input,digital,24V DC,off,no,fixed,Fixed rear/side route placeholder
+IO-005,Y-right home limit switch,y_right_home,input,digital,24V DC,off,no,fixed,Fixed rear/side route placeholder
+IO-006,Z home limit switch,z_home,input,digital,24V DC,off,no,moving,Routes through X/Z moving carriage
+IO-007,Category A bin full sensor,category_A_full,input,digital,24V DC,not_full,no,fixed,Triggers Category A hold
+IO-008,Category B bin full sensor,category_B_full,input,digital,24V DC,not_full,no,fixed,Triggers Category B hold
+IO-009,Category C bin full sensor,category_C_full,input,digital,24V DC,not_full,no,fixed,Triggers Category C hold
+IO-010,Category D bin full sensor,category_D_full,input,digital,24V DC,not_full,no,fixed,Triggers Category D hold
+IO-011,Input tray presence sensors,input_box_present_1_4,input,digital,24V DC,present,no,fixed,Four replaceable input-box presence channels
+IO-012,Emergency stop,estop_channel,input,safety,24V DC safety,closed,yes,fixed,Hard safety input placeholder
+IO-013,Door interlock placeholder,guard_door_closed,input,safety,24V DC safety,closed,yes,fixed,Guard interlock placeholder
+IO-014,Safety relay,motor_power_enable,output,safety,24V DC safety,enabled_when_safe,yes,fixed,Enables/disables motor drive power
+IO-015,Safety relay,safety_fault_status,input,safety,24V DC safety,healthy,yes,fixed,Fault feedback placeholder
+IO-016,X motor driver,x_axis_command,bidirectional,motion_command,driver bus,ready,no,moving,Simplified command/status interface
+IO-017,Y-left motor driver,y_left_axis_command,bidirectional,motion_command,driver bus,ready,no,fixed,Simplified command/status interface
+IO-018,Y-right motor driver,y_right_axis_command,bidirectional,motion_command,driver bus,ready,no,fixed,Simplified command/status interface
+IO-019,Z motor driver,z_axis_command,bidirectional,motion_command,driver bus,ready,no,moving,Simplified command/status interface
+IO-020,Gripper controller,gripper_open_command,output,digital,24V DC,inactive,no,moving,Open command placeholder
+IO-021,Gripper controller,gripper_close_command,output,digital,24V DC,inactive,no,moving,Close command placeholder
+IO-022,Gripper controller,gripper_status,input,digital,24V DC,ready,no,moving,Open/closed/fault status placeholder
+IO-023,Alarm buzzer,status_buzzer,output,digital,24V DC,off,no,fixed,Operator audible alarm placeholder
+IO-024,Status light,status_light,output,digital,24V DC,normal,no,fixed,Operator visual status placeholder
+IO-025,Controller,system_fault_alarm,output,digital,24V DC,off,yes,fixed,Fault alarm output placeholder

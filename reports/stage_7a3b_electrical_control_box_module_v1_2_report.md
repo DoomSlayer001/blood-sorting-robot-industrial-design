@@ -28,6 +28,11 @@
 - Preview bbox Y direction: 1027.500 mm; target <= 1050 mm.
 - Preview control box state: closed cabinet.
 - Preview internal electrical exposure: hidden; no DIN rail, controller board, motor drivers, power supply, or terminal blocks are shown.
+- SolidWorks 2026 manual check: passed. The closed rear service cabinet fixes the v1.1 tray-like appearance, keeps internal electrical parts hidden in the integrated preview, uses orthogonal mounting with visible brackets, and keeps four short rear-facing cable glands away from the work area.
+- Manual check notes: preview bbox Y direction is 1027.5 mm and acceptable; the control box does not visibly block input boxes, output boxes, manual_review, scan station, gantry, or gripper travel.
+- Manual check notes: sample tube curved labels are preserved and non-tube region label plates remain removed.
+- Material/appearance note: broader material realism is deferred to a later unified Material / Appearance pass.
+- Acceptance: electrical control box module v1.2 can be used as the control-box module for later modular v7.3 whole-machine integration.
 - Current status: layout-level electrical module, not final electrical design.
 - Later detail still needed: formal electrical architecture, I/O map, terminal numbering, harness routes, cable-chain selection, grounding, power protection, control-box mounting holes, and engineering drawings.
 - Control box module STEP: `03_cad/freecad_assembly/blood_sorting_robot_electrical_control_box_module_v1_2.step`

@@ -1,0 +1,9 @@
+component_name,suspected_role,location,issue_type,is_standard_part,is_custom_adapter,recommended_action,notes
+left_y_axis_module,left Y-axis standard linear module,left Y rail side,connection not explicit enough,yes,no,keep_standard_part_add_custom_adapter,Supplier module remains; custom adapter plate/bracket clarifies support path.
+right_y_axis_module,right Y-axis standard linear module,right Y rail side,connection not explicit enough,yes,no,keep_standard_part_add_custom_adapter,Supplier module remains; custom adapter plate/bracket clarifies support path.
+x_axis_module_on_gantry,X-axis standard linear module / beam,between left/right Y axes,beam support needs clearer end mounts,yes,no,keep_standard_part_add_end_mounts,X beam should visibly bolt to side brackets.
+stage_7a3f_v1_joint_stack,previous custom X/Y joint stack,left/right gantry ends,physically connected but still visually assembled from scattered plates,no,yes,replace_with_compact_boxed_joint_v1_1,"v1.1 uses a main adapter plate, boxed side bracket, and X beam end seat."
+gantry_cross_beam_support_plates,existing coarse X beam support plates,X beam ends,present but connection chain needs clearer load path,no,yes,supplement_with_boxed_brackets_and_end_seats,New compact boxed brackets make the Y carriage -> X beam load path clearer.
+tcp_centerline_reference_v1,old TCP / pick centerline reference,Z/gripper center,long needle-like visual artifact,no,yes,hide_from_preview_keep_csv_reference,TCP remains in pick geometry CSV but is removed from v7.3f STEP preview.
+two_finger_gripper_jaws_v1,accepted gripper jaws,Z-axis end effector,keep accepted gripper module,no,yes,keep,End-effector module remains in preview.
+moving_flexible_hose_bundle,accepted cable-management hose,drag-chain moving end to X/Z carriage,keep accepted cable management,no,yes,keep,Stage 7A-3d v1.2 remains the cable-management basis.

@@ -1,0 +1,30 @@
+# Stage 7A-3f v1.1 Gantry Joint Physical Logic Refinement Report
+
+- Manual inspection issue before v1.1: the long needle was already removed, but the v1 X/Y gantry joints still read as visually connected rather than physically organized load-bearing assemblies.
+- v1.1 refinement goal: clarify the load path from Y-axis moving carriage to main adapter plate, compact boxed side bracket, X beam end mount, and X-axis module.
+- Long needle status: `tcp_centerline_reference_v1` remains removed from the v7.3f v1.1 STEP preview; TCP/pick information remains in the pick geometry CSV.
+- X/Y joint design approach: standard linear modules remain supplier/standard CAD, while the carriage adapter plates, boxed brackets, end seats, ribs, and fastener patterns are custom machined adapter concepts.
+- Existing standard parts retained: left/right Y axis modules, X axis module, Z axis module, gripper module, enclosure, closed control box, and cable-management v1.2.
+- Custom modeled parts restructured in v1.1: left/right main Y-carriage adapter plates, spacer/clamp blocks, X beam end seats, compact boxed side brackets, vertical load webs, gussets, and limited fastener/dowel markers.
+- Left/right final connection logic: Y carriage area -> main adapter plate/spacer block -> boxed side bracket with top/lower bridge plates -> X beam end seat -> X-axis module.
+- Why v1.1 is more physically logical: the joint is now a compact mirrored assembly with fewer scattered pieces, clearer bolted interfaces, and a more direct structural load path.
+- Concept boundary: this is still a course-level custom adapter layout, not a released drawing package with final hole spacing, screw sizing, tolerance stack, or structural calculation.
+- Interface manifest rows: 9.
+- End-effector gripper module retained: yes.
+- Cable management v1.2 retained: yes.
+- Tube curved labels: preserved.
+- Non-tube region labels: removed.
+- Control box: remains closed.
+- Accessibility check: pass=24, issue=0.
+- Interference audit: overlap=0, too_close=0, allowed_mount_contact=34.
+- Visibility audit: high_risk=0, medium_risk=0, low_risk=849.
+- Import/display audit: likely_visible_in_solidworks=yes, solids=885.
+- Gantry joint module components: 7
+- Gantry joint module solids: 96
+- Gantry joint module bbox: 1055.000 x 120.000 x 257.000 mm
+- Preview components: 126
+- Preview solids: 885
+- Preview bbox: 1200.000 x 1034.770 x 480.000 mm
+- Current boundary: concept-level gantry joint refinement, not final machining drawings.
+- Later detail still needed: real hole spacing, screw specification, carriage interface dimensions, structural load/stiffness checks, and formal engineering drawings.
+- Current-state audit rows: 8

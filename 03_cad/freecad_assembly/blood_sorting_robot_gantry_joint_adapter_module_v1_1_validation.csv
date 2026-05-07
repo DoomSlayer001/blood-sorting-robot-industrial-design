@@ -1,0 +1,8 @@
+component_name,module,category,x_mm,y_mm,z_mm,bbox_x_mm,bbox_y_mm,bbox_z_mm,status,notes
+left_y_carriage_main_adapter_plate_v1_1,GantryJointAdapterModuleV1_1,custom_adapter,0.000,0.000,0.000,110.000,88.000,45.200,OK,custom_adapter; compact bolted main adapter plate directly over the left Y carriage area
+right_y_carriage_main_adapter_plate_v1_1,GantryJointAdapterModuleV1_1,custom_adapter,0.000,0.000,0.000,110.000,88.000,45.200,OK,custom_adapter; compact bolted main adapter plate directly over the right Y carriage area
+left_x_beam_end_mount_v1_1,GantryJointAdapterModuleV1_1,custom_end_mount,0.000,0.000,0.000,76.000,108.000,171.000,OK,custom_end_mount; left X beam end mounting seat with locking cap and backing block
+right_x_beam_end_mount_v1_1,GantryJointAdapterModuleV1_1,custom_end_mount,0.000,0.000,0.000,76.000,108.000,171.000,OK,custom_end_mount; right X beam end mounting seat with locking cap and backing block
+left_boxed_gantry_side_bracket_v1_1,GantryJointAdapterModuleV1_1,custom_support_bracket,0.000,0.000,0.000,158.000,120.000,168.000,OK,custom_support_bracket; left compact boxed side bracket linking Y carriage adapter to X beam end mount
+right_boxed_gantry_side_bracket_v1_1,GantryJointAdapterModuleV1_1,custom_support_bracket,0.000,0.000,0.000,123.000,120.000,168.000,OK,custom_support_bracket; right compact boxed side bracket linking Y carriage adapter to X beam end mount
+gantry_joint_mounting_fastener_patterns_v1_1,GantryJointAdapterModuleV1_1,fastener_pattern,0.000,0.000,0.000,947.400,6.000,184.000,OK,fastener_pattern; limited screw/dowel markers for compact joint readability

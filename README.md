@@ -176,6 +176,8 @@ Stage 7A-3e adds a concept-level two-finger electric parallel gripper module to 
 
 Stage 7A-3f adds a gantry joint adapter module to make the X/Y gantry load path clearer. It removes the long needle-like TCP reference from the preview while keeping TCP data in CSV, and adds custom Y-carriage adapter plates, X-beam end mounts, side brackets, reinforcement ribs, and fastener patterns.
 
+Stage 7A-3f v1.1 refines the gantry joint physical logic after manual review. The left/right X/Y joints are reorganized into compact mirrored assemblies with main Y-carriage adapter plates, boxed side brackets, X-beam end seats, reinforcement ribs, and clearer fastener patterns so the Y-carriage-to-X-beam load path is easier to read.
+
 Stage 7B builds the multi-box coordinate model from v7.1 without generating CAD. It defines 199 task points across 96 input slots, 96 output slots, 6 manual-review slots, and 1 scan-station point, then verifies reachability in the v7.1 planning envelope. The next stage should create the multi-box sample manifest, category hold/resume simulation, and updated trajectory/cycle-time model.
 
 Stage 7C generates a 96-sample multi-box manifest and validates the new batch sorting policy. The simulation covers `category_hold`, `pending_queue`, operator clear/replacement, `category_resume`, and manual-review-full alarm behavior. Normal samples blocked by a full category output box are held and resumed, not routed to manual review; `manual_review` remains reserved for true abnormal samples. The next stage should update multi-box trajectories and cycle-time estimates.

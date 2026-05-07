@@ -1,0 +1,25 @@
+item,check_status,notes
+long_needle_removed_from_preview,pass,`tcp_centerline_reference_v1` is filtered out before v7.3f preview export.
+tcp_reference_preserved_in_pick_geometry_csv,pass,Pick geometry remains documented in `blood_sorting_robot_end_effector_gripper_module_v1_pick_geometry.csv`.
+left_y_to_x_joint_visible,pass,"Left custom adapter, side bracket, and X end mount are added."
+right_y_to_x_joint_visible,pass,"Right custom adapter, side bracket, and X end mount are added."
+x_beam_not_visually_floating,pass,X beam ends now have visible mounting plates and side support load path.
+y_carriage_adapter_plates_visible,pass,Left/right Y carriage adapter plates include fastener markers.
+x_beam_end_mounts_visible,pass,Left/right X beam end mounts include cap/lug plates and side fasteners.
+gantry_side_brackets_visible,pass,Left/right side brackets connect lower adapter plates to X beam end mounts.
+reinforcement_ribs_visible,pass,Front/rear reinforcement ribs are added at both gantry joints.
+mounting_holes_or_fasteners_visible,pass,Limited screw/dowel markers are added without overloading the model.
+joints_not_colliding_with_y_axes,pass,Expected mount contact is whitelisted; no unexpected overlap remains.
+joints_not_colliding_with_x_axis,pass,Expected end-mount contact is whitelisted; no unexpected overlap remains.
+joints_not_colliding_with_z_axis,pass,Gantry joint parts stay at X/Y beam ends away from the central Z axis.
+joints_not_colliding_with_gripper,pass,Gantry joint parts are remote from the end-effector area.
+joints_not_colliding_with_drag_chain_or_hose,pass,Joint geometry avoids accepted drag-chain/hose route except expected references.
+joints_not_crossing_tube_racks,pass,"New joints are high and outboard, not over rack footprints."
+joints_not_crossing_sample_tubes,pass,New joints do not pass through sample tube instances.
+joints_not_blocking_input_replacement,pass,Left joint is above/outboard of input replacement space.
+joints_not_blocking_output_replacement,pass,Right joint is above/outboard of output replacement space.
+joints_not_blocking_manual_review,pass,No new joint part crosses front manual_review access.
+tube_labels_preserved,pass,Inherited v7.3e preview keeps tube curved labels.
+non_tube_labels_removed,pass,Non-tube region labels remain removed.
+control_box_remains_closed,pass,Inherited control box remains closed.
+preview_default_visible,pass,Compound/multi-solid STEP fallback is used.

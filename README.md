@@ -172,6 +172,8 @@ Stage 7A-3d v1.1 cleans up the cable chain / wiring route after manual review. L
 
 Stage 7A-3d v1.2 completes a clean visual cable-management pass. The preview simplifies the visible wiring to a rear main drag chain plus one continuous flexible hose-like moving bundle, while secondary sensor/motor wiring remains logically documented in the wiring route manifest for later detailed engineering.
 
+Stage 7A-3e adds a concept-level two-finger electric parallel gripper module to clarify the end-effector. It replaces the unclear old gripper placeholder in the preview with a Z-axis adapter plate, gripper body, visible left/right jaws, soft tube-contact pads, and pick-geometry documentation.
+
 Stage 7B builds the multi-box coordinate model from v7.1 without generating CAD. It defines 199 task points across 96 input slots, 96 output slots, 6 manual-review slots, and 1 scan-station point, then verifies reachability in the v7.1 planning envelope. The next stage should create the multi-box sample manifest, category hold/resume simulation, and updated trajectory/cycle-time model.
 
 Stage 7C generates a 96-sample multi-box manifest and validates the new batch sorting policy. The simulation covers `category_hold`, `pending_queue`, operator clear/replacement, `category_resume`, and manual-review-full alarm behavior. Normal samples blocked by a full category output box are held and resumed, not routed to manual review; `manual_review` remains reserved for true abnormal samples. The next stage should update multi-box trajectories and cycle-time estimates.

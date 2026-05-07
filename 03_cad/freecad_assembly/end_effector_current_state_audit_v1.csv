@@ -1,0 +1,19 @@
+component_name,suspected_role,current_position,current_geometry_type,is_true_gripper,issue_level,recommended_action,notes
+xz_adapter_plate_simplified,nearby tool-chain part,"(0.000, 20.000, 260.000)",bbox 82.000 x 6.550 x 125.000 mm,no,low,keep_or_reference,Not a gripper.
+barcode_scanner_mount_bracket,scan station sensor/bracket,"(-175.000, 118.000, 52.000)",bbox 57.000 x 14.000 x 68.500 mm,no,low,keep_as_sensor_not_gripper,Should remain visually separate from the end effector.
+photoelectric_sensor_mount_bracket,scan station sensor/bracket,"(-84.000, 88.000, 37.000)",bbox 85.000 x 14.000 x 47.000 mm,no,low,keep_as_sensor_not_gripper,Should remain visually separate from the end effector.
+z_axis_module,nearby tool-chain part,"(0.000, 20.000, 195.000)",bbox 63.800 x 52.000 x 313.500 mm,no,low,keep_or_reference,Not a gripper.
+electric_parallel_gripper,old gripper placeholder / vendor gripper geometry,"(0.000, 20.000, 115.000)",bbox 123.500 x 35.000 x 83.000 mm,yes,high,hide_or_replace_in_preview,Existing imported gripper does not make two jaws / pads / tube contact logic clear enough in v7.3d preview.
+barcode_scanner,scan station sensor/bracket,"(-130.000, 105.000, 86.000)",bbox 42.400 x 24.046 x 40.850 mm,no,low,keep_as_sensor_not_gripper,Should remain visually separate from the end effector.
+photoelectric_sensor,scan station sensor/bracket,"(-60.000, 92.000, 62.000)",bbox 119.000 x 44.900 x 14.000 mm,no,low,keep_as_sensor_not_gripper,Should remain visually separate from the end effector.
+closed_control_box_cable_glands,cable management / strain relief,"(455.000, 505.000, 120.000)",bbox 100.000 x 9.000 x 10.000 mm,no,low,keep_as_cable_management_not_gripper,Cable features must not be mistaken for gripper jaws.
+z_gripper_adapter,old Z-to-gripper adapter,"(0.000, 20.000, 143.000)",bbox 70.000 x 20.000 x 56.000 mm,no,medium,replace_with_new_adapter_plate_in_preview,Replaced by clearer EndEffectorGripperModuleV1 adapter plate.
+cable_chain_mounting_tabs,cable management / strain relief,"(0.000, 0.000, 0.000)",bbox 310.000 x 334.000 x 106.000 mm,no,low,keep_as_cable_management_not_gripper,Cable features must not be mistaken for gripper jaws.
+rear_fixed_cable_tray,cable management / strain relief,"(0.000, 0.000, 0.000)",bbox 783.000 x 36.000 x 47.500 mm,no,low,keep_as_cable_management_not_gripper,Cable features must not be mistaken for gripper jaws.
+control_box_cable_gland_stubs,cable management / strain relief,"(0.000, 0.000, 0.000)",bbox 174.232 x 43.105 x 212.454 mm,no,low,keep_as_cable_management_not_gripper,Cable features must not be mistaken for gripper jaws.
+main_cable_chain_links,cable management / strain relief,"(0.000, 0.000, 0.000)",bbox 250.950 x 202.390 x 28.000 mm,no,low,keep_as_cable_management_not_gripper,Cable features must not be mistaken for gripper jaws.
+cable_chain_fixed_anchor,cable management / strain relief,"(0.000, 0.000, 0.000)",bbox 58.000 x 18.000 x 93.000 mm,no,low,keep_as_cable_management_not_gripper,Cable features must not be mistaken for gripper jaws.
+cable_chain_moving_anchor,cable management / strain relief,"(0.000, 0.000, 0.000)",bbox 48.000 x 18.000 x 58.000 mm,no,low,keep_as_cable_management_not_gripper,Cable features must not be mistaken for gripper jaws.
+moving_flexible_hose_bundle,cable management / strain relief,"(0.000, 0.000, 0.000)",bbox 41.637 x 120.309 x 53.676 mm,no,low,keep_as_cable_management_not_gripper,Cable features must not be mistaken for gripper jaws.
+cable_clamps,cable management / strain relief,"(0.000, 0.000, 0.000)",bbox 290.000 x 420.000 x 57.000 mm,no,low,keep_as_cable_management_not_gripper,Cable features must not be mistaken for gripper jaws.
+cable_chain_mounting_tabs_usage,cable management / strain relief,"(0.000, 0.000, 0.000)",bbox 303.000 x 322.000 x 83.000 mm,no,low,keep_as_cable_management_not_gripper,Cable features must not be mistaken for gripper jaws.

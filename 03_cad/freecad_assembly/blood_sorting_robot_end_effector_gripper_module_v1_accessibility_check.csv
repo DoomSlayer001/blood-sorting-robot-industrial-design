@@ -1,0 +1,21 @@
+item,check_status,notes
+gripper_attached_to_z_axis,pass,New adapter plate sits at the central Z-axis tool chain.
+gripper_body_visible,pass,Dark electric parallel gripper body is explicit and separate from scan sensors.
+two_jaws_visible,pass,Left and right open-pose jaws are modeled as symmetric metal fingers.
+soft_contact_pads_visible,pass,Black soft pads are placed on jaw inner faces.
+gripper_not_confused_with_sensor,pass,Barcode/photoelectric sensors remain in the scan station; gripper body is central under Z axis.
+gripper_not_confused_with_cable_clamp,pass,Cable clamps remain small service features; jaws are larger symmetric tool fingers.
+gripper_not_colliding_with_x_axis,pass,End-effector module is below the X axis and checked by interference audit.
+gripper_not_colliding_with_z_axis,pass,Z adapter contact is expected; no unexpected Z-axis penetration is reported.
+gripper_not_colliding_with_scanner,pass,Scan station is offset from the central Z tool chain.
+gripper_not_colliding_with_photoelectric_sensor,pass,Photoelectric sensor remains offset from the gripper home pose.
+gripper_not_crossing_tube_racks,pass,Home pose is centered and not over input/output rack footprints.
+gripper_not_crossing_sample_tubes_at_home_pose,pass,Home pose does not intersect existing sample tube instances.
+gripper_can_reach_input_slots_conceptually,pass,Stage 7B reachability covers input slots; gripper TCP follows same tool chain.
+gripper_can_reach_output_slots_conceptually,pass,Stage 7B reachability covers output slots; gripper TCP follows same tool chain.
+gripper_can_reach_manual_review_slots_conceptually,pass,Stage 7B reachability covers manual_review slots; gripper TCP follows same tool chain.
+moving_hose_connected_to_gripper_strain_relief,pass,A short local strain-relief feature is added on the gripper body side.
+tube_labels_preserved,pass,Preview inherits v7.3d v1.2 body with tube curved labels retained.
+non_tube_labels_removed,pass,Non-tube region labels remain filtered out in the inherited preview.
+control_box_remains_closed,pass,The inherited v1.2 control box remains closed; no internal electrical components are exposed.
+preview_default_visible,pass,Compound/multi-solid STEP fallback is used for default visibility.

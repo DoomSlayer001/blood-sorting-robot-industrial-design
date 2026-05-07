@@ -1,0 +1,14 @@
+item,value,unit,notes
+assumed_tube_outer_diameter_mm,13.0,mm,Based on sample tube family v2 planning diameter.
+gripper_open_gap_mm,23.0,mm,Open-pose visible gap between jaw inner faces.
+gripper_closed_gap_concept_mm,12.5,mm,Concept closed gap for 13 mm tube with soft-pad compression allowance.
+jaw_length_mm,54.0,mm,Concept jaw vertical finger length.
+jaw_contact_height_mm,63.0,mm,"Pad center height; intended to contact upper tube body, below cap."
+tcp_x_offset_mm,0.0,mm,TCP centered on gripper jaw symmetry line.
+tcp_y_offset_mm,0.0,mm,TCP centered on gripper body depth line.
+tcp_z_offset_mm,-74.0,mm,Concept TCP below gripper body center toward jaw contact zone.
+tube_centerline_alignment_status,aligned,,Transparent TCP centerline sits midway between left/right jaws.
+grip_cap_clearance_status,clear,,Grip pad height is below cap region in the concept model.
+grip_label_clearance_status,clear,,Grip concept avoids clamping at label centerline; final pad height requires physical test.
+pick_pose_reasonable,yes,,Open-pose jaws and TCP align with vertical tube pickup concept.
+place_pose_reasonable,yes,,Same TCP can place vertical tube into 4x6 rack/bin slots.

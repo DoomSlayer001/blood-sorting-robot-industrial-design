@@ -1,0 +1,7 @@
+component_name,module,category,x_mm,y_mm,z_mm,bbox_x_mm,bbox_y_mm,bbox_z_mm,status,notes
+z_gripper_adapter_plate_v1,EndEffectorGripperModuleV1,adapter,0.000,0.000,0.000,74.000,28.000,78.000,OK,adapter; new adapter plate between Z axis end and gripper body
+electric_parallel_gripper_body_v1,EndEffectorGripperModuleV1,gripper_body,0.000,0.000,0.000,56.000,47.200,47.000,OK,"gripper_body; closed electric parallel gripper body, not a scanner/sensor block"
+two_finger_gripper_jaws_v1,EndEffectorGripperModuleV1,two_finger_jaws,0.000,0.000,0.000,50.000,18.000,54.000,OK,two_finger_jaws; left/right open-pose gripper jaws aligned to tube centerline
+soft_tube_contact_pads_v1,EndEffectorGripperModuleV1,soft_contact_pads,0.000,0.000,0.000,23.200,16.500,32.000,OK,soft_contact_pads; black rubber tube-contact pads on jaw inner faces
+gripper_cable_strain_relief_v1,EndEffectorGripperModuleV1,strain_relief,0.000,0.000,0.000,29.842,12.000,34.923,OK,strain_relief; short local strain relief at gripper body; no long tool cable added
+tcp_centerline_reference_v1,EndEffectorGripperModuleV1,pick_geometry_reference,0.000,0.000,0.000,1.600,1.600,92.000,OK,pick_geometry_reference; transparent centerline reference only; not a physical tube instance

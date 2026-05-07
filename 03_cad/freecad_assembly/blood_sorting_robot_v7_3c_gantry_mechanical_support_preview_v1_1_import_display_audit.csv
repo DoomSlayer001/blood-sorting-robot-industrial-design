@@ -1,0 +1,2 @@
+file_name,file_exists,file_size_bytes,import_status,solid_count,bbox_x_mm,bbox_y_mm,bbox_z_mm,bbox_center_x_mm,bbox_center_y_mm,bbox_center_z_mm,bbox_reasonable,visibility_risk,likely_visible_in_solidworks,issue,notes
+blood_sorting_robot_v7_3c_gantry_mechanical_support_preview_v1_1.step,yes,101541052,ok,589,1200.000,1027.500,480.000,0.000,45.750,225.000,yes,low,yes,,v1.1 uses compound STEP fallback to avoid hidden assembly display states

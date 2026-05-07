@@ -1,0 +1,36 @@
+# Stage 7A-3d v1.1 Cable Chain and Wiring Route Cleanup Report
+
+- v1 SolidWorks manual check: preview displayed correctly, but several cable runs looked like long rigid rods crossing the work area.
+- Purpose: keep the accepted cable-chain concept while cleaning the cable route into rear service, drag-chain, and short local stub segments.
+- Input electrical architecture files used:
+  - `01_system_design/electrical_wiring_interface_table_v1.csv`
+  - `01_system_design/cable_routing_plan_v1.md`
+  - `01_system_design/electrical_system_architecture_v1.md`
+  - `01_system_design/electrical_io_map_v1.csv`
+- Fixed cables in interface table: 20
+- Cable-chain cables in interface table: 6
+- v1.1 cable cleanup: long straight box-like wire rods are replaced with smaller round cable segments and soft bend markers.
+- Cable-chain route: rear fixed cable tray -> fixed chain anchor near Stage 7A-3c tab -> L-shaped simplified drag chain -> short X/Z carriage service bundle.
+- Fixed tray route: closed control-box rear glands -> compact rear service loops -> high rear service cable tray.
+- Sensor stubs: barcode scanner and photoelectric cables use short local round stubs routed back to the rear tray, avoiding the scan tube/window.
+- Motor stubs: moving X/Z/gripper/tool-side lines use the drag-chain route; fixed Y-side wiring follows rear service routing and avoids central fly-lines.
+- Control box interface: closed v1.2 cabinet remains closed; no internal electrical parts are exposed.
+- Cable clamps / anchors: added at tray, chain fixed end, chain moving end, X/Z carriage bundle, and scan-station stub transitions.
+- Stage 7A-3c cable-chain mounting tabs used: yes.
+- Tube curved labels: preserved.
+- Non-tube region label plates: removed.
+- Accessibility check: pass=16, issue=0.
+- Interference audit: overlap=0, too_close=0, allowed_mount_contact=51.
+- Visibility audit: high_risk=0, medium_risk=0, low_risk=772.
+- Import/display audit: likely_visible_in_solidworks=yes, solids=810.
+- Cable/wiring module components: 12
+- Cable/wiring module solids: 221
+- Cable/wiring module bbox: 1072.070 x 524.760 x 335.570 mm
+- Preview components: 120
+- Preview solids: 810
+- Preview bbox: 1200.000 x 1044.760 x 480.000 mm
+- Cable chain retained: yes.
+- Cable clamps added: yes, limited to tray/chain/carriage/sensor transition points.
+- Current boundary: concept-level routing model, not final electrical construction drawings.
+- Later detail still needed: real cable-chain selection, cable specifications, terminal numbering, grounding refinement, clamp refinement, engineering drawings, and material / appearance pass.
+- Route manifest rows: 11

@@ -1,0 +1,17 @@
+item,check_status,notes
+cable_chain_not_blocking_input_replacement,pass,Main chain and fixed tray stay at rear/high service zone.
+cable_chain_not_blocking_output_replacement,pass,Cable chain is behind and above output-box replacement path.
+cable_chain_not_blocking_manual_review,pass,No cable route crosses front manual_review access.
+wires_not_crossing_tube_racks,pass,v1.1 routes fixed wires behind racks and moving wires through drag chain/local stubs.
+wires_not_crossing_sample_tubes,pass,No v1.1 wire is routed through sample tube instances.
+wires_not_crossing_scan_station,pass,Scanner and sensor stubs are local and avoid the scan tube/window.
+wires_not_crossing_gripper_pick_zone,pass,Moving bundle stays above the X/Z service zone and only drops locally near the tool.
+wires_routed_through_rear_service_zone,pass,Fixed wiring uses rear service tray and rear sensor buses.
+moving_wires_routed_through_cable_chain,pass,X/Z/gripper/tool-side wiring is represented by the L-shaped drag chain and short local bundle.
+sensor_cables_short_and_local,pass,Scanner/photoelectric cables are short local round stubs into the rear route.
+cable_chain_connected_to_mounting_tabs,pass,Fixed and moving anchors reference Stage 7A-3c cable-chain tabs.
+control_box_glands_connected_to_fixed_tray,pass,Four rear gland stubs route into the rear cable tray.
+control_box_remains_closed,pass,Control box is reused in closed v1.2 preview state.
+tube_labels_preserved,pass,v7.3c base preview keeps sample tube curved labels.
+non_tube_labels_removed,pass,Non-tube region label plates remain removed.
+preview_default_visible,pass,Compound/multi-solid export fallback is used.

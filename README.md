@@ -168,6 +168,8 @@ Stage 7A-3c v1.1 has passed SolidWorks 2026 manual inspection. The gantry suppor
 
 Stage 7A-3d adds the concept-level cable chain / wiring module based on `01_system_design/electrical_wiring_interface_table_v1.csv` and `01_system_design/cable_routing_plan_v1.md`. It models the rear fixed cable tray, control-box gland stubs, main drag chain, moving X/Z cable bundle, sensor/motor cable stubs, clamps, and anchors using the stable compound STEP export approach; material / appearance refinement remains a later pass.
 
+Stage 7A-3d v1.1 cleans up the cable chain / wiring route after manual review. Long straight wire runs are reduced into rear service routing, an L-shaped drag-chain path, and short local round-cable stubs, while preserving the accepted enclosure, closed control box, gantry support, tube labels, and removed non-tube region labels.
+
 Stage 7B builds the multi-box coordinate model from v7.1 without generating CAD. It defines 199 task points across 96 input slots, 96 output slots, 6 manual-review slots, and 1 scan-station point, then verifies reachability in the v7.1 planning envelope. The next stage should create the multi-box sample manifest, category hold/resume simulation, and updated trajectory/cycle-time model.
 
 Stage 7C generates a 96-sample multi-box manifest and validates the new batch sorting policy. The simulation covers `category_hold`, `pending_queue`, operator clear/replacement, `category_resume`, and manual-review-full alarm behavior. Normal samples blocked by a full category output box are held and resumed, not routed to manual review; `manual_review` remains reserved for true abnormal samples. The next stage should update multi-box trajectories and cycle-time estimates.

@@ -1,0 +1,8 @@
+component_name,module,category,x_mm,y_mm,z_mm,bbox_x_mm,bbox_y_mm,bbox_z_mm,status,notes
+left_y_carriage_adapter_plate_v1,GantryJointAdapterModuleV1,custom_adapter,0.000,0.000,0.000,96.000,72.000,26.200,OK,custom_adapter; custom plate from left Y carriage area toward gantry side support
+right_y_carriage_adapter_plate_v1,GantryJointAdapterModuleV1,custom_adapter,0.000,0.000,0.000,96.000,72.000,26.200,OK,custom_adapter; custom plate from right Y carriage area toward gantry side support
+left_x_beam_end_mount_v1,GantryJointAdapterModuleV1,custom_end_mount,0.000,0.000,0.000,58.000,96.000,121.000,OK,custom_end_mount; left X beam end mounting plate and cap/lug features
+right_x_beam_end_mount_v1,GantryJointAdapterModuleV1,custom_end_mount,0.000,0.000,0.000,58.000,96.000,121.000,OK,custom_end_mount; right X beam end mounting plate and cap/lug features
+left_gantry_side_bracket_v1,GantryJointAdapterModuleV1,custom_support_bracket,0.000,0.000,0.000,185.000,102.000,182.000,OK,custom_support_bracket; left side bracket linking Y carriage adapter to X beam end mount
+right_gantry_side_bracket_v1,GantryJointAdapterModuleV1,custom_support_bracket,0.000,0.000,0.000,150.000,102.000,182.000,OK,custom_support_bracket; right side bracket linking Y carriage adapter to X beam end mount
+gantry_joint_mounting_fastener_patterns_v1,GantryJointAdapterModuleV1,fastener_pattern,0.000,0.000,0.000,856.400,6.000,201.000,OK,fastener_pattern; limited screw/dowel markers for joint readability

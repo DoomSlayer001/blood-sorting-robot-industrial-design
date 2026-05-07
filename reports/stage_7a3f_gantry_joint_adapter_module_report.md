@@ -1,0 +1,29 @@
+# Stage 7A-3f Gantry Joint Adapter Module Report
+
+- Manual inspection issue: the end-effector preview still showed a long needle-like TCP reference, and the X/Y gantry joints needed more realistic adapter/bracket structure.
+- Long needle removal: `tcp_centerline_reference_v1` is removed from the v7.3f STEP preview; TCP/pick information remains in the pick geometry CSV.
+- X/Y joint design approach: standard linear modules remain supplier/standard CAD, while plates, brackets, ribs, and fastener patterns are custom machined adapters.
+- Existing standard parts retained: left/right Y axis modules, X axis module, Z axis module, gripper module, enclosure, closed control box, and cable-management v1.2.
+- Custom modeled parts added: left/right Y carriage adapter plates, X beam end mounts, gantry side brackets, reinforcement ribs, and limited fastener/dowel markers.
+- Left/right Y carriage adapter plates: broad bolted plates above the Y carriage areas to make the carriage-to-gantry interface visible.
+- X beam end mounts: vertical end plates plus cap/lug features at both X beam ends.
+- Gantry side brackets / reinforcement ribs: upright side webs and front/rear ribs provide a visible load path from Y carriage to X beam.
+- Interface manifest rows: 9.
+- End-effector gripper module retained: yes.
+- Cable management v1.2 retained: yes.
+- Tube curved labels: preserved.
+- Non-tube region labels: removed.
+- Control box: remains closed.
+- Accessibility check: pass=24, issue=0.
+- Interference audit: overlap=0, too_close=0, allowed_mount_contact=33.
+- Visibility audit: high_risk=0, medium_risk=0, low_risk=805.
+- Import/display audit: likely_visible_in_solidworks=yes, solids=841.
+- Gantry joint module components: 7
+- Gantry joint module solids: 52
+- Gantry joint module bbox: 1085.000 x 102.000 x 237.000 mm
+- Preview components: 126
+- Preview solids: 841
+- Preview bbox: 1200.000 x 1034.770 x 480.000 mm
+- Current boundary: concept-level gantry joint refinement, not final machining drawings.
+- Later detail still needed: real hole spacing, screw specification, carriage interface dimensions, structural load/stiffness checks, and formal engineering drawings.
+- Current-state audit rows: 8

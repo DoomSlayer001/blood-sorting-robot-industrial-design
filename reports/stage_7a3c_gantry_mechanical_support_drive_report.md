@@ -1,0 +1,33 @@
+# Stage 7A-3c Gantry Mechanical Support and Drive Report
+
+- Stage 7A-3c adds mechanical support and drive-completion placeholders before cable-chain/wiring CAD.
+- Reason: cable chain and wiring need real mounting tabs and gantry support interfaces before route geometry is meaningful.
+- Current v7.1/v7.3b gap: Y/X/Z modules were located correctly but lacked visible base mounts, carriage plates, cross-beam supports, engineered adapters, motor placeholders, and drive-transmission cues.
+- YAxisBaseMountingBlocksModule: front/rear Y-axis base mounting blocks with simplified fasteners.
+- YCarriageAdapterPlateModule: left/right Y carriage adapter plates with gussets and screw markers.
+- GantryCrossBeamSupportModule: X beam end plates, gussets, and rear tie bar.
+- XAxisMountingSaddleModule: lower saddle and rear web supporting the X axis module.
+- XZAdapterPlateModule: engineered X-Z adapter plate with spacers and screw-hole pattern.
+- ZGripperAdapterModule: small adapter flange between Z module and gripper.
+- MotorPlaceholderModule: compact X, Y-left, Y-right, and Z motor placeholders with flanges/couplers.
+- DriveTransmissionPlaceholderModule: X timing belt/pulleys, rear Y sync shaft/pulleys, and Z ball-screw visual placeholder.
+- CableChainMountingTabsModule: mounting tabs only; no full cable chain or wire harness is modeled in this stage.
+- Interface manifest rows: 12.
+- Main visual floating issues addressed: Y rails read as base-mounted, X beam reads supported by side structures, central X-Z-gripper tool chain has adapter plates/flanges.
+- Sample tube curved labels: preserved.
+- Non-tube region labels: kept removed from integrated preview.
+- Control box state in preview: v1.2 closed cabinet.
+- Accessibility check summary: pass=18, issue=0.
+- Interference audit summary: overlap=0, too_close=0, allowed_mount_contact=51.
+- Interference audit scope: new gantry-support-related pairs were checked against the accepted v7.1 body, enclosure v1.1, and control-box v1.2 preview; unchanged prior relationships remain from their accepted stages.
+- Gantry support module components: 9
+- Gantry support module solids: 112
+- Gantry support module bbox: 1105.000 x 752.500 x 326.000 mm
+- Preview generated components: 108
+- Preview failed components: 0
+- Preview solids: 589
+- Preview bbox: 1200.000 x 1027.500 x 480.000 mm
+- Current status: layout-level mechanical support model, not final manufacturable drawings.
+- Later detail still needed: cable chain / wiring module, material / appearance pass, fastener refinement, real motor selection, belt / pulley sizing, structural stiffness analysis, and formal engineering drawings.
+- Gantry mechanical support module STEP: `03_cad/freecad_assembly/blood_sorting_robot_gantry_mechanical_support_drive_module_v1.step`
+- Gantry mechanical support preview STEP: `03_cad/freecad_assembly/blood_sorting_robot_v7_3c_gantry_mechanical_support_preview.step`

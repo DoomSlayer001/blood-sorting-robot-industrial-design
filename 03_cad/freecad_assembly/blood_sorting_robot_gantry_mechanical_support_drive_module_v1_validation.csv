@@ -1,0 +1,10 @@
+component_name,module,category,x_mm,y_mm,z_mm,bbox_x_mm,bbox_y_mm,bbox_z_mm,status,notes
+y_axis_base_mounting_blocks,YAxisBaseMountingBlocksModule,support,0.000,0.000,0.000,1105.000,705.000,20.000,OK,support; front/rear mounting blocks tying Y axes to base plate
+y_carriage_adapter_plates,YCarriageAdapterPlateModule,support,0.000,0.000,0.000,1105.000,72.000,95.500,OK,support; left/right adapter plates from Y carriage area to X beam support
+gantry_cross_beam_support_plates,GantryCrossBeamSupportModule,support,0.000,0.000,0.000,922.000,98.000,82.500,OK,"support; X beam end plates, gussets, and rear tie bar"
+x_axis_mounting_saddle,XAxisMountingSaddleModule,support,0.000,0.000,0.000,780.000,79.000,44.000,OK,support; support saddle under/backing X axis module
+xz_adapter_plate_engineered,XZAdapterPlateModule,adapter,0.000,20.000,240.000,120.000,26.000,150.000,OK,adapter; engineered X-Z adapter plate with spacers and screw pattern
+z_gripper_adapter,ZGripperAdapterModule,adapter,0.000,20.000,143.000,70.000,20.000,56.000,OK,adapter; small adapter flange tying Z axis end to gripper
+motor_placeholders,MotorPlaceholderModule,drive,0.000,0.000,0.000,1085.000,358.500,291.500,OK,drive; compact X/Y-left/Y-right/Z motor placeholders with flanges and couplers
+drive_transmission_placeholders,DriveTransmissionPlaceholderModule,drive,0.000,0.000,0.000,1045.000,377.000,250.000,OK,drive; timing belt/pulley and Y sync shaft placeholders plus Z ball-screw visual cue
+cable_chain_mounting_tabs,CableChainMountingTabsModule,future_interface,0.000,0.000,0.000,310.000,334.000,106.000,OK,future_interface; mounting tabs only; Stage 7A-3d will model cable chain and wiring

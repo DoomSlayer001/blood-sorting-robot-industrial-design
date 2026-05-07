@@ -1,0 +1,13 @@
+interface_id,source_component,target_component,interface_type,mounting_method,expected_contact,notes
+IF-001,base_plate_1200x900x15,y_axis_base_mounting_blocks,base_mount,socket-head screws,yes,Y mounting blocks sit on base plate.
+IF-002,y_axis_base_mounting_blocks,left_y_axis_module/right_y_axis_module,axis_mount,bolted block support,yes,Blocks represent axis-to-base mounting supports.
+IF-003,left_y_axis_module/right_y_axis_module,y_carriage_adapter_plates,carriage_mount,bolted adapter plates,yes,Adapter plates tie Y carriage zones to gantry beam supports.
+IF-004,y_carriage_adapter_plates,gantry_cross_beam_support_plates,gantry_mount,bolted side plates,yes,Side plates and gussets support X beam ends.
+IF-005,gantry_cross_beam_support_plates,x_axis_module_on_gantry,x_axis_mount,end plates and saddle,yes,Cross-beam support visually carries the X axis.
+IF-006,x_axis_module_on_gantry,xz_adapter_plate_engineered,tool_chain_mount,spacers and screws,yes,Engineered adapter connects X carriage to Z axis.
+IF-007,xz_adapter_plate_engineered,z_axis_module,z_axis_mount,spacers and screws,yes,Z axis is represented as bolted through X-Z adapter.
+IF-008,z_axis_module,z_gripper_adapter,end_effector_mount,small flange adapter,yes,Adapter connects Z module end to gripper body.
+IF-009,z_gripper_adapter,electric_parallel_gripper,gripper_mount,flange screws,yes,Gripper no longer reads as floating.
+IF-010,motor_placeholders,x/y/z axis modules,drive_mount,motor flange and coupler,yes,Motor placeholders align with axis drive logic.
+IF-011,drive_transmission_placeholders,left_y_axis_module/right_y_axis_module,sync_drive,sync shaft / pulley placeholder,yes,Dual Y synchronization concept.
+IF-012,cable_chain_mounting_tabs,gantry / xz carriage,future_cable_chain_mount,tab and fastener holes,yes,Tabs reserve Stage 7A-3d cable-chain mounting points.

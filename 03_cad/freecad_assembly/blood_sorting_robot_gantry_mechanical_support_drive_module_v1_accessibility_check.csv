@@ -1,0 +1,19 @@
+item,check_status,notes
+y_axis_mounting_blocks_not_blocking_input_replacement,pass,Y blocks are at outer gantry rails and stay clear of input box replacement space.
+y_axis_mounting_blocks_not_blocking_output_replacement,pass,Right-side blocks are outside output box handling area.
+y_carriage_adapter_plates_not_floating,pass,Adapter plates are anchored at Y carriage / X beam support zones.
+x_crossbeam_support_not_floating,pass,"End plates, gussets, and saddle visually support the X axis."
+xz_adapter_plate_not_floating,pass,Engineered X-Z adapter is placed in the central tool-chain mount interface.
+z_gripper_adapter_not_floating,pass,Z-gripper adapter flange sits between Z module and gripper.
+motors_not_blocking_gantry_motion,pass,"Motors are small placeholders near axis ends, outside rack access paths."
+motors_not_blocking_scan_station,pass,Motor placeholders remain away from scan station.
+sync_placeholder_not_crossing_work_area,pass,"Y sync shaft placeholder runs along rear service side, not across the tube work area."
+support_parts_not_crossing_tube_racks,pass,"Support geometry is located at gantry rails/tool chain, away from rack tops."
+support_parts_not_crossing_sample_tubes,pass,No added support parts are placed through sample tube positions.
+support_parts_not_blocking_manual_review,pass,Manual review front access remains unchanged.
+support_parts_not_interfering_with_enclosure,pass,Support additions stay within the accepted enclosure frame volume without transparent panel conflicts.
+cable_chain_mounting_tabs_present,pass,Three cable-chain mounting tabs are included for Stage 7A-3d.
+cable_chain_mounting_tabs_do_not_block_access,pass,"Tabs are near gantry/rear/tool-chain zones, not operator replacement zones."
+tube_labels_preserved,pass,Sample tube curved labels remain generated from v7.1 tube geometry.
+non_tube_labels_removed,pass,v7.1 label_plate_* region labels are filtered from the preview.
+control_box_remains_closed_in_preview,pass,Electrical control box v1.2 closed-cabinet module is used in preview.

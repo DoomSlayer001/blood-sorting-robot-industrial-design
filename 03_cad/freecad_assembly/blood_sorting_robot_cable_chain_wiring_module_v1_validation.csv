@@ -1,0 +1,13 @@
+component_name,module,category,x_mm,y_mm,z_mm,bbox_x_mm,bbox_y_mm,bbox_z_mm,status,notes
+rear_fixed_cable_tray,RearFixedCableTrayModule,fixed_wiring,0.000,0.000,0.000,783.000,36.000,47.500,OK,fixed_wiring; rear fixed service cable tray; U-channel with partial covers
+control_box_cable_gland_stubs,ControlBoxCableGlandInterfaceModule,fixed_wiring,0.000,0.000,0.000,173.500,27.000,215.000,OK,fixed_wiring; short rear-facing gland stubs from closed control box to rear tray
+main_cable_chain_links,MainCableChainModule,moving_cable_chain,0.000,0.000,0.000,359.820,36.000,24.000,OK,moving_cable_chain; simplified drag-chain links between rear service tray and moving gantry route
+cable_chain_fixed_anchor,MainCableChainModule,moving_cable_chain,0.000,0.000,0.000,58.000,18.000,93.000,OK,moving_cable_chain; fixed anchor tied near Stage 7A-3c rear cable-chain mounting tab
+cable_chain_moving_anchor,MainCableChainModule,moving_cable_chain,0.000,0.000,0.000,48.000,18.000,58.000,OK,moving_cable_chain; moving anchor and service bridge toward X/Z carriage
+moving_cable_bundle,MovingCableBundleModule,moving_wiring,0.000,0.000,0.000,112.000,345.500,156.500,OK,"moving_wiring; chain end to X/Z carriage, Z axis, gripper, and moving limit IO"
+scanner_cable_stub,SensorCableStubModule,sensor_wiring,0.000,0.000,0.000,4.000,384.000,212.000,OK,sensor_wiring; barcode scanner fixed stub routed to rear tray without crossing scan tube
+photoelectric_cable_stub,SensorCableStubModule,sensor_wiring,0.000,0.000,0.000,4.000,394.000,231.500,OK,sensor_wiring; photoelectric sensor fixed stub routed to rear tray without blocking scanner view
+motor_cable_stubs,MotorCableStubModule,motor_wiring,0.000,0.000,0.000,1064.500,466.000,319.500,OK,motor_wiring; fixed Y motor stubs plus moving X/Z/gripper concept cables
+fixed_sensor_cable_stubs,SensorCableStubModule,sensor_wiring,0.000,0.000,0.000,1035.000,16.000,44.000,OK,"sensor_wiring; limit, bin-full, and input-presence fixed sensor bus placeholders"
+cable_clamps,CableClampAndAnchorModule,cable_management,0.000,0.000,0.000,482.000,437.000,73.000,OK,"cable_management; cable clamps at tray, chain, and local stub transition points"
+cable_chain_mounting_tabs_usage,CableClampAndAnchorModule,mounting_reference,0.000,0.000,0.000,303.000,322.000,83.000,OK,mounting_reference; small markers showing Stage 7A-3c mounting tabs are used; no new full mechanical support

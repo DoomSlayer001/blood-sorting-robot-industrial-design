@@ -16,4 +16,6 @@
 - Wiring harness: not generated.
 - legacy_v1: not modified.
 - v1 STEP: not overwritten.
-- Next step: open `03_cad/freecad_assembly/blood_sorting_robot_v7_3c_gantry_mechanical_support_preview_v1_1.step` in SolidWorks 2026 for manual display verification.
+- SolidWorks 2026 manual validation: passed. v1.1 opens visible by default without per-part restore/show actions; Y-axis base mounting blocks, Y-carriage adapter plates, cross-beam support plates, X-Z adapter, Z-gripper adapter, motor placeholders, drive placeholders, fastener patterns, and cable-chain mounting tabs read as intended.
+- Manual validation notes: the new support parts do not visibly block input boxes, output boxes, manual_review, scan station, or gripper motion space. Tube curved labels are preserved, non-tube region labels remain removed, and the control box remains closed in preview.
+- Acceptance: Gantry Mechanical Support and Drive Module v1.1 is accepted as the mechanical basis for Stage 7A-3d cable chain / wiring module.

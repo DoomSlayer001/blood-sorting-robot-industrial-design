@@ -31,3 +31,4 @@
 - Later detail still needed: cable chain / wiring module, material / appearance pass, fastener refinement, real motor selection, belt / pulley sizing, structural stiffness analysis, and formal engineering drawings.
 - Gantry mechanical support module STEP: `03_cad/freecad_assembly/blood_sorting_robot_gantry_mechanical_support_drive_module_v1.step`
 - Gantry mechanical support preview STEP: `03_cad/freecad_assembly/blood_sorting_robot_v7_3c_gantry_mechanical_support_preview.step`
+- Stage 7A-3c v1.1 visibility fix: passed SolidWorks 2026 manual inspection. The v1.1 preview opens visible by default and confirms the gantry support, adapter, motor placeholder, transmission placeholder, fastener, and cable-chain mounting-tab intent without adding full cable chain or wiring.

@@ -164,6 +164,8 @@ Stage 7A-3c adds Gantry Mechanical Support and Drive Completion v1 before the ca
 
 Stage 7A-3c v1.1 fixes the gantry mechanical support preview display state after SolidWorks 2026 showed the v1 STEP as initially blank until parts were manually restored. The v1.1 preview uses a compound/multi-solid STEP fallback so the unchanged geometry should open visible by default for manual re-check.
 
+Stage 7A-3c v1.1 has passed SolidWorks 2026 manual inspection. The gantry support/drive preview is visible by default, the added mechanical supports read correctly, cable-chain mounting tabs are reserved, and full cable chain / wiring remain deferred to Stage 7A-3d.
+
 Stage 7B builds the multi-box coordinate model from v7.1 without generating CAD. It defines 199 task points across 96 input slots, 96 output slots, 6 manual-review slots, and 1 scan-station point, then verifies reachability in the v7.1 planning envelope. The next stage should create the multi-box sample manifest, category hold/resume simulation, and updated trajectory/cycle-time model.
 
 Stage 7C generates a 96-sample multi-box manifest and validates the new batch sorting policy. The simulation covers `category_hold`, `pending_queue`, operator clear/replacement, `category_resume`, and manual-review-full alarm behavior. Normal samples blocked by a full category output box are held and resumed, not routed to manual review; `manual_review` remains reserved for true abnormal samples. The next stage should update multi-box trajectories and cycle-time estimates.

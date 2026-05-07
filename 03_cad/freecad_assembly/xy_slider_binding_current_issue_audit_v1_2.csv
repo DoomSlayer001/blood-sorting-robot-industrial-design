@@ -1,0 +1,11 @@
+component_name,suspected_role,current_location,issue_type,is_original_standard_part,recommended_action,notes
+left_y_axis_module,fixed industrial Y-axis standard module,left side,accepted standard module with integrated carriage interface,yes,keep,Original module retained; no new Y rail is generated.
+right_y_axis_module,fixed industrial Y-axis standard module,right side,accepted standard module with integrated carriage interface,yes,keep,Original module retained; no new Y rail is generated.
+x_axis_module_on_gantry,industrial X-axis standard module,gantry cross direction,accepted standard module with integrated X slider,yes,keep,Original X module retained; no new X rail is generated.
+original_left_y_slider_carriage,moving carriage interface inferred from standard Y module,left Y module top carriage area,not visually explicit enough in v1.1,yes,add_low_profile_top_adapter,Reference image shows X beam end block sitting directly on the Y carriage block.
+original_right_y_slider_carriage,moving carriage interface inferred from standard Y module,right Y module top carriage area,not visually explicit enough in v1.1,yes,add_low_profile_top_adapter,Reference image shows symmetric compact adapter logic.
+oversized_x_motor_or_external_drive_block,unwanted generated drive placeholder,near X-axis end / tube area,oversized external drive block creates collision risk,no,remove_or_hide_in_v1_2,Preview v1.2 does not include generated external motor blocks.
+new_auxiliary_x_rail,unwanted generated auxiliary rail if present,X gantry,not part of original industrial module logic,no,remove_or_hide_in_v1_2,No auxiliary rails are generated in this script.
+new_auxiliary_y_rail,unwanted generated auxiliary rail if present,Y axis region,not part of original industrial module logic,no,remove_or_hide_in_v1_2,No auxiliary rails are generated in this script.
+redundant_pulley_belt_transmission_placeholders,unwanted duplicate transmission expression,X/Y drive area,duplicates standard industrial module drive logic,no,remove_or_hide_in_v1_2,No pulley or belt placeholder is generated in this visual patch.
+x_slider_to_z_axis_adapter,moving X carriage interface,central X/Z area,must remain bound to original X slider,yes,preserve_and_check,Short adapter check plate is added; gripper/TCP is not moved.

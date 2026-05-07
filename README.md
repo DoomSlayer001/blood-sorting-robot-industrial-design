@@ -224,3 +224,10 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 12. Use v7.1 as the current recommended multi-box batch layout prototype.
 13. Revise Stage 6A-6E task planning for the multi-box batch workflow before freezing PID targets, continuing with the multi-box animation update.
 14. Create MATLAB/Simulink baseline trajectory and PID models aligned with the stable multi-box workflow and real mechanical masses.
+
+### Stage 7A-3h v1.2 X/Y Slider Binding Patch
+- Stage 7A-3h v1.2 patches the X/Y slider binding visual logic after manual review.
+- The preview removes the generated oversized external X drive block and does not add auxiliary rails.
+- The X beam ends now sit through compact custom adapter plates/end mounts on the original left/right Y slider interfaces; the original X slider remains the Z-axis interface.
+- Box layout, enclosure, cable management, closed control box, gripper, tube labels, and non-tube-label removal are preserved.
+

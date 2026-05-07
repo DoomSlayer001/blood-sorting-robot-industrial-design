@@ -1,0 +1,7 @@
+component_name,source_stage,reason_for_removal,is_original_standard_part,should_be_removed_or_hidden,notes
+oversized_x_motor_or_external_drive_block,Stage 7A-3h,oversized and close to tube area; not part of original industrial X module,no,yes,Removed/hidden from v1.2 preview; no external X motor block is generated.
+any_new_auxiliary_x_rail,Stage 7A-3h,auxiliary rail would replace/confuse original X module logic,no,yes,No auxiliary X rail is generated.
+any_new_auxiliary_y_rail,Stage 7A-3h,auxiliary rail would replace/confuse original Y module logic,no,yes,No auxiliary Y rail is generated.
+redundant_pulley_placeholder,Stage 7A-3h,duplicate transmission detail not wanted in this patch,no,yes,Not included in v1.2 preview.
+redundant_belt_placeholder,Stage 7A-3h,duplicate transmission detail not wanted in this patch,no,yes,Not included in v1.2 preview.
+floating_drive_block_if_any,Stage 7A-3h,no real mounting relationship to original module,no,yes,Filtered by starting from gantry joint/gripper/cable preview and adding only custom adapters.

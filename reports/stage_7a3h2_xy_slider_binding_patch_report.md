@@ -1,0 +1,27 @@
+# Stage 7A-3h v1.2 X/Y Slider Binding Visual Logic Patch Report
+
+- User feedback: Stage 7A-3h v1.1 restored the industrial-module direction, but the X/Y interface still did not visually sit on the original Y sliders and an oversized external X drive block still created collision concern.
+- Scope: this is a local patch only; it does not enter material pass, does not move boxes, and does not modify enclosure, cable management, control box, or gripper.
+- Removed/hidden visual logic: oversized generated X motor/external drive block, auxiliary rails, redundant pulley placeholders, redundant belt placeholders, and floating drive blocks are not included in v1.2 preview.
+- No new rails: v1.2 generates only custom low-profile adapter plates, compact end mounts, a small X-axis saddle, and an X-slider-to-Z adapter check marker.
+- Reference logic used: fixed industrial Y modules with original sliders/carriages; X gantry assembly sits on left/right Y slider top adapter plates; original X slider remains the Z-axis motion interface.
+- Left/right X beam binding: each X beam end uses a compact bracket/end mount connected down to the corresponding Y slider top adapter plate.
+- Riser: 0 mm. Current gantry height is retained because removing the external motor block resolves the visual collision risk without reducing Z reach.
+- Z reach: pass by inheritance from Stage 7A-3h-1 conservative check; no TCP or gripper movement was introduced.
+- SolidWorks visual check focus: confirm no external X motor remains near tubes, no fake rail appears, and X beam end blocks read as sitting on original Y carriage blocks.
+- Current boundary: concept-level custom slider binding patch, not final manufacturing drawing or verified slider interface hole pattern.
+- Current issue audit rows: 10.
+- Removed components rows: 6.
+- Interface manifest rows: 10.
+- Clearance check: pass=10, warning=1.
+- Motion envelope check: pass=5, warning=1.
+- Accessibility check: pass=22, issue=0.
+- Interference audit: overlap=0, too_close=0, allowed_mount_contact=39.
+- Visibility audit: high_risk=0, medium_risk=0, low_risk=900.
+- Import/display audit: likely_visible_in_solidworks=yes, solids=936.
+- Patch module components: 6.
+- Patch module solids: 86.
+- Patch module bbox: 1039.000 x 124.000 x 198.000 mm.
+- Preview components: 130.
+- Preview solids: 936.
+- Preview bbox: 1200.000 x 1034.770 x 480.000 mm.

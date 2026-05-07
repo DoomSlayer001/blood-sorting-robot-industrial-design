@@ -1,0 +1,23 @@
+item,check_status,notes
+original_y_axis_modules_preserved,pass,Original left/right Y industrial linear modules remain.
+original_x_axis_module_preserved,pass,Original X industrial linear module remains.
+original_y_sliders_used,pass,Low-profile adapter plates explicitly represent original Y slider/carriage interfaces.
+original_x_slider_used,pass,X-slider-to-Z adapter check keeps Z axis tied to original X carriage.
+no_new_auxiliary_rails,pass,No auxiliary X/Y rail geometry is generated.
+oversized_x_motor_removed,pass,Generated oversized/external X drive block is not included.
+no_external_motor_over_tube_area,pass,No external motor block remains above tube racks.
+x_beam_bound_to_left_y_slider,pass,Left end mount bridges the left slider adapter to the X beam end.
+x_beam_bound_to_right_y_slider,pass,Right end mount bridges the right slider adapter to the X beam end.
+adapter_plates_visible,pass,Left/right low-profile slider adapter plates are visible.
+x_beam_not_visually_floating,pass,Compact end mounts and saddle clarify the X beam support path.
+z_axis_still_bound_to_x_slider,pass,X-slider-to-Z adapter check is visible; gripper/TCP not moved.
+gripper_module_preserved,pass,Stage 7A-3e gripper is preserved.
+boxes_not_moved,pass,Input/output/manual_review box positions unchanged.
+tube_labels_preserved,pass,Tube curved labels remain inherited.
+non_tube_labels_removed,pass,Non-tube region labels remain removed.
+cable_management_preserved,pass,Cable chain / soft hose v1.2 preserved.
+control_box_closed,pass,Electrical control box remains closed.
+enclosure_preserved,pass,Enclosure guard module is not modified.
+collision_clearance_checked,pass,Clearance CSV generated.
+motion_envelope_checked,pass,Motion envelope CSV generated.
+preview_default_visible,pass,Compound/multi-solid export fallback used.

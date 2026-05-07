@@ -1,0 +1,2 @@
+file_name,file_exists,file_size_bytes,import_status,solid_count,bbox_x_mm,bbox_y_mm,bbox_z_mm,bbox_center_x_mm,bbox_center_y_mm,bbox_center_z_mm,bbox_reasonable,visibility_risk,likely_visible_in_solidworks,issue,notes
+blood_sorting_robot_v7_3h_xy_drive_motor_transmission_preview.step,yes,104748279,ok,898,1200.000,1034.770,480.000,0.000,49.385,225.000,yes,low,yes,,compound/multi-solid STEP fallback used to avoid hidden assembly display states

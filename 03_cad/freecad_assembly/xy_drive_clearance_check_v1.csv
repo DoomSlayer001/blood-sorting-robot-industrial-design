@@ -1,0 +1,11 @@
+check_item,target_component,clearance_target,measured_or_estimated_clearance_mm,status,notes
+left_y_motor_to_nearest_input_tube,left_y_compact_motor_v1,>=80 mm from tube/rack envelope,120.0,pass,Motor is outboard of the left input area and at rear/end service side.
+right_y_motor_to_nearest_output_tube,right_y_compact_motor_v1,>=80 mm from tube/rack envelope,95.0,pass,Motor is outboard of the right output area and near Y end.
+x_motor_to_nearest_tube,x_axis_compact_motor_v1,>=120 mm vertical/plan clearance,180.0,pass,"X motor is mounted high at X-axis end, above tube work zone."
+x_motor_to_gripper_path,x_axis_compact_motor_v1,outside central Z/gripper sweep,300.0,pass,"X motor is fixed near left X end, away from central Z carriage path."
+y_motor_to_enclosure,left/right_y_compact_motor_v1,no visual overlap with guard frame,32.0,pass,Compact motors stay inside rear service envelope and do not pierce transparent panels.
+y_motor_to_operator_access_area,left/right_y_compact_motor_v1,not in front replacement access,240.0,pass,"Y motors are at rear/end side, not in front operator openings."
+x_belt_path_to_tube_racks,x_axis_pulley_belt_path_v1,above racks; no through-rack path,170.0,pass,X belt path is high and runs along the X module.
+y_belt_path_to_tube_racks,y_axis_pulley_belt_paths_v1,outboard of racks,90.0,pass,Y belt paths are along outboard Y-axis sides.
+pulley_to_tube_clearance,drive/idler pulleys,no visual overlap with tubes,95.0,pass,Pulleys are at axis ends/outboard locations.
+belt_clamp_to_carriage_clearance,belt_clamp_markers,"mounted to carriage drive line, not tube area",60.0,warning,Concept marker only; final carriage clamp location requires real carriage drawings.

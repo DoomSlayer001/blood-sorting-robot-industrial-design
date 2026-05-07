@@ -1,0 +1,131 @@
+component_name,module,category,x_mm,y_mm,z_mm,bbox_x_mm,bbox_y_mm,bbox_z_mm,status,notes
+base_plate_1200x900x15,BaseLayout,existing,0.000,0.000,0.000,1200.000,900.000,15.000,OK,v7 generated 1200 x 900 x 15 mm base plate
+xz_adapter_plate_simplified,GantryModule,existing,0.000,20.000,260.000,82.000,6.550,125.000,OK,adapter at X/Z tool-chain interface
+scan_tube_holder,ScanStationModule,existing,-140.000,60.000,7.000,36.000,36.000,9.600,OK,scan station holder
+barcode_scanner_mount_bracket,ScanStationModule,existing,-175.000,118.000,52.000,57.000,14.000,68.500,OK,scanner bracket
+photoelectric_sensor_mount_bracket,ScanStationModule,existing,-84.000,88.000,37.000,85.000,14.000,47.000,OK,sensor bracket
+left_y_axis_module,GantryModule,existing,-535.000,0.000,35.000,76.429,750.000,75.187,OK,v7 outer left Y axis clears multi-input box stack
+right_y_axis_module,GantryModule,existing,500.000,0.000,35.000,76.429,750.000,75.187,OK,v7 outer right Y axis clears multi-output box stack
+x_axis_module_on_gantry,GantryModule,existing,0.000,10.000,265.000,750.000,75.187,76.429,OK,v7 central X axis spans input scan and output zones
+z_axis_module,GantryModule,existing,0.000,20.000,195.000,63.800,52.000,313.500,OK,v7 vertical Z module aligned to central tool chain
+input_box_1,MultiInputBoxModule,existing,-330.000,285.000,17.500,180.000,120.000,37.000,OK,replaceable 4x6 input box
+input_box_2,MultiInputBoxModule,existing,-330.000,155.000,17.500,180.000,120.000,37.000,OK,replaceable 4x6 input box
+input_box_3,MultiInputBoxModule,existing,-330.000,25.000,17.500,180.000,120.000,37.000,OK,replaceable 4x6 input box
+input_box_4,MultiInputBoxModule,existing,-330.000,-105.000,17.500,180.000,120.000,37.000,OK,replaceable 4x6 input box
+barcode_scanner,ScanStationModule,existing,-130.000,105.000,86.000,42.400,24.046,40.850,OK,v7.1 scanner tightened around scan tube holder
+photoelectric_sensor,ScanStationModule,existing,-60.000,92.000,62.000,119.000,44.900,14.000,OK,v7.1 presence sensor grouped with scan station
+category_A_output_box_4x6,MultiOutputBoxModule,existing,160.000,170.000,17.500,180.000,120.000,37.000,OK,replaceable 4x6 output box for Category A
+category_B_output_box_4x6,MultiOutputBoxModule,existing,370.000,170.000,17.500,180.000,120.000,37.000,OK,replaceable 4x6 output box for Category B
+category_C_output_box_4x6,MultiOutputBoxModule,existing,160.000,-40.000,17.500,180.000,120.000,37.000,OK,replaceable 4x6 output box for Category C
+category_D_output_box_4x6,MultiOutputBoxModule,existing,370.000,-40.000,17.500,180.000,120.000,37.000,OK,replaceable 4x6 output box for Category D
+manual_review_bin_2x3,ManualReviewModule,existing,-180.000,-300.000,17.500,100.000,75.000,37.000,OK,2x3 bin for true abnormal samples only
+input_box_1_demo_tube_01_purple75,MultiInputBoxModule,demo tube in input_box_1,-400.000,327.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_1; 4x6 slot row 1 col 1
+input_box_1_demo_tube_02_yellow100,MultiInputBoxModule,demo tube in input_box_1,-316.000,327.000,25.000,16.000,16.000,100.000,OK,demo tube in input_box_1; 4x6 slot row 1 col 4
+input_box_1_demo_tube_03_blue75,MultiInputBoxModule,demo tube in input_box_1,-260.000,299.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_1; 4x6 slot row 2 col 6
+input_box_1_demo_tube_04_red75,MultiInputBoxModule,demo tube in input_box_1,-344.000,271.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_1; 4x6 slot row 3 col 3
+input_box_1_demo_tube_05_purple75,MultiInputBoxModule,demo tube in input_box_1,-288.000,243.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_1; 4x6 slot row 4 col 5
+input_box_2_demo_tube_01_purple75,MultiInputBoxModule,demo tube in input_box_2,-400.000,197.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_2; 4x6 slot row 1 col 1
+input_box_2_demo_tube_02_yellow100,MultiInputBoxModule,demo tube in input_box_2,-316.000,197.000,25.000,16.000,16.000,100.000,OK,demo tube in input_box_2; 4x6 slot row 1 col 4
+input_box_2_demo_tube_03_blue75,MultiInputBoxModule,demo tube in input_box_2,-260.000,169.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_2; 4x6 slot row 2 col 6
+input_box_2_demo_tube_04_red75,MultiInputBoxModule,demo tube in input_box_2,-344.000,141.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_2; 4x6 slot row 3 col 3
+input_box_2_demo_tube_05_purple75,MultiInputBoxModule,demo tube in input_box_2,-288.000,113.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_2; 4x6 slot row 4 col 5
+input_box_3_demo_tube_01_purple75,MultiInputBoxModule,demo tube in input_box_3,-400.000,67.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_3; 4x6 slot row 1 col 1
+input_box_3_demo_tube_02_yellow100,MultiInputBoxModule,demo tube in input_box_3,-316.000,67.000,25.000,16.000,16.000,100.000,OK,demo tube in input_box_3; 4x6 slot row 1 col 4
+input_box_3_demo_tube_03_blue75,MultiInputBoxModule,demo tube in input_box_3,-260.000,39.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_3; 4x6 slot row 2 col 6
+input_box_3_demo_tube_04_red75,MultiInputBoxModule,demo tube in input_box_3,-344.000,11.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_3; 4x6 slot row 3 col 3
+input_box_3_demo_tube_05_purple75,MultiInputBoxModule,demo tube in input_box_3,-288.000,-17.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_3; 4x6 slot row 4 col 5
+input_box_4_demo_tube_01_purple75,MultiInputBoxModule,demo tube in input_box_4,-400.000,-63.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_4; 4x6 slot row 1 col 1
+input_box_4_demo_tube_02_yellow100,MultiInputBoxModule,demo tube in input_box_4,-316.000,-63.000,25.000,16.000,16.000,100.000,OK,demo tube in input_box_4; 4x6 slot row 1 col 4
+input_box_4_demo_tube_03_blue75,MultiInputBoxModule,demo tube in input_box_4,-260.000,-91.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_4; 4x6 slot row 2 col 6
+input_box_4_demo_tube_04_red75,MultiInputBoxModule,demo tube in input_box_4,-344.000,-119.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_4; 4x6 slot row 3 col 3
+input_box_4_demo_tube_05_purple75,MultiInputBoxModule,demo tube in input_box_4,-288.000,-147.000,25.000,16.000,16.000,75.000,OK,demo tube in input_box_4; 4x6 slot row 4 col 5
+scan_station_demo_tube_yellow100,ScanStationModule,existing,-140.000,60.000,24.000,16.000,16.000,100.000,OK,scan tube in v7 holder
+category_A_classified_tube_01_purple75,MultiOutputBoxModule,existing,90.000,212.000,25.000,16.000,16.000,75.000,OK,demo classified tube in Category A 4x6 output box
+category_A_classified_tube_02_purple75,MultiOutputBoxModule,existing,146.000,184.000,25.000,16.000,16.000,75.000,OK,demo classified tube in Category A 4x6 output box
+category_A_classified_tube_03_purple75,MultiOutputBoxModule,existing,202.000,156.000,25.000,16.000,16.000,75.000,OK,demo classified tube in Category A 4x6 output box
+category_B_classified_tube_01_yellow100,MultiOutputBoxModule,existing,300.000,212.000,25.000,16.000,16.000,100.000,OK,demo classified tube in Category B 4x6 output box
+category_B_classified_tube_02_yellow100,MultiOutputBoxModule,existing,356.000,184.000,25.000,16.000,16.000,100.000,OK,demo classified tube in Category B 4x6 output box
+category_B_classified_tube_03_yellow100,MultiOutputBoxModule,existing,412.000,156.000,25.000,16.000,16.000,100.000,OK,demo classified tube in Category B 4x6 output box
+category_C_classified_tube_01_blue75,MultiOutputBoxModule,existing,90.000,2.000,25.000,16.000,16.000,75.000,OK,demo classified tube in Category C 4x6 output box
+category_C_classified_tube_02_blue75,MultiOutputBoxModule,existing,146.000,-26.000,25.000,16.000,16.000,75.000,OK,demo classified tube in Category C 4x6 output box
+category_C_classified_tube_03_blue75,MultiOutputBoxModule,existing,202.000,-54.000,25.000,16.000,16.000,75.000,OK,demo classified tube in Category C 4x6 output box
+category_D_classified_tube_01_red75,MultiOutputBoxModule,existing,300.000,2.000,25.000,16.000,16.000,75.000,OK,demo classified tube in Category D 4x6 output box
+category_D_classified_tube_02_red75,MultiOutputBoxModule,existing,356.000,-26.000,25.000,16.000,16.000,75.000,OK,demo classified tube in Category D 4x6 output box
+category_D_classified_tube_03_red75,MultiOutputBoxModule,existing,412.000,-54.000,25.000,16.000,16.000,75.000,OK,demo classified tube in Category D 4x6 output box
+enclosure_bottom_rear_rail,AluminumFrameModule,existing,0.000,441.000,9.000,1182.000,18.000,18.000,OK,bottom rear rail mounted to base perimeter
+enclosure_bottom_left_rail,AluminumFrameModule,existing,-591.000,0.000,9.000,18.000,882.000,18.000,OK,bottom left rail mounted to base perimeter
+enclosure_bottom_right_rail,AluminumFrameModule,existing,591.000,0.000,9.000,18.000,882.000,18.000,OK,bottom right rail mounted to base perimeter
+enclosure_bottom_front_left_stub,AluminumFrameModule,existing,-530.000,-441.000,9.000,120.000,18.000,18.000,OK,front rail segmented for operator openings
+enclosure_bottom_front_center_stub,AluminumFrameModule,existing,-15.000,-441.000,9.000,95.000,18.000,18.000,OK,front rail segmented for manual-review opening
+enclosure_bottom_front_right_stub,AluminumFrameModule,existing,530.000,-441.000,9.000,120.000,18.000,18.000,OK,front rail segmented for operator openings
+enclosure_corner_post_front_left,AluminumFrameModule,existing,-591.000,-441.000,215.000,18.000,18.000,430.000,OK,front-left vertical aluminum post
+enclosure_corner_post_front_right,AluminumFrameModule,existing,591.000,-441.000,215.000,18.000,18.000,430.000,OK,front-right vertical aluminum post
+enclosure_corner_post_rear_left,AluminumFrameModule,existing,-591.000,441.000,215.000,18.000,18.000,430.000,OK,rear-left vertical aluminum post
+enclosure_corner_post_rear_right,AluminumFrameModule,existing,591.000,441.000,215.000,18.000,18.000,430.000,OK,rear-right vertical aluminum post
+enclosure_top_rear_crossbeam,AluminumFrameModule,existing,0.000,441.000,421.000,1182.000,18.000,18.000,OK,top rear crossbeam
+enclosure_top_left_crossbeam,AluminumFrameModule,existing,-591.000,0.000,421.000,18.000,882.000,18.000,OK,top left side crossbeam
+enclosure_top_right_crossbeam,AluminumFrameModule,existing,591.000,0.000,421.000,18.000,882.000,18.000,OK,top right side crossbeam
+enclosure_front_upper_left_beam,AluminumFrameModule,existing,-470.000,-441.000,421.000,220.000,18.000,18.000,OK,horizontal front top beam segment over input-side opening
+enclosure_front_upper_center_beam,AluminumFrameModule,existing,-10.000,-441.000,421.000,130.000,18.000,18.000,OK,horizontal front top beam segment between access openings
+enclosure_front_upper_right_beam,AluminumFrameModule,existing,470.000,-441.000,421.000,220.000,18.000,18.000,OK,horizontal front top beam segment over output-side opening
+enclosure_rear_transparent_panel,TransparentPanelModule,existing,0.000,432.000,150.000,1040.000,3.000,300.000,OK,"lower, lighter rear transparent PC/acrylic panel"
+enclosure_left_transparent_panel,TransparentPanelModule,existing,-582.000,170.000,130.000,3.000,430.000,260.000,OK,reduced-height left transparent side panel
+enclosure_right_transparent_panel,TransparentPanelModule,existing,582.000,170.000,130.000,3.000,430.000,260.000,OK,reduced-height right transparent side panel
+enclosure_front_left_low_panel,TransparentPanelModule,existing,-562.000,-439.000,45.000,64.000,3.000,90.000,OK,"short front low panel, does not cover input access"
+enclosure_front_center_low_panel,TransparentPanelModule,existing,-8.000,-439.000,45.000,58.000,3.000,90.000,OK,"short front low divider panel, manual review remains accessible"
+enclosure_front_right_low_panel,TransparentPanelModule,existing,562.000,-439.000,45.000,64.000,3.000,90.000,OK,"short front low panel, does not cover output access"
+enclosure_input_box_replace_opening_left_jamb,AccessDoorModule,existing,-510.000,-444.000,146.000,10.000,10.000,260.000,OK,input-box replacement door/opening frame
+enclosure_input_box_replace_opening_right_jamb,AccessDoorModule,existing,-150.000,-444.000,146.000,10.000,10.000,260.000,OK,input-box replacement door/opening frame
+enclosure_input_box_replace_opening_top_rail,AccessDoorModule,existing,-330.000,-444.000,276.000,370.000,10.000,10.000,OK,input-box replacement door/opening frame
+enclosure_input_box_replace_opening_bottom_sill,AccessDoorModule,existing,-330.000,-444.000,16.000,370.000,10.000,10.000,OK,input-box replacement door/opening frame
+enclosure_output_box_replace_opening_left_jamb,AccessDoorModule,existing,70.000,-444.000,146.000,10.000,10.000,260.000,OK,output-box replacement door/opening frame
+enclosure_output_box_replace_opening_right_jamb,AccessDoorModule,existing,490.000,-444.000,146.000,10.000,10.000,260.000,OK,output-box replacement door/opening frame
+enclosure_output_box_replace_opening_top_rail,AccessDoorModule,existing,280.000,-444.000,276.000,430.000,10.000,10.000,OK,output-box replacement door/opening frame
+enclosure_output_box_replace_opening_bottom_sill,AccessDoorModule,existing,280.000,-444.000,16.000,430.000,10.000,10.000,OK,output-box replacement door/opening frame
+enclosure_input_door_simple_pull_handle,AccessDoorModule,existing,-150.000,-458.000,150.000,10.000,14.000,48.000,OK,"simple pull handle geometry, no text label"
+enclosure_output_door_simple_pull_handle,AccessDoorModule,existing,490.000,-458.000,150.000,10.000,14.000,48.000,OK,"simple pull handle geometry, no text label"
+enclosure_manual_review_access_opening_left_jamb,ManualReviewAccessModule,existing,-270.000,-447.000,83.000,10.000,10.000,150.000,OK,simple manual_review front access opening
+enclosure_manual_review_access_opening_right_jamb,ManualReviewAccessModule,existing,-90.000,-447.000,83.000,10.000,10.000,150.000,OK,simple manual_review front access opening
+enclosure_manual_review_access_opening_top_rail,ManualReviewAccessModule,existing,-180.000,-447.000,158.000,190.000,10.000,10.000,OK,simple manual_review front access opening
+enclosure_manual_review_access_opening_bottom_sill,ManualReviewAccessModule,existing,-180.000,-447.000,8.000,190.000,10.000,10.000,OK,simple manual_review front access opening
+enclosure_manual_review_access_simple_pull_handle,AccessDoorModule,existing,-90.000,-461.000,84.000,10.000,14.000,48.000,OK,"simple pull handle geometry, no text label"
+enclosure_top_open_front_rectangular_rail,TopOpenFrameModule,existing,0.000,-441.000,421.000,1060.000,18.000,18.000,OK,"horizontal rectangular top front rail only, no roof panel"
+enclosure_top_open_rear_rectangular_rail,TopOpenFrameModule,existing,0.000,441.000,421.000,1060.000,18.000,18.000,OK,horizontal rectangular top rear rail only
+enclosure_top_open_left_rectangular_rail,TopOpenFrameModule,existing,-591.000,0.000,421.000,18.000,820.000,18.000,OK,horizontal rectangular top left rail only
+enclosure_top_open_right_rectangular_rail,TopOpenFrameModule,existing,591.000,0.000,421.000,18.000,820.000,18.000,OK,horizontal rectangular top right rail only
+closed_control_box_housing,ClosedControlBoxHousingModule,existing,455.000,505.000,120.000,210.000,100.700,150.000,OK,"closed rear service cabinet housing with rear service door, seams, and screw markers"
+closed_control_box_cable_glands,CableGlandAndConnectorModule,four short rear-service cable glands,455.000,505.000,120.000,100.000,9.000,10.000,OK,four short rear-service cable glands; no top-facing connectors and no wire harness
+closed_control_box_ventilation,VentilationModule,existing,455.000,505.000,120.000,152.600,49.600,70.200,OK,side and rear simplified ventilation slots on the closed cabinet
+closed_control_box_mounting_brackets,MountingBracketModule,existing,455.000,505.000,120.000,228.000,107.000,110.000,OK,"bottom mounting plate, feet, and rear tie brackets fixing the closed cabinet to the rear service frame/base"
+y_axis_base_mounting_blocks,YAxisBaseMountingBlocksModule,support,0.000,0.000,0.000,1105.000,705.000,20.000,OK,support; front/rear mounting blocks tying Y axes to base plate
+y_carriage_adapter_plates,YCarriageAdapterPlateModule,support,0.000,0.000,0.000,1105.000,72.000,95.500,OK,support; left/right adapter plates from Y carriage area to X beam support
+gantry_cross_beam_support_plates,GantryCrossBeamSupportModule,support,0.000,0.000,0.000,922.000,98.000,82.500,OK,"support; X beam end plates, gussets, and rear tie bar"
+x_axis_mounting_saddle,XAxisMountingSaddleModule,support,0.000,0.000,0.000,780.000,79.000,44.000,OK,support; support saddle under/backing X axis module
+xz_adapter_plate_engineered,XZAdapterPlateModule,adapter,0.000,20.000,240.000,120.000,26.000,150.000,OK,adapter; engineered X-Z adapter plate with spacers and screw pattern
+cable_chain_mounting_tabs,CableChainMountingTabsModule,future_interface,0.000,0.000,0.000,310.000,334.000,106.000,OK,future_interface; mounting tabs only; Stage 7A-3d will model cable chain and wiring
+rear_fixed_cable_tray,RearFixedCableTrayModule,fixed_wiring,0.000,0.000,0.000,783.000,36.000,47.500,OK,fixed_wiring; rear fixed service cable tray; U-channel with partial covers
+control_box_cable_gland_stubs,ControlBoxCableGlandInterfaceModule,fixed_wiring,0.000,0.000,0.000,174.232,43.105,212.454,OK,fixed_wiring; short rear-facing gland stubs from closed control box to rear tray
+main_cable_chain_links,MainCableChainModule,moving_cable_chain,0.000,0.000,0.000,250.950,202.390,28.000,OK,moving_cable_chain; simplified drag-chain links between rear service tray and moving gantry route
+cable_chain_fixed_anchor,MainCableChainModule,moving_cable_chain,0.000,0.000,0.000,58.000,18.000,93.000,OK,moving_cable_chain; fixed anchor tied near Stage 7A-3c rear cable-chain mounting tab
+cable_chain_moving_anchor,MainCableChainModule,moving_cable_chain,0.000,0.000,0.000,48.000,18.000,58.000,OK,moving_cable_chain; moving anchor and service bridge toward X/Z carriage
+moving_flexible_hose_bundle,MovingFlexibleHoseBundle,moving_wiring,0.000,0.000,0.000,41.637,120.309,53.676,OK,moving_wiring; single continuous hose-like bundle from drag-chain moving end to X/Z carriage
+cable_clamps,CableClampAndAnchorModule,cable_management,0.000,0.000,0.000,290.000,420.000,57.000,OK,"cable_management; minimal clamps at rear tray, drag-chain anchors, and X/Z carriage strain relief"
+cable_chain_mounting_tabs_usage,CableClampAndAnchorModule,mounting_reference,0.000,0.000,0.000,303.000,322.000,83.000,OK,mounting_reference; small markers showing Stage 7A-3c mounting tabs are used; no new full mechanical support
+z_gripper_adapter_plate_v1,EndEffectorGripperModuleV1,adapter,0.000,0.000,0.000,74.000,28.000,78.000,OK,adapter; new adapter plate between Z axis end and gripper body
+electric_parallel_gripper_body_v1,EndEffectorGripperModuleV1,gripper_body,0.000,0.000,0.000,56.000,47.200,47.000,OK,"gripper_body; closed electric parallel gripper body, not a scanner/sensor block"
+two_finger_gripper_jaws_v1,EndEffectorGripperModuleV1,two_finger_jaws,0.000,0.000,0.000,50.000,18.000,54.000,OK,two_finger_jaws; left/right open-pose gripper jaws aligned to tube centerline
+soft_tube_contact_pads_v1,EndEffectorGripperModuleV1,soft_contact_pads,0.000,0.000,0.000,23.200,16.500,32.000,OK,soft_contact_pads; black rubber tube-contact pads on jaw inner faces
+gripper_cable_strain_relief_v1,EndEffectorGripperModuleV1,strain_relief,0.000,0.000,0.000,29.842,12.000,34.923,OK,strain_relief; short local strain relief at gripper body; no long tool cable added
+left_y_carriage_main_adapter_plate_v1_1,GantryJointAdapterModuleV1_1,custom_adapter,0.000,0.000,0.000,110.000,88.000,45.200,OK,custom_adapter; compact bolted main adapter plate directly over the left Y carriage area
+right_y_carriage_main_adapter_plate_v1_1,GantryJointAdapterModuleV1_1,custom_adapter,0.000,0.000,0.000,110.000,88.000,45.200,OK,custom_adapter; compact bolted main adapter plate directly over the right Y carriage area
+left_x_beam_end_mount_v1_1,GantryJointAdapterModuleV1_1,custom_end_mount,0.000,0.000,0.000,76.000,108.000,171.000,OK,custom_end_mount; left X beam end mounting seat with locking cap and backing block
+right_x_beam_end_mount_v1_1,GantryJointAdapterModuleV1_1,custom_end_mount,0.000,0.000,0.000,76.000,108.000,171.000,OK,custom_end_mount; right X beam end mounting seat with locking cap and backing block
+left_boxed_gantry_side_bracket_v1_1,GantryJointAdapterModuleV1_1,custom_support_bracket,0.000,0.000,0.000,158.000,120.000,168.000,OK,custom_support_bracket; left compact boxed side bracket linking Y carriage adapter to X beam end mount
+right_boxed_gantry_side_bracket_v1_1,GantryJointAdapterModuleV1_1,custom_support_bracket,0.000,0.000,0.000,123.000,120.000,168.000,OK,custom_support_bracket; right compact boxed side bracket linking Y carriage adapter to X beam end mount
+gantry_joint_mounting_fastener_patterns_v1_1,GantryJointAdapterModuleV1_1,fastener_pattern,0.000,0.000,0.000,947.400,6.000,184.000,OK,fastener_pattern; limited screw/dowel markers for compact joint readability
+left_y_compact_motor_v1,XYDriveMotorTransmissionModuleV1,compact_motor,0.000,0.000,0.000,72.000,79.000,62.000,OK,compact_motor; small rear/end-mounted left Y motor replaces oversized free motor block
+right_y_compact_motor_v1,XYDriveMotorTransmissionModuleV1,compact_motor,0.000,0.000,0.000,72.000,79.000,62.000,OK,compact_motor; small rear/end-mounted right Y motor replaces oversized free motor block
+x_axis_compact_motor_v1,XYDriveMotorTransmissionModuleV1,compact_motor,0.000,0.000,0.000,80.000,72.000,62.000,OK,"compact_motor; compact X motor mounted at the left X-axis end, high above tube work area"
+y_axis_pulley_belt_paths_v1,XYDriveMotorTransmissionModuleV1,belt_pulley_path,0.000,0.000,0.000,1021.000,689.000,26.000,OK,belt_pulley_path; simplified Y drive/idler pulleys and timing belt runs along outboard Y axes
+x_axis_pulley_belt_path_v1,XYDriveMotorTransmissionModuleV1,belt_pulley_path,0.000,0.000,0.000,793.000,26.000,24.000,OK,belt_pulley_path; simplified X drive/idler pulley and timing belt path along X-axis module
+xy_belt_clamp_fastener_markers_v1,XYDriveMotorTransmissionModuleV1,belt_clamp,0.000,0.000,0.000,1010.200,111.200,204.000,OK,belt_clamp; limited belt clamp fastener markers for carriage drive readability

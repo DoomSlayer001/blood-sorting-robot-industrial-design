@@ -1,0 +1,7 @@
+component_name,module,category,x_mm,y_mm,z_mm,bbox_x_mm,bbox_y_mm,bbox_z_mm,status,notes
+left_y_compact_motor_v1,XYDriveMotorTransmissionModuleV1,compact_motor,0.000,0.000,0.000,72.000,79.000,62.000,OK,compact_motor; small rear/end-mounted left Y motor replaces oversized free motor block
+right_y_compact_motor_v1,XYDriveMotorTransmissionModuleV1,compact_motor,0.000,0.000,0.000,72.000,79.000,62.000,OK,compact_motor; small rear/end-mounted right Y motor replaces oversized free motor block
+x_axis_compact_motor_v1,XYDriveMotorTransmissionModuleV1,compact_motor,0.000,0.000,0.000,80.000,72.000,62.000,OK,"compact_motor; compact X motor mounted at the left X-axis end, high above tube work area"
+y_axis_pulley_belt_paths_v1,XYDriveMotorTransmissionModuleV1,belt_pulley_path,0.000,0.000,0.000,1021.000,689.000,26.000,OK,belt_pulley_path; simplified Y drive/idler pulleys and timing belt runs along outboard Y axes
+x_axis_pulley_belt_path_v1,XYDriveMotorTransmissionModuleV1,belt_pulley_path,0.000,0.000,0.000,793.000,26.000,24.000,OK,belt_pulley_path; simplified X drive/idler pulley and timing belt path along X-axis module
+xy_belt_clamp_fastener_markers_v1,XYDriveMotorTransmissionModuleV1,belt_clamp,0.000,0.000,0.000,1010.200,111.200,204.000,OK,belt_clamp; limited belt clamp fastener markers for carriage drive readability

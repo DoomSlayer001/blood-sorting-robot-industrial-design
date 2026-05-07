@@ -1,0 +1,24 @@
+item,check_status,notes
+oversized_motors_removed_or_replaced,pass,Old `motor_placeholders` group is filtered from v7.3h preview and replaced with compact motors.
+motors_not_over_tube_racks,pass,Y motors are outboard/rear; X motor is high at X-axis end.
+motors_not_colliding_with_sample_tubes,pass,No motor is placed inside tube rack or sample tube envelopes.
+motors_fixed_to_axis_end_or_mount,pass,Each compact motor includes mounting plate/flange/end cover.
+x_motor_has_clear_mounting_logic,pass,X motor is mounted at left X-axis end with flange and end cover.
+y_motors_have_clear_mounting_logic,pass,Left/right Y motors are mounted at rear/end side with plates and covers.
+x_drive_pulley_visible,pass,X drive/idler pulleys and belt runs are modeled.
+y_drive_pulleys_visible,pass,Left/right Y drive pulleys are modeled.
+idler_pulleys_visible,pass,Opposite idler pulleys are added for X and Y concepts.
+simplified_belt_paths_visible,pass,Black simplified timing belt runs show motor -> pulley -> carriage logic.
+belt_clamp_markers_visible,pass,X and Y belt clamp markers are included.
+belt_paths_not_crossing_tubes,pass,"Belt paths are high or outboard, not through tubes."
+belt_paths_not_crossing_tube_racks,pass,Belt paths follow axis side/module routes.
+motor_mounts_not_floating,pass,Motors include flanges and mount plates adjacent to axis ends.
+gantry_joint_v1_1_preserved,pass,v7.3f gantry joint physical logic is reused.
+gripper_module_preserved,pass,End-effector gripper module is retained.
+cable_management_v1_2_preserved,pass,Cable management v1.2 remains in the preview.
+boxes_not_moved,pass,Input/output/manual_review box positions are inherited unchanged.
+box_count_preserved,pass,"Four input boxes, four output boxes, and one manual_review bin remain inherited."
+tube_labels_preserved,pass,Sample tube curved labels are inherited.
+non_tube_labels_removed,pass,Non-tube region labels remain removed.
+control_box_remains_closed,pass,Electrical control box remains closed in preview.
+preview_default_visible,pass,Compound/multi-solid STEP fallback is used.

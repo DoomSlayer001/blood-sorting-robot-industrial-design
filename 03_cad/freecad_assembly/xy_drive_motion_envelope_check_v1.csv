@@ -1,0 +1,8 @@
+axis,moving_component,motion_range_description,risk_component,collision_risk,status,notes
+X,X carriage,X carriage moves along the X module while motor remains fixed at left X end,x_axis_compact_motor_v1,low,pass,X motor is fixed and does not sweep over tube racks.
+Y-left,left Y carriage,Y carriage travels along left Y rail; motor remains at rear/end bracket,left_y_compact_motor_v1,low,pass,Left Y motor is fixed and outboard of input boxes.
+Y-right,right Y carriage,Y carriage travels along right Y rail; motor remains at rear/end bracket,right_y_compact_motor_v1,low,pass,Right Y motor is fixed and outboard of output boxes.
+X,x_belt_clamp_marker,Belt clamp concept follows X carriage inside X module envelope,tube racks,low,warning,Concept marker is high; final moving clamp requires real carriage interface drawings.
+Y,y_belt_clamp_markers,Belt clamp concept follows Y carriage on outboard side,tube racks,low,warning,Concept marker is outboard; final moving clamp requires real carriage interface drawings.
+X/Y,pulleys and idlers,Pulleys/idlers are fixed at axis ends,tube racks,low,pass,Fixed drive/idler locations do not sweep through tube zones.
+X/Y,cable chain / hose,Existing v1.2 hose and drag chain remain accepted,new compact motors,low,pass,New X/Y drive components do not re-route cable management.

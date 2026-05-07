@@ -1,0 +1,25 @@
+# Stage 7A-3h X/Y Drive Motor and Transmission Refinement Report
+
+- User feedback: box bodies and box positions should not be changed in this stage.
+- Main issue: earlier X/Y motor placeholders were oversized, visually near tube areas, and lacked believable motor-to-pulley-to-belt-to-carriage logic.
+- Design strategy: no new standard CAD download; use concept-level compact motor, pulley, belt, and clamp placeholders while retaining existing axis modules.
+- Oversized motor handling: inherited `motor_placeholders` are hidden from the v7.3h preview and replaced by compact axis-end motors.
+- X-axis motor: compact motor mounted high at the left X-axis end with flange, mounting plate, short coupler, drive cover, drive pulley, idler pulley, X timing belt runs, and X belt clamp marker.
+- Y-axis motors: compact left/right motors mounted at rear/end side of the Y axes, outboard of tube racks, with drive pulleys, front idlers, side belt runs, and carriage belt clamp markers.
+- Pulley/idler/belt path: simplified timing belts are shown as clean black runs along X module and outboard Y axes; no detailed tooth geometry is modeled.
+- Clearance check: pass=9, warning=1.
+- Motion envelope check: pass=5, warning=2.
+- Accessibility check: pass=23, issue=0.
+- Interference audit: overlap=0, too_close=0, allowed_mount_contact=22.
+- Visibility audit: high_risk=0, medium_risk=0, low_risk=862.
+- Import/display audit: likely_visible_in_solidworks=yes, solids=898.
+- XY drive module components: 6
+- XY drive module solids: 48
+- XY drive module bbox: 1057.000 x 766.000 x 247.000 mm
+- Preview components: 130
+- Preview solids: 898
+- Preview bbox: 1200.000 x 1034.770 x 480.000 mm
+- Current boundary: concept-level drive representation, not final motor / timing-belt / pulley engineering.
+- Later detail still needed: real motor model selection, belt pitch/width, pulley tooth count, tensioner design, motor bracket drawings, and drive load calculation.
+- Current-state audit rows: 11
+- Interface manifest rows: 10

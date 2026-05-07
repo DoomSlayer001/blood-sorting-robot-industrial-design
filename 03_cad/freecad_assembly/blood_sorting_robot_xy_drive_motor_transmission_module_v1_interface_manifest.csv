@@ -1,0 +1,11 @@
+interface_id,from_component,to_component,connection_type,fixed_or_moving,custom_or_standard,mounting_method,notes
+left_y_motor_to_left_y_axis_end_mount,left_y_compact_motor_v1,left_y_axis_module,motor to Y-axis end mount,fixed,custom_placeholder_to_standard_axis,rear mounting plate and flange,Compact motor mounted to left Y rear/end bracket concept.
+right_y_motor_to_right_y_axis_end_mount,right_y_compact_motor_v1,right_y_axis_module,motor to Y-axis end mount,fixed,custom_placeholder_to_standard_axis,rear mounting plate and flange,Compact motor mounted to right Y rear/end bracket concept.
+x_motor_to_x_axis_end_mount,x_axis_compact_motor_v1,x_axis_module_on_gantry,motor to X-axis end mount,fixed,custom_placeholder_to_standard_axis,end mounting plate and flange,Compact motor fixed to left X-axis end region.
+left_y_drive_pulley_to_y_belt,left_y_drive_pulley,left_y_timing_belt,pulley to belt,fixed_to_moving_interface,concept_transmission,simplified pulley and belt run,No real tooth profile modeled.
+right_y_drive_pulley_to_y_belt,right_y_drive_pulley,right_y_timing_belt,pulley to belt,fixed_to_moving_interface,concept_transmission,simplified pulley and belt run,No real tooth profile modeled.
+x_drive_pulley_to_x_belt,x_drive_pulley,x_timing_belt,pulley to belt,fixed_to_moving_interface,concept_transmission,simplified pulley and belt run,No real tooth profile modeled.
+y_belt_to_y_carriage_clamp,y_axis_pulley_belt_paths_v1,Y carriage area,belt to carriage clamp,moving,concept_clamp,small belt clamp marker,Final clamp needs carriage vendor interface.
+x_belt_to_x_carriage_clamp,x_axis_pulley_belt_path_v1,X carriage area,belt to carriage clamp,moving,concept_clamp,small belt clamp marker,Final clamp needs carriage vendor interface.
+xy_drive_to_cable_chain_clearance,XYDriveMotorTransmissionModuleV1,main_cable_chain_links,clearance reference,fixed,layout_clearance,separate rear/high routes,Existing cable management v1.2 retained.
+xy_drive_to_gantry_joint_clearance,XYDriveMotorTransmissionModuleV1,GantryJointAdapterModuleV1_1,mount/clearance reference,fixed,custom_adapter_clearance,end-mounted drive stays near joint/end seats,Expected adjacent axis-end mounting contact is allowed.

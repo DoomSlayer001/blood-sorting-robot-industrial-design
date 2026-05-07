@@ -1,0 +1,9 @@
+component_name,module,category,x_mm,y_mm,z_mm,bbox_x_mm,bbox_y_mm,bbox_z_mm,status,notes
+rear_fixed_cable_tray,RearFixedCableTrayModule,fixed_wiring,0.000,0.000,0.000,783.000,36.000,47.500,OK,fixed_wiring; rear fixed service cable tray; U-channel with partial covers
+control_box_cable_gland_stubs,ControlBoxCableGlandInterfaceModule,fixed_wiring,0.000,0.000,0.000,174.232,43.105,212.454,OK,fixed_wiring; short rear-facing gland stubs from closed control box to rear tray
+main_cable_chain_links,MainCableChainModule,moving_cable_chain,0.000,0.000,0.000,250.950,202.390,28.000,OK,moving_cable_chain; simplified drag-chain links between rear service tray and moving gantry route
+cable_chain_fixed_anchor,MainCableChainModule,moving_cable_chain,0.000,0.000,0.000,58.000,18.000,93.000,OK,moving_cable_chain; fixed anchor tied near Stage 7A-3c rear cable-chain mounting tab
+cable_chain_moving_anchor,MainCableChainModule,moving_cable_chain,0.000,0.000,0.000,48.000,18.000,58.000,OK,moving_cable_chain; moving anchor and service bridge toward X/Z carriage
+moving_flexible_hose_bundle,MovingFlexibleHoseBundle,moving_wiring,0.000,0.000,0.000,41.637,120.309,53.676,OK,moving_wiring; single continuous hose-like bundle from drag-chain moving end to X/Z carriage
+cable_clamps,CableClampAndAnchorModule,cable_management,0.000,0.000,0.000,290.000,420.000,57.000,OK,"cable_management; minimal clamps at rear tray, drag-chain anchors, and X/Z carriage strain relief"
+cable_chain_mounting_tabs_usage,CableClampAndAnchorModule,mounting_reference,0.000,0.000,0.000,303.000,322.000,83.000,OK,mounting_reference; small markers showing Stage 7A-3c mounting tabs are used; no new full mechanical support

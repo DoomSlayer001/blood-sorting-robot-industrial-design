@@ -1,0 +1,36 @@
+# Stage 7A-3d v1.2 Clean Visual Cable Management Report
+
+- v1.1 SolidWorks manual check: long fly-lines were reduced, but some wiring still looked stiff, segmented, and visually busy.
+- Purpose: clean visual cable management for presentation CAD while preserving electrical logic in the wiring manifest.
+- Input electrical architecture files used:
+  - `01_system_design/electrical_wiring_interface_table_v1.csv`
+  - `01_system_design/cable_routing_plan_v1.md`
+  - `01_system_design/electrical_system_architecture_v1.md`
+  - `01_system_design/electrical_io_map_v1.csv`
+- Fixed cables in interface table: 20
+- Cable-chain cables in interface table: 6
+- v1.2 visual strategy: retain the rear main drag chain and replace multiple small pigtails with one continuous hose-like moving cable bundle.
+- Rear main drag chain: retained as the visible engineering-plastic cable carrier between rear service zone and moving gantry route.
+- Moving flexible hose bundle: one smooth black hose proxy routes from drag-chain moving end to X/Z carriage strain relief.
+- Secondary sensor/motor wiring: logically retained in the wiring route manifest and omitted from the visual preview for clarity.
+- Long hard cable rods removed: yes.
+- Broken or floating visual cables removed: yes.
+- Simulation note: later motion checks should use simplified hose swept volume / no-go zones, not detailed flexible cable dynamics.
+- Control box interface: closed v1.2 cabinet remains closed; no internal electrical parts are exposed.
+- Cable clamps / strain relief: limited to rear tray entry, chain fixed end, chain moving end, and X/Z carriage hose end.
+- Stage 7A-3c cable-chain mounting tabs used: yes.
+- Tube curved labels: preserved.
+- Non-tube region label plates: removed.
+- Accessibility check: pass=16, issue=0.
+- Interference audit: overlap=0, too_close=0, allowed_mount_contact=22.
+- Visibility audit: high_risk=0, medium_risk=0, low_risk=736.
+- Import/display audit: likely_visible_in_solidworks=yes, solids=774.
+- Cable/wiring module components: 8
+- Cable/wiring module solids: 185
+- Cable/wiring module bbox: 952.398 x 514.770 x 235.611 mm
+- Preview components: 116
+- Preview solids: 774
+- Preview bbox: 1200.000 x 1034.770 x 480.000 mm
+- Current boundary: clean concept-level cable-management display model, not final electrical construction drawings.
+- Later detail still needed: real cable-chain model selection, cable specifications, bend radius verification, terminal numbering, grounding refinement, clamp refinement, engineering drawings, and material / appearance pass.
+- Route manifest rows: 11

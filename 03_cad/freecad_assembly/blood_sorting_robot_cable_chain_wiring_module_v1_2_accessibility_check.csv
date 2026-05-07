@@ -1,0 +1,17 @@
+item,check_status,notes
+main_drag_chain_not_blocking_input_replacement,pass,Rear drag chain and fixed tray stay behind the left input box access path.
+main_drag_chain_not_blocking_output_replacement,pass,Rear drag chain remains behind and above output box replacement access.
+main_drag_chain_not_blocking_manual_review,pass,No drag-chain or hose geometry crosses front manual_review access.
+moving_hose_not_crossing_tube_racks,pass,"The visible moving hose stays over the X/Z service area, not over racks."
+moving_hose_not_crossing_sample_tubes,pass,The moving hose path does not route through sample tube instances.
+moving_hose_not_crossing_scan_station,pass,Scanner/photoelectric pigtails are omitted; the visible hose does not pass through the scan station.
+moving_hose_not_crossing_gripper_pick_zone,pass,The hose terminates at the X/Z carriage strain relief and avoids the lower gripper pick zone.
+moving_hose_continuous_not_broken,pass,The moving bundle is modeled as one smooth hose proxy with overlapping bend sections.
+no_long_straight_cable_rods,pass,Long hard visual cable rods from v1/v1.1 are removed from the preview.
+no_floating_cable_segments,pass,"All visible cable geometry is anchored at control-box glands, tray, chain, or carriage strain relief."
+secondary_cables_simplified_or_omitted_for_visual_clarity,pass,Detailed sensor/motor pigtails remain in the route manifest and are omitted from visual preview.
+fixed_wiring_in_rear_service_zone,pass,Visible fixed wiring is limited to compact control-box gland loops and rear tray.
+control_box_remains_closed,pass,Control box is reused in closed v1.2 preview state.
+tube_labels_preserved,pass,v7.3c base preview keeps sample tube curved labels.
+non_tube_labels_removed,pass,Non-tube region label plates remain removed.
+preview_default_visible,pass,Compound/multi-solid export fallback is used.

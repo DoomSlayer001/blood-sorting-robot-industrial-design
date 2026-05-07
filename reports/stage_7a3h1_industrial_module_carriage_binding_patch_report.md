@@ -1,0 +1,30 @@
+# Stage 7A-3h-1 Industrial Module Carriage Binding Patch Report
+
+- User feedback: v7.3h incorrectly emphasized newly generated drive/rail/motor logic; boxes should not move.
+- Original industrial linear modules already include slider/carriage interfaces, so no auxiliary rails are needed.
+- This stage restores the correct logic: original standard X/Y/Z linear modules plus custom binding plates, saddles, shims, and adapter markers.
+- Hidden/replaced v7.3h elements: external motor placeholders, repeated belt/pulley placeholders, and any auxiliary-drive interpretation are not included in this preview.
+- Left/right Y slider binding: each Y slider/carriage interface receives a visible binding plate and low-profile 0 mm shim/riser interface.
+- X beam binding: X beam end adapters connect the Y slider binding plates to the X gantry ends.
+- X slider to Z binding: a backing plate/spacer marker clarifies that Z axis mounts to the original X slider/carriage.
+- Height tradeoff: A_keep_original_height selected; no Y rail height change and no X gantry height offset.
+- Why no full Y rail raise: removing external drive conflicts and binding original sliders resolves the visual issue without reducing Z reach margin.
+- Z reach: selected A leaves conservative estimated remaining margin of 62 mm; +20/+30 are fallback only, +40 is warning/risk.
+- Clearance check: pass=11, warning=1.
+- Motion envelope check: pass=5, warning=1.
+- Accessibility check: pass=26, issue=0.
+- Interference audit: overlap=0, too_close=0, allowed_mount_contact=60.
+- Visibility audit: high_risk=0, medium_risk=0, low_risk=886.
+- Import/display audit: likely_visible_in_solidworks=yes, solids=922.
+- Binding patch module components: 8
+- Binding patch module solids: 72
+- Binding patch module bbox: 1119.000 x 787.000 x 295.000 mm
+- Preview components: 132
+- Preview solids: 922
+- Preview bbox: 1200.000 x 1034.770 x 480.000 mm
+- Current boundary: concept-level carriage binding and clearance patch, not final bracket drawings.
+- Later detail may include real slider interface dimensions, adapter plate drawings, fastener CAD, tolerance stack, and structural verification.
+- Logic audit rows: 11
+- Height tradeoff rows: 4
+- Z reach rows: 4
+- Interface manifest rows: 11

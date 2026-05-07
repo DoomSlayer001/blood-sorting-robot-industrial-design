@@ -1,0 +1,5 @@
+candidate_id,x_gantry_height_delta_mm,z_axis_nominal_stroke_mm,tube_pick_height_mm,output_place_height_mm,manual_review_place_height_mm,required_downward_travel_mm,estimated_remaining_margin_mm,status,notes
+A_keep_original_height,0,180,80,70,70,118,62,pass,Selected; conservative stroke estimate leaves margin for 100 mm tube pick and place.
+B_raise_x_gantry_on_y_carriage_20mm,20,180,80,70,70,138,42,pass,Fallback viable if later physical check needs +20 mm riser.
+C_raise_x_gantry_on_y_carriage_30mm,30,180,80,70,70,148,32,pass,Still viable but less margin.
+D_raise_x_gantry_on_y_carriage_40mm,40,180,80,70,70,158,22,warning,Risk option; not selected.

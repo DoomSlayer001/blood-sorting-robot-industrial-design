@@ -1,0 +1,5 @@
+candidate_id,y_axis_rail_height_changed,x_gantry_height_delta_mm,uses_original_y_sliders,uses_original_x_slider,z_axis_reach_ok,estimated_z_reach_margin_mm,tube_collision_risk,gripper_travel_clearance_ok,x_beam_to_tube_clearance_ok,motor_or_drive_block_collision_risk,enclosure_clearance_ok,cable_chain_clearance_ok,recommended,notes
+A_keep_original_height,no,0,yes,yes,yes,62,low_after_hiding_v7_3h_external_drive,yes,yes,low,yes,yes,yes,Recommended: no rail height change; hide unwanted v7.3h motor/drive expression and bind original sliders.
+B_raise_x_gantry_on_y_carriage_20mm,no,20,yes,yes,yes,42,low,yes,yes,low,yes,yes,no,Viable fallback if future manual check still sees clearance concern.
+C_raise_x_gantry_on_y_carriage_30mm,no,30,yes,yes,yes,32,low,yes,yes,low,yes,warning,no,Fallback only; cable chain may need minor review.
+D_raise_x_gantry_on_y_carriage_40mm,no,40,yes,yes,warning,22,low,warning,yes,low,warning,warning,no,Risk option; not selected because Z reach and enclosure/cable clearance margins shrink.

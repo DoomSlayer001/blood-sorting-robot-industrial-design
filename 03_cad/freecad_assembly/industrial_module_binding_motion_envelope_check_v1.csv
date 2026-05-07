@@ -1,0 +1,7 @@
+axis,moving_assembly,motion_range_description,risk_component,collision_risk,status,notes
+Y,X gantry assembly,X gantry is bound to original left/right Y sliders and moves with them,tube racks,low,pass,No auxiliary Y rail or external motor sweep is added.
+Y,left/right Y sliders,Original Y sliders remain the moving carriage interfaces,X beam adapters,low,pass,Binding plates clarify the moving interface.
+X,Z axis module,Z axis is bound to original X slider through X-slider-to-Z adapter marker,tube racks,low,pass,"Z module follows X slider, not a new rail."
+Z,gripper,Only gripper/fingers descend into pick zone,tubes,medium,warning,Final gripper stroke and jaw opening require real hardware validation.
+Cable,main cable chain / hose,Accepted cable route retained with no riser selected,binding patch,low,pass,No new riser/cable collision introduced.
+Enclosure,X/Z gantry assembly,"No gantry height increase, so enclosure clearance unchanged",guard frame,low,pass,A_keep_original_height selected.

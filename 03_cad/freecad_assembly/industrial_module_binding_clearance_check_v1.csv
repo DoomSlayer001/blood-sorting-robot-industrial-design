@@ -1,0 +1,13 @@
+check_item,component_a,component_b,clearance_target,measured_or_estimated_clearance_mm,status,notes
+x_beam_to_tube_top_clearance,x_axis_module_on_gantry / X beam,tube top envelope,>=45 mm,78,pass,A_keep_original_height remains acceptable once unwanted external motor geometry is removed.
+x_axis_module_to_tube_top_clearance,x_axis_module_on_gantry,tube top envelope,>=45 mm,72,pass,No new low X rail added.
+z_axis_body_to_nearest_tube,z_axis_module,nearest tube,no body sweep through tubes,64,pass,Only gripper fingers enter pick zone conceptually.
+gripper_body_to_nearest_tube_during_travel,electric_parallel_gripper_body_v1,nearest tube,body above tube top during travel,50,pass,Gripper body remains above pick envelope.
+gripper_fingers_to_tube_when_not_picking,two_finger_gripper_jaws_v1,sample tubes,clear except intended pick pose,18,warning,Concept open-pose fingers require final gripper stroke validation.
+left_y_carriage_adapter_to_input_tubes,left_y_slider_binding_plate_v1,input tubes,outboard / no overlap,92,pass,Left binding remains outboard of input rack tops.
+right_y_carriage_adapter_to_output_tubes,right_y_slider_binding_plate_v1,output tubes,outboard / no overlap,88,pass,Right binding remains outboard of output rack tops.
+x_slider_to_z_adapter_to_tube_rack,x_slider_to_z_adapter_plate_v1,tube racks,"central high adapter, no rack intrusion",70,pass,Adapter is high on X/Z interface.
+enclosure_frame_to_x_gantry,enclosure frame,X gantry assembly,no interference,35,pass,No gantry height increase selected.
+cable_chain_to_x_gantry_after_riser,main cable chain / hose,X gantry assembly,no riser conflict,28,pass,No height riser selected; accepted cable route retained.
+scanner_to_gripper_clearance,scan station,gripper,no visual collision,55,pass,Scan station remains separate from central gripper travel.
+front_guard_to_moving_gantry_clearance,front guard/access openings,moving gantry,not blocked,180,pass,"Binding patch is above/outboard, away from front access."

@@ -1,0 +1,9 @@
+component_name,module,category,x_mm,y_mm,z_mm,bbox_x_mm,bbox_y_mm,bbox_z_mm,status,notes
+left_y_slider_binding_plate_v1,IndustrialLinearModuleCarriageBindingPatchV1,slider_binding,0.000,0.000,0.000,108.000,82.000,33.000,OK,"slider_binding; left Y slider/carriage binding plate and zero-height shim, not a new rail"
+right_y_slider_binding_plate_v1,IndustrialLinearModuleCarriageBindingPatchV1,slider_binding,0.000,0.000,0.000,108.000,82.000,33.000,OK,"slider_binding; right Y slider/carriage binding plate and zero-height shim, not a new rail"
+x_beam_end_adapter_left_v1,IndustrialLinearModuleCarriageBindingPatchV1,x_beam_end_adapter,0.000,0.000,0.000,71.000,104.000,128.000,OK,x_beam_end_adapter; left X beam end adapter tied to original Y slider binding
+x_beam_end_adapter_right_v1,IndustrialLinearModuleCarriageBindingPatchV1,x_beam_end_adapter,0.000,0.000,0.000,71.000,104.000,128.000,OK,x_beam_end_adapter; right X beam end adapter tied to original Y slider binding
+x_axis_to_x_beam_mounting_saddle_v1,IndustrialLinearModuleCarriageBindingPatchV1,x_axis_saddle,0.000,0.000,0.000,840.000,25.000,104.000,OK,x_axis_saddle; mounting saddle showing original X linear module fixed to X beam
+x_slider_to_z_adapter_plate_v1,IndustrialLinearModuleCarriageBindingPatchV1,x_slider_to_z_binding,0.000,0.000,0.000,126.000,40.000,155.000,OK,x_slider_to_z_binding; adapter showing Z axis bound to original X-axis slider/carriage
+small_integrated_drive_end_caps_v1,IndustrialLinearModuleCarriageBindingPatchV1,integrated_drive_caps,0.000,0.000,0.000,1093.000,338.000,257.000,OK,integrated_drive_caps; small end caps only; no external motors or new drive rails
+collision_clearance_reference_markers_v1,IndustrialLinearModuleCarriageBindingPatchV1,clearance_reference,0.000,0.000,0.000,340.000,50.000,146.000,OK,clearance_reference; translucent clearance markers for report-level checking

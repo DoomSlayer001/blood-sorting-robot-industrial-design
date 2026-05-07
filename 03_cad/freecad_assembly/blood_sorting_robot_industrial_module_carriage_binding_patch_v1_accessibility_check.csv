@@ -1,0 +1,27 @@
+item,check_status,notes
+original_y_axis_modules_preserved,pass,left/right Y industrial modules are inherited from v7.3f v1.1.
+original_x_axis_module_preserved,pass,Original X industrial linear module is inherited.
+original_z_axis_module_preserved,pass,Original Z module is inherited.
+original_y_sliders_used_as_motion_interface,pass,Binding plates explicitly refer to original Y slider/carriage interfaces.
+original_x_slider_used_as_motion_interface,pass,X-slider-to-Z adapter marker references original X carriage interface.
+no_new_auxiliary_rails_added,pass,Patch adds only plates/shims/saddles; no new rail is generated.
+unwanted_v7_3h_auxiliary_rails_hidden,pass,v7.3h drive/belt/rail expression is not used as preview base.
+unwanted_external_motors_hidden,pass,`motor_placeholders` and external drive placeholders are filtered from preview.
+no_motor_over_tube_racks,pass,"Only small integrated end caps are shown, not external motors."
+x_beam_not_visually_floating,pass,Binding plates/end adapters preserve v1.1 gantry support logic.
+y_slider_binding_plates_visible,pass,Left/right Y slider binding plates are modeled.
+x_axis_to_x_beam_saddle_visible,pass,Long X saddle is modeled behind/under the X module.
+x_slider_to_z_adapter_visible,pass,X-slider-to-Z adapter marker is modeled.
+gripper_module_preserved,pass,Stage 7A-3e gripper remains.
+cable_management_v1_2_preserved,pass,Cable management v1.2 remains.
+enclosure_preserved,pass,Enclosure v1.1 remains.
+control_box_closed_preserved,pass,Control box remains closed.
+boxes_not_moved,pass,No box coordinates are changed.
+box_count_preserved,pass,"Four input boxes, four output boxes, one manual_review bin remain."
+tube_labels_preserved,pass,Tube curved labels remain inherited.
+non_tube_labels_removed,pass,Non-tube labels remain removed.
+gantry_height_tradeoff_completed,pass,A/B/C/D height options are documented; A selected.
+z_reach_checked_if_riser_used,pass,Z reach check includes +20/+30/+40 fallback cases.
+collision_clearance_checked,pass,Clearance check CSV generated.
+motion_envelope_checked,pass,Motion envelope CSV generated.
+preview_default_visible,pass,Compound/multi-solid export fallback used.

@@ -1,0 +1,12 @@
+component_name,source_stage,is_original_industrial_linear_module,is_new_unwanted_auxiliary_rail,has_integrated_slider_or_carriage,should_keep,should_hide_or_replace,issue_type,recommended_action,notes
+left_y_axis_module,v7.1/v7.3f,yes,no,yes,yes,no,accepted industrial Y module,preserve_as_fixed_standard_module,Original Y module is kept as fixed standard axis.
+right_y_axis_module,v7.1/v7.3f,yes,no,yes,yes,no,accepted industrial Y module,preserve_as_fixed_standard_module,Original Y module is kept as fixed standard axis.
+x_axis_module_on_gantry,v7.1/v7.3f,yes,no,yes,yes,no,accepted industrial X module,preserve_as_fixed_to_x_beam_module,Original X module is kept; no auxiliary X rail is added.
+z_axis_module,v7.1/v7.3f,yes,no,yes,yes,no,accepted industrial Z module,preserve,Z axis and gripper interface are kept.
+original_y_slider_carriage_interface,inferred from Y modules,yes,no,yes,yes,no,moving interface needs visible binding,add_left_right_y_slider_binding_plates,Y sliders are the moving interfaces for the X gantry.
+original_x_slider_carriage_interface,inferred from X module,yes,no,yes,yes,no,moving interface needs visible Z adapter,add_x_slider_to_z_adapter_plate,X slider is the moving interface for Z axis.
+v7_3h_auxiliary_rails,Stage 7A-3h,no,yes,no,no,yes,new rails not wanted,not_used_in_v7_3h_1_preview,This patch starts from v7.3f v1.1 and does not include v7.3h auxiliary drive geometry.
+v7_3h_external_compact_motors,Stage 7A-3h,no,no,no,no,yes,external motor concept not desired now,not_used_in_v7_3h_1_preview,Only small integrated drive caps are used as optional end-cap visual references.
+v7_3h_pulley_belt_placeholders,Stage 7A-3h,no,no,no,no,yes,repeated transmission expression,not_used_in_v7_3h_1_preview,No new belt/pulley system is included.
+x_beam_to_y_slider_connection,Stage 7A-3f v1.1,no,no,yes,yes,no,needs explicit standard slider binding logic,add_binding_plate_and_end_adapter_patch,Binding patch clarifies original Y slider -> X gantry path.
+z_axis_to_x_slider_connection,Stage 7A-3e/v7.3f,no,no,yes,yes,no,needs explicit X slider interface marker,add_x_slider_to_z_adapter_marker,Adapter marker clarifies original X slider -> Z axis path.

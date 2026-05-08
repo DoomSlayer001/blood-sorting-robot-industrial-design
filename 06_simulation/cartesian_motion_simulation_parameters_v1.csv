@@ -1,0 +1,11 @@
+parameter,value,unit,notes
+time_step_s,0.02,s,Time step for Cartesian trace discretization.
+x_velocity_limit_mm_s,350.0,mm/s,Concept-level X velocity limit.
+y_velocity_limit_mm_s,350.0,mm/s,Concept-level Y velocity limit.
+z_velocity_limit_mm_s,120.0,mm/s,Concept-level Z velocity limit.
+x_acceleration_limit_mm_s2,800.0,mm/s^2,Concept-level X acceleration limit.
+y_acceleration_limit_mm_s2,800.0,mm/s^2,Concept-level Y acceleration limit.
+z_acceleration_limit_mm_s2,300.0,mm/s^2,Concept-level Z acceleration limit.
+safe_z_mm,190.0,mm,XY transfer height from Stage 7B-3 trajectory rules.
+low_z_motion_allowed_only_at_target,true,bool,"Low-Z motion is allowed only for pick, scan, and place alignment."
+collision_sweep_check_enabled,true,bool,Run conservative sweep proxy checks.

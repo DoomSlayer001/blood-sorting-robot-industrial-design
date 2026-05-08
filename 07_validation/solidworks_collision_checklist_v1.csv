@@ -1,0 +1,12 @@
+check_id,moving_component,static_component,motion_case,collision_type,expected_result,manual_check_required,status,notes
+COL-001,X gantry,input racks,full Y travel,swept_volume,No collision or unacceptable clearance loss,yes,NOT_CHECKED,X gantry Y travel vs input racks.
+COL-002,X gantry,output racks,full Y travel,swept_volume,No collision or unacceptable clearance loss,yes,NOT_CHECKED,X gantry Y travel vs output racks.
+COL-003,X gantry,manual review box,full Y travel,swept_volume,No collision or unacceptable clearance loss,yes,NOT_CHECKED,X gantry Y travel vs manual review box.
+COL-004,Z axis,tube racks,full X travel at safe_z,swept_volume,No collision at safe travel height,yes,NOT_CHECKED,Z axis X travel vs tube racks.
+COL-005,gripper,tube slot,Z descend at pick/place,local_clearance,Gripper descends into target slot only,yes,NOT_CHECKED,Check adjacent tube clearance.
+COL-006,gripper,rack/tube top,XY travel at safe_z,vertical_clearance,Safe-Z travel clears rack and tube top,yes,NOT_CHECKED,Use calibrated safe_z.
+COL-007,cable chain,gantry,full X/Y travel,swept_volume,No cable chain collision with gantry,yes,NOT_CHECKED,Requires motion study.
+COL-008,cable chain,enclosure,full X/Y travel,swept_volume,No cable chain collision with enclosure,yes,NOT_CHECKED,Check rear/top guard.
+COL-009,control box,gantry envelope,full gantry travel,static_vs_swept,Control box outside motion envelope,yes,NOT_CHECKED,Check all scenarios.
+COL-010,enclosure frame,moving gantry,full X/Y/Z travel,static_vs_swept,No frame interference with moving gantry,yes,NOT_CHECKED,Guard is not support.
+COL-011,XY slider binding adapter,Y rail running zone,full Y travel,rail_intrusion,No adapter intrusion into rail running zone,yes,NOT_CHECKED,Critical closure check.

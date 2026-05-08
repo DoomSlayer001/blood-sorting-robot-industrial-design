@@ -1,0 +1,11 @@
+readiness_item,status,required_before_isaac,current_blocker,resolution_needed,notes
+final CAD assembly accepted,BLOCKED,yes,Stage 7A-3f XY slider binding and final CAD acceptance incomplete,Complete SolidWorks mate/collision/clearance validation,Do not import as final digital twin yet.
+moving joint hierarchy defined,BLOCKED,yes,SolidWorks mate hierarchy not validated,Define X/Y/Z/gripper moving assemblies after final CAD acceptance,Needed for articulated/import logic.
+X/Y/Z axes mapped,PARTIAL,yes,Abstract axes exist but final CAD-derived limits are not validated,Document final axis frames and soft limits,Simulation axis data is available.
+gripper TCP defined,PARTIAL,yes,TCP is abstract and needs final gripper CAD confirmation,Measure/define final TCP in accepted CAD,Trajectory input is available.
+collision proxies simplified,PARTIAL,yes,Proxy definitions exist but exact collision bodies are not validated,Create Isaac collision bodies from accepted CAD,Stage 7C-0 proxy plan exists.
+material/visual model optional,READY,no,Visual material fidelity is not a blocker for physics readiness,Add later if needed,Optional for validation.
+trajectory input available,READY,yes,None,Use Stage 7B trajectory/time-step outputs,Abstract trajectory data exists.
+time-stepped trace available,READY,yes,None,Use time_stepped_motion_trace_v1.csv,Trace exists but large files may need packaging strategy.
+servo tracking results available,READY,yes,None,Use Stage 7B-6/7B-7 summaries and traces,Control results are concept-level.
+SolidWorks collision validation completed,BLOCKED,yes,Collision checklist not checked yet,Run SolidWorks validation and record results,Required before trusted Isaac import.

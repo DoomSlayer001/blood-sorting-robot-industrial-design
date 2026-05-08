@@ -1,0 +1,11 @@
+measurement_id,region,component_a,component_b,required_min_clearance_mm,measured_clearance_mm,measurement_method,status,notes
+CLR-001,XY joint,X/Y joint,nearest tube top,10,,SolidWorks measure minimum distance,PENDING_MEASUREMENT,X/Y joint to nearest tube top.
+CLR-002,X beam,X beam,rack top,10,,SolidWorks measure during full travel,PENDING_MEASUREMENT,X beam to rack top.
+CLR-003,Z body,Z body,tube rack,8,,SolidWorks measure at scan/pick/place poses,PENDING_MEASUREMENT,Z body to tube rack.
+CLR-004,gripper,gripper finger,adjacent tube,3,,SolidWorks measure at descend pose,PENDING_MEASUREMENT,Gripper finger to adjacent tube.
+CLR-005,cable chain,cable chain,enclosure,8,,Motion study minimum distance,PENDING_MEASUREMENT,Cable chain to enclosure.
+CLR-006,cable chain,cable chain,X beam,8,,Motion study minimum distance,PENDING_MEASUREMENT,Cable chain to X beam.
+CLR-007,control box,control box,motion envelope,15,,Envelope overlay measurement,PENDING_MEASUREMENT,Control box to motion envelope.
+CLR-008,XY adapter,adapter plate,Y rail body,5,,SolidWorks measure at full travel,PENDING_MEASUREMENT,Adapter plate to Y rail body.
+CLR-009,XY adapter,adapter plate,Y slider carriage,0,,Mate face contact/offset check,PENDING_MEASUREMENT,Adapter plate to Y slider carriage.
+CLR-010,enclosure,enclosure door/front guard,operator access zone,80,,Accessibility and door swing measurement,PENDING_MEASUREMENT,Front guard to operator access.

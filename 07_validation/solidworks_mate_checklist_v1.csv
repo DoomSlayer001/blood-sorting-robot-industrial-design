@@ -1,0 +1,11 @@
+check_id,assembly_region,component_a,component_b,mate_or_relationship,expected_result,manual_check_required,status,notes
+MATE-001,left_y_gantry,left_y_slider_carriage,left_adapter_plate,left_y_slider_to_left_adapter_plate,Adapter plate mates to moving carriage mounting face,yes,NOT_CHECKED,Must not mate to fixed rail body.
+MATE-002,right_y_gantry,right_y_slider_carriage,right_adapter_plate,right_y_slider_to_right_adapter_plate,Adapter plate mates to moving carriage mounting face,yes,NOT_CHECKED,Must not mate to fixed rail body.
+MATE-003,left_x_beam_end,left_adapter_plate,left_x_beam_end_saddle,left_adapter_plate_to_x_beam_end_saddle,Saddle is supported by adapter plate with clear load path,yes,NOT_CHECKED,Check compact plate and fastener accessibility.
+MATE-004,right_x_beam_end,right_adapter_plate,right_x_beam_end_saddle,right_adapter_plate_to_x_beam_end_saddle,Saddle is supported by adapter plate with clear load path,yes,NOT_CHECKED,Check symmetry and gantry squareness.
+MATE-005,x_axis_module,x_axis_module,x_beam_support,x_axis_module_to_x_beam_support,X module is supported by X beam without fake rails,yes,NOT_CHECKED,No new rail should be introduced.
+MATE-006,z_axis_mount,x_slider,z_axis_adapter,x_slider_to_z_axis_adapter,Z adapter mates to original X slider,yes,NOT_CHECKED,Check reachable Z travel.
+MATE-007,end_effector,z_axis_adapter,gripper,z_axis_adapter_to_gripper,Gripper is rigidly mounted to Z adapter,yes,NOT_CHECKED,Check TCP alignment.
+MATE-008,cable_chain,cable_chain,moving_gantry,cable_chain_to_moving_gantry,Cable chain anchor follows gantry without overconstraint,yes,NOT_CHECKED,Motion clearance required.
+MATE-009,enclosure,enclosure_frame,moving_gantry,enclosure_not_structural_support,Enclosure is guarding only and not moving gantry support,yes,NOT_CHECKED,No load path through enclosure.
+MATE-010,control_box,control_box,gantry_motion_envelope,control_box_not_in_motion_path,Control box remains static outside motion envelope,yes,NOT_CHECKED,Confirm against full travel.

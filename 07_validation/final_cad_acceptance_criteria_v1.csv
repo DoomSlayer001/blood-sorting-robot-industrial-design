@@ -1,0 +1,16 @@
+criteria_id,criteria_name,acceptance_condition,required_for_final_cad,current_status,evidence_file,notes
+CAD-001,no motor-like block,No oversized or fake motor-like placeholder is used as structural interface,yes,NOT_CHECKED,solidworks_mate_checklist_v1.csv,Do not mark PASS before manual inspection.
+CAD-002,no new fake rail,No extra rail is introduced to solve XY binding,yes,NOT_CHECKED,solidworks_mate_checklist_v1.csv,Must use original module structure.
+CAD-003,X beam mounted to original Y sliders,X beam load path goes through original Y slider/carriage faces,yes,NOT_CHECKED,solidworks_mate_checklist_v1.csv,Primary blocker.
+CAD-004,no adapter mounted to rail body,Adapter must not mount to fixed rail body,yes,NOT_CHECKED,solidworks_mate_checklist_v1.csv,Critical XY closure rule.
+CAD-005,no rail running zone intrusion,Adapter and fasteners do not intrude into rail running zone,yes,NOT_CHECKED,solidworks_collision_checklist_v1.csv,Critical collision/motion rule.
+CAD-006,gripper reachable to all occupied slots,Gripper TCP reaches all occupied input/output/manual review targets,yes,NOT_CHECKED,solidworks_clearance_measurement_table_v1.csv,Simulation says reachable; CAD must confirm.
+CAD-007,no low-Z travel across racks,All broad XY travel remains at safe_z,yes,NOT_CHECKED,trajectory_precheck_warning_review_v1.csv,Simulation accepted; CAD must confirm geometry.
+CAD-008,output boxes accessible,Output boxes remain replaceable/serviceable,yes,NOT_CHECKED,solidworks_clearance_measurement_table_v1.csv,Manual accessibility check.
+CAD-009,manual review accessible,Manual review area remains accessible,yes,NOT_CHECKED,solidworks_clearance_measurement_table_v1.csv,Manual accessibility check.
+CAD-010,cable chain not colliding,Cable chain clears gantry/enclosure through motion,yes,NOT_CHECKED,solidworks_collision_checklist_v1.csv,Motion study required.
+CAD-011,control box closed and out of motion path,Control box does not intersect gantry envelope and remains closed/static,yes,NOT_CHECKED,solidworks_collision_checklist_v1.csv,Static vs swept check.
+CAD-012,SolidWorks opens preview visible,Final preview assembly opens with all critical parts visible,yes,NOT_CHECKED,solidworks_mechanical_validation_plan_v1.md,Manual SolidWorks check.
+CAD-013,interference overlap=0,SolidWorks interference check reports zero unacceptable overlaps,yes,NOT_CHECKED,solidworks_collision_checklist_v1.csv,Required before acceptance.
+CAD-014,final collision validation completed,All required collision checks complete,yes,NOT_CHECKED,solidworks_collision_checklist_v1.csv,Not yet completed.
+CAD-015,final CAD-derived axis limits documented,Axis soft/hard limits are derived from accepted CAD and mates,yes,DEFERRED,cad_sim_calibration_summary_v1.csv,Stage 7C-0 limits are estimates.

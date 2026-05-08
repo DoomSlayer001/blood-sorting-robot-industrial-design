@@ -1,0 +1,8 @@
+issue_id,issue_name,source_stage,current_status,severity,blocks_final_cad,blocks_abstract_simulation,blocks_isaac_sim,required_resolution,validation_method,notes
+MECH-001,XY slider binding not fully accepted,Stage 7A-3f,DEFERRED,high,yes,no,yes,Mount X beam adapter to original Y slider/carriage face without rail-body intrusion,SolidWorks mate and clearance validation,v1.5 preserved but not accepted.
+MECH-002,final CAD hard/soft axis limits not fully CAD-derived,Stage 7C-0,DEFERRED,medium,yes,no,yes,Derive limits from final CAD/mates and moving range,SolidWorks measurement and axis sweep,Current limits are calibrated estimates.
+MECH-003,final physical collision validation not completed,Stage 7B-3/7B-5,DEFERRED,high,yes,no,yes,Run exact interference and motion collision validation,SolidWorks interference/collision study,Abstract envelopes are not final collision proof.
+MECH-004,SolidWorks mate validation not completed,Stage 7C-1,DEFERRED,high,yes,no,yes,Complete mate checklist for moving load path,SolidWorks mate inspection,Required before final CAD acceptance.
+MECH-005,Isaac Sim import not validated,Future stage,DEFERRED,medium,no,no,yes,Pass readiness gate after final CAD acceptance,Isaac Sim import/playback validation,Trajectory data exists but final CAD is not ready.
+MECH-006,collision proxy still abstract,Stage 7C-0,OPEN,medium,yes,no,yes,Replace proxies with exact CAD or validated simplified collision bodies,SolidWorks/Isaac comparison,Current proxies are acceptable only for abstract checks.
+MECH-007,cable chain final motion clearance not physically validated,Stage 7A-3d/7C-1,DEFERRED,medium,yes,no,yes,Validate cable-chain sweep through moving gantry range,SolidWorks motion clearance measurement,Current cable chain proxy is warning-only.

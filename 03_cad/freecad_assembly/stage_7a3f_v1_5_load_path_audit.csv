@@ -1,0 +1,9 @@
+side,component_name,from_component,to_component,has_direct_contact_or_intended_mount,is_floating,is_connected_to_enclosure_frame,height_mm,near_tube_rack,sweeps_over_tube_zone,status,notes
+left,left_carriage_reference_to_top_adapter_plate,left_original_y_slider_carriage_reference_v1_5 top mounting face,left_y_slider_top_adapter_plate,yes,no,no,131.4,no,no,pass,"Adapter plate bottom sits on the explicit original Y slider/carriage reference, not the rail body."
+left,left_top_adapter_to_riser_shim,left_y_slider_top_adapter_plate,left_compact_riser_shim,yes,no,no,131.4,no,no,pass,Only a 6 mm compact shim is used above the slider top plate.
+left,left_riser_to_upper_transfer_lug,left_compact_riser_shim / short side webs,left_upper_transfer_lug,yes,no,no,131.4,no,no,pass,Short side webs stay over the slider footprint and do not drop beside the rail.
+left,left_transfer_lug_to_x_end_mount,left_upper_transfer_lug,left_compact_x_beam_end_mount,yes,no,no,131.4,no,no,pass,Upper lug connects to a compact X beam end mount at the X module end.
+right,right_carriage_reference_to_top_adapter_plate,right_original_y_slider_carriage_reference_v1_5 top mounting face,right_y_slider_top_adapter_plate,yes,no,no,131.4,no,no,pass,"Adapter plate bottom sits on the explicit original Y slider/carriage reference, not the rail body."
+right,right_top_adapter_to_riser_shim,right_y_slider_top_adapter_plate,right_compact_riser_shim,yes,no,no,131.4,no,no,pass,Only a 6 mm compact shim is used above the slider top plate.
+right,right_riser_to_upper_transfer_lug,right_compact_riser_shim / short side webs,right_upper_transfer_lug,yes,no,no,131.4,no,no,pass,Short side webs stay over the slider footprint and do not drop beside the rail.
+right,right_transfer_lug_to_x_end_mount,right_upper_transfer_lug,right_compact_x_beam_end_mount,yes,no,no,131.4,no,no,pass,Upper lug connects to a compact X beam end mount at the X module end.

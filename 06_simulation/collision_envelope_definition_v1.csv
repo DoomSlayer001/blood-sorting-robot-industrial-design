@@ -1,0 +1,10 @@
+object_name,envelope_type,x_min,x_max,y_min,y_max,z_min,z_max,collision_priority,notes
+x_axis_beam_envelope,box,-390,390,-40,60,220,310,high,approximate conservative placeholder
+z_axis_module_envelope,box,-45,45,-10,55,80,360,high,approximate conservative placeholder
+gripper_envelope,box,-35,35,-25,25,20,130,high,approximate conservative placeholder
+tube_envelope,cylinder,-10,10,-10,10,20,125,high,approximate per tube slot placeholder
+rack_envelope,box,-430,430,-180,350,0,90,medium,approximate combined rack area placeholder
+enclosure_frame_envelope,box,-600,600,-450,450,0,430,medium,approximate frame boundary placeholder
+cable_chain_envelope,box,-180,120,240,420,150,360,medium,approximate cable chain sweep placeholder
+control_box_envelope,box,430,590,-420,-220,20,260,medium,approximate control box placeholder
+

@@ -1,0 +1,7 @@
+command_id,task_id,tube_id,source_rack_id,source_slot_id,target_box_id,target_slot_id,x_target_mm,y_target_mm,z_target_mm,gripper_action,expected_state,status
+CMD-0001,TASK-0001,TUBE-001,input_rack_1,R1C1,output_box_A,A_R1C1,-400,327,120,open,MOVE_TO_PICK,pending
+CMD-0002,TASK-0001,TUBE-001,input_rack_1,R1C1,output_box_A,A_R1C1,-400,327,72,close,GRIP_TUBE,pending
+CMD-0003,TASK-0001,TUBE-001,input_rack_1,R1C1,output_box_A,A_R1C1,90,212,120,hold,MOVE_TO_PLACE,pending
+CMD-0004,TASK-0001,TUBE-001,input_rack_1,R1C1,output_box_A,A_R1C1,90,212,72,open,RELEASE_TUBE,pending
+CMD-0005,TASK-0003,TUBE-003,input_rack_1,R2C1,manual_review,MR_R1C1,-180,-120,72,open,HANDLE_EXCEPTION,pending
+

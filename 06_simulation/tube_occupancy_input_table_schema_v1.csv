@@ -1,0 +1,10 @@
+rack_id,rack_type,slot_row,slot_col,slot_id,x_mm,y_mm,z_pick_mm,tube_present,tube_id,barcode_status,sample_category,priority,abnormal_flag,target_output_box,notes
+input_rack_1,input,1,1,R1C1,-400,327,72,TRUE,TUBE-001,valid,A,1,FALSE,output_box_A,normal input tube
+input_rack_1,input,1,2,R1C2,-372,327,72,FALSE,,empty,,5,FALSE,,empty slot
+input_rack_1,input,1,3,R1C3,-344,327,72,TRUE,TUBE-002,valid,B,2,FALSE,output_box_B,normal input tube
+input_rack_1,input,2,1,R2C1,-400,299,72,TRUE,TUBE-003,invalid,,1,TRUE,manual_review,barcode invalid
+input_rack_1,input,2,2,R2C2,-372,299,72,TRUE,TUBE-004,valid,C,3,FALSE,output_box_C,normal input tube
+input_rack_2,input,1,1,R1C1,-400,197,72,TRUE,TUBE-005,missing_label,,1,TRUE,manual_review,missing label
+input_rack_2,input,1,2,R1C2,-372,197,72,TRUE,TUBE-006,valid,D,2,FALSE,output_box_D,normal input tube
+input_rack_2,input,1,3,R1C3,-344,197,72,TRUE,TUBE-007,valid,unknown,2,TRUE,manual_review,unrecognized category
+

@@ -1,0 +1,10 @@
+parameter_set_id,axis,sample_count,rmse_mm,mae_mm,max_abs_error_mm,mean_abs_error_mm,position_tolerance_mm,within_tolerance_rate,worst_task_id,tracking_status,overshoot_event_count,settling_behavior,notes
+aggressive_pid,x,110465,0.034,0.002,0.709,0.002,2.0,1.0,TASK-7B1-014,PASS,0,settled_within_tolerance,Axis-level error summary across all scenarios.
+aggressive_pid,y,110465,0.02,0.001,0.613,0.001,2.0,1.0,TASK-7B1-021,PASS,0,settled_within_tolerance,Axis-level error summary across all scenarios.
+aggressive_pid,z,110465,0.028,0.004,0.215,0.004,1.0,1.0,TASK-7B1-001,PASS,0,settled_within_tolerance,Axis-level error summary across all scenarios.
+balanced_pid,x,110465,0.082,0.008,1.354,0.008,2.0,1.0,TASK-7B1-022,PASS,0,settled_within_tolerance,Axis-level error summary across all scenarios.
+balanced_pid,y,110465,0.054,0.005,1.112,0.005,2.0,1.0,TASK-7B1-019,PASS,0,settled_within_tolerance,Axis-level error summary across all scenarios.
+balanced_pid,z,110465,0.048,0.007,0.402,0.007,1.0,1.0,TASK-7B1-001,PASS,0,settled_within_tolerance,Axis-level error summary across all scenarios.
+conservative_pid,x,110465,5.089,2.761,12.533,2.761,2.0,0.687,TASK-7B1-022,FAIL,0,settled_within_tolerance,Axis-level error summary across all scenarios.
+conservative_pid,y,110465,2.966,1.423,10.511,1.423,2.0,0.777,TASK-7B1-020,FAIL,0,settled_within_tolerance,Axis-level error summary across all scenarios.
+conservative_pid,z,110465,2.605,1.746,4.647,1.746,1.0,0.537,TASK-7B1-001,FAIL,353,not_settled_at_trace_end,Axis-level error summary across all scenarios.

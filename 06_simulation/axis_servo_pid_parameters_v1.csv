@@ -1,0 +1,10 @@
+parameter_set_id,axis,kp,ki,kd,plant_time_constant_s,max_velocity_mm_s,max_acceleration_mm_s2,position_tolerance_mm,notes
+conservative_pid,x,42.0,0.2,8.0,0.06,350.0,2200.0,2.0,Stable priority; slower response for X.
+conservative_pid,y,42.0,0.2,8.0,0.06,350.0,2200.0,2.0,Stable priority; slower response for Y.
+conservative_pid,z,50.0,0.12,9.0,0.07,120.0,900.0,1.0,Stable priority; slower Z response.
+balanced_pid,x,95.0,0.28,16.0,0.018,350.0,5200.0,2.0,Recommended default balance for X.
+balanced_pid,y,95.0,0.28,16.0,0.018,350.0,5200.0,2.0,Recommended default balance for Y.
+balanced_pid,z,120.0,0.18,20.0,0.018,120.0,2400.0,1.0,Recommended default balance for Z bottleneck motion.
+aggressive_pid,x,150.0,0.35,24.0,0.01,350.0,7600.0,2.0,Fast response; higher overshoot/noise risk for X.
+aggressive_pid,y,150.0,0.35,24.0,0.01,350.0,7600.0,2.0,Fast response; higher overshoot/noise risk for Y.
+aggressive_pid,z,170.0,0.22,28.0,0.01,120.0,3600.0,1.0,Fast response; higher overshoot/noise risk for Z.

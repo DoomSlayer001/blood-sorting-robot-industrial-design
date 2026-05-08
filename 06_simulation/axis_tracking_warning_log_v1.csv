@@ -1,0 +1,5 @@
+warning_id,parameter_set_id,axis,scenario_id,task_id,warning_type,severity,measured_value,limit_value,notes
+WARN-7B6-001,conservative_pid,x,all,TASK-7B1-022,tracking_error_threshold,FAIL,12.533,2.0,Concept-stage tracking warning; tune after final motor/encoder/drive data.
+WARN-7B6-002,conservative_pid,y,all,TASK-7B1-020,tracking_error_threshold,FAIL,10.511,2.0,Concept-stage tracking warning; tune after final motor/encoder/drive data.
+WARN-7B6-003,conservative_pid,z,all,TASK-7B1-001,tracking_error_threshold,FAIL,4.647,1.0,Concept-stage tracking warning; tune after final motor/encoder/drive data.
+WARN-7B6-004,aggressive_pid,xyz,all,all,overshoot_risk,WARNING,medium,low_or_low_medium_preferred,Aggressive parameters are faster but carry higher overshoot/noise risk.

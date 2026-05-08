@@ -1,0 +1,4 @@
+parameter_set_id,x_rmse_mm,y_rmse_mm,z_rmse_mm,overall_rmse_mm,max_axis_error_mm,within_tolerance_rate,overshoot_risk,recommended,notes
+aggressive_pid,0.034,0.02,0.028,0.028,0.709,1.0,medium,no,Compared parameter set; not selected as default.
+balanced_pid,0.082,0.054,0.048,0.063,1.354,1.0,low,yes,Recommended default: lowest balanced tracking error without high overshoot risk.
+conservative_pid,5.089,2.966,2.605,3.718,12.533,0.667,low,no,Compared parameter set; not selected as default.

@@ -1,0 +1,8 @@
+axis,moving_assembly,motion_range_description,collision_risk,status,notes
+Y,Y sliders move with X gantry,Original left/right Y sliders carry the full X beam/X axis/Z/gripper assembly.,low,pass,The new assemblies are mounted to the original Y slider/carriage tops.
+Y,X beam supported by left/right Y slider assemblies,"X beam ends are supported through base plates, paired cheek plates, and saddles.",low,pass,No enclosure-frame support is used.
+Y,no motor-like block in sweep envelope,The Y sweep contains no large drive block or closed box at the X/Y joints.,low,pass,Only open cheek-plate assemblies move with the gantry.
+Y,no new rails,No auxiliary rail geometry is generated in this stage.,low,pass,Original Y and X linear modules are retained.
+Y,no new motors,No generated motor placeholder or external drive part is produced.,low,pass,Drive visuals remain filtered from the preview.
+Y,no collision with tube racks in conservative visual envelope,Left/right joint paths stay outboard of the rack openings.,low,pass,Tube racks and box positions are unchanged.
+Z,gripper and Z axis unchanged,Z module and gripper inherit the v1.3/v1.2 positions and reach.,low,pass,No tool-chain geometry is modified.

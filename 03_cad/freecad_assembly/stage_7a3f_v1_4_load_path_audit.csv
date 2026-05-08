@@ -1,0 +1,9 @@
+side,component_name,from_component,to_component,has_direct_contact_or_intended_mount,is_floating,is_connected_to_enclosure_frame,height_mm,near_tube_rack,sweeps_over_tube_zone,status,notes
+left,left_y_slider_to_base_plate,left_y_axis_module original slider/carriage,left_y_slider_top_base_plate,yes,no,no,154.2,no,no,pass,Base plate bottom is placed on the modeled Y slider/carriage top surface.
+left,left_base_plate_to_cheek_plates,left_y_slider_top_base_plate,left_front/rear_vertical_cheek_plate,yes,no,no,154.2,no,no,pass,Open paired cheek plates start at the base plate top and leave the center open.
+left,left_cheek_plates_to_x_beam_saddle,left_front/rear_vertical_cheek_plate,left_x_beam_end_saddle,yes,no,no,154.2,no,no,pass,Cheek plates rise continuously into the saddle zone.
+left,left_x_beam_saddle_to_x_axis_module,left_x_beam_end_saddle,x_axis_module_on_gantry,yes,no,no,154.2,no,no,pass,Saddle sits directly below the original X module end.
+right,right_y_slider_to_base_plate,right_y_axis_module original slider/carriage,right_y_slider_top_base_plate,yes,no,no,154.2,no,no,pass,Base plate bottom is placed on the modeled Y slider/carriage top surface.
+right,right_base_plate_to_cheek_plates,right_y_slider_top_base_plate,right_front/rear_vertical_cheek_plate,yes,no,no,154.2,no,no,pass,Open paired cheek plates start at the base plate top and leave the center open.
+right,right_cheek_plates_to_x_beam_saddle,right_front/rear_vertical_cheek_plate,right_x_beam_end_saddle,yes,no,no,154.2,no,no,pass,Cheek plates rise continuously into the saddle zone.
+right,right_x_beam_saddle_to_x_axis_module,right_x_beam_end_saddle,x_axis_module_on_gantry,yes,no,no,154.2,no,no,pass,Saddle sits directly below the original X module end.

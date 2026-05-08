@@ -1,0 +1,36 @@
+# Stage 7A-3f v1.4 Physical Y-Slider to X-Beam Binding Report
+
+- Base used: `03_cad/freecad_assembly/blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_3.step`.
+- Why v1.3 still failed manual inspection: its low plates/saddles cleaned the large visual blocks but did not start at the modeled Y slider/carriage top, so the X/Y joint still read as a floating decorative plate instead of a physical load path.
+- All motor-like blocks removed: yes; v1.4 filters the v1.1 boxed/end-mount visuals, v1.3 low decorative binding parts, and generated drive visuals.
+- No new motor: yes.
+- No new rail: yes.
+- No new belt or pulley: yes.
+- X beam left/right ends bound to original Y sliders: yes; each side has one compact carriage binding assembly.
+- Left load path: original left Y linear module/carriage -> left_y_slider_top_base_plate -> left_front/rear_vertical_cheek_plate -> left_x_beam_end_saddle -> original X axis module end.
+- Right load path: original right Y linear module/carriage -> right_y_slider_top_base_plate -> right_front/rear_vertical_cheek_plate -> right_x_beam_end_saddle -> original X axis module end.
+- Floating connections: none by load-path audit.
+- Connected to enclosure frame: no; enclosure remains a guard only.
+- Tube sweep avoidance: pass; joint assemblies remain outboard of tube rack openings.
+- Left/right maximum joint height above Y slider top: 154.2 mm / 154.2 mm.
+- CAD check summary: v1.4 exports compound/multi-solid STEP files for visible import behavior and keeps only two physical binding components in the module.
+- Protected geometry unchanged: boxes, gripper, drag chain/soft hose, electrical control box, enclosure, tubes, tube labels, and legacy_v1 are not modified.
+- Push status: not pushed; this is local-only generation.
+- Load-path audit rows: 8, issue=0.
+- Interface manifest rows: 13.
+- Clearance check: pass=7, warning=0.
+- Motion envelope check: pass=7, warning=0.
+- Accessibility check: pass=28, issue=0.
+- Interference audit: overlap=0, too_close=0, allowed_mount_contact=4.
+- Visibility audit: high_risk=0, medium_risk=0, low_risk=730.
+- Import/display audit: likely_visible_in_solidworks=yes, solids=766.
+- Patch module components: 2.
+- Patch module solids: 44.
+- Patch module bbox: 1111.000 x 73.000 x 155.400 mm.
+- Preview components: 116.
+- Preview solids: 766.
+- Preview bbox: 1200.000 x 1034.770 x 480.000 mm.
+- Tube clearance summary: stage_7a3f_v1_4_xy_joint_tube_clearance_check.csv.
+- Motion envelope summary: stage_7a3f_v1_4_xy_joint_motion_envelope_check.csv.
+- Interference summary: blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_4_interference_audit.csv.
+- Visibility/import-display summary: blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_4_visibility_audit.csv, blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_4_import_display_audit.csv.

@@ -243,3 +243,9 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 - The preview does not add motors, rails, pulleys, belts, or drive placeholders.
 - Box layout, enclosure, cable management, closed control box, gripper, tube labels, and non-tube-label removal are preserved.
 
+### Stage 7A-3f v1.4 Physical Y-Slider to X-Beam Binding
+- Stage 7A-3f v1.4 replaces the v1.3 visual-only binding with two compact carriage binding assemblies.
+- Each assembly starts at the original Y slider/carriage top, uses paired open cheek plates, and supports the original X axis module end with an X beam saddle.
+- The preview does not add powered drive components, rails, pulleys, belts, or external drive placeholders.
+- Box layout, enclosure, cable management, closed control box, gripper, tube labels, and non-tube-label removal are preserved.
+

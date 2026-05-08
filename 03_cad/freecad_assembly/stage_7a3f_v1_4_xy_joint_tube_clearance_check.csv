@@ -1,0 +1,8 @@
+check_item,component_a,component_b,status,estimated_clearance_mm,notes
+left_joint_to_nearest_tube_top_clearance,left_compact_carriage_binding_assembly_v1_4,nearest input tube top,pass,88,Left joint stays outboard of rack openings and above tube tops.
+right_joint_to_nearest_tube_top_clearance,right_compact_carriage_binding_assembly_v1_4,nearest output tube top,pass,84,Right joint stays outboard of rack openings and above tube tops.
+left_joint_sweep_over_input_racks,left_compact_carriage_binding_assembly_v1_4,input racks,pass,96,Left joint travels with the Y slider path outside the input rack center zone.
+right_joint_sweep_over_output_racks,right_compact_carriage_binding_assembly_v1_4,output racks,pass,92,Right joint travels with the Y slider path outside the output rack center zone.
+x_beam_end_saddle_to_tube_rack_clearance,left/right_x_beam_end_saddle,tube rack envelope,pass,76,Saddles sit at gantry end zones; no large vertical support crosses tube rack openings.
+gripper_reach_preserved,electric_parallel_gripper_body_v1,tube pick pose,pass,18,Gripper geometry and position are inherited unchanged.
+z_reach_preserved,z_axis_module,tube top envelope,pass,64,Z axis geometry and position are inherited unchanged.

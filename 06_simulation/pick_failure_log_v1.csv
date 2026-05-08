@@ -1,0 +1,3 @@
+scenario_id,task_id,tube_id,sample_category,abnormal_flag,failure_event,retry_count,final_pick_status,notes
+pick_failure_test,TASK-7B1-002,TUBE-7B1-002,category_B,false,pick_failed,1,retry_completed,"injected pick failure; execution failure only, not abnormal sample"
+pick_failure_test,TASK-7B1-009,TUBE-7B1-009,category_D,false,pick_failed,1,operator_check_required,"injected pick failure; execution failure only, not abnormal sample"

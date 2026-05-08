@@ -1,0 +1,21 @@
+scenario_id,tube_id,task_id,barcode_status,abnormal_reason,manual_review_slot_id,manual_review_status,notes
+baseline,TUBE-7B1-004,TASK-7B1-004,missing_label,missing_label,MR01,completed_manual_review,manual_review is used only for true abnormal samples
+baseline,TUBE-7B1-013,TASK-7B1-013,invalid_barcode,invalid_barcode,MR02,completed_manual_review,manual_review is used only for true abnormal samples
+baseline,TUBE-7B1-028,TASK-7B1-028,abnormal_sample_info,abnormal_sample_info,MR03,completed_manual_review,manual_review is used only for true abnormal samples
+baseline,TUBE-7B1-044,TASK-7B1-044,unknown_category,unknown_category,MR04,completed_manual_review,manual_review is used only for true abnormal samples
+baseline,TUBE-7B1-059,TASK-7B1-059,missing_label,missing_label,MR05,completed_manual_review,manual_review is used only for true abnormal samples
+forced_category_A_full,TUBE-7B1-004,TASK-7B1-004,missing_label,missing_label,MR01,completed_manual_review,manual_review is used only for true abnormal samples
+forced_category_A_full,TUBE-7B1-013,TASK-7B1-013,invalid_barcode,invalid_barcode,MR02,completed_manual_review,manual_review is used only for true abnormal samples
+forced_category_A_full,TUBE-7B1-028,TASK-7B1-028,abnormal_sample_info,abnormal_sample_info,MR03,completed_manual_review,manual_review is used only for true abnormal samples
+forced_category_A_full,TUBE-7B1-044,TASK-7B1-044,unknown_category,unknown_category,MR04,completed_manual_review,manual_review is used only for true abnormal samples
+forced_category_A_full,TUBE-7B1-059,TASK-7B1-059,missing_label,missing_label,MR05,completed_manual_review,manual_review is used only for true abnormal samples
+manual_review_limited_capacity,TUBE-7B1-004,TASK-7B1-004,missing_label,missing_label,MR01,completed_manual_review,manual_review is used only for true abnormal samples
+manual_review_limited_capacity,TUBE-7B1-013,TASK-7B1-013,invalid_barcode,invalid_barcode,MR02,completed_manual_review,manual_review is used only for true abnormal samples
+manual_review_limited_capacity,TUBE-7B1-028,TASK-7B1-028,abnormal_sample_info,abnormal_sample_info,MR03,completed_manual_review,manual_review is used only for true abnormal samples
+manual_review_limited_capacity,TUBE-7B1-044,TASK-7B1-044,unknown_category,unknown_category,,paused_manual_review_full,true abnormal sample paused; normal samples are not routed here
+manual_review_limited_capacity,TUBE-7B1-059,TASK-7B1-059,missing_label,missing_label,,paused_manual_review_full,true abnormal sample paused; normal samples are not routed here
+pick_failure_test,TUBE-7B1-004,TASK-7B1-004,missing_label,missing_label,MR01,completed_manual_review,manual_review is used only for true abnormal samples
+pick_failure_test,TUBE-7B1-013,TASK-7B1-013,invalid_barcode,invalid_barcode,MR02,completed_manual_review,manual_review is used only for true abnormal samples
+pick_failure_test,TUBE-7B1-028,TASK-7B1-028,abnormal_sample_info,abnormal_sample_info,MR03,completed_manual_review,manual_review is used only for true abnormal samples
+pick_failure_test,TUBE-7B1-044,TASK-7B1-044,unknown_category,unknown_category,MR04,completed_manual_review,manual_review is used only for true abnormal samples
+pick_failure_test,TUBE-7B1-059,TASK-7B1-059,missing_label,missing_label,MR05,completed_manual_review,manual_review is used only for true abnormal samples

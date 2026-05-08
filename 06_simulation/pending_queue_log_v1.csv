@@ -1,0 +1,33 @@
+scenario_id,queue_event_index,tube_id,task_id,sample_category,target_output_box,queue_action,reason,queue_size_after,notes
+forced_category_A_full,1,TUBE-7B1-001,TASK-7B1-001,category_A,output_box_A,enqueue,output_box_full,1,normal sample waits for category_resume
+forced_category_A_full,2,TUBE-7B1-006,TASK-7B1-006,category_A,output_box_A,enqueue,output_box_full,2,normal sample waits for category_resume
+forced_category_A_full,3,TUBE-7B1-010,TASK-7B1-010,category_A,output_box_A,enqueue,output_box_full,3,normal sample waits for category_resume
+forced_category_A_full,4,TUBE-7B1-015,TASK-7B1-015,category_A,output_box_A,enqueue,output_box_full,4,normal sample waits for category_resume
+forced_category_A_full,5,TUBE-7B1-019,TASK-7B1-019,category_A,output_box_A,enqueue,output_box_full,5,normal sample waits for category_resume
+forced_category_A_full,6,TUBE-7B1-023,TASK-7B1-023,category_A,output_box_A,enqueue,output_box_full,6,normal sample waits for category_resume
+forced_category_A_full,7,TUBE-7B1-027,TASK-7B1-027,category_A,output_box_A,enqueue,output_box_full,7,normal sample waits for category_resume
+forced_category_A_full,8,TUBE-7B1-032,TASK-7B1-032,category_A,output_box_A,enqueue,output_box_full,8,normal sample waits for category_resume
+forced_category_A_full,9,TUBE-7B1-036,TASK-7B1-036,category_A,output_box_A,enqueue,output_box_full,9,normal sample waits for category_resume
+forced_category_A_full,10,TUBE-7B1-040,TASK-7B1-040,category_A,output_box_A,enqueue,output_box_full,10,normal sample waits for category_resume
+forced_category_A_full,11,TUBE-7B1-045,TASK-7B1-045,category_A,output_box_A,enqueue,output_box_full,11,normal sample waits for category_resume
+forced_category_A_full,12,TUBE-7B1-049,TASK-7B1-049,category_A,output_box_A,enqueue,output_box_full,12,normal sample waits for category_resume
+forced_category_A_full,13,TUBE-7B1-053,TASK-7B1-053,category_A,output_box_A,enqueue,output_box_full,13,normal sample waits for category_resume
+forced_category_A_full,14,TUBE-7B1-057,TASK-7B1-057,category_A,output_box_A,enqueue,output_box_full,14,normal sample waits for category_resume
+forced_category_A_full,15,TUBE-7B1-062,TASK-7B1-062,category_A,output_box_A,enqueue,output_box_full,15,normal sample waits for category_resume
+forced_category_A_full,16,TUBE-7B1-066,TASK-7B1-066,category_A,output_box_A,enqueue,output_box_full,16,normal sample waits for category_resume
+forced_category_A_full,17,TUBE-7B1-001,TASK-7B1-001,category_A,output_box_A,dequeue_resume,category_resume,15,pending normal sample resumes output placement
+forced_category_A_full,18,TUBE-7B1-006,TASK-7B1-006,category_A,output_box_A,dequeue_resume,category_resume,14,pending normal sample resumes output placement
+forced_category_A_full,19,TUBE-7B1-010,TASK-7B1-010,category_A,output_box_A,dequeue_resume,category_resume,13,pending normal sample resumes output placement
+forced_category_A_full,20,TUBE-7B1-015,TASK-7B1-015,category_A,output_box_A,dequeue_resume,category_resume,12,pending normal sample resumes output placement
+forced_category_A_full,21,TUBE-7B1-019,TASK-7B1-019,category_A,output_box_A,dequeue_resume,category_resume,11,pending normal sample resumes output placement
+forced_category_A_full,22,TUBE-7B1-023,TASK-7B1-023,category_A,output_box_A,dequeue_resume,category_resume,10,pending normal sample resumes output placement
+forced_category_A_full,23,TUBE-7B1-027,TASK-7B1-027,category_A,output_box_A,dequeue_resume,category_resume,9,pending normal sample resumes output placement
+forced_category_A_full,24,TUBE-7B1-032,TASK-7B1-032,category_A,output_box_A,dequeue_resume,category_resume,8,pending normal sample resumes output placement
+forced_category_A_full,25,TUBE-7B1-036,TASK-7B1-036,category_A,output_box_A,dequeue_resume,category_resume,7,pending normal sample resumes output placement
+forced_category_A_full,26,TUBE-7B1-040,TASK-7B1-040,category_A,output_box_A,dequeue_resume,category_resume,6,pending normal sample resumes output placement
+forced_category_A_full,27,TUBE-7B1-045,TASK-7B1-045,category_A,output_box_A,dequeue_resume,category_resume,5,pending normal sample resumes output placement
+forced_category_A_full,28,TUBE-7B1-049,TASK-7B1-049,category_A,output_box_A,dequeue_resume,category_resume,4,pending normal sample resumes output placement
+forced_category_A_full,29,TUBE-7B1-053,TASK-7B1-053,category_A,output_box_A,dequeue_resume,category_resume,3,pending normal sample resumes output placement
+forced_category_A_full,30,TUBE-7B1-057,TASK-7B1-057,category_A,output_box_A,dequeue_resume,category_resume,2,pending normal sample resumes output placement
+forced_category_A_full,31,TUBE-7B1-062,TASK-7B1-062,category_A,output_box_A,dequeue_resume,category_resume,1,pending normal sample resumes output placement
+forced_category_A_full,32,TUBE-7B1-066,TASK-7B1-066,category_A,output_box_A,dequeue_resume,category_resume,0,pending normal sample resumes output placement

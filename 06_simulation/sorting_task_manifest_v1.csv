@@ -1,0 +1,70 @@
+task_id,tube_id,source_input_box_id,source_slot_id,source_x_mm,source_y_mm,source_z_pick_mm,requires_scan,scan_station_id,barcode_status,sample_category,abnormal_flag,target_type,target_box_id,target_slot_id,task_priority,initial_task_status,notes
+TASK-7B1-001,TUBE-7B1-001,input_box_01,R1C1,-240,-170,145,false,,valid,category_A,false,output_box,output_box_A,S01,3,queued_output,normal sample output task
+TASK-7B1-002,TUBE-7B1-002,input_box_01,R1C2,-215,-170,145,false,,valid,category_B,false,output_box,output_box_B,S01,3,queued_output,normal sample output task
+TASK-7B1-003,TUBE-7B1-003,input_box_01,R1C3,-190,-170,145,false,,valid,category_C,false,output_box,output_box_C,S01,3,queued_output,normal sample output task
+TASK-7B1-004,TUBE-7B1-004,input_box_01,R1C5,-140,-170,145,false,,missing_label,unknown,true,manual_review,manual_review_01,MR04,1,queued_manual_review,true abnormal sample; route to manual_review
+TASK-7B1-005,TUBE-7B1-005,input_box_01,R1C6,-115,-170,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-006,TUBE-7B1-006,input_box_01,R2C1,-240,-145,145,false,,valid,category_A,false,output_box,output_box_A,S02,3,queued_output,normal sample output task
+TASK-7B1-007,TUBE-7B1-007,input_box_01,R2C3,-190,-145,145,false,,valid,category_B,false,output_box,output_box_B,S02,3,queued_output,normal sample output task
+TASK-7B1-008,TUBE-7B1-008,input_box_01,R2C4,-165,-145,145,false,,valid,category_C,false,output_box,output_box_C,S02,3,queued_output,normal sample output task
+TASK-7B1-009,TUBE-7B1-009,input_box_01,R2C5,-140,-145,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-010,TUBE-7B1-010,input_box_01,R3C1,-240,-120,145,false,,valid,category_A,false,output_box,output_box_A,S03,3,queued_output,normal sample output task
+TASK-7B1-011,TUBE-7B1-011,input_box_01,R3C2,-215,-120,145,false,,valid,category_B,false,output_box,output_box_B,S03,3,queued_output,normal sample output task
+TASK-7B1-012,TUBE-7B1-012,input_box_01,R3C3,-190,-120,145,false,,valid,category_C,false,output_box,output_box_C,S03,3,queued_output,normal sample output task
+TASK-7B1-013,TUBE-7B1-013,input_box_01,R3C5,-140,-120,145,false,,invalid_barcode,unknown,true,manual_review,manual_review_01,MR13,1,queued_manual_review,true abnormal sample; route to manual_review
+TASK-7B1-014,TUBE-7B1-014,input_box_01,R3C6,-115,-120,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-015,TUBE-7B1-015,input_box_01,R4C1,-240,-95,145,false,,valid,category_A,false,output_box,output_box_A,S04,3,queued_output,normal sample output task
+TASK-7B1-016,TUBE-7B1-016,input_box_01,R4C3,-190,-95,145,false,,valid,category_B,false,output_box,output_box_B,S04,3,queued_output,normal sample output task
+TASK-7B1-017,TUBE-7B1-017,input_box_01,R4C4,-165,-95,145,false,,valid,category_C,false,output_box,output_box_C,S04,3,queued_output,normal sample output task
+TASK-7B1-018,TUBE-7B1-018,input_box_01,R4C5,-140,-95,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-019,TUBE-7B1-019,input_box_02,R1C1,-60,-170,145,false,,valid,category_A,false,output_box,output_box_A,S05,3,queued_output,normal sample output task
+TASK-7B1-020,TUBE-7B1-020,input_box_02,R1C2,-35,-170,145,false,,valid,category_B,false,output_box,output_box_B,S05,3,queued_output,normal sample output task
+TASK-7B1-021,TUBE-7B1-021,input_box_02,R1C3,-10,-170,145,false,,valid,category_C,false,output_box,output_box_C,S05,3,queued_output,normal sample output task
+TASK-7B1-022,TUBE-7B1-022,input_box_02,R1C5,40,-170,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-023,TUBE-7B1-023,input_box_02,R1C6,65,-170,145,false,,valid,category_A,false,output_box,output_box_A,S06,3,queued_output,normal sample output task
+TASK-7B1-024,TUBE-7B1-024,input_box_02,R2C3,-10,-145,145,false,,valid,category_B,false,output_box,output_box_B,S06,3,queued_output,normal sample output task
+TASK-7B1-025,TUBE-7B1-025,input_box_02,R2C4,15,-145,145,false,,valid,category_C,false,output_box,output_box_C,S06,3,queued_output,normal sample output task
+TASK-7B1-026,TUBE-7B1-026,input_box_02,R2C5,40,-145,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-027,TUBE-7B1-027,input_box_02,R3C1,-60,-120,145,false,,valid,category_A,false,output_box,output_box_A,S07,3,queued_output,normal sample output task
+TASK-7B1-028,TUBE-7B1-028,input_box_02,R3C2,-35,-120,145,false,,abnormal_sample_info,category_B,true,manual_review,manual_review_01,MR28,1,queued_manual_review,true abnormal sample; route to manual_review
+TASK-7B1-029,TUBE-7B1-029,input_box_02,R3C3,-10,-120,145,false,,valid,category_B,false,output_box,output_box_B,S07,3,queued_output,normal sample output task
+TASK-7B1-030,TUBE-7B1-030,input_box_02,R3C5,40,-120,145,false,,valid,category_C,false,output_box,output_box_C,S07,3,queued_output,normal sample output task
+TASK-7B1-031,TUBE-7B1-031,input_box_02,R3C6,65,-120,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-032,TUBE-7B1-032,input_box_02,R4C1,-60,-95,145,false,,valid,category_A,false,output_box,output_box_A,S08,3,queued_output,normal sample output task
+TASK-7B1-033,TUBE-7B1-033,input_box_02,R4C3,-10,-95,145,false,,valid,category_B,false,output_box,output_box_B,S08,3,queued_output,normal sample output task
+TASK-7B1-034,TUBE-7B1-034,input_box_02,R4C4,15,-95,145,false,,valid,category_C,false,output_box,output_box_C,S08,3,queued_output,normal sample output task
+TASK-7B1-035,TUBE-7B1-035,input_box_03,R1C1,-240,-10,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-036,TUBE-7B1-036,input_box_03,R1C2,-215,-10,145,false,,valid,category_A,false,output_box,output_box_A,S09,3,queued_output,normal sample output task
+TASK-7B1-037,TUBE-7B1-037,input_box_03,R1C3,-190,-10,145,false,,valid,category_B,false,output_box,output_box_B,S09,3,queued_output,normal sample output task
+TASK-7B1-038,TUBE-7B1-038,input_box_03,R1C5,-140,-10,145,false,,valid,category_C,false,output_box,output_box_C,S09,3,queued_output,normal sample output task
+TASK-7B1-039,TUBE-7B1-039,input_box_03,R1C6,-115,-10,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-040,TUBE-7B1-040,input_box_03,R2C1,-240,15,145,false,,valid,category_A,false,output_box,output_box_A,S10,3,queued_output,normal sample output task
+TASK-7B1-041,TUBE-7B1-041,input_box_03,R2C3,-190,15,145,false,,valid,category_B,false,output_box,output_box_B,S10,3,queued_output,normal sample output task
+TASK-7B1-042,TUBE-7B1-042,input_box_03,R2C4,-165,15,145,false,,valid,category_C,false,output_box,output_box_C,S10,3,queued_output,normal sample output task
+TASK-7B1-043,TUBE-7B1-043,input_box_03,R2C5,-140,15,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-044,TUBE-7B1-044,input_box_03,R3C1,-240,40,145,false,,unknown_category,unknown,true,manual_review,manual_review_01,MR44,1,queued_manual_review,true abnormal sample; route to manual_review
+TASK-7B1-045,TUBE-7B1-045,input_box_03,R3C2,-215,40,145,false,,valid,category_A,false,output_box,output_box_A,S11,3,queued_output,normal sample output task
+TASK-7B1-046,TUBE-7B1-046,input_box_03,R3C3,-190,40,145,false,,valid,category_B,false,output_box,output_box_B,S11,3,queued_output,normal sample output task
+TASK-7B1-047,TUBE-7B1-047,input_box_03,R3C5,-140,40,145,false,,valid,category_C,false,output_box,output_box_C,S11,3,queued_output,normal sample output task
+TASK-7B1-048,TUBE-7B1-048,input_box_03,R3C6,-115,40,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-049,TUBE-7B1-049,input_box_03,R4C1,-240,65,145,false,,valid,category_A,false,output_box,output_box_A,S12,3,queued_output,normal sample output task
+TASK-7B1-050,TUBE-7B1-050,input_box_03,R4C3,-190,65,145,false,,valid,category_B,false,output_box,output_box_B,S12,3,queued_output,normal sample output task
+TASK-7B1-051,TUBE-7B1-051,input_box_03,R4C4,-165,65,145,false,,valid,category_C,false,output_box,output_box_C,S12,3,queued_output,normal sample output task
+TASK-7B1-052,TUBE-7B1-052,input_box_03,R4C5,-140,65,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-053,TUBE-7B1-053,input_box_04,R1C2,-35,-10,145,false,,valid,category_A,false,output_box,output_box_A,S13,3,queued_output,normal sample output task
+TASK-7B1-054,TUBE-7B1-054,input_box_04,R1C3,-10,-10,145,false,,valid,category_B,false,output_box,output_box_B,S13,3,queued_output,normal sample output task
+TASK-7B1-055,TUBE-7B1-055,input_box_04,R1C5,40,-10,145,false,,valid,category_C,false,output_box,output_box_C,S13,3,queued_output,normal sample output task
+TASK-7B1-056,TUBE-7B1-056,input_box_04,R1C6,65,-10,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-057,TUBE-7B1-057,input_box_04,R2C1,-60,15,145,false,,valid,category_A,false,output_box,output_box_A,S14,3,queued_output,normal sample output task
+TASK-7B1-058,TUBE-7B1-058,input_box_04,R2C3,-10,15,145,false,,valid,category_B,false,output_box,output_box_B,S14,3,queued_output,normal sample output task
+TASK-7B1-059,TUBE-7B1-059,input_box_04,R2C4,15,15,145,false,,missing_label,unknown,true,manual_review,manual_review_01,MR59,1,queued_manual_review,true abnormal sample; route to manual_review
+TASK-7B1-060,TUBE-7B1-060,input_box_04,R2C5,40,15,145,false,,valid,category_C,false,output_box,output_box_C,S14,3,queued_output,normal sample output task
+TASK-7B1-061,TUBE-7B1-061,input_box_04,R3C1,-60,40,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-062,TUBE-7B1-062,input_box_04,R3C2,-35,40,145,false,,valid,category_A,false,output_box,output_box_A,S15,3,queued_output,normal sample output task
+TASK-7B1-063,TUBE-7B1-063,input_box_04,R3C3,-10,40,145,false,,valid,category_B,false,output_box,output_box_B,S15,3,queued_output,normal sample output task
+TASK-7B1-064,TUBE-7B1-064,input_box_04,R3C5,40,40,145,false,,valid,category_C,false,output_box,output_box_C,S15,3,queued_output,normal sample output task
+TASK-7B1-065,TUBE-7B1-065,input_box_04,R3C6,65,40,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"
+TASK-7B1-066,TUBE-7B1-066,input_box_04,R4C1,-60,65,145,false,,valid,category_A,false,output_box,output_box_A,S16,3,queued_output,normal sample output task
+TASK-7B1-067,TUBE-7B1-067,input_box_04,R4C3,-10,65,145,false,,valid,category_B,false,output_box,output_box_B,S16,3,queued_output,normal sample output task
+TASK-7B1-068,TUBE-7B1-068,input_box_04,R4C4,15,65,145,false,,valid,category_C,false,output_box,output_box_C,S16,3,queued_output,normal sample output task
+TASK-7B1-069,TUBE-7B1-069,input_box_04,R4C5,40,65,145,false,,valid,category_D,false,output_box,output_box_D,,3,category_hold_pending,"target category output box is full; hold category, do not route to manual_review"

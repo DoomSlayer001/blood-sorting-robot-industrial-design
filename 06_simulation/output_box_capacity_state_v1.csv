@@ -1,0 +1,5 @@
+output_box_id,sample_category,capacity_slots,occupied_initial,available_slots,state,notes
+output_box_A,category_A,24,3,21,available,available for initial task generation
+output_box_B,category_B,24,8,16,available,available for initial task generation
+output_box_C,category_C,24,21,3,near_full,available for initial task generation
+output_box_D,category_D,24,24,0,full,full category triggers category_hold and later category_resume after service

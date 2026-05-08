@@ -1,0 +1,15 @@
+metric,value,notes
+total_input_slots,96,4 input boxes x 4 x 6
+occupied_slots,69,tube_present=true
+empty_slots,27,empty slots skipped; no pick task
+normal_sample_count,64,valid barcode and category_A-D
+abnormal_sample_count,5,manual_review only
+generated_task_count,69,one task per occupied tube
+output_box_task_count,64,normal samples
+manual_review_task_count,5,abnormal samples
+category_A_count,16,
+category_B_count,17,
+category_C_count,16,
+category_D_count,16,output_box_D starts full for hold test
+unknown_category_count,4,abnormal only
+validation_status,PASS,all checks passed

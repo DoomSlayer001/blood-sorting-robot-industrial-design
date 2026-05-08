@@ -1,0 +1,5 @@
+sample_category,target_output_box,box_capacity,category_hold_enabled,resume_condition,notes
+category_A,output_box_A,24,true,"operator clears or replaces output box, then category_resume is emitted",normal samples are held when full; they are not routed to manual_review
+category_B,output_box_B,24,true,"operator clears or replaces output box, then category_resume is emitted",normal samples are held when full; they are not routed to manual_review
+category_C,output_box_C,24,true,"operator clears or replaces output box, then category_resume is emitted",normal samples are held when full; they are not routed to manual_review
+category_D,output_box_D,24,true,"operator clears or replaces output box, then category_resume is emitted",normal samples are held when full; they are not routed to manual_review

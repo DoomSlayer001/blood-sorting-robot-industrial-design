@@ -1,0 +1,15 @@
+component_name,approx_location,height_mm,width_mm,depth_mm,looks_like_motor_or_drive_block,near_tube_rack,sweeps_over_tube_zone,action,notes
+left_x_beam_end_mount_v1_1,left X/Y joint area,171,76,108,yes,yes,yes,remove,Tall v1.1 end mount is filtered from v1.3 preview.
+right_x_beam_end_mount_v1_1,right X/Y joint area,171,76,108,yes,yes,yes,remove,Tall v1.1 end mount is filtered from v1.3 preview.
+left_boxed_gantry_side_bracket_v1_1,left X/Y joint area,168,158,120,yes,yes,yes,remove,Boxed side bracket is visually too tall and is filtered.
+right_boxed_gantry_side_bracket_v1_1,right X/Y joint area,168,123,120,yes,yes,yes,remove,Boxed side bracket is visually too tall and is filtered.
+left_y_carriage_main_adapter_plate_v1_1,left Y slider top area,45.2,110,88,no,yes,possible,remove,At the hard height boundary and replaced with lower v1.3 adapter.
+right_y_carriage_main_adapter_plate_v1_1,right Y slider top area,45.2,110,88,no,yes,possible,remove,At the hard height boundary and replaced with lower v1.3 adapter.
+y_carriage_adapter_plates,left/right Y slider top area,95.5,1105,72,yes,yes,yes,remove,Earlier tall carriage adapter visualization is filtered from clean v1.3 preview.
+gantry_cross_beam_support_plates,X beam end mount area,82.5,922,98,yes,yes,yes,remove,Earlier tall cross-beam support visualization is filtered from clean v1.3 preview.
+motor_placeholders,X/Y drive area,291.5,1085,358.5,yes,yes,yes,remove,Generated motor placeholders are filtered.
+drive_transmission_placeholders,X/Y drive area,250,1045,377,yes,yes,yes,remove,Generated transmission placeholders are filtered.
+left_y_slider_top_adapter_plate_v1_3,left Y slider top area,19.5,86,64,no,no,no,keep,Low horizontal adapter allowed by v1.3 rules.
+right_y_slider_top_adapter_plate_v1_3,right Y slider top area,19.5,86,64,no,no,no,keep,Low horizontal adapter allowed by v1.3 rules.
+left_x_beam_end_saddle_v1_3,left X/Y joint area,34,119,74,no,no,no,keep,Low saddle/gusset geometry is below 45 mm hard limit.
+right_x_beam_end_saddle_v1_3,right X/Y joint area,34,84,74,no,no,no,keep,Low saddle/gusset geometry is below 45 mm hard limit.

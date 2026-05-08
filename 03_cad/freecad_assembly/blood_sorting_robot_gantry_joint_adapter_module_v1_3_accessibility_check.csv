@@ -1,0 +1,26 @@
+item,check_status,notes
+based_on_stage_7a3f,pass,Base preview is blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_1.step.
+not_based_on_stage_7a3h,pass,Stage 7A-3h / 3h-1 / 3h-2 previews are not used as generation base.
+oversized_motor_removed,pass,Generated oversized/external X drive block is not included.
+no_new_motor_added,pass,No new motor placeholder or external drive block is generated.
+no_new_rail_added,pass,No auxiliary rail is generated.
+original_y_axis_modules_preserved,pass,Original left/right Y industrial linear modules remain.
+original_x_axis_module_preserved,pass,Original X industrial linear module remains.
+original_y_sliders_used,pass,Low-profile adapter plates explicitly represent original Y slider/carriage interfaces.
+original_x_slider_used,pass,Inherited X/Z adapter geometry keeps Z axis tied to original X carriage.
+x_beam_bound_to_left_y_slider,pass,Left low saddle bridges the left slider adapter to the X beam end.
+x_beam_bound_to_right_y_slider,pass,Right low saddle bridges the right slider adapter to the X beam end.
+x_beam_not_visually_floating,pass,Low saddles clarify the X beam support path without tall boxes.
+adapter_plates_visible,pass,Left/right low-profile slider adapter plates are visible.
+no_external_drive_block_over_tubes,pass,No external drive block or motor-like vertical joint box remains above the tube rack envelope.
+z_axis_still_bound_to_x_slider,pass,Inherited X/Z adapter geometry is preserved; gripper/TCP not moved.
+gripper_preserved,pass,Stage 7A-3e gripper is preserved.
+boxes_not_moved,pass,Input/output/manual_review box positions unchanged.
+cable_management_preserved,pass,Cable chain / soft hose v1.2 preserved.
+control_box_closed,pass,Electrical control box remains closed.
+enclosure_preserved,pass,Enclosure guard module is not modified.
+tube_labels_preserved,pass,Tube curved labels remain inherited.
+non_tube_labels_removed,pass,Non-tube region labels remain removed.
+collision_checked,pass,Clearance CSV generated.
+motion_envelope_checked,pass,Motion envelope CSV generated.
+preview_default_visible,pass,Compound/multi-solid export fallback used.

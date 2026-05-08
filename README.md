@@ -237,3 +237,9 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 - The X beam ends now sit through compact custom adapter plates/end mounts on the original left/right Y slider interfaces; the original X slider remains the Z-axis interface.
 - Box layout, enclosure, cable management, closed control box, gripper, tube labels, and non-tube-label removal are preserved.
 
+### Stage 7A-3f v1.3 Visual Hard Cleanup
+- Stage 7A-3f v1.3 treats manual SolidWorks inspection as authoritative and removes the residual large vertical box / motor-like structure at the X/Y interface.
+- The preview keeps only low Y-slider adapter plates, low X-beam end saddles, and small fastener/dowel markers in the cleaned joint area.
+- The preview does not add motors, rails, pulleys, belts, or drive placeholders.
+- Box layout, enclosure, cable management, closed control box, gripper, tube labels, and non-tube-label removal are preserved.
+

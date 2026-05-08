@@ -1,0 +1,33 @@
+# Stage 7A-3f v1.3 Visual Hard Cleanup Report
+
+- Base used: `03_cad/freecad_assembly/blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_1.step`.
+- This version deliberately returns to the Stage 7A-3f gantry joint base and does not use Stage 7A-3h, 7A-3h-1, or 7A-3h-2 as the preview base.
+- User feedback source: manual SolidWorks visual inspection found a large vertical box / motor-like structure still present at the right X/Y interface in v1.2.
+- Scope: this is a local patch only; it does not enter material pass, does not move boxes, and does not modify enclosure, cable management, control box, or gripper.
+- Hard cleanup action: tall v1.1/v1.2-style X/Y joint end mounts, boxed side brackets, motor placeholders, drive placeholders, auxiliary rails, pulleys, belts, and motor-like blocks are filtered out.
+- Allowed custom geometry: low y_slider_top_adapter_plate, low x_beam_end_saddle, and small fastener/dowel markers.
+- No new motor: v1.3 adds no X/Y external motor or generated motor placeholder.
+- No new rail: v1.3 adds no auxiliary X/Y rail.
+- No new transmission system: v1.3 adds no pulley, belt, or drive train placeholder.
+- Reference logic used: fixed industrial Y modules with original sliders/carriages; X gantry assembly sits on left/right Y slider top adapter plates; original X slider remains the Z-axis motion interface.
+- Left/right X beam binding: each X beam end uses a low saddle connected down to the corresponding Y slider top adapter plate.
+- Riser: 0 mm. Current gantry height is retained because removing the motor-like vertical box resolves the visual collision risk without reducing Z reach.
+- Z reach: pass by inherited 7A-3f/7A-3e geometry; no TCP, Z axis, or gripper movement was introduced.
+- Boxes, gripper, cable chain, enclosure, closed control box, tube labels, and non-tube label removal are preserved.
+- SolidWorks visual check focus: confirm the right X/Y interface no longer contains a large vertical square box or motor-like structure, and that only low saddles/plates/fasteners remain.
+- This version only fixes the visual hard cleanup issue; it does not start a next stage.
+- Current boundary: concept-level custom slider binding patch, not final manufacturing drawing or verified slider interface hole pattern.
+- Visual motor-like block audit rows: 14.
+- Interface manifest rows: 10.
+- Clearance check: pass=10, warning=1.
+- Motion envelope check: pass=5, warning=1.
+- Accessibility check: pass=25, issue=0.
+- Interference audit: overlap=0, too_close=0, allowed_mount_contact=4.
+- Visibility audit: high_risk=0, medium_risk=0, low_risk=724.
+- Import/display audit: likely_visible_in_solidworks=yes, solids=760.
+- Patch module components: 4.
+- Patch module solids: 38.
+- Patch module bbox: 1033.000 x 74.000 x 51.000 mm.
+- Preview components: 118.
+- Preview solids: 760.
+- Preview bbox: 1200.000 x 1034.770 x 480.000 mm.

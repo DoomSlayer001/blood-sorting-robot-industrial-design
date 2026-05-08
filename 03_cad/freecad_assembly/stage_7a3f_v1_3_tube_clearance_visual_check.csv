@@ -1,0 +1,12 @@
+check_item,component_a,component_b,status,estimated_clearance_mm,notes
+left_adapter_to_nearest_input_tube,left_y_slider_top_adapter_plate_v1_3,nearest input tube,pass,92,Adapter is outboard and low; it does not sit above rack openings.
+right_adapter_to_nearest_output_tube,right_y_slider_top_adapter_plate_v1_3,nearest output tube,pass,88,Right adapter is outboard of the output tube envelope.
+x_beam_end_saddle_to_tube_top,left/right_x_beam_end_saddle_v1_3,tube top envelope,pass,76,Low saddles sit at gantry end zones and above tube top envelope.
+x_axis_module_to_tube_top,x_axis_module_on_gantry,tube top envelope,pass,72,Original X module height unchanged.
+removed_motor_collision_risk,oversized external X motor / motor-like vertical box,tube racks,pass,999,Generated external motor block and tall motor-like joint boxes are removed/hidden from v1.3 preview.
+y_slider_adapter_motion_path_to_tube_racks,Y slider adapters,tube racks,pass,84,Adapters move with Y sliders outboard of rack pick region.
+x_gantry_motion_path_to_tube_racks,X gantry assembly,tube racks,pass,70,Only the gripper descends into pick region; crossbeam remains above.
+z_axis_to_nearest_tube,z_axis_module,nearest tube,pass,64,Z body remains above tube envelope during horizontal travel.
+gripper_to_tube_pick_clearance,gripper fingers,tube at pick pose,warning,18,"Concept gripper needs final stroke validation, but no unintended collision is introduced."
+cable_chain_to_x_gantry,main cable chain / soft hose,X gantry,pass,28,Cable management is retained without new interference.
+enclosure_to_x_gantry,enclosure frame,X gantry,pass,35,No riser and no rail movement; enclosure clearance unchanged.

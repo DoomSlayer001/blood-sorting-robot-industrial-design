@@ -1,0 +1,8 @@
+height_rule_name,z_mm,purpose,source,confidence_level,used_by,notes
+safe_z_mm,190.0,Safe XY travel height above tube/rack proxy envelopes.,Stage 7B trajectory rules; 04_simulation reference lists safe_z=200 mm.,medium,7B-3/7B-5/7C,XY travel must occur at safe_z; current 7B uses 190 mm.
+pick_z_mm,145.0,Input tube pick/grip height used in current trajectory.,trajectory_waypoints_v1.csv descend_to_pick/grip_close.,medium,7B-3/7B-5,Low-Z allowed only at pick target.
+scan_z_mm,155.0,Scan station alignment height.,trajectory_waypoints_v1.csv descend_or_align_to_scan.,medium,7B-3/7B-5,Low-Z allowed only at scan target.
+output_place_z_mm,135.0,Output rack placement height.,trajectory_waypoints_v1.csv descend_to_place/grip_open.,medium,7B-3/7B-5,Low-Z allowed only at place target.
+manual_review_place_z_mm,135.0,Manual review tray placement height using same current place rule.,trajectory_waypoints_v1.csv manual-review place waypoints.,medium,7B-3/7B-5,Requires final tray/gripper clearance validation.
+tube_top_clearance_z_mm,125.0,Tube top proxy upper envelope used below safe_z.,collision_envelope_definition_v1.csv tube_envelope.,medium,7B-3/7B-5,safe_z=190 gives 65 mm nominal clearance over tube proxy.
+low_z_allowed_zone,pick_scan_place_only,Low-Z motion policy.,safe_z_rule_check_v1.csv and Stage 7B-5 review.,medium,7B-3/7B-5/7C,Low-Z XY crossing remains forbidden; local vertical descent/dwell is target-local.

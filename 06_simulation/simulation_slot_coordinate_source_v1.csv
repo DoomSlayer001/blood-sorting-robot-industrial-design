@@ -1,0 +1,7 @@
+coordinate_group,source_file,coordinate_type,count,used_by_stage,confidence_level,notes
+input_box_slots,C:\Users\29868\Desktop\作业\医用机器人\blood-sorting-robot-industrial-design\04_simulation\task_planning\multi_box_slot_coordinates_v1.csv,slot_center_xyz,96,7B-1/7B-3,medium,Current 7B task manifest covers 96 input slots; optional 04_simulation file provides v7.1 coordinate reference.
+output_box_slots,C:\Users\29868\Desktop\作业\医用机器人\blood-sorting-robot-industrial-design\04_simulation\task_planning\multi_box_slot_coordinates_v1.csv,slot_center_xyz,96,7B-2/7B-3,medium,Output A-D slots used by normal sample routing.
+manual_review_slots,C:\Users\29868\Desktop\作业\医用机器人\blood-sorting-robot-industrial-design\04_simulation\task_planning\multi_box_slot_coordinates_v1.csv,slot_center_xyz,6,7B-2/7B-3,medium,Manual review is abnormal-only in current state machine.
+scan_station,C:\Users\29868\Desktop\作业\医用机器人\blood-sorting-robot-industrial-design\04_simulation\task_planning\multi_box_slot_coordinates_v1.csv,single_station_xyz,1,7B-3/7B-5,medium,Scan station uses table-defined point; no camera frame is defined.
+home_safe,trajectory_waypoints_v1.csv,safe_home_xyz,1,7B-3/7B-5,medium,"home_safe is [0,0,190] in current trajectory set."
+pending_resume_targets,sorting_state_machine_task_result_v1.csv; trajectory_waypoints_v1.csv,resumed_task_targets,16,7B-2/7B-3,medium,Forced category hold/resume generated 16 resumed pending tasks.

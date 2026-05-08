@@ -1,0 +1,11 @@
+proxy_name,object_group,proxy_type,x_min_mm,x_max_mm,y_min_mm,y_max_mm,z_min_mm,z_max_mm,source,confidence_level,check_status,future_validation_needed,notes
+input_rack_proxy,input racks and input tubes,box,-430,-180,-190,350,0,125,slot coordinate table + rack/tube envelope split,medium,usable_for_abstract_check,yes,"Improves over combined rack proxy, but final CAD clearance still needed."
+output_rack_proxy,output racks and output tubes,box,180,470,-190,350,0,125,slot coordinate table + rack/tube envelope split,medium,usable_for_abstract_check,yes,Output area proxy is separated from input proxy for future checks.
+manual_review_proxy,manual review tray,box,300,470,-210,0,0,125,slot coordinate table and manual review logic,medium,usable_for_abstract_check,yes,Manual review placement remains approximate.
+tube_proxy,individual tube,cylinder,-10,10,-10,10,20,125,collision_envelope_definition_v1.csv,medium,usable_for_abstract_check,yes,Per-slot placement required for exact CAD/Isaac check.
+gripper_proxy,gripper TCP and jaws,box,-35,35,-25,25,20,130,collision_envelope_definition_v1.csv,medium,usable_for_abstract_check,yes,Current proxy does not model jaw pad details.
+z_axis_proxy,Z axis module,box,-45,45,-10,55,80,360,collision_envelope_definition_v1.csv,medium,warning_only,yes,Local vertical sweeps remain warning-only until detailed CAD collision.
+x_beam_proxy,X beam and carriage,box,-390,390,-40,60,220,310,collision_envelope_definition_v1.csv,medium,warning_only,yes,XY slider binding deferred affects final beam/carriage validation.
+enclosure_proxy,enclosure frame,box,-600,600,-450,450,0,430,collision_envelope_definition_v1.csv,low,not_checked_until_solidworks,yes,Exact panel/door/opening geometry required.
+cable_chain_proxy,cable chain sweep,box,-180,120,240,420,150,360,collision_envelope_definition_v1.csv,low,not_checked_until_solidworks,yes,Cable chain routing is not final.
+control_box_proxy,control box,box,430,590,-420,-220,20,260,collision_envelope_definition_v1.csv,low,not_checked_until_isaac,yes,Final digital twin should validate static placement and moving envelope.

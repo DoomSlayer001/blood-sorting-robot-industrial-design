@@ -1,0 +1,10 @@
+calibration_item,status,confidence_level,source,used_by_future_stage,notes
+coordinate_frame_alignment,defined,medium,digital_twin_coordinate_frames_v1.md; cad_to_simulation_frame_alignment_v1.md,7C/future Isaac Sim,World/base frames treated as coincident for current abstraction.
+axis_limits,calibrated_estimate,medium,calibrated_axis_limits_v1.csv,future workspace rerun,Estimated soft/safe limits documented; not final hardware limits.
+height_rules,calibrated_estimate,medium,calibrated_height_rules_v1.csv,future trajectory checks,Current 7B heights documented and contrasted with optional 04_simulation reference.
+slot_coordinates,source_mapped,medium,simulation_slot_coordinate_source_v1.csv,future trajectory regeneration,Coordinate groups and counts mapped.
+collision_proxies,refined_proxy_plan,medium,refined_collision_proxy_definition_v1.csv,future collision check,Proxy classes split by usable/warning/future validation status.
+workspace_warning_reduction,partially_explained,medium,workspace_warning_resolution_plan_v1.csv,future workspace rerun,Can reduce uncertainty but warnings retained until final axis verification.
+collision_warning_reduction,partially_explained,medium,collision_warning_resolution_plan_v1.csv,future collision rerun,Some proxy classes improved; exact checks remain future work.
+solidworks_future_validation,required,high,simulation_chain_risk_register_v1.csv,future mechanical validation,Required for real collision/mate acceptance.
+isaac_sim_future_validation,required,high,simulation_chain_risk_register_v1.csv,future digital twin validation,Required before final physical digital twin claim.

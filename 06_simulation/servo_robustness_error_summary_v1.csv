@@ -1,0 +1,4 @@
+axis,trial_count,rmse_mean_mm,rmse_max_mm,mae_mean_mm,max_abs_error_mm,position_tolerance_mm,within_tolerance_rate,overshoot_risk,robustness_status,notes
+x,5,0.225,0.225,0.142,3.324,2.0,0.999747,medium,WARNING,Axis-level robustness summary across all scenarios and trials.
+y,5,0.141,0.141,0.09,2.568,2.0,0.99989,medium,PASS,Axis-level robustness summary across all scenarios and trials.
+z,5,0.333,0.333,0.225,0.695,1.0,1.0,medium,PASS,Axis-level robustness summary across all scenarios and trials.

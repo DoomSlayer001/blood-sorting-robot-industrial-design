@@ -1,0 +1,16 @@
+parameter,value,unit,notes
+control_period_s,0.02,s,Control/sample period inherited from Stage 7B-5 trace.
+s_curve_enabled,true,bool,Enable concept-level jerk-limited reference smoothing.
+jerk_limit_x_mm_s3,4000.0,mm/s^3,Concept X-axis jerk limit assumption.
+jerk_limit_y_mm_s3,4000.0,mm/s^3,Concept Y-axis jerk limit assumption.
+jerk_limit_z_mm_s3,1200.0,mm/s^3,Concept Z-axis jerk limit assumption.
+encoder_noise_std_x_mm,0.05,mm,Gaussian encoder measurement noise assumption for X.
+encoder_noise_std_y_mm,0.05,mm,Gaussian encoder measurement noise assumption for Y.
+encoder_noise_std_z_mm,0.03,mm,Gaussian encoder measurement noise assumption for Z.
+load_disturbance_std_x_mm,0.1,mm,Small equivalent load disturbance assumption for X.
+load_disturbance_std_y_mm,0.1,mm,Small equivalent load disturbance assumption for Y.
+load_disturbance_std_z_mm,0.08,mm,Small equivalent load disturbance assumption for Z.
+control_delay_steps,1,step,One control-period delay in reference feedback path.
+z_axis_load_factor,1.25,ratio,Z axis is treated as heavier/slower than X/Y.
+random_seed,42,seed,Deterministic seed for repeatable robustness trials.
+robustness_trial_count,5,count,Repeated Monte Carlo-style robustness trial count.

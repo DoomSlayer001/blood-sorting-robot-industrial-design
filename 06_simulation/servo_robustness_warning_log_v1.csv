@@ -1,0 +1,2 @@
+warning_id,axis,trial_id,scenario_id,task_id,warning_type,severity,measured_value,limit_value,notes
+WARN-7B7-001,x,all,all,TASK-7B1-056,robustness_tolerance,WARNING,3.324,5.0,Axis max error exceeds preferred concept robustness band.

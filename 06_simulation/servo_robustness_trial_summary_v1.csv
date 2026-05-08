@@ -1,0 +1,6 @@
+trial_id,x_rmse_mm,y_rmse_mm,z_rmse_mm,x_max_abs_error_mm,y_max_abs_error_mm,z_max_abs_error_mm,overall_rmse_mm,within_tolerance_rate,worst_axis,trial_status,notes
+1,0.225,0.141,0.333,3.186,2.5,0.678,0.246,0.999879,x,PASS,Trial-level robustness summary for balanced_pid.
+2,0.225,0.141,0.333,3.324,2.553,0.691,0.246,0.999879,x,PASS,Trial-level robustness summary for balanced_pid.
+3,0.224,0.141,0.333,3.312,2.553,0.666,0.246,0.999876,x,PASS,Trial-level robustness summary for balanced_pid.
+4,0.225,0.141,0.333,3.31,2.568,0.68,0.246,0.999879,x,PASS,Trial-level robustness summary for balanced_pid.
+5,0.225,0.141,0.333,3.262,2.535,0.695,0.246,0.999879,x,PASS,Trial-level robustness summary for balanced_pid.

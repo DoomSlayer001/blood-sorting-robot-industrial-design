@@ -1,0 +1,7 @@
+axis,moving_assembly,motion_range_description,collision_risk,status,notes
+Y,left/right Y sliders carry X gantry,Y sliders move the full X beam/X axis/Z/gripper assembly,low,pass,This follows the reference image logic; no auxiliary rail is added.
+Y,X gantry end adapters,Adapter/end mount path stays outboard of rack openings through Y travel,low,pass,No external motor remains over tube area.
+X,original X slider carries Z axis,X slider moves Z axis along original X module,low,pass,X-slider-to-Z adapter check keeps the original interface readable.
+Z,Z axis / gripper,Only gripper/fingers descend into tube pick region,medium,warning,Final gripper stroke and jaw opening require hardware validation.
+Drive cleanup,removed oversized external drive block,X-axis end no longer has generated large motor sweep risk,low,pass,The preview uses original industrial module logic only.
+Cable,main cable chain / soft hose,Cable management v1.2 does not block X/Y/Z travel,low,pass,Cable chain and hose were not modified.

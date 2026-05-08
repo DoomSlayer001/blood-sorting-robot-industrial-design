@@ -1,0 +1,6 @@
+component_name,detected_reason,approx_location,removed_or_hidden,is_original_standard_part,reason_for_removal,notes
+oversized_x_motor_or_external_drive_block,would be a generated external motor larger than standard module end cap,X beam end / near tube area,yes,no,Collision and visual-risk geometry is not inherited from Stage 7A-3h.,v1.2 starts from Stage 7A-3f v1.1 and does not include this geometry.
+generated_motor_placeholder,any generated motor-like block not belonging to original industrial module,X/Y drive area,yes,no,Generated motor placeholders are filtered/absent.,No new motor is generated.
+external_drive_block_near_tube_area,box-like drive block that could sweep over racks during Y motion,tube rack envelope risk zone,yes,no,External drive blocks are not included in the v1.2 preview.,Drive expression is limited to inherited industrial module end geometry.
+duplicate_drive_transmission_placeholder,duplicated pulley/belt/transmission expression introduced after Stage 7A-3f,X/Y axis ends,yes,no,Duplicate belt/pulley placeholders are not generated.,No new transmission system is created.
+duplicate_auxiliary_rail_if_any,not_found_or_already_absent,X/Y gantry region,yes,no,No auxiliary rail exists in the Stage 7A-3f base preview and none is generated here.,Original X/Y industrial linear modules are preserved.

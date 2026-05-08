@@ -1,0 +1,7 @@
+component_name,module,category,x_mm,y_mm,z_mm,bbox_x_mm,bbox_y_mm,bbox_z_mm,status,notes
+left_y_slider_top_adapter_plate_v1_2,XYSliderBindingPatchV12,slider_binding,0.000,0.000,0.000,92.000,70.000,24.500,OK,slider_binding; low-profile plate sitting on original left Y slider/carriage interface
+right_y_slider_top_adapter_plate_v1_2,XYSliderBindingPatchV12,slider_binding,0.000,0.000,0.000,92.000,70.000,24.500,OK,slider_binding; low-profile plate sitting on original right Y slider/carriage interface
+left_x_beam_end_mount_v1_2,XYSliderBindingPatchV12,x_beam_end_mount,0.000,0.000,0.000,147.000,84.000,176.000,OK,x_beam_end_mount; compact bracket connecting left Y slider adapter to X beam end
+right_x_beam_end_mount_v1_2,XYSliderBindingPatchV12,x_beam_end_mount,0.000,0.000,0.000,112.000,84.000,176.000,OK,x_beam_end_mount; compact bracket connecting right Y slider adapter to X beam end
+x_axis_module_mounting_saddle_v1_2,XYSliderBindingPatchV12,x_axis_saddle,0.000,0.000,0.000,790.000,24.000,94.000,OK,x_axis_saddle; small saddle showing original X-axis module fixed to X beam
+x_slider_to_z_adapter_check_v1_2,XYSliderBindingPatchV12,x_slider_z_interface,0.000,0.000,0.000,104.000,31.000,118.000,OK,x_slider_z_interface; short interface marker confirming Z axis remains on original X slider

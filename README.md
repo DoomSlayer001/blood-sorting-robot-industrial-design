@@ -231,3 +231,9 @@ Before committing large files, confirm that files such as `*.step`, `*.sldasm`, 
 - The X beam ends now sit through compact custom adapter plates/end mounts on the original left/right Y slider interfaces; the original X slider remains the Z-axis interface.
 - Box layout, enclosure, cable management, closed control box, gripper, tube labels, and non-tube-label removal are preserved.
 
+### Stage 7A-3f v1.2 X/Y Slider Binding Patch
+- Stage 7A-3f v1.2 returns to the Stage 7A-3f gantry joint base instead of using later 7A-3h drive previews.
+- The preview removes generated oversized external motor / drive-block logic and does not add new rails, motors, pulleys, or belts.
+- The X beam ends now sit through compact custom adapter plates/end mounts on the original left/right Y slider interfaces; the original X slider remains the Z-axis interface.
+- Box layout, enclosure, cable management, closed control box, gripper, tube labels, and non-tube-label removal are preserved.
+

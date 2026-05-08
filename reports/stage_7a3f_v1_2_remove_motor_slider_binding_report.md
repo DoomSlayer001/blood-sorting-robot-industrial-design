@@ -1,0 +1,32 @@
+# Stage 7A-3f v1.2 Remove Oversized Motor and Slider Binding Report
+
+- Base used: `C:/Users/29868/Desktop/作业/医用机器人/blood-sorting-robot-industrial-design/03_cad/freecad_assembly/blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_1.step`.
+- This version deliberately returns to the Stage 7A-3f gantry joint base and does not use Stage 7A-3h, 7A-3h-1, or 7A-3h-2 as the preview base.
+- User feedback: later 7A-3h variants introduced an oversized/generated X drive block and incorrect drive visual logic; this patch removes that path and rebuilds only the X/Y slider binding visual logic from the 7A-3f base.
+- Scope: this is a local patch only; it does not enter material pass, does not move boxes, and does not modify enclosure, cable management, control box, or gripper.
+- Removed/hidden visual logic: oversized generated X motor/external drive block, auxiliary rails, redundant pulley placeholders, redundant belt placeholders, and floating drive blocks are not included.
+- No new motor: v1.2 adds no X/Y external motor or generated motor placeholder.
+- No new rail: v1.2 adds no auxiliary X/Y rail.
+- No new transmission system: v1.2 adds no pulley, belt, or drive train placeholder.
+- Reference logic used: fixed industrial Y modules with original sliders/carriages; X gantry assembly sits on left/right Y slider top adapter plates; original X slider remains the Z-axis motion interface.
+- Left/right X beam binding: each X beam end uses a compact bracket/end mount connected down to the corresponding Y slider top adapter plate.
+- Riser: 0 mm. Current gantry height is retained because removing the external motor block resolves the visual collision risk without reducing Z reach.
+- Z reach: pass by inherited 7A-3f/7A-3e geometry; no TCP, Z axis, or gripper movement was introduced.
+- Boxes, gripper, cable chain, enclosure, closed control box, tube labels, and non-tube label removal are preserved.
+- SolidWorks visual check focus: confirm no external X motor remains near tubes, no fake rail appears, and X beam end blocks read as sitting on original Y carriage blocks.
+- This version only fixes X/Y slider binding and the oversized motor issue; it does not start a next stage.
+- Current boundary: concept-level custom slider binding patch, not final manufacturing drawing or verified slider interface hole pattern.
+- Removed oversized motor audit rows: 5.
+- Interface manifest rows: 10.
+- Clearance check: pass=10, warning=1.
+- Motion envelope check: pass=5, warning=1.
+- Accessibility check: pass=25, issue=0.
+- Interference audit: overlap=0, too_close=0, allowed_mount_contact=39.
+- Visibility audit: high_risk=0, medium_risk=0, low_risk=900.
+- Import/display audit: likely_visible_in_solidworks=yes, solids=936.
+- Patch module components: 6.
+- Patch module solids: 86.
+- Patch module bbox: 1039.000 x 124.000 x 198.000 mm.
+- Preview components: 130.
+- Preview solids: 936.
+- Preview bbox: 1200.000 x 1034.770 x 480.000 mm.

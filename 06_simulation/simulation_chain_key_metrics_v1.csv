@@ -1,0 +1,20 @@
+metric_name,value,unit,source_stage,source_file,notes
+total input slots,96,slots,7B-1,input_occupancy_task_summary_v1.csv,Expected 96.
+occupied slots,69,slots,7B-1,input_occupancy_task_summary_v1.csv,Occupied task slots.
+empty slots,27,slots,7B-1,input_occupancy_task_summary_v1.csv,Skipped empty slots.
+normal sample count,64,samples,7B-1,input_occupancy_task_summary_v1.csv,Output category A-D.
+abnormal sample count,5,samples,7B-1,input_occupancy_task_summary_v1.csv,Manual review samples.
+baseline completed count,69,tasks,7B-2,sorting_state_machine_summary_v1.csv,Completed output + manual review.
+pending queue count,16,tasks,7B-2,sorting_state_machine_summary_v1.csv,Forced category hold/resume pending enqueue.
+baseline samples_per_hour_elapsed,432.104,samples/hour,7B-4,throughput_summary_v1.csv,Baseline elapsed throughput.
+bottleneck_stage,z_motion,stage,7B-4,scenario_batch_time_summary_v1.csv,Dominant timing stage.
+time-stepped total time steps,110465,steps,7B-5,time_stepped_motion_summary_v1.csv,All scenario steps.
+Stage 7B-6 X RMSE,0.082,mm,7B-6,axis_tracking_error_summary_v1.csv,balanced_pid.
+Stage 7B-6 Y RMSE,0.054,mm,7B-6,axis_tracking_error_summary_v1.csv,balanced_pid.
+Stage 7B-6 Z RMSE,0.048,mm,7B-6,axis_tracking_error_summary_v1.csv,balanced_pid.
+Stage 7B-7 X RMSE mean,0.225,mm,7B-7,servo_robustness_error_summary_v1.csv,robustness model.
+Stage 7B-7 Y RMSE mean,0.141,mm,7B-7,servo_robustness_error_summary_v1.csv,robustness model.
+Stage 7B-7 Z RMSE mean,0.333,mm,7B-7,servo_robustness_error_summary_v1.csv,robustness model.
+Stage 7B-7 within_tolerance_rate,0.999878,ratio,7B-7,servo_robustness_trial_summary_v1.csv,Overall trial average.
+robustness worst_axis by max error,X,axis,7B-7,servo_robustness_error_summary_v1.csv,Largest isolated max error.
+highest RMS axis,Z,axis,7B-7,servo_robustness_error_summary_v1.csv,Largest average tracking burden.

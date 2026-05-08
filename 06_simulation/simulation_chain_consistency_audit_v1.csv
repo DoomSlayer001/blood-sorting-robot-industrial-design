@@ -1,0 +1,17 @@
+check_item,expected_value,observed_value,status,risk_level,notes
+total_input_slots,96,96,PASS,low,4 input boxes x 4 x 6.
+occupied_slots,69,69,PASS,low,One task per occupied slot.
+generated_task_count,69,69,PASS,low,Stage 7B-1 task generation.
+baseline_completed_count,69,69,PASS,low,64 output + 5 manual review.
+manual_review_normal_sample_count,0,0,PASS,low,Normal samples are not routed to manual review.
+trajectory_generated_task_count,273,273,PASS,low,Generated trajectory count across all scenarios.
+stage_7b3_validation,PASS,PASS,PASS,low,All trajectory scenario summaries PASS.
+stage_7b5_simulated_task_count,273,273,PASS,low,Time-stepped simulated tasks.
+velocity_FAIL,0,0,PASS,low,Velocity constraints.
+acceleration_FAIL,0,0,PASS,low,Acceleration constraints.
+safe_z_FAIL,0,0,PASS,low,Safe-Z checks.
+stage_7b6_recommended_parameter,balanced_pid,balanced_pid,PASS,low,Recommended PID parameter set.
+stage_7b7_balanced_pid_acceptable,yes,yes,PASS,low,Robustness accepted without FAIL.
+robustness_FAIL,0,0,PASS,low,Robustness fail count.
+camera,no,no,PASS,low,System does not use a camera.
+xy_slider_binding_issue,deferred,deferred,PASS,medium,Not marked as resolved; affects final mechanical validation.

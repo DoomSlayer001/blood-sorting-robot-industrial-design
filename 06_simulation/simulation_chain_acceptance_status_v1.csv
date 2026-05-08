@@ -1,0 +1,11 @@
+acceptance_item,status,evidence_file,accepted_for_current_stage,requires_future_validation,notes
+input occupancy logic accepted,accepted,input_occupancy_task_summary_v1.csv,yes,yes,Occupancy table logic accepted; real system table availability still needs integration validation.
+sorting state machine accepted,accepted,sorting_state_machine_summary_v1.csv,yes,yes,Scenario state machine accepted for current abstraction.
+output hold/resume logic accepted,accepted,category_hold_resume_events_v1.csv,yes,yes,Forced category hold/resume accepted.
+manual review logic accepted,accepted,sorting_state_machine_summary_v1.csv,yes,yes,Manual review routing accepted; normal manual review count is zero.
+trajectory precheck accepted,accepted,trajectory_precheck_warning_review_v1.csv,yes,yes,Accepted with exact collision validation deferred.
+time-stepped kinematic simulation accepted,accepted,time_stepped_motion_review_v1.csv,yes,yes,Accepted as abstract kinematic simulation.
+PID tracking accepted,accepted,axis_servo_tracking_review_v1.csv,yes,yes,balanced_pid accepted for concept-level tracking.
+S-curve robustness accepted,accepted,servo_robustness_review_v1.csv,yes,yes,Accepted with X transition warning below unacceptable limit.
+final mechanical CAD not fully accepted,deferred,stage_7b8_simulation_chain_integration_acceptance_report.md,no,yes,Stage 7A-3f and final detailed CAD validation remain future work.
+final physical collision validation not yet accepted,future_validation_required,trajectory_precheck_warning_review_v1.csv,no,yes,SolidWorks/Isaac exact validation still required.

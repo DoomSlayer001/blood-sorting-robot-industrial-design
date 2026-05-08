@@ -1,0 +1,9 @@
+source_stage,source_file,data_object,used_by_stage,used_by_file,trace_status,notes
+7B-1,input_box_occupancy_map_v1.csv,tube occupancy slots,7B-1,sorting_task_manifest_v1.csv,PASS,Occupied slots generate one task per present tube.
+7B-1,sorting_task_manifest_v1.csv,sorting tasks,7B-2,sorting_state_machine_task_result_v1.csv,PASS,State machine consumes task manifest.
+7B-2,sorting_state_machine_task_result_v1.csv,task final state,7B-3,trajectory_task_summary_v1.csv,PASS,Only completed/resumed actionable tasks receive trajectories.
+7B-3,trajectory_segments_v1.csv,trajectory segments,7B-4,task_cycle_time_estimate_v1.csv,PASS,Segment timing feeds cycle-time estimate.
+7B-3,trajectory_segments_v1.csv,trajectory segments,7B-5,time_stepped_motion_trace_v1.csv,PASS,Trajectory segments are discretized into Cartesian trace.
+7B-5,time_stepped_motion_trace_v1.csv,reference trajectory,7B-6,axis_servo_tracking_trace_v1.csv,PASS,Time-stepped reference feeds PID tracking.
+7B-6,axis_servo_pid_parameters_v1.csv,balanced_pid,7B-7,servo_robustness_tracking_trace_v1.csv,PASS,Recommended balanced_pid is used for robustness simulation.
+7B-7,servo_robustness_review_v1.csv,robustness conclusion,7B-8,simulation_chain_acceptance_status_v1.csv,PASS,Robustness review feeds final control acceptance.

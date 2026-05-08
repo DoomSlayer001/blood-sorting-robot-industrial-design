@@ -1,0 +1,19 @@
+scenario_id,throughput_metric,value,unit,notes
+baseline,baseline_samples_per_hour_robot_active,432.104,samples/hour,Excludes operator wait.
+baseline,baseline_samples_per_hour_elapsed,432.104,samples/hour,Includes operator wait.
+baseline,baseline_robot_active_time_s,574.861,s,Robot active batch time.
+baseline,baseline_total_elapsed_time_s,574.861,s,Elapsed batch time.
+forced_category_A_full,forced_category_A_full_samples_per_hour_robot_active,432.104,samples/hour,Excludes operator wait.
+forced_category_A_full,forced_category_A_full_samples_per_hour_elapsed,417.577,samples/hour,Includes operator wait.
+forced_category_A_full,forced_category_A_full_robot_active_time_s,574.861,s,Robot active batch time.
+forced_category_A_full,forced_category_A_full_total_elapsed_time_s,594.861,s,Elapsed batch time.
+manual_review_limited_capacity,manual_review_limited_capacity_samples_per_hour_robot_active,432.532,samples/hour,Excludes operator wait.
+manual_review_limited_capacity,manual_review_limited_capacity_samples_per_hour_elapsed,417.556,samples/hour,Includes operator wait.
+manual_review_limited_capacity,manual_review_limited_capacity_robot_active_time_s,557.647,s,Robot active batch time.
+manual_review_limited_capacity,manual_review_limited_capacity_total_elapsed_time_s,577.647,s,Elapsed batch time.
+pick_failure_test,pick_failure_test_samples_per_hour_robot_active,425.366,samples/hour,Excludes operator wait.
+pick_failure_test,pick_failure_test_samples_per_hour_elapsed,425.366,samples/hour,Includes operator wait.
+pick_failure_test,pick_failure_test_robot_active_time_s,575.504,s,Robot active batch time.
+pick_failure_test,pick_failure_test_total_elapsed_time_s,575.504,s,Elapsed batch time.
+manual_review_limited_capacity,manual_review_limited_capacity_samples_per_hour,417.556,samples/hour,Compatibility summary metric; uses elapsed throughput including operator wait when present.
+pick_failure_test,pick_failure_test_samples_per_hour,425.366,samples/hour,Compatibility summary metric; uses elapsed throughput including operator wait when present.

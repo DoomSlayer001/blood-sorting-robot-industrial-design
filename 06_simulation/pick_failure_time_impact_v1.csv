@@ -1,0 +1,3 @@
+scenario_id,task_id,tube_id,sample_category,state_machine_final_status,retry_time_s,robot_active_time_s,operator_wait_time_s,notes
+pick_failure_test,TASK-7B1-002,TUBE-7B1-002,category_B,pick_failed_retried_completed,2.0,12.791,0.0,Pick failure is execution handling and not abnormal sample routing.
+pick_failure_test,TASK-7B1-009,TUBE-7B1-009,category_D,pick_failed_needs_operator_check,2.0,5.8,0.0,Pick failure is execution handling and not abnormal sample routing.

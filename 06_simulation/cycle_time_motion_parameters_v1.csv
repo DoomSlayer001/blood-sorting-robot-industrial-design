@@ -1,0 +1,14 @@
+parameter,value,unit,notes
+xy_nominal_speed_mm_s,350.0,mm/s,Concept-level XY speed assumption. Not final hardware measured performance.
+z_nominal_speed_mm_s,120.0,mm/s,Concept-level Z speed assumption. Not final hardware measured performance.
+xy_accel_allowance_s,0.2,s,Simple allowance for acceleration/deceleration per XY move. Not final hardware measured performance.
+z_accel_allowance_s,0.15,s,Simple allowance for acceleration/deceleration per Z move. Not final hardware measured performance.
+grip_close_time_s,0.6,s,Concept-level gripper close time. Not final hardware measured performance.
+grip_open_time_s,0.5,s,Concept-level gripper open time. Not final hardware measured performance.
+scan_wait_time_s,1.0,s,Concept-level scan dwell time; no camera localization. Not final hardware measured performance.
+pick_settle_time_s,0.3,s,Settling allowance at pick. Not final hardware measured performance.
+place_settle_time_s,0.3,s,Settling allowance at place. Not final hardware measured performance.
+category_hold_operator_service_time_s,20.0,s,Operator clear/replace time for full output category. Not final hardware measured performance.
+manual_review_alarm_pause_time_s,10.0,s,Operator pause time when manual_review is full. Not final hardware measured performance.
+pick_retry_time_s,2.0,s,Retry handling allowance for injected pick failure. Not final hardware measured performance.
+home_return_time_s,1.0,s,Concept-level service/home return allowance; not applied to every task. Not final hardware measured performance.

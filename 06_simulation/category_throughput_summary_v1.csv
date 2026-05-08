@@ -1,0 +1,21 @@
+scenario_id,sample_category,completed_sample_count,robot_active_time_s,estimated_samples_per_hour_robot_active,notes
+baseline,category_A,16,133.181,432.494,Category throughput excludes operator wait allocation.
+baseline,category_B,17,145.081,421.833,Category throughput excludes operator wait allocation.
+baseline,category_C,16,127.269,452.585,Category throughput excludes operator wait allocation.
+baseline,category_D,16,134.073,429.617,Category throughput excludes operator wait allocation.
+baseline,unknown,4,35.257,408.43,Category throughput excludes operator wait allocation.
+forced_category_A_full,category_A,16,133.181,432.494,Category throughput excludes operator wait allocation.
+forced_category_A_full,category_B,17,145.081,421.833,Category throughput excludes operator wait allocation.
+forced_category_A_full,category_C,16,127.269,452.585,Category throughput excludes operator wait allocation.
+forced_category_A_full,category_D,16,134.073,429.617,Category throughput excludes operator wait allocation.
+forced_category_A_full,unknown,4,35.257,408.43,Category throughput excludes operator wait allocation.
+manual_review_limited_capacity,category_A,16,133.181,432.494,Category throughput excludes operator wait allocation.
+manual_review_limited_capacity,category_B,17,145.081,421.833,Category throughput excludes operator wait allocation.
+manual_review_limited_capacity,category_C,16,127.269,452.585,Category throughput excludes operator wait allocation.
+manual_review_limited_capacity,category_D,16,134.073,429.617,Category throughput excludes operator wait allocation.
+manual_review_limited_capacity,unknown,2,18.043,399.047,Category throughput excludes operator wait allocation.
+pick_failure_test,category_A,16,133.181,432.494,Category throughput excludes operator wait allocation.
+pick_failure_test,category_B,17,148.731,411.481,Category throughput excludes operator wait allocation.
+pick_failure_test,category_C,16,127.269,452.585,Category throughput excludes operator wait allocation.
+pick_failure_test,category_D,15,125.266,431.083,Category throughput excludes operator wait allocation.
+pick_failure_test,unknown,4,35.257,408.43,Category throughput excludes operator wait allocation.

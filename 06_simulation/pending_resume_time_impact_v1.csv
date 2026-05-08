@@ -1,0 +1,2 @@
+scenario_id,sample_category,output_box_id,hold_event_count,resume_event_count,pending_task_count,resumed_task_count,operator_wait_time_s,additional_elapsed_time_s,throughput_impact_percent,notes
+forced_category_A_full,category_A,output_box_A,1,1,16,16,20.0,20.0,3.362,Pending wait is tracked separately from robot active motion time.

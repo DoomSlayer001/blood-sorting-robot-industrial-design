@@ -1,0 +1,9 @@
+check_item,expected,observed,status,notes
+Python available,python can run,3.13.2,PASS,Python runtime is available.
+repository paths valid,required repo paths exist,"repo=True, import_dir=True",PASS,Repository and Isaac import directories are present.
+time-stepped trace exists,06_simulation/time_stepped_motion_trace_v1.csv exists,exists=True,PASS,Trace drives X/Y/Z playback.
+current mechanical baseline STEP exists,v1.7 STEP exists,exists=True,PASS,Accepted Stage 7A-3f v1.7 baseline.
+Isaac Sim Python module available or not,availability recorded,available=False,WARNING,Missing Isaac Sim is warning only for Stage 7D-1.
+ffmpeg not relevant,ffmpeg is not required,not checked,PASS,This is not video rendering.
+USD conversion not performed,conversion remains pending,pending,PASS,Stage 7D-1 prepares import only.
+import validation pending,final import validation remains pending,pending,PASS,Stage 7D-2 may attempt import/playback.

@@ -1,0 +1,13 @@
+proxy_id,prim_path,proxy_type,source_group,x_size_mm,y_size_mm,z_size_mm,pose_source,collision_enabled,approximation_level,notes
+CP_001,/World/blood_sorting_robot/fixed_base/proxy_base,box,fixed_base_group,760,540,35,CAD baseline approximate base plate pose,yes,simplified,Fixed base proxy; not final mesh collision.
+CP_002,/World/blood_sorting_robot/fixed_base/proxy_input_rack_01,box,fixed_base_group,185,145,90,input_box_occupancy_map_v1.csv,yes,simplified,Input rack proxy from internal occupancy table coordinates.
+CP_003,/World/blood_sorting_robot/fixed_base/proxy_input_rack_02,box,fixed_base_group,185,145,90,input_box_occupancy_map_v1.csv,yes,simplified,Additional input rack proxy.
+CP_004,/World/blood_sorting_robot/fixed_base/proxy_output_boxes,box,fixed_base_group,360,190,120,trajectory_waypoints_v1 target output locations,yes,simplified,Combined output box proxy for initial import.
+CP_005,/World/blood_sorting_robot/fixed_base/proxy_manual_review,box,fixed_base_group,110,80,110,trajectory_waypoints_v1 manual review target location,yes,simplified,Manual review rack proxy.
+CP_006,/World/blood_sorting_robot/y_gantry_moving_group/proxy_x_beam,box,y_gantry_moving_group,620,45,55,kinematic_group_definition_v1.csv,yes,simplified,X beam proxy moving with Y gantry.
+CP_007,/World/blood_sorting_robot/y_gantry_moving_group/x_slider_moving_group/z_axis_moving_group/proxy_z_axis,box,z_axis_moving_group,80,70,190,joint_z_axis pose,yes,simplified,Z axis moving proxy.
+CP_008,/World/blood_sorting_robot/y_gantry_moving_group/x_slider_moving_group/z_axis_moving_group/proxy_gripper,box,z_axis_moving_group,70,55,70,gripper TCP estimate,yes,simplified,Gripper body proxy.
+CP_009,/World/blood_sorting_robot/tube_dynamic_group/proxy_tube,cylinder,tube_dynamic_group,16,16,100,tube attach/detach active parent,yes,simplified,Active tube proxy; not final tube mesh.
+CP_010,/World/blood_sorting_robot/fixed_base/proxy_enclosure,box,fixed_base_group,820,610,520,CAD baseline enclosure approximate pose,yes,simplified,Enclosure proxy for rough scene limits.
+CP_011,/World/blood_sorting_robot/fixed_base/proxy_control_box,box,fixed_base_group,160,120,140,CAD baseline control box approximate pose,yes,simplified,Control box proxy.
+CP_012,/World/blood_sorting_robot/cable_chain_visual_group/proxy_cable_chain,box,cable_chain_visual_group,420,35,45,simplified cable chain visual pose,no,simplified,Cable chain visual proxy initially collision disabled.

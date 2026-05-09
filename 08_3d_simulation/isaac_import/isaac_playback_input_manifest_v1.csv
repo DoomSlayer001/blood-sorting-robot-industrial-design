@@ -1,0 +1,8 @@
+input_name,source_file,used_for,required,status,notes
+time_stepped_motion_trace,06_simulation/time_stepped_motion_trace_v1.csv,X/Y/Z joint playback and active task/tube context,yes,available,Converted to Isaac meter joint commands.
+trajectory_waypoints,06_simulation/trajectory_waypoints_v1.csv,gripper state target type sample category and attach/detach context,yes,available,Used for gripper and tube visual state mapping.
+sorting_state_machine_task_result,06_simulation/sorting_state_machine_task_result_v1.csv,placed success manual review route and pick failure context,yes,available,Supports destination decision.
+tube_attach_detach_event_logic,08_3d_simulation/tube_attach_detach_event_logic_v1.csv,event logic template for dynamic tube parenting,yes,available,Stage 7D-0 source logic.
+category_hold_resume_events,06_simulation/category_hold_resume_events_v1.csv,hold/resume event overlay,yes,available,Shows output full scheduling state.
+pending_queue_log,06_simulation/pending_queue_log_v1.csv,pending queue overlay for held category,yes,available,Used for category hold display.
+abnormal_handling_log,06_simulation/abnormal_handling_log_v1.csv,manual review and abnormal tube display,yes,available,No camera logic; abnormal state comes from manifest/state machine.

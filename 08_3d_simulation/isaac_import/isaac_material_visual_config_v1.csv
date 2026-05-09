@@ -1,0 +1,11 @@
+material_id,target_selector,visual_role,color_rgba,source_field,default_visible,notes
+MAT_001,/World/blood_sorting_robot/fixed_base,static machine structure,"0.55;0.58;0.62;1.0",group_name,yes,Neutral fixed base material.
+MAT_002,/World/blood_sorting_robot/y_gantry_moving_group,Y moving group highlight,"0.20;0.45;0.90;1.0",group_name,yes,Blue highlight for Y moving parts during debugging.
+MAT_003,/World/blood_sorting_robot/y_gantry_moving_group/x_slider_moving_group,X moving group highlight,"0.10;0.65;0.45;1.0",group_name,yes,Green highlight for X moving parts.
+MAT_004,/World/blood_sorting_robot/y_gantry_moving_group/x_slider_moving_group/z_axis_moving_group,Z moving group highlight,"0.85;0.35;0.20;1.0",group_name,yes,Orange highlight for Z moving parts.
+MAT_005,/World/blood_sorting_robot/tube_dynamic_group/category_A_tube,category A tube,"0.20;0.65;0.25;1.0",sample_category,yes,Category A visual color.
+MAT_006,/World/blood_sorting_robot/tube_dynamic_group/category_B_tube,category B tube,"0.10;0.65;0.75;1.0",sample_category,yes,Category B visual color.
+MAT_007,/World/blood_sorting_robot/tube_dynamic_group/category_C_tube,category C tube,"0.55;0.35;0.75;1.0",sample_category,yes,Category C visual color.
+MAT_008,/World/blood_sorting_robot/tube_dynamic_group/category_D_tube,category D tube,"0.95;0.55;0.15;1.0",sample_category,yes,Category D visual color.
+MAT_009,/World/blood_sorting_robot/tube_dynamic_group/abnormal_tube,abnormal/manual review tube,"0.85;0.10;0.12;1.0",abnormal_flag,yes,Abnormal tubes can be highlighted before manual review detach.
+MAT_010,/World/blood_sorting_robot/cable_chain_visual_group,cable chain visual,"0.08;0.08;0.08;1.0",group_name,yes,Simplified cable chain material.

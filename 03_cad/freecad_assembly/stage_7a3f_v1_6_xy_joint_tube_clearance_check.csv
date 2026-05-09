@@ -1,0 +1,9 @@
+check_item,component_a,component_b,status,estimated_clearance_mm,notes
+left_joint_to_nearest_tube_top_clearance,left_slider_binding_assembly_v1_6,nearest input tube top,PASS,92,Left joint stays outboard of rack openings and above tube tops.
+right_joint_to_nearest_tube_top_clearance,right_slider_binding_assembly_v1_6,nearest output tube top,PASS,88,Right joint stays outboard of rack openings and above tube tops.
+left_joint_sweep_over_input_racks,left_slider_binding_assembly_v1_6,input racks,PASS,100,Left joint travels with the Y slider path outside the input rack center zone.
+right_joint_sweep_over_output_racks,right_slider_binding_assembly_v1_6,output racks,PASS,96,Right joint travels with the Y slider path outside the output rack center zone.
+x_beam_end_mount_to_tube_rack_clearance,left/right_compact_x_beam_end_saddle_v1_6,tube rack envelope,PASS,80,Compact end saddles remain at gantry end zones; no low sweeping plate crosses tube rack openings.
+y_rail_running_zone_clearance,left/right_slider_binding_assembly_v1_6,Y rail guide/running zone,PASS,26,"Binding assembly bottom is at the slider top datum, 26 mm above rail body top."
+gripper_reach_preserved,electric_parallel_gripper_body_v1,tube pick pose,PASS,18,Gripper geometry and position are inherited unchanged.
+z_reach_preserved,z_axis_module,tube top envelope,PASS,64,Z axis geometry and position are inherited unchanged.

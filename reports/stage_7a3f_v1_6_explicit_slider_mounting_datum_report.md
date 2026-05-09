@@ -1,0 +1,39 @@
+# Stage 7A-3f v1.6 Explicit Slider Mounting Datum Report
+
+- Base STEP: `03_cad/freecad_assembly/blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_5.step`.
+- Used Stage 7A-3h series as base: no.
+- Stage 7B / 7C simulation results modified: no.
+- Isaac Sim / rendering / PPT: not run.
+- v1.5 was not accepted because SolidWorks visual review still read the lower X beam connector as near the fixed rail body or rail running zone instead of clearly sitting on the moving Y slider/carriage.
+- v1.6 first establishes explicit left/right slider mounting datum objects, then binds the adapter bottom face to that datum. This avoids using the whole Y axis module or rail top as an implicit support.
+- Rail body vs slider/carriage distinction: the fixed rail body reference is amber and tops at 72.600 mm; the moving slider/carriage datum is blue/cyan and tops at 98.600 mm.
+- Adapter still lands on rail body: no; adapter bottom is 98.600 mm, not the 72.600 mm rail body top.
+- Adapter truly binds to slider/carriage datum: yes, through `left/right_slider_top_binding_plate_v1_6` sitting on `left/right_original_y_slider_mounting_datum_v1_6`.
+- Rail running zone intrusion: no; generated binding geometry does not descend below the slider top mounting datum.
+- Motor-like block present: no.
+- New rail added: no.
+- New motor / belt / pulley added: no.
+- Enclosure frame load path: no.
+- Left load path: left original Y slider datum -> left slider top binding plate -> left short vertical side webs -> left compact X beam end saddle -> existing X axis module / X beam end.
+- Right load path: right original Y slider datum -> right slider top binding plate -> right short vertical side webs -> right compact X beam end saddle -> existing X axis module / X beam end.
+- Tube clearance check: PASS; compact joints stay at outboard gantry ends and above the tube top envelope.
+- Interference audit: overlap=0, too_close=0, allowed_mount_contact=6.
+- Visibility audit: high_risk=0, medium_risk=2, low_risk=742.
+- Import display check: likely_visible_in_solidworks=yes, solids=780.
+- Current status: improved mechanical interface candidate only. It is not final CAD accepted until manual SolidWorks visual inspection confirms the datum and saddle placement.
+- WARNING count: 2.
+- FAIL count: 0.
+- Datum caveat: the slider/carriage datum is a calibrated visual/mechanical reference derived from the current v1.5 visible Y slider/carriage bbox, not final supplier hole-position data.
+- Datum rows: 2.
+- Load path rows: 8.
+- Interface manifest rows: 8.
+- legacy_v1 unchanged: yes.
+- Local-only generation: yes; not pushed.
+- Module STEP: `03_cad/freecad_assembly/blood_sorting_robot_gantry_joint_adapter_module_v1_6.step`.
+- Preview STEP: `03_cad/freecad_assembly/blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_6.step`.
+- Slider datum CSV: `03_cad/freecad_assembly/stage_7a3f_v1_6_slider_mounting_datum.csv`.
+- Slider vs rail audit CSV: `03_cad/freecad_assembly/stage_7a3f_v1_6_slider_vs_rail_mount_audit.csv`.
+- Load path audit CSV: `03_cad/freecad_assembly/stage_7a3f_v1_6_load_path_audit.csv`.
+- Tube clearance CSV: `03_cad/freecad_assembly/stage_7a3f_v1_6_xy_joint_tube_clearance_check.csv`.
+- Motion envelope CSV: `03_cad/freecad_assembly/stage_7a3f_v1_6_xy_joint_motion_envelope_check.csv`.
+- Interface manifest CSV: `03_cad/freecad_assembly/stage_7a3f_v1_6_interface_manifest.csv`.

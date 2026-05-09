@@ -1,0 +1,13 @@
+readiness_item,status,required_before_isaac,current_blocker,resolution_needed,notes
+final CAD baseline selected,PASS,yes,None,Use accepted v1.7 baseline,Final CAD baseline selected as v1.7.
+final mechanical blocker,CLEARED_FOR_CURRENT_BASELINE,yes,None,Proceed from v1.7 current baseline,XY slider binding blocker is cleared for current baseline.
+moving joint hierarchy defined,PASS_FOR_INITIAL_IMPORT,yes,None,Prepare hierarchy from v1.7 baseline,Final mate-level proof remains optional/future.
+X/Y/Z axes mapped,PASS_FOR_INITIAL_IMPORT,yes,None,Use existing abstract axes and refine after import,Final CAD-derived limits remain future validation.
+gripper TCP defined,PASS_FOR_INITIAL_IMPORT,yes,None,Use current TCP estimate and refine after import,Trajectory input is available.
+collision proxies simplified,PASS_FOR_INITIAL_IMPORT,yes,None,Use simplified proxies for initial import,Exact collision bodies can be refined later.
+material/visual model optional,READY,no,None,Add later if needed,Visual material fidelity is not a blocker.
+trajectory input available,PASS,yes,None,Use Stage 7B trajectory/time-step outputs,Trajectory data exists.
+time-stepped trace available,PASS,yes,None,Use time_stepped_motion_trace_v1.csv,Trace exists and can feed preparation.
+servo tracking results available,PASS,yes,None,Use Stage 7B-6/7B-7 summaries and traces,Control results are available for concept-level import preparation.
+Isaac Sim import validation,PENDING,yes,Import not yet performed,Import v1.7 STEP and validate visibility hierarchy and playback,Preparation allowed but validation remains pending.
+SolidWorks final collision validation,FUTURE_VALIDATION,no,Not blocking initial Isaac Sim preparation,Run final SolidWorks collision validation before trusted final digital twin,No longer blocks initial Isaac Sim preparation.

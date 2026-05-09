@@ -1,0 +1,10 @@
+acceptance_item,status,evidence,accepted_by,requires_future_validation,notes
+X beam mounted to original Y slider/carriage,ACCEPTED_AS_CURRENT_BASELINE,reports/stage_7a3f_v1_7_accepted_baseline_status.md,user_manual_solidworks_visual_check,no,Accepted for current downstream baseline.
+no new motor,PASS,reports/stage_7a3f_v1_7_accepted_baseline_status.md,user_manual_solidworks_visual_check,no,v1.7 introduces no new motor.
+no new rail,PASS,reports/stage_7a3f_v1_7_accepted_baseline_status.md,user_manual_solidworks_visual_check,no,v1.7 introduces no new rail.
+no large motor-like block,PASS,reports/stage_7a3f_v1_7_accepted_baseline_status.md,user_manual_solidworks_visual_check,no,No large motor-like box is present in accepted v1.7 baseline.
+tube clearance visually acceptable,PASS,reports/stage_7a3f_v1_7_accepted_baseline_status.md,user_manual_solidworks_visual_check,no,Tube tops and X/Y joint have sufficient visual clearance for current baseline.
+v1.8 rejected,NOT_ACCEPTED,reports/stage_7a3f_v1_8_rejected_status.md,user_manual_solidworks_visual_check,no,v1.8 must not be used downstream.
+v1.7 selected as current baseline,ACCEPTED_AS_CURRENT_MECHANICAL_BASELINE,03_cad/freecad_assembly/current_mechanical_baseline_manifest_v1.csv,user_manual_solidworks_visual_check,no,Current downstream CAD baseline is v1.7.
+final vendor hole-level validation still optional/future,FUTURE_VALIDATION,07_validation/deferred_mechanical_issue_register_v2.csv,user_manual_solidworks_visual_check,yes,Accepted baseline does not prove supplier hole-level mechanical drawings.
+Isaac Sim preparation allowed based on v1.7 baseline,CLEARED_FOR_CURRENT_BASELINE,07_validation/isaac_sim_readiness_gate_v2.csv,user_manual_solidworks_visual_check,yes,Initial Isaac Sim preparation is allowed; import validation remains pending.

@@ -1,0 +1,9 @@
+item,required,current_status,source_file,needed_action,notes
+assembly baseline selected,yes,ready,03_cad/freecad_assembly/current_mechanical_baseline_manifest_v1.csv,use accepted v1.7 baseline,Do not use rejected v1.8.
+Y gantry mate needed,yes,pending,08_3d_simulation/joint_mapping_v1.csv,create or verify Y prismatic mate,Manual SolidWorks setup required.
+X slider mate needed,yes,pending,08_3d_simulation/joint_mapping_v1.csv,create or verify X prismatic mate,Child group must follow Y gantry.
+Z axis mate needed,yes,pending,08_3d_simulation/joint_mapping_v1.csv,create or verify Z prismatic mate,Child group must follow X slider.
+gripper open/close mate needed,yes,pending,08_3d_simulation/joint_mapping_v1.csv,create mirrored finger mates,Simplified gripper mate is acceptable for initial motion.
+tube attach/detach not native / requires simplified handling,yes,pending,08_3d_simulation/tube_attach_detach_event_logic_v1.csv,use simplified tube instances or manual keyframes,SolidWorks Motion is not ideal for dynamic parenting.
+motion path from time-stepped trace available,yes,ready,06_simulation/time_stepped_motion_trace_v1.csv,convert trace to motion drivers or keyframes,Trace is already produced by Stage 7B.
+manual setup required in SolidWorks,yes,pending,08_3d_simulation/three_d_simulation_platform_plan_v1.md,configure mates motors and timeline manually,Stage 7D-0 does not perform SolidWorks operations.

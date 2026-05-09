@@ -1,0 +1,9 @@
+event_name,source_state_or_waypoint,condition,tube_parent_before,tube_parent_after,visual_action,notes
+before_pick,move_xy_above_pick or descend_to_pick,active task tube has not been gripped,input_slot,input_slot,show tube seated in source slot,Tube remains in internal occupancy slot before pick.
+grip_close_at_pick,grip_close,gripper_state changes to closed at pick coordinates,input_slot,gripper_TCP,attach tube visual to gripper TCP,Parent changes from input slot to gripper.
+transport_to_scan,move_xy_above_scan,gripper closed and active tube attached,gripper_TCP,gripper_TCP,tube follows gripper through XY/Z transform,Tube remains attached while traveling to scan alignment.
+scan_wait,scan_wait,gripper closed during scan dwell,gripper_TCP,gripper_TCP,hold tube at scan pose,Scan is table-driven/logic placeholder and not camera recognition.
+transport_to_place,move_xy_above_place or descend_to_place,gripper closed and destination known,gripper_TCP,gripper_TCP,tube follows gripper to output or manual review,Destination comes from target_type and target_box_id.
+grip_open_at_output_place,grip_open,target_type=output_box and placed_successfully=true,gripper_TCP,output_box_slot,detach tube into output box slot,Normal samples detach to mapped output slot.
+grip_open_at_manual_review_place,grip_open,target_type=manual_review and went_to_manual_review=true,gripper_TCP,manual_review_slot,detach tube into manual review slot,Barcode/sample abnormal samples detach to manual review.
+pick_failed,pick_failed or retry state,pick_failed=true,input_slot,input_slot,do not attach tube and do not place output/manual_review,Pick failure is not abnormal sample handling by itself.

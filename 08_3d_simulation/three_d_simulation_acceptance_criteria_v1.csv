@@ -1,0 +1,10 @@
+criteria_id,criteria_name,acceptance_condition,required_for_stage,current_status,notes
+AC_001,fixed and moving groups defined,kinematic group table contains fixed base Y gantry X slider Z axis gripper fingers tube and cable groups,yes,PASS,Required hierarchy is present.
+AC_002,X/Y/Z joints mapped,joint mapping contains prismatic joints for X Y and Z axes,yes,PASS,Driven by time-stepped trace.
+AC_003,gripper state mapped,joint mapping and trajectory mapping contain gripper open/close mapping,yes,PASS,Driven by waypoint gripper_state.
+AC_004,tube attach/detach logic defined,tube event table contains pick attach transport scan and place detach events,yes,PASS,Includes output and manual review placement.
+AC_005,output hold/resume event display supported,trajectory mapping includes state-machine and hold/resume overlay sources,yes,PASS,Supports category hold/resume display during 3D playback.
+AC_006,abnormal tube manual_review display supported,tube detach logic and trajectory mapping include target_type manual_review support,yes,PASS,Abnormal tubes can be shown entering manual review.
+AC_007,collision proxy can be imported,Isaac manifest references existing collision proxy source,yes,PASS,Exact collision validation remains later.
+AC_008,Isaac Sim import pending,Isaac import is not performed in Stage 7D-0,yes,PENDING,Next stage may prepare import.
+AC_009,final 3D playback pending,Final playback script and validation are not performed in Stage 7D-0,yes,PENDING,This stage only defines hierarchy and mappings.

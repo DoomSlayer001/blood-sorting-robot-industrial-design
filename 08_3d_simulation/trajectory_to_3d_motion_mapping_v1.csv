@@ -1,0 +1,12 @@
+source_file,source_field,target_joint,target_property,scale,offset,coordinate_frame,notes
+time_stepped_motion_trace_v1.csv,time_s,simulation_timeline,time_s,1.0,0.0,Stage7B_simulation_time,Playback clock for 3D digital twin.
+time_stepped_motion_trace_v1.csv,x_mm,joint_x_slider,position_mm,1.0,0.0,CAD_sim_aligned_frame,X trace drives X slider prismatic joint.
+time_stepped_motion_trace_v1.csv,y_mm,joint_y_gantry,position_mm,1.0,0.0,CAD_sim_aligned_frame,Y trace drives Y gantry prismatic joint.
+time_stepped_motion_trace_v1.csv,z_mm,joint_z_axis,position_mm,1.0,0.0,CAD_sim_aligned_frame,Z trace drives vertical axis prismatic joint.
+trajectory_waypoints_v1.csv,gripper_state,joint_gripper_left; joint_gripper_right,finger_open_close_position,1.0,0.0,gripper_local_frame,Open/closed state maps to mirrored finger offsets.
+time_stepped_motion_trace_v1.csv,tube_id,tube_dynamic_group,active_tube_instance,1.0,0.0,task_context,Identifies current active tube during playback.
+time_stepped_motion_trace_v1.csv,task_id,simulation_overlay,active_task_label,1.0,0.0,task_context,Shows active task label in 3D playback UI.
+trajectory_waypoints_v1.csv,sample_category,tube_dynamic_group,visual_color,1.0,0.0,task_context,Category drives tube material/color.
+trajectory_waypoints_v1.csv,target_type,tube_dynamic_group,place_destination_type,1.0,0.0,task_context,Determines output box or manual_review detach target.
+sorting_state_machine_event_log_v1.csv,event,simulation_overlay,state_machine_event_marker,1.0,0.0,state_machine_context,Supports hold/resume and abnormal handling event display.
+category_hold_resume_events_v1.csv,event_type,simulation_overlay,category_hold_resume_marker,1.0,0.0,state_machine_context,Displays category hold/resume during playback.

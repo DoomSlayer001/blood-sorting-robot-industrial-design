@@ -1,0 +1,6 @@
+joint_id,joint_name,parent_group,child_group,joint_type,axis,lower_limit_mm,upper_limit_mm,home_position_mm,command_source,notes
+J_001,joint_y_gantry,fixed_base_group,y_gantry_moving_group,prismatic,Y,-220,320,0,time_stepped_motion_trace_v1.y_mm,Primary Y gantry playback joint.
+J_002,joint_x_slider,y_gantry_moving_group,x_slider_moving_group,prismatic,X,-260,260,0,time_stepped_motion_trace_v1.x_mm,Primary X slider playback joint relative to Y gantry.
+J_003,joint_z_axis,x_slider_moving_group,z_axis_moving_group,prismatic,Z,120,210,190,time_stepped_motion_trace_v1.z_mm,Vertical Z playback joint using trace Z value.
+J_004,joint_gripper_left,z_axis_moving_group,gripper_left_finger_group,prismatic,gripper_open_close,0,12,12,trajectory_waypoints_v1.gripper_state,Maps open to positive finger offset and closed to gripping offset.
+J_005,joint_gripper_right,z_axis_moving_group,gripper_right_finger_group,prismatic,gripper_open_close,-12,0,-12,trajectory_waypoints_v1.gripper_state,Mirrors left finger opening direction.

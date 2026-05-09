@@ -1,0 +1,13 @@
+item,required,current_status,source_file,needed_action,notes
+CAD baseline STEP selected,yes,ready,03_cad/freecad_assembly/current_mechanical_baseline_manifest_v1.csv,use v1.7 preview STEP for import,Do not use rejected v1.8.
+fixed vs moving groups defined,yes,ready,08_3d_simulation/kinematic_group_definition_v1.csv,split imported CAD into named groups,Group hierarchy is defined for first import.
+X/Y/Z joints defined,yes,ready,08_3d_simulation/joint_mapping_v1.csv,create prismatic joints in Isaac Sim or playback rig,X/Y/Z command sources are mapped.
+gripper joints defined,yes,ready,08_3d_simulation/joint_mapping_v1.csv,create mirrored gripper finger prismatic joints,Open/close source comes from waypoints.
+trajectory input available,yes,ready,06_simulation/trajectory_waypoints_v1.csv,load waypoint task context,Includes gripper state and target metadata.
+time-stepped trace available,yes,ready,06_simulation/time_stepped_motion_trace_v1.csv,load playback trajectory,Trace drives X/Y/Z.
+tube attach/detach events defined,yes,ready,08_3d_simulation/tube_attach_detach_event_logic_v1.csv,implement dynamic parent switching,Required for realistic sorting playback.
+collision proxies defined,yes,available_for_initial_import,06_simulation/collision_envelope_definition_v1.csv,import or recreate simplified proxies,Exact collision validation remains future work.
+material assignment optional,no,optional,08_3d_simulation/trajectory_to_3d_motion_mapping_v1.csv,assign category tube colors if useful,Not blocking import preparation.
+USD conversion not yet performed,yes,pending,03_cad/freecad_assembly/blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_7.step,convert STEP/import CAD to USD,Stage 7D-0 does not perform conversion.
+Isaac Sim playback script not yet created,yes,pending,08_3d_simulation/trajectory_to_3d_motion_mapping_v1.csv,create playback script in later stage,Stage 7D-0 defines mapping only.
+final import validation pending,yes,pending,07_validation/isaac_sim_readiness_gate_v2.csv,validate geometry visibility hierarchy joints and playback after import,Preparation can proceed but validation remains pending.

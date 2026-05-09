@@ -1,0 +1,47 @@
+# Stage 7A-3f v1.7 Rail Running Zone Clearance Fix Report
+
+- Base STEP: `03_cad/freecad_assembly/blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_6.step`.
+- Base module STEP: `03_cad/freecad_assembly/blood_sorting_robot_gantry_joint_adapter_module_v1_6.step`.
+- Used Stage 7A-3h series as base: no.
+- Stage 7B / 7C simulation results modified: no.
+- Isaac Sim / rendering / PPT: not run.
+- v1.6 progress: X beam binding was moved onto explicit original Y slider/carriage datum and no new motor, rail, belt, or large box was added.
+- v1.6 problem: manual SolidWorks review found the v1.6 low connector visually entered the Y rail running zone / rail groove.
+- v1.7 goal: preserve slider/carriage binding while removing rail groove intrusion.
+- Rail running zone keepout: defined per side as a medium-confidence visual/calibrated center-groove and slider-travel keepout from x rail center +/-12 mm, y -375 to 375 mm, z 56 to 118 mm.
+- v1.7 structure: split slider-top pads sit on the slider datum, a raised bridge block crosses above the keepout, short side webs stay outside the groove, then a compact X beam saddle supports the existing X module end.
+- Adapter mounted_to_slider_carriage: yes.
+- Adapter mounted_to_rail_body: no.
+- connector_intrudes_y_rail_running_zone: no, subject to the medium-confidence calibrated keepout.
+- Rail center groove visually open: yes; the low slider binding is split around the center keepout rather than inserted into it.
+- Motor-like block present: no.
+- New rail added: no.
+- New motor / belt / pulley added: no.
+- Enclosure frame load path: no.
+- Left load path: left original Y slider datum -> split top binding pads -> raised bridge block -> outside-groove short webs / upper transfer -> left compact X beam end saddle -> existing X axis module.
+- Right load path: right original Y slider datum -> split top binding pads -> raised bridge block -> outside-groove short webs / upper transfer -> right compact X beam end saddle -> existing X axis module.
+- Tube clearance: still reasonable; compact joints stay at outboard gantry ends and above the tube top envelope.
+- Interference audit: overlap=0, too_close=0, allowed_mount_contact=6.
+- Visibility audit: high_risk=0, medium_risk=2, low_risk=758.
+- Import display check: likely_visible_in_solidworks=yes, solids=796.
+- Current status: improved mechanical interface candidate only. It is not final CAD accepted until manual SolidWorks visual inspection confirms the open rail groove clearance.
+- WARNING count: 10.
+- FAIL count: 0.
+- WARNING reason: rail keepout and slider datum remain calibrated visual/mechanical estimates, not final vendor rail/carriage geometry.
+- Datum rows: 2.
+- Rail keepout rows: 2.
+- Rail keepout clearance audit rows: 20.
+- Load path rows: 8.
+- Interface manifest rows: 8.
+- legacy_v1 unchanged: yes.
+- Local-only generation: yes; not pushed.
+- Module STEP: `03_cad/freecad_assembly/blood_sorting_robot_gantry_joint_adapter_module_v1_7.step`.
+- Preview STEP: `03_cad/freecad_assembly/blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_7.step`.
+- Rail running zone keepout CSV: `03_cad/freecad_assembly/stage_7a3f_v1_7_rail_running_zone_keepout.csv`.
+- Slider datum CSV: `03_cad/freecad_assembly/stage_7a3f_v1_7_slider_mounting_datum.csv`.
+- Slider vs rail audit CSV: `03_cad/freecad_assembly/stage_7a3f_v1_7_slider_vs_rail_mount_audit.csv`.
+- Rail keepout clearance audit CSV: `03_cad/freecad_assembly/stage_7a3f_v1_7_rail_keepout_clearance_audit.csv`.
+- Load path audit CSV: `03_cad/freecad_assembly/stage_7a3f_v1_7_load_path_audit.csv`.
+- Tube clearance CSV: `03_cad/freecad_assembly/stage_7a3f_v1_7_xy_joint_tube_clearance_check.csv`.
+- Motion envelope CSV: `03_cad/freecad_assembly/stage_7a3f_v1_7_xy_joint_motion_envelope_check.csv`.
+- Interface manifest CSV: `03_cad/freecad_assembly/stage_7a3f_v1_7_interface_manifest.csv`.

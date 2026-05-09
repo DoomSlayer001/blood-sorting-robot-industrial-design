@@ -1,0 +1,9 @@
+axis,moving_assembly,motion_range_description,collision_risk,status,notes
+Y,Y sliders move with X gantry,Original left/right Y slider mounting datums carry the X beam through split-pad raised-bridge binding assemblies.,low,PASS,"The corrected assemblies are mounted to slider/carriage datums, not rail body."
+Y,X beam supported by left/right Y slider assemblies,"X beam ends are supported through split top pads, raised bridges, outside-groove short webs, upper transfer bars, and compact X beam saddles.",low,PASS,No enclosure-frame support is used.
+Y,no motor-like block in sweep envelope,The Y sweep contains no large drive block or closed box at the X/Y joints.,low,PASS,Only compact top-mounted binding assemblies move with the gantry.
+Y,no new rails,No auxiliary rail geometry is generated in this stage.,low,PASS,Original Y and X linear modules are retained.
+Y,no new motors,No generated motor placeholder or external drive part is produced.,low,PASS,Drive visuals remain filtered from the preview.
+Y,no connector intrudes into Y rail running zone,Low binding geometry is split outside the rail center keepout; bridge crossing is raised above keepout z max.,low,WARNING,Keepout is a visual/calibrated estimate.
+Y,no collision with tube racks in conservative visual envelope,Left/right joint paths stay outboard of the rack openings.,low,PASS,Tube racks and box positions are unchanged.
+Z,gripper and Z axis unchanged,Z module and gripper inherit the v1.6 positions and reach.,low,PASS,No tool-chain geometry is modified.

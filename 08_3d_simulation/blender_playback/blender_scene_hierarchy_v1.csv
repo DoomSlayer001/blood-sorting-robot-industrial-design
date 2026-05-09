@@ -1,0 +1,10 @@
+object_path,group_id,group_name,parent_object,motion_role,source_group,visible,animated,notes
+/RobotScene,robot_scene,Robot Scene,world,scene_root,all_groups,yes,no,Top-level Blender scene collection or empty.
+/RobotScene/FixedBase,fixed_base_group,Fixed Base,/RobotScene,fixed/static environment,fixed_base_group,yes,no,Base plate racks scan station enclosure and control box.
+/RobotScene/YGantryMoving,y_gantry_moving_group,Y Gantry Moving,/RobotScene,translates along Y,y_gantry_moving_group,yes,yes,Driven by time_stepped_motion_trace_v1.y_mm converted to meters.
+/RobotScene/YGantryMoving/XSliderMoving,x_slider_moving_group,X Slider Moving,/RobotScene/YGantryMoving,translates along X relative to Y,x_slider_moving_group,yes,yes,Driven by time_stepped_motion_trace_v1.x_mm converted to meters.
+/RobotScene/YGantryMoving/XSliderMoving/ZAxisMoving,z_axis_moving_group,Z Axis Moving,/RobotScene/YGantryMoving/XSliderMoving,translates along Z relative to X,z_axis_moving_group,yes,yes,Driven by time_stepped_motion_trace_v1.z_mm converted to meters.
+/RobotScene/YGantryMoving/XSliderMoving/ZAxisMoving/GripperLeftFinger,gripper_left_finger_group,Gripper Left Finger,/RobotScene/YGantryMoving/XSliderMoving/ZAxisMoving,opens/closes locally,gripper_left_finger_group,yes,yes,Driven by gripper_state/opening command.
+/RobotScene/YGantryMoving/XSliderMoving/ZAxisMoving/GripperRightFinger,gripper_right_finger_group,Gripper Right Finger,/RobotScene/YGantryMoving/XSliderMoving/ZAxisMoving,opens/closes locally,gripper_right_finger_group,yes,yes,Mirrors left finger opening command.
+/RobotScene/DynamicTubes,tube_dynamic_group,Dynamic Tubes,/RobotScene,dynamic parent and material state,tube_dynamic_group,yes,yes,Tube visual instances attach/detach during playback.
+/RobotScene/EventOverlay,event_overlay_group,Event Overlay,/RobotScene,text and color markers,state_machine_overlay,yes,yes,Displays pick scan place manual_review hold resume and pick_failed events.

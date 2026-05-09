@@ -1,0 +1,8 @@
+check_id,check_item,expected_result,status,notes
+SW_VAL_001,Baseline STEP opened,v1.7 preview STEP opens in SolidWorks,PENDING_SOLIDWORKS_VALIDATION,Use accepted Stage 7A-3f v1.7 baseline.
+SW_VAL_002,Motion groups organized,Fixed Y X Z gripper and tube visual groups are created,PENDING_SOLIDWORKS_VALIDATION,Group names should match solidworks_motion_group_mapping_v1.csv.
+SW_VAL_003,Prismatic mates defined,Y X and Z prismatic mates are present and directionally correct,PENDING_SOLIDWORKS_VALIDATION,Check sign convention against Stage 7B trace.
+SW_VAL_004,Gripper linear mates defined,Left and right fingers open and close symmetrically,PENDING_SOLIDWORKS_VALIDATION,Open/closed states may be simplified.
+SW_VAL_005,Driver trace imported,time_stepped_motion_trace_v1.csv is used as reference,PENDING_SOLIDWORKS_VALIDATION,Manual or tabulated displacement import is acceptable.
+SW_VAL_006,Interference checks completed,Collision plan rows are reviewed,PENDING_SOLIDWORKS_VALIDATION,Record any failures in later SolidWorks validation stage.
+SW_VAL_007,Tube placeholder reviewed,Tube visual attach/detach simplification is documented,PENDING_SOLIDWORKS_VALIDATION,SolidWorks branch is not the full sorting logic branch.

@@ -1,0 +1,10 @@
+input_name,source_file,used_for,required,status,notes
+current_mechanical_baseline_manifest_v1.csv,03_cad/freecad_assembly/current_mechanical_baseline_manifest_v1.csv,Confirms accepted v1.7 baseline,yes,AVAILABLE,Stage 7A-3f v1.7 accepted as current mechanical baseline.
+blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_7.step,03_cad/freecad_assembly/blood_sorting_robot_v7_3f_gantry_joint_adapter_preview_v1_7.step,SolidWorks import source,yes,AVAILABLE,Open this STEP first.
+kinematic_group_definition_v1.csv,08_3d_simulation/kinematic_group_definition_v1.csv,Group organization reference,yes,AVAILABLE,Stage 7D-0 hierarchy source.
+joint_mapping_v1.csv,08_3d_simulation/joint_mapping_v1.csv,Joint and axis reference,yes,AVAILABLE,Defines X/Y/Z and gripper mappings.
+trajectory_to_3d_motion_mapping_v1.csv,08_3d_simulation/trajectory_to_3d_motion_mapping_v1.csv,Trace-to-joint mapping reference,yes,AVAILABLE,Maps Stage 7B fields to 3D motion.
+tube_attach_detach_event_logic_v1.csv,08_3d_simulation/tube_attach_detach_event_logic_v1.csv,Tube placeholder logic reference,yes,AVAILABLE,Simplified for SolidWorks branch.
+time_stepped_motion_trace_v1.csv,06_simulation/time_stepped_motion_trace_v1.csv,X/Y/Z motion reference,yes,AVAILABLE,Primary motion driver source.
+trajectory_waypoints_v1.csv,06_simulation/trajectory_waypoints_v1.csv,Gripper state and task waypoint reference,yes,AVAILABLE,Used for open/close reference.
+sorting_state_machine_event_log_v1.csv,06_simulation/sorting_state_machine_event_log_v1.csv,Event reference only,no,AVAILABLE,Not executed as full state machine in SolidWorks Motion.

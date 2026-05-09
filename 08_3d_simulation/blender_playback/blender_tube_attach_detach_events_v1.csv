@@ -1,0 +1,10 @@
+event_index,frame,time_s,scenario_id,task_id,tube_id,event_type,from_parent,to_parent,tube_visual_color,notes
+1,0,0.000,baseline,TASK-7B1-001,TUBE-7B1-001,before_pick,input_slot,input_slot,active_tube,Tube remains seated in source input slot before pick.
+2,65,1.300,baseline,TASK-7B1-001,TUBE-7B1-001,attach_to_gripper,input_slot,gripper_TCP,active_tube,Grip close attaches tube to gripper visual parent.
+3,156,3.120,baseline,TASK-7B1-001,TUBE-7B1-001,scan_attached,gripper_TCP,gripper_TCP,active_tube,Tube remains attached during scan wait.
+4,342,6.840,baseline,TASK-7B1-001,TUBE-7B1-001,detach_to_output_box,gripper_TCP,output_box_slot,completed_tube,Normal tube detaches to mapped output box slot.
+5,1206,24.110,baseline,TASK-7B1-004,TUBE-7B1-004,before_pick,input_slot,input_slot,abnormal_sample,Abnormal tube is still picked from source input slot.
+6,1271,25.420,baseline,TASK-7B1-004,TUBE-7B1-004,attach_to_gripper,input_slot,gripper_TCP,abnormal_sample,Abnormal tube attaches to gripper after grip close.
+7,1363,27.260,baseline,TASK-7B1-004,TUBE-7B1-004,scan_attached,gripper_TCP,gripper_TCP,abnormal_sample,Abnormal tube remains attached during scan wait.
+8,1549,30.980,baseline,TASK-7B1-004,TUBE-7B1-004,detach_to_manual_review,gripper_TCP,manual_review_slot,manual_review_area,Abnormal tube detaches to manual review.
+9,5175,103.500,pick_failure_test,TASK-7B1-014,TUBE-7B1-014,pick_failed_no_attach,input_slot,input_slot,output_full_warning,Pick failed means no tube attach occurs.

@@ -1,0 +1,8 @@
+blender_group_id,source_kinematic_group,target_object_name,motion_axis,parent_group,animation_source,notes
+fixed_base_group,fixed_base_group,FixedBase,none,RobotScene,static CAD import,Fixed world/static environment.
+y_gantry_moving_group,y_gantry_moving_group,YGantryMoving,Y,fixed_base_group,06_simulation/time_stepped_motion_trace_v1.csv:y_mm,Y gantry translates along Blender/CAD Y.
+x_slider_moving_group,x_slider_moving_group,XSliderMoving,X,y_gantry_moving_group,06_simulation/time_stepped_motion_trace_v1.csv:x_mm,X slider translates along local X and inherits Y.
+z_axis_moving_group,z_axis_moving_group,ZAxisMoving,Z,x_slider_moving_group,06_simulation/time_stepped_motion_trace_v1.csv:z_mm,Z axis translates along local Z and inherits X/Y.
+gripper_left_finger_group,gripper_left_finger_group,GripperLeftFinger,gripper_open_close,z_axis_moving_group,06_simulation/trajectory_waypoints_v1.csv:gripper_state,Left finger local offset from gripper opening command.
+gripper_right_finger_group,gripper_right_finger_group,GripperRightFinger,gripper_open_close,z_axis_moving_group,06_simulation/trajectory_waypoints_v1.csv:gripper_state,Right finger mirrors left finger opening command.
+tube_dynamic_group,tube_dynamic_group,DynamicTubes,dynamic_attachment,RobotScene,08_3d_simulation/blender_playback/blender_tube_attach_detach_events_v1.csv,Tube instances change parent and material during playback.

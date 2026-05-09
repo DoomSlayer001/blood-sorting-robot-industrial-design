@@ -1,0 +1,11 @@
+check_id,moving_group,static_or_moving_group,motion_case,expected_result,status,notes
+SW_COLL_001,y_gantry_moving_group,input racks,Full Y travel with X/Z at representative safe positions,No interference and acceptable running clearance,PENDING_SOLIDWORKS_VALIDATION,Y gantry vs input racks.
+SW_COLL_002,y_gantry_moving_group,output racks,Full Y travel with X/Z at representative safe positions,No interference and acceptable running clearance,PENDING_SOLIDWORKS_VALIDATION,Y gantry vs output racks.
+SW_COLL_003,x_slider_moving_group; z_axis_moving_group,tube racks,Full X travel and Z safe/descent positions,No contact with tube racks except intended gripper approach envelope,PENDING_SOLIDWORKS_VALIDATION,X slider/Z axis vs tube racks.
+SW_COLL_004,z_axis_moving_group; gripper_left_finger_group; gripper_right_finger_group,tube slot,Pick descent at representative source slots,Gripper aligns to tube slot without rack collision,PENDING_SOLIDWORKS_VALIDATION,Gripper descend vs tube slot.
+SW_COLL_005,gripper_left_finger_group; gripper_right_finger_group,racks,XY travel at safe_z,Gripper clears racks and tube tops at safe_z,PENDING_SOLIDWORKS_VALIDATION,Gripper at safe_z vs racks.
+SW_COLL_006,cable_chain_visual_group,y_gantry_moving_group,Full Y gantry travel,Cable chain path remains clear of moving gantry hardware,PENDING_SOLIDWORKS_VALIDATION,Cable chain vs gantry.
+SW_COLL_007,cable_chain_visual_group,enclosure frame,Full Y gantry travel,Cable chain does not hit enclosure,PENDING_SOLIDWORKS_VALIDATION,Cable chain vs enclosure.
+SW_COLL_008,y_gantry_moving_group; x_slider_moving_group; z_axis_moving_group,control box,Full combined motion envelope,Control box remains outside moving envelope,PENDING_SOLIDWORKS_VALIDATION,Control box vs moving envelope.
+SW_COLL_009,y_gantry_moving_group,enclosure frame,Full Y travel and representative X/Z poses,Enclosure does not collide with gantry,PENDING_SOLIDWORKS_VALIDATION,Enclosure vs gantry.
+SW_COLL_010,x_slider_moving_group; y_gantry_moving_group,XY slider binding adapter vs Y rail running zone,Full X/Y combined travel,Adapter stays clear of rail running zone,PENDING_SOLIDWORKS_VALIDATION,Explicitly check deferred XY slider binding rail-area risk.

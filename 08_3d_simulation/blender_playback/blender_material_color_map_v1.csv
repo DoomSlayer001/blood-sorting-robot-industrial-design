@@ -1,0 +1,11 @@
+material_id,target_type,sample_category,color_name,rgba,used_for,notes
+category_A,sample_tube,category_A,blue,"0.10,0.32,0.95,1.00",Normal category A tubes,Output box A visual identity.
+category_B,sample_tube,category_B,green,"0.12,0.62,0.28,1.00",Normal category B tubes,Output box B visual identity.
+category_C,sample_tube,category_C,purple,"0.45,0.22,0.85,1.00",Normal category C tubes,Output box C visual identity.
+category_D,sample_tube,category_D,teal,"0.00,0.62,0.70,1.00",Normal category D tubes,Output box D visual identity.
+abnormal_sample,sample_tube,abnormal,orange_red,"1.00,0.22,0.05,1.00",Abnormal sample and manual review routing,Highlights missing label invalid barcode abnormal info or unknown category.
+pending_sample,sample_tube,pending,amber,"1.00,0.72,0.12,1.00",Pending queue samples,Used when output category is on hold.
+active_tube,sample_tube,active,white_highlight,"1.00,1.00,1.00,1.00",Currently attached or selected tube,Can be combined with emissive outline in Blender.
+completed_tube,sample_tube,completed,light_gray,"0.78,0.82,0.86,1.00",Placed completed tubes,Reduces visual emphasis after place.
+manual_review_area,area_marker,manual_review,red_area,"0.92,0.10,0.10,0.55",Manual review area and manually reviewed tube destination,Transparent area marker or material.
+output_full_warning,area_marker,warning,yellow_warning,"1.00,0.90,0.05,0.75",Output box full warning,Use for output full highlight and pick_failed warning overlay.

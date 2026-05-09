@@ -1,0 +1,8 @@
+input_name,source_file,used_for,required,status,notes
+time_stepped_motion_trace_v1.csv,06_simulation/time_stepped_motion_trace_v1.csv,X/Y/Z time-stepped keyframes,yes,AVAILABLE,Primary Blender playback command source.
+trajectory_waypoints_v1.csv,06_simulation/trajectory_waypoints_v1.csv,Gripper state and category metadata,yes,AVAILABLE,Used for open/close and visual classification fallback.
+sorting_state_machine_event_log_v1.csv,06_simulation/sorting_state_machine_event_log_v1.csv,Event label annotation,yes,AVAILABLE,Used for place/manual_review/hold/pick_failed event cues.
+tube_attach_detach_event_logic_v1.csv,08_3d_simulation/tube_attach_detach_event_logic_v1.csv,Tube parent change rules,yes,AVAILABLE,Defines before_pick attach scan detach and pick_failed logic.
+category_hold_resume_events_v1.csv,06_simulation/category_hold_resume_events_v1.csv,Hold/resume overlay reference,yes,AVAILABLE,Used by Blender implementation for output full and resume markers.
+pending_queue_log_v1.csv,06_simulation/pending_queue_log_v1.csv,Pending queue overlay reference,yes,AVAILABLE,Used by Blender implementation for pending sample color/overlay.
+abnormal_handling_log_v1.csv,06_simulation/abnormal_handling_log_v1.csv,Abnormal sample color and manual review routing,yes,AVAILABLE,Used to color abnormal tubes red/orange.

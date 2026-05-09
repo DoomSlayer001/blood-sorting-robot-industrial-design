@@ -1,0 +1,8 @@
+mate_id,parent_group,child_group,mate_type,motion_axis,expected_motion,manual_setup_required,notes
+fixed_base_to_y_gantry_prismatic_mate,fixed_base_group,y_gantry_moving_group,prismatic,Y,Y gantry translates along Y relative to fixed base,yes,Use CAD-aligned Y rails as mate references where available.
+y_gantry_to_x_slider_prismatic_mate,y_gantry_moving_group,x_slider_moving_group,prismatic,X,X slider translates along X relative to Y gantry,yes,Child inherits Y gantry motion.
+x_slider_to_z_axis_prismatic_mate,x_slider_moving_group,z_axis_moving_group,prismatic,Z,Z carriage translates vertically relative to X slider,yes,Limit travel to Stage 7B calibrated Z range.
+z_axis_to_gripper_mount_fixed_mate,z_axis_moving_group,gripper_mount_or_body,fixed,none,Gripper mount remains rigidly attached to Z carriage,yes,Treat gripper body as part of Z moving assembly except fingers.
+gripper_left_finger_linear_mate,z_axis_moving_group,gripper_left_finger_group,linear,gripper_open_close,Left finger opens/closes relative to gripper centerline,yes,Open state is positive local offset; closed state is near zero offset.
+gripper_right_finger_linear_mate,z_axis_moving_group,gripper_right_finger_group,linear,gripper_open_close,Right finger opens/closes mirrored relative to gripper centerline,yes,Mirror the left finger motion.
+tube_visual_attach_placeholder,z_axis_moving_group,tube_visual_placeholder_group,manual_visual_parent,dynamic_attachment,Tube visual may be shown seated attached or placed,yes,Use simplified configurations or display states rather than full state-machine parenting.

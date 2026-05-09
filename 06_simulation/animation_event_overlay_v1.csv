@@ -1,0 +1,6 @@
+animation_id,overlay_type,scenario_id,event_ref,display_text,source_file,notes
+top_view_sorting_animation_v1,manual_review_route,baseline,abnormal_flag=true,Abnormal samples are placed in manual_review_01.,sorting_state_machine_task_result_v1.csv,manual_review_count=5
+top_view_sorting_animation_v1,category_hold_resume,forced_category_A_full,category_hold/category_resume,"Output category full creates a pending queue, then resumes after operator service.",category_hold_resume_events_v1.csv,hold_resume_events=4
+top_view_sorting_animation_v1,no_camera_logic,all,input_box_occupancy_map_v1.csv,Input occupancy is table-driven; no camera recognition is used.,input_box_occupancy_map_v1.csv,NO_CAMERA_LOGIC_USED=True
+xyz_motion_trajectory_animation_v1,safe_z_pick_place_scan,baseline,time_stepped_motion_trace_v1.csv,"safe_z=190, pick_z=145, place_z=135, scan_z=155; low-Z points are highlighted.",time_stepped_motion_trace_v1.csv,low_z_sample_count=731
+output_pending_timeline_animation_v1,hold_resume_markers,forced_category_A_full,category_hold/category_resume,Hold starts when output_box_A is full; pending queue drains after resume.,sorting_state_machine_event_log_v1.csv;category_hold_resume_events_v1.csv;pending_queue_log_v1.csv,hold_time=2;resume_time=139;max_pending=16

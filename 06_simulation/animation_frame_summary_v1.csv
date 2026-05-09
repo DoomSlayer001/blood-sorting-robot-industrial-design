@@ -1,0 +1,4 @@
+animation_id,output_path,frame_count,fps,duration_s,representative_frames_saved,notes
+top_view_sorting_animation_v1,06_simulation/animations/top_view_sorting_animation_v1.gif,276,8,34.5,3,"Top-view animation shows input rack, TCP/gripper, tube movement, output boxes, manual review, and hold/resume overlay."
+xyz_motion_trajectory_animation_v1,06_simulation/animations/xyz_motion_trajectory_animation_v1.gif,90,8,11.25,3,"XYZ animation plots X/Y/Z versus time and highlights safe_z, pick_z, place_z, and scan_z."
+output_pending_timeline_animation_v1,06_simulation/animations/output_pending_timeline_animation_v1.gif,92,8,11.5,3,"Timeline animation shows output box capacity, pending queue size, and hold/resume markers."

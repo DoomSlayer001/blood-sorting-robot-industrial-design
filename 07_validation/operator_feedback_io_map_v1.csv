@@ -1,0 +1,22 @@
+io_id,signal_name,signal_type,direction,linked_event,hardware_type,default_state,active_state,priority,notes
+OF_IO_001,stack_light_green,digital_output,output,normal_running,tower_light,off,on,P5,Green normal running lamp.
+OF_IO_002,stack_light_yellow,digital_output,output,input_box_empty;all_input_boxes_empty;output_box_near_full;barcode_missing_label;invalid_barcode;pick_failed,tower_light,off,on_or_flash,P3-P4,Yellow warning and wait state lamp.
+OF_IO_003,stack_light_red,digital_output,output,output_box_full;manual_review_full;emergency_stop;safety_door_open,tower_light,off,on_or_flash,P0-P2,Red alarm lamp.
+OF_IO_004,input_box_01_empty_led,digital_output,output,input_box_empty,indicator_led,off,yellow_blink,P3,Input box 01 empty indicator.
+OF_IO_005,input_box_02_empty_led,digital_output,output,input_box_empty,indicator_led,off,yellow_blink,P3,Input box 02 empty indicator.
+OF_IO_006,input_box_03_empty_led,digital_output,output,input_box_empty,indicator_led,off,yellow_blink,P3,Input box 03 empty indicator.
+OF_IO_007,input_box_04_empty_led,digital_output,output,input_box_empty,indicator_led,off,yellow_blink,P3,Input box 04 empty indicator.
+OF_IO_008,output_box_A_full_led,digital_output,output,output_box_full;category_hold;category_resume,indicator_led,off,red_blink,P2,Category A full indicator.
+OF_IO_009,output_box_B_full_led,digital_output,output,output_box_full;category_hold;category_resume,indicator_led,off,red_blink,P2,Category B full indicator.
+OF_IO_010,output_box_C_full_led,digital_output,output,output_box_full;category_hold;category_resume,indicator_led,off,red_blink,P2,Category C full indicator.
+OF_IO_011,output_box_D_full_led,digital_output,output,output_box_full;category_hold;category_resume,indicator_led,off,red_blink,P2,Category D full indicator.
+OF_IO_012,manual_review_full_led,digital_output,output,manual_review_full,indicator_led,off,red_blink,P1,Manual review full indicator.
+OF_IO_013,buzzer_short_beep,digital_output,output,input_box_empty;barcode_missing_label;invalid_barcode;abnormal_sample_info;pick_failed,buzzer,off,short_beep,P4,Short attention beep.
+OF_IO_014,buzzer_intermit,digital_output,output,output_box_full;category_hold,buzzer,off,intermittent,P2,Operator service required for output category.
+OF_IO_015,buzzer_continuous,digital_output,output,manual_review_full;emergency_stop;safety_door_open,buzzer,off,continuous,P0-P1,High priority alarm tone.
+OF_IO_016,operator_ack_button,digital_input,input,buzzer_acknowledge,push_button,open,closed,P2,Silences buzzer but does not clear unresolved lamps.
+OF_IO_017,pick_error_indicator,digital_output,output,pick_failed,indicator_led,off,yellow_fast_blink,P4,Pick failure indicator.
+OF_IO_018,input_occupancy_table_empty,status_signal,internal,input_box_empty,software_status,false,true,P3,Derived from internal occupancy table and not camera.
+OF_IO_019,output_capacity_full_status,status_signal,internal,output_box_full,software_status,false,true,P2,Derived from output occupancy timeline.
+OF_IO_020,manual_review_capacity_full_status,status_signal,internal,manual_review_full,software_status,false,true,P1,Derived from manual review occupancy.
+OF_IO_021,alarm_priority_active,alarm_signal,internal,emergency_stop;safety_door_open;manual_review_full;output_box_full,software_alarm,none,highest_active_priority,P0-P2,Priority arbitration status.

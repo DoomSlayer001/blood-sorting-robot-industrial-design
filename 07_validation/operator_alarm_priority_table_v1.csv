@@ -1,0 +1,10 @@
+alarm_name,priority_level,visual_signal,audio_signal,robot_action,operator_action,auto_clear_allowed,notes
+emergency_stop,P0,stack_light_red steady,buzzer_continuous,stop_robot_motion_immediately,reset emergency stop and validate safety,no,Highest priority safety alarm.
+safety_door_open,P0,stack_light_red steady,buzzer_continuous,safe_stop_or_hold_motion,close door and perform safety reset,no,Same priority as emergency stop.
+manual_review_full,P1,manual_review_full_led red fast blink plus stack_light_red,buzzer_continuous,pause_abnormal_sample_handling,clear or replace manual review rack,no,Separate from output full because abnormal handling capacity is blocked.
+output_box_full,P2,category output full LED red fast blink plus stack_light_red,buzzer_intermit,category_hold and enqueue same-category normal samples,replace or clear full output box,no,Normal samples go to pending queue and not manual_review.
+all_input_boxes_empty,P3,all input empty LEDs yellow slow blink plus stack_light_yellow,buzzer_short_beep,wait_for_input_refill,refill at least one input box,yes,No manual_review routing.
+input_box_empty,P3,one input empty LED yellow slow blink,buzzer_short_beep,skip empty input box,refill that input box,yes,Per-box attention only.
+barcode_abnormal,P4,stack_light_yellow short flash,buzzer_short_beep,record abnormal event and route sample to manual_review,review abnormal sample,yes,Includes missing label and invalid barcode.
+pick_failed,P4,pick_error_indicator yellow fast blink,buzzer_short_beep,retry or enter operator_check,inspect tube or gripper condition,no,Pick failed is not an abnormal sample classification.
+normal_status,P5,stack_light_green steady,off,continue_sorting,none,yes,Default normal operating status.

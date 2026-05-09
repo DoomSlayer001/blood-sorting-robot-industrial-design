@@ -1,0 +1,13 @@
+timestamp_step,scenario_id,event_source,event_name,indicator_state,buzzer_state,operator_required,system_state,notes
+0,baseline,simulation_start,normal_running,stack_light_green steady,off,false,running,Normal baseline sorting state.
+1,baseline,input_box_occupancy_map_v1.csv,input_box_empty,input_box_01_empty_led yellow slow blink,buzzer_short_beep,true,skip_empty_slot,Example interface row for empty slot from occupancy table.
+8,baseline,sorting_state_machine_event_log_v1.csv,barcode_missing_label,stack_light_yellow short flash,buzzer_short_beep,false,route_to_manual_review,TUBE-7B1-004 missing label routes to manual review.
+26,baseline,sorting_state_machine_event_log_v1.csv,abnormal_sample_info,stack_light_yellow short flash,buzzer_short_beep,false,route_to_manual_review,Abnormal sample event is recorded.
+1,forced_category_A_full,category_hold_resume_events_v1.csv,output_box_full,output_box_A_full_led red fast blink plus stack_light_red,buzzer_intermit,true,category_hold,output_box_A full triggers hold and not manual_review.
+2,forced_category_A_full,pending_queue_log_v1.csv,pending_queue,output_box_A_full_led red fast blink,buzzer_intermit,true,category_hold,TUBE waits in pending queue for category A.
+3,forced_category_A_full,category_hold_resume_events_v1.csv,output_box_replaced,output_box_A_full_led off,off,false,category_resume_ready,Operator cleared output box.
+4,forced_category_A_full,category_hold_resume_events_v1.csv,category_resume,output_box_A_full_led off,off,false,resume_pending_queue,Pending category A tasks resume.
+118,manual_review_limited_capacity,manual_review_occupancy_timeline_v1.csv,manual_review_full,manual_review_full_led red fast blink plus stack_light_red,buzzer_continuous,true,pause_abnormal_handling,Manual review full differs from output full.
+1,pick_failure_test,pick_failure_log_v1.csv,pick_failed,pick_error_indicator yellow fast blink,buzzer_short_beep,true,retry_or_operator_check,Pick failed is not abnormal sample by itself.
+999,safety_test,safety_interlock,emergency_stop,stack_light_red steady,buzzer_continuous,true,stop_robot_motion,P0 safety alarm placeholder for HMI definition.
+1000,safety_test,safety_interlock,safety_door_open,stack_light_red steady,buzzer_continuous,true,safe_stop_or_hold_motion,P0 safety door alarm placeholder for HMI definition.

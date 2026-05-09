@@ -1,0 +1,13 @@
+source_stage,source_file,event_name,feedback_event,indicator_signal,buzzer_signal,state_machine_effect,notes
+Stage 7B-1,input_box_occupancy_map_v1.csv,empty slot,input_box_empty,input_box_n_empty_led,buzzer_short_beep,skip_empty_slot,Internal occupancy table source and no camera.
+Stage 7B-1,input_occupancy_task_summary_v1.csv,all inputs empty,all_input_boxes_empty,stack_light_yellow plus input_box_empty_leds,buzzer_short_beep,wait_for_input_refill,Does not trigger manual_review.
+Stage 7B-2,sorting_state_machine_event_log_v1.csv,category_hold,output_box_full,output_box_n_full_led plus stack_light_red,buzzer_intermit,category_hold,Output full maps to category hold.
+Stage 7B-2,category_hold_resume_events_v1.csv,category_hold,category_hold,output_box_n_full_led plus stack_light_red,buzzer_intermit,hold same category and continue other categories,Normal same-category samples enter pending_queue.
+Stage 7B-2,category_hold_resume_events_v1.csv,category_resume,category_resume,output_box_n_full_led off,off,resume_pending_queue,Alarm clears after output box is cleared or replaced.
+Stage 7B-2,pending_queue_log_v1.csv,pending_queue,output_box_full,output_box_n_full_led plus stack_light_red,buzzer_intermit,enqueue normal sample for held category,Pending queue is not manual_review.
+Stage 7B-2,sorting_state_machine_event_log_v1.csv,place_manual_review,abnormal_sample_info,stack_light_yellow short flash,buzzer_short_beep,route abnormal sample to manual_review,Abnormal handling only for barcode or sample abnormal.
+Stage 7B-2,abnormal_handling_log_v1.csv,abnormal_handling,barcode_missing_label,stack_light_yellow short flash,buzzer_short_beep,record abnormal event and route to manual_review,Missing label is abnormal sample flow.
+Stage 7B-2,pick_failure_log_v1.csv,pick_failure,pick_failed,pick_error_indicator plus stack_light_yellow,buzzer_short_beep,retry_or_operator_check,Pick failure is not abnormal and not manual_review by itself.
+Stage 7B-4,pending_resume_time_impact_v1.csv,pending resume delay,category_resume,output_box_n_full_led off,off,resume pending queue after service,Throughput impact from operator service.
+Stage 7B-4,pick_failure_time_impact_v1.csv,pick failure delay,pick_failed,pick_error_indicator,buzzer_short_beep,retry_or_operator_check,Throughput impact from retry or operator check.
+Stage 7B-4,scenario_batch_time_summary_v1.csv,operator wait time,output_box_full,stack_light_red,buzzer_intermit,hold affected category,Operator wait affects elapsed throughput.
